@@ -1,9 +1,33 @@
 cff-version: 1.2.0
-message: "If you use this benchmark or code, please cite the paper."
-title: "Is It Model Drift or a Broken Pipeline? What Re-Execution Can and Cannot Identify in Production ML"
+message: "If you use this code, benchmark or records, please cite the paper below."
+title: "Drift or Defect: code, benchmark and records"
+abstract: >-
+  Code, executable benchmark pipelines, frozen protocols and raw case records for the paper
+  "Is It Model Drift or a Broken Pipeline? What Re-Execution Can and Cannot Identify in Production ML".
 authors:
-  - family-names: "[Author]"
-    given-names: "[Name]"
-date-released: 2026-10-09
-version: "2.0"
+  - family-names: "Vuyyala"
+    given-names: "Ankitha"
+    affiliation: "Independent Researcher, Louisville, Kentucky, USA"
+    email: "ankithavuyyala08@gmail.com"
+    orcid: "https://orcid.org/0009-0004-1916-8070"
+repository-code: "https://github.com/ankitha-vuyyala/drift-or-defect"
 license: MIT
+version: "1.0"
+date-released: 2026-10-18
+keywords:
+  - machine learning in production
+  - data pipelines
+  - distribution shift
+  - root-cause diagnosis
+  - identifiability
+  - benchmark
+preferred-citation:
+  type: article
+  status: preprint
+  title: "Is It Model Drift or a Broken Pipeline? What Re-Execution Can and Cannot Identify in Production ML"
+  authors:
+    - family-names: "Vuyyala"
+      given-names: "Ankitha"
+      orcid: "https://orcid.org/0009-0004-1916-8070"
+  year: 2026
+  url: "https://github.com/ankitha-vuyyala/drift-or-defect"

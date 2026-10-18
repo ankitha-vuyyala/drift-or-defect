@@ -1905,6 +1905,16 @@
   "what": "Sensitivity: r4 max sm leave-out"
  },
  {
+  "value": "12.49",
+  "source": "runs/cost_ledger.json",
+  "what": "total API spend"
+ },
+ {
+  "value": "17,078",
+  "source": "runs/cost_ledger.json",
+  "what": "paid model calls"
+ },
+ {
   "value": "0.00",
   "source": "runs/final (test split)",
   "what": "R1 retrain_on_alarm pooled"

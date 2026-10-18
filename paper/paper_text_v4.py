@@ -819,8 +819,10 @@ TITLE = "Is It Model Drift or a Broken Pipeline? What Re-Execution Can and Canno
 def front(P, C):
     K = key_numbers(C)
     E = lambda v, w, fmt=".2f", s="runs/v4main/summary_v4.json": P.ev(v, fmt, s, "Abstract: " + w)
-    P.title(TITLE, "[Author names and affiliations withheld]",
-            "Preprint. Code, benchmark, raw records and replay scripts: [repository link to be added]")
+    P.title(TITLE, "Ankitha Vuyyala\nIndependent Researcher, Louisville, Kentucky, USA\n"
+            "ankithavuyyala08@gmail.com · ORCID: https://orcid.org/0009-0004-1916-8070",
+            "October 2026. Code, benchmark, raw records and replay scripts: "
+            "https://github.com/ankitha-vuyyala/drift-or-defect")
     P.heading("Abstract", 1, numbered=False)
     P.para(
         "When a production model degrades, teams usually retrain it, although the model sees the output of a data "
@@ -1173,16 +1175,35 @@ def discussion(P, C):
 
 def back(P, C, NAMES):
     P.heading("Declarations", 1, numbered=False)
-    P.para("**Funding.** [To be completed by the authors.]")
-    P.para("**Competing interests.** [To be completed by the authors.]")
-    P.para("**Use of AI tools.** [To be completed by the authors.]")
-    P.para("**Data and code availability.** All data are public: ACS PUMS (U.S. Census Bureau), NYC TLC trip "
-           "records, the HuffPost News Category dataset, Divvy and Capital Bikeshare trip data, HMDA records "
-           "(CFPB and FFIEC), BTS on-time performance data, NHTSA FARS, NOAA NCEI Storm Events, City of Chicago "
-           "Traffic Crashes, and HM Land Registry Price Paid Data "
-           "(contains HM Land Registry data © Crown copyright and database right, licensed under the Open "
-           "Government Licence v3.0). Code, benchmark definitions, raw case records and a replay script that needs "
-           "no API keys will be released at [repository link].")
+    led = C.ledger
+    n_calls = sum(v.get("calls", 0) for v in led.get("by_model", {}).values())
+    P.para("**Funding.** This research was self-funded by the author and received no external funding. The author "
+           f"paid all model API costs (US$ {P.ev(led['total_usd'], '.2f', 'runs/cost_ledger.json', 'total API spend')} "
+           "in total).")
+    P.para("**Competing interests.** The author declares no competing interests.")
+    P.para("**Author contributions.** Ankitha Vuyyala: conceptualization, methodology, software, investigation, "
+           "validation, formal analysis, visualization, and writing (original draft, review and editing). The author "
+           "reviewed and approved the final manuscript and accepts responsibility for its content.")
+    P.para("**Use of AI tools.** [To be completed by the author.]")
+    P.para("**Data and code availability.** The DoD implementation (all four versions), the baselines, the eleven "
+           "executable pipelines with their defect catalogs and records of published source changes, the frozen "
+           "study protocols and analysis plans, the raw case records of all four rounds and of the development runs, "
+           "and the analysis and paper-build scripts are publicly available at "
+           "https://github.com/ankitha-vuyyala/drift-or-defect. The artifacts corresponding to this manuscript are "
+           "archived in release v1.0 at https://github.com/ankitha-vuyyala/drift-or-defect/releases/tag/v1.0. The "
+           "repository includes the response cache of the "
+           f"{P.ev(n_calls, ',d', 'runs/cost_ledger.json', 'paid model calls')} paid model calls, whose token usage "
+           "and cost are recorded per model in runs/cost_ledger.json. The case records regenerate every reported "
+           "number, table and figure (paper/evidence_index.md maps each number to the file it was computed from), and "
+           "the response cache replays every model decision without an API key. The source data are public and are "
+           "not redistributed; the download scripts fetch them from their providers and check them against SHA-256 "
+           "manifests: ACS PUMS (U.S. Census Bureau), NYC TLC trip records, the HuffPost News Category dataset, "
+           "Divvy and Capital Bikeshare trip data, HMDA records (CFPB and FFIEC), BTS on-time performance data, "
+           "NHTSA FARS, NOAA NCEI Storm Events, City of Chicago Traffic Crashes, and HM Land Registry Price Paid Data "
+           "(contains HM Land Registry data © Crown copyright and database right, licensed under the Open Government "
+           "Licence v3.0). Third-party data remain subject to their providers' licenses and attribution "
+           "requirements.")
+    P.para("**Corresponding author.** Ankitha Vuyyala. Email: ankithavuyyala08@gmail.com")
     P.references()
 
     P.doc.add_page_break()

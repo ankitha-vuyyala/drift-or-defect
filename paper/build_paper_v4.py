@@ -141,7 +141,7 @@ def main(labels: dict | None = None) -> dict:
     TXT.appx_repro(P, C, NAMES)         # Appendix G
     out = ROOT / "paper" / "drift_or_defect.docx"
     cp = P.doc.core_properties
-    cp.author, cp.last_modified_by, cp.comments = "[Authors]", "[Authors]", ""
+    cp.author, cp.last_modified_by, cp.comments = "Ankitha Vuyyala", "Ankitha Vuyyala", ""
     cp.title = TXT.TITLE
     P.save(out)
     (ROOT / "paper" / "evidence_index.json").write_text(json.dumps(P.evidence, indent=1), encoding="utf-8")

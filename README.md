@@ -2,6 +2,8 @@
 
 **Is It Model Drift or a Broken Pipeline? What Re-Execution Can and Cannot Identify in Production ML**
 
+Ankitha Vuyyala · Independent Researcher · [ORCID 0009-0004-1916-8070](https://orcid.org/0009-0004-1916-8070)
+
 When a production model's accuracy drops, the usual response is to retrain it. But the model sees the output of a
 data pipeline, and that pipeline changes too: code is updated, libraries are upgraded, and data providers change
 their published files. This repository contains the code, benchmark and raw results for a study of when a
@@ -101,8 +103,20 @@ v3.0). Each dataset remains under its provider's terms.
 
 ## Citation
 
-See [`CITATION.cff`](CITATION.cff).
+If you use the code, benchmark or records, please cite the paper (GitHub's "Cite this repository" button uses
+[`CITATION.cff`](CITATION.cff)):
+
+```bibtex
+@misc{vuyyala2026drift,
+  author       = {Vuyyala, Ankitha},
+  title        = {Is It Model Drift or a Broken Pipeline? What Re-Execution Can and Cannot Identify in Production ML},
+  year         = {2026},
+  howpublished = {\url{https://github.com/ankitha-vuyyala/drift-or-defect}},
+  note         = {Preprint}
+}
+```
 
 ## License
 
-Code: MIT (see [`LICENSE`](LICENSE)).
+Code: [MIT](LICENSE) © 2026 Ankitha Vuyyala. The source data are not part of this repository and remain under
+their providers' terms (see above).

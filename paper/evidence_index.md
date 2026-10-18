@@ -385,394 +385,396 @@ Every number reported in the paper, with the file it was computed from (generate
 | 379 | 0.80 | Sensitivity: r4 loeo max | runs/posthoc_sensitivity.json |
 | 380 | 0.000 | Sensitivity: r4 max fb leave-out | runs/posthoc_sensitivity.json |
 | 381 | 0.000 | Sensitivity: r4 max sm leave-out | runs/posthoc_sensitivity.json |
-| 382 | 0.00 | R1 retrain_on_alarm pooled | runs/final (test split) |
-| 383 | 0.00 | R1 retrain_on_alarm news | runs/final (test split) |
-| 384 | 0.00 | R1 retrain_on_alarm tlc | runs/final (test split) |
-| 385 | 0.00 | R1 retrain_on_alarm silent | runs/final (test split) |
-| 386 | 0.00 | R1 retrain_on_alarm false blame | runs/final (test split) |
-| 387 | 0.10 | R1 validation_first pooled | runs/final (test split) |
-| 388 | 0.10 | R1 validation_first news | runs/final (test split) |
-| 389 | 0.10 | R1 validation_first tlc | runs/final (test split) |
-| 390 | 0.00 | R1 validation_first silent | runs/final (test split) |
-| 391 | 0.48 | R1 validation_first false blame | runs/final (test split) |
-| 392 | 0.15 | R1 observational_attribution pooled | runs/final (test split) |
-| 393 | 0.12 | R1 observational_attribution news | runs/final (test split) |
-| 394 | 0.19 | R1 observational_attribution tlc | runs/final (test split) |
-| 395 | 0.28 | R1 observational_attribution silent | runs/final (test split) |
-| 396 | 0.67 | R1 observational_attribution false blame | runs/final (test split) |
-| 397 | 0.03 | R1 full_rollback pooled | runs/final (test split) |
-| 398 | 0.04 | R1 full_rollback news | runs/final (test split) |
-| 399 | 0.02 | R1 full_rollback tlc | runs/final (test split) |
-| 400 | 0.05 | R1 full_rollback silent | runs/final (test split) |
-| 401 | 0.30 | R1 full_rollback false blame | runs/final (test split) |
-| 402 | 0.43 | R1 bisect pooled | runs/final (test split) |
-| 403 | 0.20 | R1 bisect news | runs/final (test split) |
-| 404 | 0.67 | R1 bisect tlc | runs/final (test split) |
-| 405 | 0.38 | R1 bisect silent | runs/final (test split) |
-| 406 | 0.14 | R1 bisect false blame | runs/final (test split) |
-| 407 | 0.53 | R1 bugdoc_shortcut pooled | runs/final (test split) |
-| 408 | 0.39 | R1 bugdoc_shortcut news | runs/final (test split) |
-| 409 | 0.67 | R1 bugdoc_shortcut tlc | runs/final (test split) |
-| 410 | 0.54 | R1 bugdoc_shortcut silent | runs/final (test split) |
-| 411 | 0.11 | R1 bugdoc_shortcut false blame | runs/final (test split) |
-| 412 | 0.31 | R1 llm_report@luna pooled | runs/final (test split) |
-| 413 | 0.47 | R1 llm_report@luna news | runs/final (test split) |
-| 414 | 0.15 | R1 llm_report@luna tlc | runs/final (test split) |
-| 415 | 0.46 | R1 llm_report@luna silent | runs/final (test split) |
-| 416 | 0.56 | R1 llm_report@luna false blame | runs/final (test split) |
-| 417 | 0.49 | R1 llm_tools@luna pooled | runs/final (test split) |
-| 418 | 0.61 | R1 llm_tools@luna news | runs/final (test split) |
-| 419 | 0.38 | R1 llm_tools@luna tlc | runs/final (test split) |
-| 420 | 0.56 | R1 llm_tools@luna silent | runs/final (test split) |
-| 421 | 0.32 | R1 llm_tools@luna false blame | runs/final (test split) |
-| 422 | 0.25 | R1 llm_report@terra pooled | runs/final (test split) |
-| 423 | 0.33 | R1 llm_report@terra news | runs/final (test split) |
-| 424 | 0.17 | R1 llm_report@terra tlc | runs/final (test split) |
-| 425 | 0.31 | R1 llm_report@terra silent | runs/final (test split) |
-| 426 | 0.60 | R1 llm_tools@terra pooled | runs/final (test split) |
-| 427 | 0.80 | R1 llm_tools@terra news | runs/final (test split) |
-| 428 | 0.40 | R1 llm_tools@terra tlc | runs/final (test split) |
-| 429 | 0.85 | R1 llm_tools@terra silent | runs/final (test split) |
-| 430 | 0.48 | R1 dod_no_boundary pooled | runs/final (test split) |
-| 431 | 0.18 | R1 dod_no_boundary news | runs/final (test split) |
-| 432 | 0.79 | R1 dod_no_boundary tlc | runs/final (test split) |
-| 433 | 0.46 | R1 dod_no_boundary silent | runs/final (test split) |
-| 434 | 0.14 | R1 dod_no_boundary false blame | runs/final (test split) |
-| 435 | 0.74 | R1 dod pooled | runs/final (test split) |
-| 436 | 1.00 | R1 dod news | runs/final (test split) |
-| 437 | 0.48 | R1 dod tlc | runs/final (test split) |
-| 438 | 1.00 | R1 dod silent | runs/final (test split) |
-| 439 | 0.33 | R1 dod false blame | runs/final (test split) |
-| 440 | 97 | R1 consequential test cases | runs/final (test split) |
-| 441 | 39 | R1 silent consequential cases | runs/final (test split) |
-| 442 | 0.00 | R1 H1 retrain silent | runs/final (test split) |
-| 443 | 0.00 | R1 H1 validation silent | runs/final (test split) |
-| 444 | 0.28 | R1 H1 obs silent | runs/final (test split) |
-| 445 | 0.46 | R1 H1 llm silent | runs/final (test split) |
-| 446 | 0.74 | R1 dod primary | runs/final (test split) |
-| 447 | 0.60 | R1 best baseline | runs/final (test split) |
-| 448 | +0.14 | R1 H2 diff | runs/final (test split) |
-| 449 | +0.05 | R1 H2 lo | runs/final (test split) |
-| 450 | +0.25 | R1 H2 hi | runs/final (test split) |
-| 451 | 0.008 | R1 H2 p | runs/final (test split) |
-| 452 | 1.00 | R1 news dod | runs/final (test split) |
-| 453 | 0.48 | R1 tlc dod | runs/final (test split) |
-| 454 | 0.60 | R1 dod_b1 | runs/final (test split) |
-| 455 | 0.49 | R1 dod_b1_uniform | runs/final (test split) |
-| 456 | +0.10 | R1 H3 diff | runs/final (test split) |
-| 457 | -0.02 | R1 H3 lo | runs/final (test split) |
-| 458 | +0.24 | R1 H3 hi | runs/final (test split) |
-| 459 | 13.9 | R1 dod compute | runs/final (test split) |
-| 460 | 4.1 | R1 bugdoc compute | runs/final (test split) |
-| 461 | -0.32 | R1 H4 miss vs retrain | runs/final (test split) |
-| 462 | -0.23 | R1 H4 miss vs validation | runs/final (test split) |
-| 463 | -0.14 | R1 H4 fb vs validation | runs/final (test split) |
-| 464 | 0.16 | R1 H4 fragility gap | runs/final (test split) |
-| 465 | +0.33 | R1 H4 fb vs retrain | runs/final (test split) |
-| 466 | 0.95 | R1 H5 dod | runs/final (test split) |
-| 467 | 0.14 | R1 H5 no boundary | runs/final (test split) |
-| 468 | 21 | R1 H5 n | runs/final (test split) |
-| 469 | 93 | R1 P4 cases | runs/final/posthoc.json |
-| 470 | 90 | R1 P4 airport flags | runs/final/posthoc.json |
-| 471 | 0.00 | R2 retrain_on_alarm pooled | runs/v2main/summary_v2.json |
-| 472 | 0.00 | R2 retrain_on_alarm divvy | runs/v2main/summary_v2.json |
-| 473 | 0.00 | R2 retrain_on_alarm hmda | runs/v2main/summary_v2.json |
-| 474 | 0.00 | R2 retrain_on_alarm bts | runs/v2main/summary_v2.json |
-| 475 | 0.00 | R2 retrain_on_alarm silent | runs/v2main/summary_v2.json |
-| 476 | 0.00 | R2 retrain_on_alarm false blame events | runs/v2main/summary_v2.json |
-| 477 | 0.17 | R2 validation_first pooled | runs/v2main/summary_v2.json |
-| 478 | 0.09 | R2 validation_first divvy | runs/v2main/summary_v2.json |
-| 479 | 0.28 | R2 validation_first hmda | runs/v2main/summary_v2.json |
-| 480 | 0.24 | R2 validation_first bts | runs/v2main/summary_v2.json |
-| 481 | 0.00 | R2 validation_first silent | runs/v2main/summary_v2.json |
-| 482 | 0.81 | R2 validation_first false blame events | runs/v2main/summary_v2.json |
-| 483 | 0.42 | R2 observational_attribution pooled | runs/v2main/summary_v2.json |
-| 484 | 0.28 | R2 observational_attribution divvy | runs/v2main/summary_v2.json |
-| 485 | 0.46 | R2 observational_attribution hmda | runs/v2main/summary_v2.json |
-| 486 | 0.68 | R2 observational_attribution bts | runs/v2main/summary_v2.json |
-| 487 | 0.72 | R2 observational_attribution silent | runs/v2main/summary_v2.json |
-| 488 | 0.72 | R2 observational_attribution false blame events | runs/v2main/summary_v2.json |
-| 489 | 0.08 | R2 full_rollback pooled | runs/v2main/summary_v2.json |
-| 490 | 0.02 | R2 full_rollback divvy | runs/v2main/summary_v2.json |
-| 491 | 0.05 | R2 full_rollback hmda | runs/v2main/summary_v2.json |
-| 492 | 0.24 | R2 full_rollback bts | runs/v2main/summary_v2.json |
-| 493 | 0.12 | R2 full_rollback silent | runs/v2main/summary_v2.json |
-| 494 | 0.02 | R2 full_rollback false blame events | runs/v2main/summary_v2.json |
-| 495 | 0.23 | R2 bisect pooled | runs/v2main/summary_v2.json |
-| 496 | 0.06 | R2 bisect divvy | runs/v2main/summary_v2.json |
-| 497 | 0.21 | R2 bisect hmda | runs/v2main/summary_v2.json |
-| 498 | 0.61 | R2 bisect bts | runs/v2main/summary_v2.json |
-| 499 | 0.62 | R2 bisect silent | runs/v2main/summary_v2.json |
-| 500 | 0.00 | R2 bisect false blame events | runs/v2main/summary_v2.json |
-| 501 | 0.36 | R2 bugdoc_shortcut pooled | runs/v2main/summary_v2.json |
-| 502 | 0.17 | R2 bugdoc_shortcut divvy | runs/v2main/summary_v2.json |
-| 503 | 0.52 | R2 bugdoc_shortcut hmda | runs/v2main/summary_v2.json |
-| 504 | 0.63 | R2 bugdoc_shortcut bts | runs/v2main/summary_v2.json |
-| 505 | 0.68 | R2 bugdoc_shortcut silent | runs/v2main/summary_v2.json |
-| 506 | 0.11 | R2 bugdoc_shortcut false blame events | runs/v2main/summary_v2.json |
-| 507 | 0.27 | R2 llm_report@luna pooled | runs/v2main/summary_v2.json |
-| 508 | 0.14 | R2 llm_report@luna divvy | runs/v2main/summary_v2.json |
-| 509 | 0.42 | R2 llm_report@luna hmda | runs/v2main/summary_v2.json |
-| 510 | 0.41 | R2 llm_report@luna bts | runs/v2main/summary_v2.json |
-| 511 | 0.50 | R2 llm_report@luna silent | runs/v2main/summary_v2.json |
-| 512 | 0.81 | R2 llm_report@luna false blame events | runs/v2main/summary_v2.json |
-| 513 | 0.41 | R2 llm_tools@luna pooled | runs/v2main/summary_v2.json |
-| 514 | 0.23 | R2 llm_tools@luna divvy | runs/v2main/summary_v2.json |
-| 515 | 0.54 | R2 llm_tools@luna hmda | runs/v2main/summary_v2.json |
-| 516 | 0.69 | R2 llm_tools@luna bts | runs/v2main/summary_v2.json |
-| 517 | 0.70 | R2 llm_tools@luna silent | runs/v2main/summary_v2.json |
-| 518 | 0.66 | R2 llm_tools@luna false blame events | runs/v2main/summary_v2.json |
-| 519 | 0.37 | R2 llm_report@terra pooled | runs/v2main/summary_v2.json |
-| 520 | 0.58 | R2 llm_report@terra divvy | runs/v2main/summary_v2.json |
-| 521 | 0.41 | R2 llm_report@terra hmda | runs/v2main/summary_v2.json |
-| 522 | 0.20 | R2 llm_report@terra bts | runs/v2main/summary_v2.json |
-| 523 | 0.67 | R2 llm_report@terra silent | runs/v2main/summary_v2.json |
-| 524 | 0.80 | R2 llm_tools@terra pooled | runs/v2main/summary_v2.json |
-| 525 | 0.83 | R2 llm_tools@terra divvy | runs/v2main/summary_v2.json |
-| 526 | 0.76 | R2 llm_tools@terra hmda | runs/v2main/summary_v2.json |
-| 527 | 0.80 | R2 llm_tools@terra bts | runs/v2main/summary_v2.json |
-| 528 | 0.83 | R2 llm_tools@terra silent | runs/v2main/summary_v2.json |
-| 529 | 0.49 | R2 dod_no_boundary pooled | runs/v2main/summary_v2.json |
-| 530 | 0.20 | R2 dod_no_boundary divvy | runs/v2main/summary_v2.json |
-| 531 | 0.62 | R2 dod_no_boundary hmda | runs/v2main/summary_v2.json |
-| 532 | 1.00 | R2 dod_no_boundary bts | runs/v2main/summary_v2.json |
-| 533 | 0.95 | R2 dod_no_boundary silent | runs/v2main/summary_v2.json |
-| 534 | 0.71 | R2 dod_no_boundary false blame events | runs/v2main/summary_v2.json |
-| 535 | 0.35 | R2 dod pooled | runs/v2main/summary_v2.json |
-| 536 | 0.07 | R2 dod divvy | runs/v2main/summary_v2.json |
-| 537 | 0.34 | R2 dod hmda | runs/v2main/summary_v2.json |
-| 538 | 1.00 | R2 dod bts | runs/v2main/summary_v2.json |
-| 539 | 0.93 | R2 dod silent | runs/v2main/summary_v2.json |
-| 540 | 0.88 | R2 dod false blame events | runs/v2main/summary_v2.json |
-| 541 | 0.40 | R2 dod2 pooled | runs/v2main/summary_v2.json |
-| 542 | 0.16 | R2 dod2 divvy | runs/v2main/summary_v2.json |
-| 543 | 0.34 | R2 dod2 hmda | runs/v2main/summary_v2.json |
-| 544 | 1.00 | R2 dod2 bts | runs/v2main/summary_v2.json |
-| 545 | 0.93 | R2 dod2 silent | runs/v2main/summary_v2.json |
-| 546 | 0.85 | R2 dod2 false blame events | runs/v2main/summary_v2.json |
-| 547 | 0.40 | R2 dod2 primary | runs/v2main/summary_v2.json |
-| 548 | 0.35 | R2 dod primary | runs/v2main/summary_v2.json |
-| 549 | +0.05 | R2 H6 diff | runs/v2main/summary_v2.json |
-| 550 | 0.37 | R2 H6 p | runs/v2main/summary_v2.json |
-| 551 | 0.85 | R2 dod2 fb events | runs/v2main/summary_v2.json |
-| 552 | 0.88 | R2 dod fb events | runs/v2main/summary_v2.json |
-| 553 | -0.03 | R2 H7 diff | runs/v2main/summary_v2.json |
-| 554 | 0.37 | R2 H7 p | runs/v2main/summary_v2.json |
-| 555 | 0.16 | R2 H8 gap | runs/v2main/summary_v2.json |
-| 556 | 49 | R2 H8 n | runs/v2main/summary_v2.json |
-| 557 | -0.37 | R2 H8 lo | runs/v2main/summary_v2.json |
-| 558 | +0.02 | R2 H8 hi | runs/v2main/summary_v2.json |
-| 559 | 0.37 | R2 H8 p | runs/v2main/summary_v2.json |
-| 560 | 1.00 | R2 bts dod2 | runs/v2main/summary_v2.json |
-| 561 | 0.16 | R2 divvy dod2 | runs/v2main/summary_v2.json |
-| 562 | 0.07 | R2 divvy dod | runs/v2main/summary_v2.json |
-| 563 | 0.34 | R2 hmda dod2 | runs/v2main/summary_v2.json |
-| 564 | 0.86 | R2 divvy dod2 fb | runs/v2main/summary_v2.json |
-| 565 | 0.65 | R2 hmda dod2 fb | runs/v2main/summary_v2.json |
-| 566 | 0.00 | R2 H9 retrain silent | runs/v2main/summary_v2.json |
-| 567 | 0.00 | R2 H9 validation silent | runs/v2main/summary_v2.json |
-| 568 | 40 | R2 H9 n silent | runs/v2main/summary_v2.json |
-| 569 | 0.72 | R2 H9 obs silent | runs/v2main/summary_v2.json |
-| 570 | 0 | R2 H10 n inv flagged | runs/v2main/summary_v2.json |
-| 571 | 179 | R2 H10 n T1 | runs/v2main/summary_v2.json |
-| 572 | 0.24 | R2 H10 dod2 T1 | runs/v2main/summary_v2.json |
-| 573 | 0.13 | R2 H10 dod T1 | runs/v2main/summary_v2.json |
-| 574 | 10 | divvy dated changes from 2016-Q3 | runs/benchmark/tables_v3.json |
-| 575 | 0.65 | R2 posthoc hmda fb | runs/v2main/posthoc_r2.json |
-| 576 | 0.42 | R2 posthoc hmda fb latest | runs/v2main/posthoc_r2.json |
-| 577 | 0.91 | R2 posthoc divvy fb | runs/v2main/posthoc_r2.json |
-| 578 | 0.65 | R2 posthoc divvy fb latest | runs/v2main/posthoc_r2.json |
-| 579 | 0.00 | R3 retrain_on_alarm pooled | runs/v3main/summary_v3.json |
-| 580 | 0.00 | R3 retrain_on_alarm cabi | runs/v3main/summary_v3.json |
-| 581 | 0.00 | R3 retrain_on_alarm fars | runs/v3main/summary_v3.json |
-| 582 | 0.00 | R3 retrain_on_alarm landreg | runs/v3main/summary_v3.json |
-| 583 | 0.00 | R3 retrain_on_alarm silent | runs/v3main/summary_v3.json |
-| 584 | 0.00 | R3 retrain_on_alarm false blame events | runs/v3main/summary_v3.json |
-| 585 | 0.0 | R3 retrain_on_alarm compute | runs/v3main/summary_v3.json |
-| 586 | 0.18 | R3 validation_first pooled | runs/v3main/summary_v3.json |
-| 587 | 0.03 | R3 validation_first cabi | runs/v3main/summary_v3.json |
-| 588 | 0.22 | R3 validation_first fars | runs/v3main/summary_v3.json |
-| 589 | 0.37 | R3 validation_first landreg | runs/v3main/summary_v3.json |
-| 590 | 0.00 | R3 validation_first silent | runs/v3main/summary_v3.json |
-| 591 | 0.49 | R3 validation_first false blame events | runs/v3main/summary_v3.json |
-| 592 | 0.0 | R3 validation_first compute | runs/v3main/summary_v3.json |
-| 593 | 0.46 | R3 observational_attribution pooled | runs/v3main/summary_v3.json |
-| 594 | 0.30 | R3 observational_attribution cabi | runs/v3main/summary_v3.json |
-| 595 | 0.82 | R3 observational_attribution fars | runs/v3main/summary_v3.json |
-| 596 | 0.41 | R3 observational_attribution landreg | runs/v3main/summary_v3.json |
-| 597 | 0.81 | R3 observational_attribution silent | runs/v3main/summary_v3.json |
-| 598 | 0.64 | R3 observational_attribution false blame events | runs/v3main/summary_v3.json |
-| 599 | 0.0 | R3 observational_attribution compute | runs/v3main/summary_v3.json |
-| 600 | 0.07 | R3 full_rollback pooled | runs/v3main/summary_v3.json |
-| 601 | 0.04 | R3 full_rollback cabi | runs/v3main/summary_v3.json |
-| 602 | 0.07 | R3 full_rollback fars | runs/v3main/summary_v3.json |
-| 603 | 0.11 | R3 full_rollback landreg | runs/v3main/summary_v3.json |
-| 604 | 0.10 | R3 full_rollback silent | runs/v3main/summary_v3.json |
-| 605 | 0.12 | R3 full_rollback false blame events | runs/v3main/summary_v3.json |
-| 606 | 1.5 | R3 full_rollback compute | runs/v3main/summary_v3.json |
-| 607 | 0.24 | R3 bisect pooled | runs/v3main/summary_v3.json |
-| 608 | 0.10 | R3 bisect cabi | runs/v3main/summary_v3.json |
-| 609 | 0.39 | R3 bisect fars | runs/v3main/summary_v3.json |
-| 610 | 0.32 | R3 bisect landreg | runs/v3main/summary_v3.json |
-| 611 | 0.45 | R3 bisect silent | runs/v3main/summary_v3.json |
-| 612 | 0.07 | R3 bisect false blame events | runs/v3main/summary_v3.json |
-| 613 | 2.9 | R3 bisect compute | runs/v3main/summary_v3.json |
-| 614 | 0.32 | R3 bugdoc_shortcut pooled | runs/v3main/summary_v3.json |
-| 615 | 0.27 | R3 bugdoc_shortcut cabi | runs/v3main/summary_v3.json |
-| 616 | 0.38 | R3 bugdoc_shortcut fars | runs/v3main/summary_v3.json |
-| 617 | 0.34 | R3 bugdoc_shortcut landreg | runs/v3main/summary_v3.json |
-| 618 | 0.45 | R3 bugdoc_shortcut silent | runs/v3main/summary_v3.json |
-| 619 | 0.16 | R3 bugdoc_shortcut false blame events | runs/v3main/summary_v3.json |
-| 620 | 4.1 | R3 bugdoc_shortcut compute | runs/v3main/summary_v3.json |
-| 621 | 0.34 | R3 llm_report@luna pooled | runs/v3main/summary_v3.json |
-| 622 | 0.10 | R3 llm_report@luna cabi | runs/v3main/summary_v3.json |
-| 623 | 0.67 | R3 llm_report@luna fars | runs/v3main/summary_v3.json |
-| 624 | 0.42 | R3 llm_report@luna landreg | runs/v3main/summary_v3.json |
-| 625 | 0.56 | R3 llm_report@luna silent | runs/v3main/summary_v3.json |
-| 626 | 0.78 | R3 llm_report@luna false blame events | runs/v3main/summary_v3.json |
-| 627 | 0.0 | R3 llm_report@luna compute | runs/v3main/summary_v3.json |
-| 628 | 0.47 | R3 llm_tools@luna pooled | runs/v3main/summary_v3.json |
-| 629 | 0.24 | R3 llm_tools@luna cabi | runs/v3main/summary_v3.json |
-| 630 | 0.66 | R3 llm_tools@luna fars | runs/v3main/summary_v3.json |
-| 631 | 0.66 | R3 llm_tools@luna landreg | runs/v3main/summary_v3.json |
-| 632 | 0.61 | R3 llm_tools@luna silent | runs/v3main/summary_v3.json |
-| 633 | 0.42 | R3 llm_tools@luna false blame events | runs/v3main/summary_v3.json |
-| 634 | 6.9 | R3 llm_tools@luna compute | runs/v3main/summary_v3.json |
-| 635 | 0.51 | R3 llm_report@terra pooled | runs/v3main/summary_v3.json |
-| 636 | 0.53 | R3 llm_report@terra cabi | runs/v3main/summary_v3.json |
-| 637 | 0.60 | R3 llm_report@terra fars | runs/v3main/summary_v3.json |
-| 638 | 0.36 | R3 llm_report@terra landreg | runs/v3main/summary_v3.json |
-| 639 | 0.48 | R3 llm_report@terra silent | runs/v3main/summary_v3.json |
-| 640 | 0.56 | R3 llm_tools@terra pooled | runs/v3main/summary_v3.json |
-| 641 | 0.67 | R3 llm_tools@terra cabi | runs/v3main/summary_v3.json |
-| 642 | 0.60 | R3 llm_tools@terra fars | runs/v3main/summary_v3.json |
-| 643 | 0.36 | R3 llm_tools@terra landreg | runs/v3main/summary_v3.json |
-| 644 | 0.48 | R3 llm_tools@terra silent | runs/v3main/summary_v3.json |
-| 645 | 0.42 | R3 dod_no_boundary pooled | runs/v3main/summary_v3.json |
-| 646 | 0.20 | R3 dod_no_boundary cabi | runs/v3main/summary_v3.json |
-| 647 | 0.51 | R3 dod_no_boundary fars | runs/v3main/summary_v3.json |
-| 648 | 0.68 | R3 dod_no_boundary landreg | runs/v3main/summary_v3.json |
-| 649 | 0.61 | R3 dod_no_boundary silent | runs/v3main/summary_v3.json |
-| 650 | 0.25 | R3 dod_no_boundary false blame events | runs/v3main/summary_v3.json |
-| 651 | 10.4 | R3 dod_no_boundary compute | runs/v3main/summary_v3.json |
-| 652 | 0.44 | R3 dod pooled | runs/v3main/summary_v3.json |
-| 653 | 0.14 | R3 dod cabi | runs/v3main/summary_v3.json |
-| 654 | 0.72 | R3 dod fars | runs/v3main/summary_v3.json |
-| 655 | 0.68 | R3 dod landreg | runs/v3main/summary_v3.json |
-| 656 | 0.69 | R3 dod silent | runs/v3main/summary_v3.json |
-| 657 | 0.67 | R3 dod false blame events | runs/v3main/summary_v3.json |
-| 658 | 22.6 | R3 dod compute | runs/v3main/summary_v3.json |
-| 659 | 0.44 | R3 dod2 pooled | runs/v3main/summary_v3.json |
-| 660 | 0.14 | R3 dod2 cabi | runs/v3main/summary_v3.json |
-| 661 | 0.72 | R3 dod2 fars | runs/v3main/summary_v3.json |
-| 662 | 0.68 | R3 dod2 landreg | runs/v3main/summary_v3.json |
-| 663 | 0.69 | R3 dod2 silent | runs/v3main/summary_v3.json |
-| 664 | 0.67 | R3 dod2 false blame events | runs/v3main/summary_v3.json |
-| 665 | 38.0 | R3 dod2 compute | runs/v3main/summary_v3.json |
-| 666 | 0.45 | R3 dod3_no_latest pooled | runs/v3main/summary_v3.json |
-| 667 | 0.11 | R3 dod3_no_latest cabi | runs/v3main/summary_v3.json |
-| 668 | 0.80 | R3 dod3_no_latest fars | runs/v3main/summary_v3.json |
-| 669 | 0.68 | R3 dod3_no_latest landreg | runs/v3main/summary_v3.json |
-| 670 | 0.71 | R3 dod3_no_latest silent | runs/v3main/summary_v3.json |
-| 671 | 0.67 | R3 dod3_no_latest false blame events | runs/v3main/summary_v3.json |
-| 672 | 40.1 | R3 dod3_no_latest compute | runs/v3main/summary_v3.json |
-| 673 | 0.46 | R3 dod3_no_inv pooled | runs/v3main/summary_v3.json |
-| 674 | 0.12 | R3 dod3_no_inv cabi | runs/v3main/summary_v3.json |
-| 675 | 0.82 | R3 dod3_no_inv fars | runs/v3main/summary_v3.json |
-| 676 | 0.68 | R3 dod3_no_inv landreg | runs/v3main/summary_v3.json |
-| 677 | 0.74 | R3 dod3_no_inv silent | runs/v3main/summary_v3.json |
-| 678 | 0.62 | R3 dod3_no_inv false blame events | runs/v3main/summary_v3.json |
-| 679 | 31.9 | R3 dod3_no_inv compute | runs/v3main/summary_v3.json |
-| 680 | 0.46 | R3 dod3 pooled | runs/v3main/summary_v3.json |
-| 681 | 0.12 | R3 dod3 cabi | runs/v3main/summary_v3.json |
-| 682 | 0.82 | R3 dod3 fars | runs/v3main/summary_v3.json |
-| 683 | 0.68 | R3 dod3 landreg | runs/v3main/summary_v3.json |
-| 684 | 0.74 | R3 dod3 silent | runs/v3main/summary_v3.json |
-| 685 | 0.62 | R3 dod3 false blame events | runs/v3main/summary_v3.json |
-| 686 | 44.0 | R3 dod3 compute | runs/v3main/summary_v3.json |
-| 687 | 0.46 | R3 dod3 primary | runs/v3main/summary_v3.json |
-| 688 | 0.56 | R3 best baseline primary | runs/v3main/summary_v3.json |
-| 689 | -0.05 | R3 H11 diff | runs/v3main/summary_v3.json |
-| 690 | -0.33 | R3 H11 lo | runs/v3main/summary_v3.json |
-| 691 | +0.26 | R3 H11 hi | runs/v3main/summary_v3.json |
-| 692 | 41 | R3 H11 n | runs/v3main/summary_v3.json |
-| 693 | 0.882 | R3 H11 p | runs/v3main/summary_v3.json |
-| 694 | 41 | R3 terra n | runs/v3main/summary_v3.json |
-| 695 | 125 | R3 planned terra n | runs/v3main/summary_v3.json |
-| 696 | 0.47 | R3 best full 1 | runs/v3main/summary_v3.json |
-| 697 | 0.46 | R3 best full 2 | runs/v3main/summary_v3.json |
-| 698 | 0.44 | R3 dod primary | runs/v3main/summary_v3.json |
-| 699 | 0.44 | R3 dod2 primary | runs/v3main/summary_v3.json |
-| 700 | +0.02 | R3 H12 diff | runs/v3main/summary_v3.json |
-| 701 | -0.02 | R3 H12 lo | runs/v3main/summary_v3.json |
-| 702 | +0.07 | R3 H12 hi | runs/v3main/summary_v3.json |
-| 703 | 0.882 | R3 H12 p | runs/v3main/summary_v3.json |
-| 704 | 566 | R3 H13 n | runs/v3main/summary_v3.json |
-| 705 | 0.62 | R3 dod3 fb events | runs/v3main/summary_v3.json |
-| 706 | 0.67 | R3 dod fb events | runs/v3main/summary_v3.json |
-| 707 | -0.05 | R3 H13 diff | runs/v3main/summary_v3.json |
-| 708 | -0.09 | R3 H13 lo | runs/v3main/summary_v3.json |
-| 709 | -0.01 | R3 H13 hi | runs/v3main/summary_v3.json |
-| 710 | 0.009 | R3 H13 p | runs/v3main/summary_v3.json |
-| 711 | 243 | R3 H14 n | runs/v3main/summary_v3.json |
-| 712 | 1.00 | R3 H14 same | runs/v3main/summary_v3.json |
-| 713 | 0.20 | R3 dod3 missed cons | runs/v3main/summary_v3.json |
-| 714 | 0.54 | R3 obs missed cons | runs/v3main/summary_v3.json |
-| 715 | 0.64 | R3 bugdoc missed cons | runs/v3main/summary_v3.json |
-| 716 | 1.00 | R3 retrain missed cons | runs/v3main/summary_v3.json |
-| 717 | 0.066 | R3 dod3 regret cons | runs/v3main/summary_v3.json |
-| 718 | 0.085 | R3 best non-DoD regret cons | runs/v3main/summary_v3.json |
-| 719 | 0.44 | R3 dod3 fb all | runs/v3main/summary_v3.json |
-| 720 | 121 | R3 R3 n silent | runs/v3main/summary_v3.json |
-| 721 | 0.00 | R3 R3 retrain silent | runs/v3main/summary_v3.json |
-| 722 | 0.00 | R3 R3 validation silent | runs/v3main/summary_v3.json |
-| 723 | 0.81 | R3 R3 obs silent | runs/v3main/summary_v3.json |
-| 724 | 3 | R3 R3 T1 with inv flag | runs/v3main/summary_v3.json |
-| 725 | 146 | R3 R3 T1 cons n | runs/v3main/summary_v3.json |
-| 726 | 0.45 | R3 dod3_no_latest primary | runs/v3main/summary_v3.json |
-| 727 | -0.01 | R3 ablation no_latest diff | runs/v3main/summary_v3.json |
-| 728 | 0.08 | R3 dod3_no_latest missed | runs/v3main/summary_v3.json |
-| 729 | 0.024 | R3 dod3_no_latest regret | runs/v3main/summary_v3.json |
-| 730 | 0.82 | R3 fars dod3 | runs/v3main/summary_v3.json |
-| 731 | 0.72 | R3 fars dod | runs/v3main/summary_v3.json |
-| 732 | 0.16 | R3 posthoc fars dod fb | runs/v3main/posthoc_v3.json |
-| 733 | 0.05 | R3 posthoc fars dod3 fb | runs/v3main/posthoc_v3.json |
-| 734 | 97 | R3 posthoc landreg clean 2013 lost records | runs/v3main/posthoc_v3.json |
-| 735 | 0.31 | R3 cabi best full method | runs/v3main/summary_v3.json |
-| 736 | 198 | R3 posthoc cabi trip_adapter duration flags | runs/v3main/posthoc_v3.json |
-| 737 | 130 | R3 posthoc cabi current loses values | runs/v3main/posthoc_v3.json |
-| 738 | 46 | dev acs n cons | runs/v3dev/dev_v3.json |
-| 739 | 0.96 | dev acs dod correct | runs/v3dev/dev_v3.json |
-| 740 | 0.96 | dev acs dod3 correct | runs/v3dev/dev_v3.json |
-| 741 | 0.01 | dev acs dod fb | runs/v3dev/dev_v3.json |
-| 742 | 0.01 | dev acs dod3 fb | runs/v3dev/dev_v3.json |
-| 743 | 36 | dev tlc n cons | runs/v3dev/dev_v3.json |
-| 744 | 0.75 | dev tlc dod correct | runs/v3dev/dev_v3.json |
-| 745 | 0.94 | dev tlc dod3 correct | runs/v3dev/dev_v3.json |
-| 746 | 0.38 | dev tlc dod fb | runs/v3dev/dev_v3.json |
-| 747 | 0.02 | dev tlc dod3 fb | runs/v3dev/dev_v3.json |
-| 748 | 67 | dev news n cons | runs/v3dev/dev_v3.json |
-| 749 | 1.00 | dev news dod correct | runs/v3dev/dev_v3.json |
-| 750 | 0.97 | dev news dod3 correct | runs/v3dev/dev_v3.json |
-| 751 | 0.00 | dev news dod fb | runs/v3dev/dev_v3.json |
-| 752 | 0.00 | dev news dod3 fb | runs/v3dev/dev_v3.json |
-| 753 | 53 | dev divvy n cons | runs/v3dev/dev_v3.json |
-| 754 | 0.09 | dev divvy dod correct | runs/v3dev/dev_v3.json |
-| 755 | 0.21 | dev divvy dod2 correct | runs/v3dev/dev_v3.json |
-| 756 | 0.19 | dev divvy dod3 correct | runs/v3dev/dev_v3.json |
-| 757 | 0.90 | dev divvy dod fb | runs/v3dev/dev_v3.json |
-| 758 | 0.53 | dev divvy dod3 fb | runs/v3dev/dev_v3.json |
-| 759 | 58 | dev hmda n cons | runs/v3dev/dev_v3.json |
-| 760 | 0.33 | dev hmda dod correct | runs/v3dev/dev_v3.json |
-| 761 | 0.33 | dev hmda dod2 correct | runs/v3dev/dev_v3.json |
-| 762 | 0.50 | dev hmda dod3 correct | runs/v3dev/dev_v3.json |
-| 763 | 0.66 | dev hmda dod fb | runs/v3dev/dev_v3.json |
-| 764 | 0.49 | dev hmda dod3 fb | runs/v3dev/dev_v3.json |
-| 765 | 20 | dev bts n cons | runs/v3dev/dev_v3.json |
-| 766 | 1.00 | dev bts dod correct | runs/v3dev/dev_v3.json |
-| 767 | 1.00 | dev bts dod2 correct | runs/v3dev/dev_v3.json |
-| 768 | 1.00 | dev bts dod3 correct | runs/v3dev/dev_v3.json |
-| 769 | 0.00 | dev bts dod fb | runs/v3dev/dev_v3.json |
-| 770 | 0.00 | dev bts dod3 fb | runs/v3dev/dev_v3.json |
-| 771 | 6.77 | spend gpt-5.6-luna | runs/cost_ledger.json |
-| 772 | 5.73 | spend gpt-5.6-terra | runs/cost_ledger.json |
+| 382 | 12.49 | total API spend | runs/cost_ledger.json |
+| 383 | 17,078 | paid model calls | runs/cost_ledger.json |
+| 384 | 0.00 | R1 retrain_on_alarm pooled | runs/final (test split) |
+| 385 | 0.00 | R1 retrain_on_alarm news | runs/final (test split) |
+| 386 | 0.00 | R1 retrain_on_alarm tlc | runs/final (test split) |
+| 387 | 0.00 | R1 retrain_on_alarm silent | runs/final (test split) |
+| 388 | 0.00 | R1 retrain_on_alarm false blame | runs/final (test split) |
+| 389 | 0.10 | R1 validation_first pooled | runs/final (test split) |
+| 390 | 0.10 | R1 validation_first news | runs/final (test split) |
+| 391 | 0.10 | R1 validation_first tlc | runs/final (test split) |
+| 392 | 0.00 | R1 validation_first silent | runs/final (test split) |
+| 393 | 0.48 | R1 validation_first false blame | runs/final (test split) |
+| 394 | 0.15 | R1 observational_attribution pooled | runs/final (test split) |
+| 395 | 0.12 | R1 observational_attribution news | runs/final (test split) |
+| 396 | 0.19 | R1 observational_attribution tlc | runs/final (test split) |
+| 397 | 0.28 | R1 observational_attribution silent | runs/final (test split) |
+| 398 | 0.67 | R1 observational_attribution false blame | runs/final (test split) |
+| 399 | 0.03 | R1 full_rollback pooled | runs/final (test split) |
+| 400 | 0.04 | R1 full_rollback news | runs/final (test split) |
+| 401 | 0.02 | R1 full_rollback tlc | runs/final (test split) |
+| 402 | 0.05 | R1 full_rollback silent | runs/final (test split) |
+| 403 | 0.30 | R1 full_rollback false blame | runs/final (test split) |
+| 404 | 0.43 | R1 bisect pooled | runs/final (test split) |
+| 405 | 0.20 | R1 bisect news | runs/final (test split) |
+| 406 | 0.67 | R1 bisect tlc | runs/final (test split) |
+| 407 | 0.38 | R1 bisect silent | runs/final (test split) |
+| 408 | 0.14 | R1 bisect false blame | runs/final (test split) |
+| 409 | 0.53 | R1 bugdoc_shortcut pooled | runs/final (test split) |
+| 410 | 0.39 | R1 bugdoc_shortcut news | runs/final (test split) |
+| 411 | 0.67 | R1 bugdoc_shortcut tlc | runs/final (test split) |
+| 412 | 0.54 | R1 bugdoc_shortcut silent | runs/final (test split) |
+| 413 | 0.11 | R1 bugdoc_shortcut false blame | runs/final (test split) |
+| 414 | 0.31 | R1 llm_report@luna pooled | runs/final (test split) |
+| 415 | 0.47 | R1 llm_report@luna news | runs/final (test split) |
+| 416 | 0.15 | R1 llm_report@luna tlc | runs/final (test split) |
+| 417 | 0.46 | R1 llm_report@luna silent | runs/final (test split) |
+| 418 | 0.56 | R1 llm_report@luna false blame | runs/final (test split) |
+| 419 | 0.49 | R1 llm_tools@luna pooled | runs/final (test split) |
+| 420 | 0.61 | R1 llm_tools@luna news | runs/final (test split) |
+| 421 | 0.38 | R1 llm_tools@luna tlc | runs/final (test split) |
+| 422 | 0.56 | R1 llm_tools@luna silent | runs/final (test split) |
+| 423 | 0.32 | R1 llm_tools@luna false blame | runs/final (test split) |
+| 424 | 0.25 | R1 llm_report@terra pooled | runs/final (test split) |
+| 425 | 0.33 | R1 llm_report@terra news | runs/final (test split) |
+| 426 | 0.17 | R1 llm_report@terra tlc | runs/final (test split) |
+| 427 | 0.31 | R1 llm_report@terra silent | runs/final (test split) |
+| 428 | 0.60 | R1 llm_tools@terra pooled | runs/final (test split) |
+| 429 | 0.80 | R1 llm_tools@terra news | runs/final (test split) |
+| 430 | 0.40 | R1 llm_tools@terra tlc | runs/final (test split) |
+| 431 | 0.85 | R1 llm_tools@terra silent | runs/final (test split) |
+| 432 | 0.48 | R1 dod_no_boundary pooled | runs/final (test split) |
+| 433 | 0.18 | R1 dod_no_boundary news | runs/final (test split) |
+| 434 | 0.79 | R1 dod_no_boundary tlc | runs/final (test split) |
+| 435 | 0.46 | R1 dod_no_boundary silent | runs/final (test split) |
+| 436 | 0.14 | R1 dod_no_boundary false blame | runs/final (test split) |
+| 437 | 0.74 | R1 dod pooled | runs/final (test split) |
+| 438 | 1.00 | R1 dod news | runs/final (test split) |
+| 439 | 0.48 | R1 dod tlc | runs/final (test split) |
+| 440 | 1.00 | R1 dod silent | runs/final (test split) |
+| 441 | 0.33 | R1 dod false blame | runs/final (test split) |
+| 442 | 97 | R1 consequential test cases | runs/final (test split) |
+| 443 | 39 | R1 silent consequential cases | runs/final (test split) |
+| 444 | 0.00 | R1 H1 retrain silent | runs/final (test split) |
+| 445 | 0.00 | R1 H1 validation silent | runs/final (test split) |
+| 446 | 0.28 | R1 H1 obs silent | runs/final (test split) |
+| 447 | 0.46 | R1 H1 llm silent | runs/final (test split) |
+| 448 | 0.74 | R1 dod primary | runs/final (test split) |
+| 449 | 0.60 | R1 best baseline | runs/final (test split) |
+| 450 | +0.14 | R1 H2 diff | runs/final (test split) |
+| 451 | +0.05 | R1 H2 lo | runs/final (test split) |
+| 452 | +0.25 | R1 H2 hi | runs/final (test split) |
+| 453 | 0.008 | R1 H2 p | runs/final (test split) |
+| 454 | 1.00 | R1 news dod | runs/final (test split) |
+| 455 | 0.48 | R1 tlc dod | runs/final (test split) |
+| 456 | 0.60 | R1 dod_b1 | runs/final (test split) |
+| 457 | 0.49 | R1 dod_b1_uniform | runs/final (test split) |
+| 458 | +0.10 | R1 H3 diff | runs/final (test split) |
+| 459 | -0.02 | R1 H3 lo | runs/final (test split) |
+| 460 | +0.24 | R1 H3 hi | runs/final (test split) |
+| 461 | 13.9 | R1 dod compute | runs/final (test split) |
+| 462 | 4.1 | R1 bugdoc compute | runs/final (test split) |
+| 463 | -0.32 | R1 H4 miss vs retrain | runs/final (test split) |
+| 464 | -0.23 | R1 H4 miss vs validation | runs/final (test split) |
+| 465 | -0.14 | R1 H4 fb vs validation | runs/final (test split) |
+| 466 | 0.16 | R1 H4 fragility gap | runs/final (test split) |
+| 467 | +0.33 | R1 H4 fb vs retrain | runs/final (test split) |
+| 468 | 0.95 | R1 H5 dod | runs/final (test split) |
+| 469 | 0.14 | R1 H5 no boundary | runs/final (test split) |
+| 470 | 21 | R1 H5 n | runs/final (test split) |
+| 471 | 93 | R1 P4 cases | runs/final/posthoc.json |
+| 472 | 90 | R1 P4 airport flags | runs/final/posthoc.json |
+| 473 | 0.00 | R2 retrain_on_alarm pooled | runs/v2main/summary_v2.json |
+| 474 | 0.00 | R2 retrain_on_alarm divvy | runs/v2main/summary_v2.json |
+| 475 | 0.00 | R2 retrain_on_alarm hmda | runs/v2main/summary_v2.json |
+| 476 | 0.00 | R2 retrain_on_alarm bts | runs/v2main/summary_v2.json |
+| 477 | 0.00 | R2 retrain_on_alarm silent | runs/v2main/summary_v2.json |
+| 478 | 0.00 | R2 retrain_on_alarm false blame events | runs/v2main/summary_v2.json |
+| 479 | 0.17 | R2 validation_first pooled | runs/v2main/summary_v2.json |
+| 480 | 0.09 | R2 validation_first divvy | runs/v2main/summary_v2.json |
+| 481 | 0.28 | R2 validation_first hmda | runs/v2main/summary_v2.json |
+| 482 | 0.24 | R2 validation_first bts | runs/v2main/summary_v2.json |
+| 483 | 0.00 | R2 validation_first silent | runs/v2main/summary_v2.json |
+| 484 | 0.81 | R2 validation_first false blame events | runs/v2main/summary_v2.json |
+| 485 | 0.42 | R2 observational_attribution pooled | runs/v2main/summary_v2.json |
+| 486 | 0.28 | R2 observational_attribution divvy | runs/v2main/summary_v2.json |
+| 487 | 0.46 | R2 observational_attribution hmda | runs/v2main/summary_v2.json |
+| 488 | 0.68 | R2 observational_attribution bts | runs/v2main/summary_v2.json |
+| 489 | 0.72 | R2 observational_attribution silent | runs/v2main/summary_v2.json |
+| 490 | 0.72 | R2 observational_attribution false blame events | runs/v2main/summary_v2.json |
+| 491 | 0.08 | R2 full_rollback pooled | runs/v2main/summary_v2.json |
+| 492 | 0.02 | R2 full_rollback divvy | runs/v2main/summary_v2.json |
+| 493 | 0.05 | R2 full_rollback hmda | runs/v2main/summary_v2.json |
+| 494 | 0.24 | R2 full_rollback bts | runs/v2main/summary_v2.json |
+| 495 | 0.12 | R2 full_rollback silent | runs/v2main/summary_v2.json |
+| 496 | 0.02 | R2 full_rollback false blame events | runs/v2main/summary_v2.json |
+| 497 | 0.23 | R2 bisect pooled | runs/v2main/summary_v2.json |
+| 498 | 0.06 | R2 bisect divvy | runs/v2main/summary_v2.json |
+| 499 | 0.21 | R2 bisect hmda | runs/v2main/summary_v2.json |
+| 500 | 0.61 | R2 bisect bts | runs/v2main/summary_v2.json |
+| 501 | 0.62 | R2 bisect silent | runs/v2main/summary_v2.json |
+| 502 | 0.00 | R2 bisect false blame events | runs/v2main/summary_v2.json |
+| 503 | 0.36 | R2 bugdoc_shortcut pooled | runs/v2main/summary_v2.json |
+| 504 | 0.17 | R2 bugdoc_shortcut divvy | runs/v2main/summary_v2.json |
+| 505 | 0.52 | R2 bugdoc_shortcut hmda | runs/v2main/summary_v2.json |
+| 506 | 0.63 | R2 bugdoc_shortcut bts | runs/v2main/summary_v2.json |
+| 507 | 0.68 | R2 bugdoc_shortcut silent | runs/v2main/summary_v2.json |
+| 508 | 0.11 | R2 bugdoc_shortcut false blame events | runs/v2main/summary_v2.json |
+| 509 | 0.27 | R2 llm_report@luna pooled | runs/v2main/summary_v2.json |
+| 510 | 0.14 | R2 llm_report@luna divvy | runs/v2main/summary_v2.json |
+| 511 | 0.42 | R2 llm_report@luna hmda | runs/v2main/summary_v2.json |
+| 512 | 0.41 | R2 llm_report@luna bts | runs/v2main/summary_v2.json |
+| 513 | 0.50 | R2 llm_report@luna silent | runs/v2main/summary_v2.json |
+| 514 | 0.81 | R2 llm_report@luna false blame events | runs/v2main/summary_v2.json |
+| 515 | 0.41 | R2 llm_tools@luna pooled | runs/v2main/summary_v2.json |
+| 516 | 0.23 | R2 llm_tools@luna divvy | runs/v2main/summary_v2.json |
+| 517 | 0.54 | R2 llm_tools@luna hmda | runs/v2main/summary_v2.json |
+| 518 | 0.69 | R2 llm_tools@luna bts | runs/v2main/summary_v2.json |
+| 519 | 0.70 | R2 llm_tools@luna silent | runs/v2main/summary_v2.json |
+| 520 | 0.66 | R2 llm_tools@luna false blame events | runs/v2main/summary_v2.json |
+| 521 | 0.37 | R2 llm_report@terra pooled | runs/v2main/summary_v2.json |
+| 522 | 0.58 | R2 llm_report@terra divvy | runs/v2main/summary_v2.json |
+| 523 | 0.41 | R2 llm_report@terra hmda | runs/v2main/summary_v2.json |
+| 524 | 0.20 | R2 llm_report@terra bts | runs/v2main/summary_v2.json |
+| 525 | 0.67 | R2 llm_report@terra silent | runs/v2main/summary_v2.json |
+| 526 | 0.80 | R2 llm_tools@terra pooled | runs/v2main/summary_v2.json |
+| 527 | 0.83 | R2 llm_tools@terra divvy | runs/v2main/summary_v2.json |
+| 528 | 0.76 | R2 llm_tools@terra hmda | runs/v2main/summary_v2.json |
+| 529 | 0.80 | R2 llm_tools@terra bts | runs/v2main/summary_v2.json |
+| 530 | 0.83 | R2 llm_tools@terra silent | runs/v2main/summary_v2.json |
+| 531 | 0.49 | R2 dod_no_boundary pooled | runs/v2main/summary_v2.json |
+| 532 | 0.20 | R2 dod_no_boundary divvy | runs/v2main/summary_v2.json |
+| 533 | 0.62 | R2 dod_no_boundary hmda | runs/v2main/summary_v2.json |
+| 534 | 1.00 | R2 dod_no_boundary bts | runs/v2main/summary_v2.json |
+| 535 | 0.95 | R2 dod_no_boundary silent | runs/v2main/summary_v2.json |
+| 536 | 0.71 | R2 dod_no_boundary false blame events | runs/v2main/summary_v2.json |
+| 537 | 0.35 | R2 dod pooled | runs/v2main/summary_v2.json |
+| 538 | 0.07 | R2 dod divvy | runs/v2main/summary_v2.json |
+| 539 | 0.34 | R2 dod hmda | runs/v2main/summary_v2.json |
+| 540 | 1.00 | R2 dod bts | runs/v2main/summary_v2.json |
+| 541 | 0.93 | R2 dod silent | runs/v2main/summary_v2.json |
+| 542 | 0.88 | R2 dod false blame events | runs/v2main/summary_v2.json |
+| 543 | 0.40 | R2 dod2 pooled | runs/v2main/summary_v2.json |
+| 544 | 0.16 | R2 dod2 divvy | runs/v2main/summary_v2.json |
+| 545 | 0.34 | R2 dod2 hmda | runs/v2main/summary_v2.json |
+| 546 | 1.00 | R2 dod2 bts | runs/v2main/summary_v2.json |
+| 547 | 0.93 | R2 dod2 silent | runs/v2main/summary_v2.json |
+| 548 | 0.85 | R2 dod2 false blame events | runs/v2main/summary_v2.json |
+| 549 | 0.40 | R2 dod2 primary | runs/v2main/summary_v2.json |
+| 550 | 0.35 | R2 dod primary | runs/v2main/summary_v2.json |
+| 551 | +0.05 | R2 H6 diff | runs/v2main/summary_v2.json |
+| 552 | 0.37 | R2 H6 p | runs/v2main/summary_v2.json |
+| 553 | 0.85 | R2 dod2 fb events | runs/v2main/summary_v2.json |
+| 554 | 0.88 | R2 dod fb events | runs/v2main/summary_v2.json |
+| 555 | -0.03 | R2 H7 diff | runs/v2main/summary_v2.json |
+| 556 | 0.37 | R2 H7 p | runs/v2main/summary_v2.json |
+| 557 | 0.16 | R2 H8 gap | runs/v2main/summary_v2.json |
+| 558 | 49 | R2 H8 n | runs/v2main/summary_v2.json |
+| 559 | -0.37 | R2 H8 lo | runs/v2main/summary_v2.json |
+| 560 | +0.02 | R2 H8 hi | runs/v2main/summary_v2.json |
+| 561 | 0.37 | R2 H8 p | runs/v2main/summary_v2.json |
+| 562 | 1.00 | R2 bts dod2 | runs/v2main/summary_v2.json |
+| 563 | 0.16 | R2 divvy dod2 | runs/v2main/summary_v2.json |
+| 564 | 0.07 | R2 divvy dod | runs/v2main/summary_v2.json |
+| 565 | 0.34 | R2 hmda dod2 | runs/v2main/summary_v2.json |
+| 566 | 0.86 | R2 divvy dod2 fb | runs/v2main/summary_v2.json |
+| 567 | 0.65 | R2 hmda dod2 fb | runs/v2main/summary_v2.json |
+| 568 | 0.00 | R2 H9 retrain silent | runs/v2main/summary_v2.json |
+| 569 | 0.00 | R2 H9 validation silent | runs/v2main/summary_v2.json |
+| 570 | 40 | R2 H9 n silent | runs/v2main/summary_v2.json |
+| 571 | 0.72 | R2 H9 obs silent | runs/v2main/summary_v2.json |
+| 572 | 0 | R2 H10 n inv flagged | runs/v2main/summary_v2.json |
+| 573 | 179 | R2 H10 n T1 | runs/v2main/summary_v2.json |
+| 574 | 0.24 | R2 H10 dod2 T1 | runs/v2main/summary_v2.json |
+| 575 | 0.13 | R2 H10 dod T1 | runs/v2main/summary_v2.json |
+| 576 | 10 | divvy dated changes from 2016-Q3 | runs/benchmark/tables_v3.json |
+| 577 | 0.65 | R2 posthoc hmda fb | runs/v2main/posthoc_r2.json |
+| 578 | 0.42 | R2 posthoc hmda fb latest | runs/v2main/posthoc_r2.json |
+| 579 | 0.91 | R2 posthoc divvy fb | runs/v2main/posthoc_r2.json |
+| 580 | 0.65 | R2 posthoc divvy fb latest | runs/v2main/posthoc_r2.json |
+| 581 | 0.00 | R3 retrain_on_alarm pooled | runs/v3main/summary_v3.json |
+| 582 | 0.00 | R3 retrain_on_alarm cabi | runs/v3main/summary_v3.json |
+| 583 | 0.00 | R3 retrain_on_alarm fars | runs/v3main/summary_v3.json |
+| 584 | 0.00 | R3 retrain_on_alarm landreg | runs/v3main/summary_v3.json |
+| 585 | 0.00 | R3 retrain_on_alarm silent | runs/v3main/summary_v3.json |
+| 586 | 0.00 | R3 retrain_on_alarm false blame events | runs/v3main/summary_v3.json |
+| 587 | 0.0 | R3 retrain_on_alarm compute | runs/v3main/summary_v3.json |
+| 588 | 0.18 | R3 validation_first pooled | runs/v3main/summary_v3.json |
+| 589 | 0.03 | R3 validation_first cabi | runs/v3main/summary_v3.json |
+| 590 | 0.22 | R3 validation_first fars | runs/v3main/summary_v3.json |
+| 591 | 0.37 | R3 validation_first landreg | runs/v3main/summary_v3.json |
+| 592 | 0.00 | R3 validation_first silent | runs/v3main/summary_v3.json |
+| 593 | 0.49 | R3 validation_first false blame events | runs/v3main/summary_v3.json |
+| 594 | 0.0 | R3 validation_first compute | runs/v3main/summary_v3.json |
+| 595 | 0.46 | R3 observational_attribution pooled | runs/v3main/summary_v3.json |
+| 596 | 0.30 | R3 observational_attribution cabi | runs/v3main/summary_v3.json |
+| 597 | 0.82 | R3 observational_attribution fars | runs/v3main/summary_v3.json |
+| 598 | 0.41 | R3 observational_attribution landreg | runs/v3main/summary_v3.json |
+| 599 | 0.81 | R3 observational_attribution silent | runs/v3main/summary_v3.json |
+| 600 | 0.64 | R3 observational_attribution false blame events | runs/v3main/summary_v3.json |
+| 601 | 0.0 | R3 observational_attribution compute | runs/v3main/summary_v3.json |
+| 602 | 0.07 | R3 full_rollback pooled | runs/v3main/summary_v3.json |
+| 603 | 0.04 | R3 full_rollback cabi | runs/v3main/summary_v3.json |
+| 604 | 0.07 | R3 full_rollback fars | runs/v3main/summary_v3.json |
+| 605 | 0.11 | R3 full_rollback landreg | runs/v3main/summary_v3.json |
+| 606 | 0.10 | R3 full_rollback silent | runs/v3main/summary_v3.json |
+| 607 | 0.12 | R3 full_rollback false blame events | runs/v3main/summary_v3.json |
+| 608 | 1.5 | R3 full_rollback compute | runs/v3main/summary_v3.json |
+| 609 | 0.24 | R3 bisect pooled | runs/v3main/summary_v3.json |
+| 610 | 0.10 | R3 bisect cabi | runs/v3main/summary_v3.json |
+| 611 | 0.39 | R3 bisect fars | runs/v3main/summary_v3.json |
+| 612 | 0.32 | R3 bisect landreg | runs/v3main/summary_v3.json |
+| 613 | 0.45 | R3 bisect silent | runs/v3main/summary_v3.json |
+| 614 | 0.07 | R3 bisect false blame events | runs/v3main/summary_v3.json |
+| 615 | 2.9 | R3 bisect compute | runs/v3main/summary_v3.json |
+| 616 | 0.32 | R3 bugdoc_shortcut pooled | runs/v3main/summary_v3.json |
+| 617 | 0.27 | R3 bugdoc_shortcut cabi | runs/v3main/summary_v3.json |
+| 618 | 0.38 | R3 bugdoc_shortcut fars | runs/v3main/summary_v3.json |
+| 619 | 0.34 | R3 bugdoc_shortcut landreg | runs/v3main/summary_v3.json |
+| 620 | 0.45 | R3 bugdoc_shortcut silent | runs/v3main/summary_v3.json |
+| 621 | 0.16 | R3 bugdoc_shortcut false blame events | runs/v3main/summary_v3.json |
+| 622 | 4.1 | R3 bugdoc_shortcut compute | runs/v3main/summary_v3.json |
+| 623 | 0.34 | R3 llm_report@luna pooled | runs/v3main/summary_v3.json |
+| 624 | 0.10 | R3 llm_report@luna cabi | runs/v3main/summary_v3.json |
+| 625 | 0.67 | R3 llm_report@luna fars | runs/v3main/summary_v3.json |
+| 626 | 0.42 | R3 llm_report@luna landreg | runs/v3main/summary_v3.json |
+| 627 | 0.56 | R3 llm_report@luna silent | runs/v3main/summary_v3.json |
+| 628 | 0.78 | R3 llm_report@luna false blame events | runs/v3main/summary_v3.json |
+| 629 | 0.0 | R3 llm_report@luna compute | runs/v3main/summary_v3.json |
+| 630 | 0.47 | R3 llm_tools@luna pooled | runs/v3main/summary_v3.json |
+| 631 | 0.24 | R3 llm_tools@luna cabi | runs/v3main/summary_v3.json |
+| 632 | 0.66 | R3 llm_tools@luna fars | runs/v3main/summary_v3.json |
+| 633 | 0.66 | R3 llm_tools@luna landreg | runs/v3main/summary_v3.json |
+| 634 | 0.61 | R3 llm_tools@luna silent | runs/v3main/summary_v3.json |
+| 635 | 0.42 | R3 llm_tools@luna false blame events | runs/v3main/summary_v3.json |
+| 636 | 6.9 | R3 llm_tools@luna compute | runs/v3main/summary_v3.json |
+| 637 | 0.51 | R3 llm_report@terra pooled | runs/v3main/summary_v3.json |
+| 638 | 0.53 | R3 llm_report@terra cabi | runs/v3main/summary_v3.json |
+| 639 | 0.60 | R3 llm_report@terra fars | runs/v3main/summary_v3.json |
+| 640 | 0.36 | R3 llm_report@terra landreg | runs/v3main/summary_v3.json |
+| 641 | 0.48 | R3 llm_report@terra silent | runs/v3main/summary_v3.json |
+| 642 | 0.56 | R3 llm_tools@terra pooled | runs/v3main/summary_v3.json |
+| 643 | 0.67 | R3 llm_tools@terra cabi | runs/v3main/summary_v3.json |
+| 644 | 0.60 | R3 llm_tools@terra fars | runs/v3main/summary_v3.json |
+| 645 | 0.36 | R3 llm_tools@terra landreg | runs/v3main/summary_v3.json |
+| 646 | 0.48 | R3 llm_tools@terra silent | runs/v3main/summary_v3.json |
+| 647 | 0.42 | R3 dod_no_boundary pooled | runs/v3main/summary_v3.json |
+| 648 | 0.20 | R3 dod_no_boundary cabi | runs/v3main/summary_v3.json |
+| 649 | 0.51 | R3 dod_no_boundary fars | runs/v3main/summary_v3.json |
+| 650 | 0.68 | R3 dod_no_boundary landreg | runs/v3main/summary_v3.json |
+| 651 | 0.61 | R3 dod_no_boundary silent | runs/v3main/summary_v3.json |
+| 652 | 0.25 | R3 dod_no_boundary false blame events | runs/v3main/summary_v3.json |
+| 653 | 10.4 | R3 dod_no_boundary compute | runs/v3main/summary_v3.json |
+| 654 | 0.44 | R3 dod pooled | runs/v3main/summary_v3.json |
+| 655 | 0.14 | R3 dod cabi | runs/v3main/summary_v3.json |
+| 656 | 0.72 | R3 dod fars | runs/v3main/summary_v3.json |
+| 657 | 0.68 | R3 dod landreg | runs/v3main/summary_v3.json |
+| 658 | 0.69 | R3 dod silent | runs/v3main/summary_v3.json |
+| 659 | 0.67 | R3 dod false blame events | runs/v3main/summary_v3.json |
+| 660 | 22.6 | R3 dod compute | runs/v3main/summary_v3.json |
+| 661 | 0.44 | R3 dod2 pooled | runs/v3main/summary_v3.json |
+| 662 | 0.14 | R3 dod2 cabi | runs/v3main/summary_v3.json |
+| 663 | 0.72 | R3 dod2 fars | runs/v3main/summary_v3.json |
+| 664 | 0.68 | R3 dod2 landreg | runs/v3main/summary_v3.json |
+| 665 | 0.69 | R3 dod2 silent | runs/v3main/summary_v3.json |
+| 666 | 0.67 | R3 dod2 false blame events | runs/v3main/summary_v3.json |
+| 667 | 38.0 | R3 dod2 compute | runs/v3main/summary_v3.json |
+| 668 | 0.45 | R3 dod3_no_latest pooled | runs/v3main/summary_v3.json |
+| 669 | 0.11 | R3 dod3_no_latest cabi | runs/v3main/summary_v3.json |
+| 670 | 0.80 | R3 dod3_no_latest fars | runs/v3main/summary_v3.json |
+| 671 | 0.68 | R3 dod3_no_latest landreg | runs/v3main/summary_v3.json |
+| 672 | 0.71 | R3 dod3_no_latest silent | runs/v3main/summary_v3.json |
+| 673 | 0.67 | R3 dod3_no_latest false blame events | runs/v3main/summary_v3.json |
+| 674 | 40.1 | R3 dod3_no_latest compute | runs/v3main/summary_v3.json |
+| 675 | 0.46 | R3 dod3_no_inv pooled | runs/v3main/summary_v3.json |
+| 676 | 0.12 | R3 dod3_no_inv cabi | runs/v3main/summary_v3.json |
+| 677 | 0.82 | R3 dod3_no_inv fars | runs/v3main/summary_v3.json |
+| 678 | 0.68 | R3 dod3_no_inv landreg | runs/v3main/summary_v3.json |
+| 679 | 0.74 | R3 dod3_no_inv silent | runs/v3main/summary_v3.json |
+| 680 | 0.62 | R3 dod3_no_inv false blame events | runs/v3main/summary_v3.json |
+| 681 | 31.9 | R3 dod3_no_inv compute | runs/v3main/summary_v3.json |
+| 682 | 0.46 | R3 dod3 pooled | runs/v3main/summary_v3.json |
+| 683 | 0.12 | R3 dod3 cabi | runs/v3main/summary_v3.json |
+| 684 | 0.82 | R3 dod3 fars | runs/v3main/summary_v3.json |
+| 685 | 0.68 | R3 dod3 landreg | runs/v3main/summary_v3.json |
+| 686 | 0.74 | R3 dod3 silent | runs/v3main/summary_v3.json |
+| 687 | 0.62 | R3 dod3 false blame events | runs/v3main/summary_v3.json |
+| 688 | 44.0 | R3 dod3 compute | runs/v3main/summary_v3.json |
+| 689 | 0.46 | R3 dod3 primary | runs/v3main/summary_v3.json |
+| 690 | 0.56 | R3 best baseline primary | runs/v3main/summary_v3.json |
+| 691 | -0.05 | R3 H11 diff | runs/v3main/summary_v3.json |
+| 692 | -0.33 | R3 H11 lo | runs/v3main/summary_v3.json |
+| 693 | +0.26 | R3 H11 hi | runs/v3main/summary_v3.json |
+| 694 | 41 | R3 H11 n | runs/v3main/summary_v3.json |
+| 695 | 0.882 | R3 H11 p | runs/v3main/summary_v3.json |
+| 696 | 41 | R3 terra n | runs/v3main/summary_v3.json |
+| 697 | 125 | R3 planned terra n | runs/v3main/summary_v3.json |
+| 698 | 0.47 | R3 best full 1 | runs/v3main/summary_v3.json |
+| 699 | 0.46 | R3 best full 2 | runs/v3main/summary_v3.json |
+| 700 | 0.44 | R3 dod primary | runs/v3main/summary_v3.json |
+| 701 | 0.44 | R3 dod2 primary | runs/v3main/summary_v3.json |
+| 702 | +0.02 | R3 H12 diff | runs/v3main/summary_v3.json |
+| 703 | -0.02 | R3 H12 lo | runs/v3main/summary_v3.json |
+| 704 | +0.07 | R3 H12 hi | runs/v3main/summary_v3.json |
+| 705 | 0.882 | R3 H12 p | runs/v3main/summary_v3.json |
+| 706 | 566 | R3 H13 n | runs/v3main/summary_v3.json |
+| 707 | 0.62 | R3 dod3 fb events | runs/v3main/summary_v3.json |
+| 708 | 0.67 | R3 dod fb events | runs/v3main/summary_v3.json |
+| 709 | -0.05 | R3 H13 diff | runs/v3main/summary_v3.json |
+| 710 | -0.09 | R3 H13 lo | runs/v3main/summary_v3.json |
+| 711 | -0.01 | R3 H13 hi | runs/v3main/summary_v3.json |
+| 712 | 0.009 | R3 H13 p | runs/v3main/summary_v3.json |
+| 713 | 243 | R3 H14 n | runs/v3main/summary_v3.json |
+| 714 | 1.00 | R3 H14 same | runs/v3main/summary_v3.json |
+| 715 | 0.20 | R3 dod3 missed cons | runs/v3main/summary_v3.json |
+| 716 | 0.54 | R3 obs missed cons | runs/v3main/summary_v3.json |
+| 717 | 0.64 | R3 bugdoc missed cons | runs/v3main/summary_v3.json |
+| 718 | 1.00 | R3 retrain missed cons | runs/v3main/summary_v3.json |
+| 719 | 0.066 | R3 dod3 regret cons | runs/v3main/summary_v3.json |
+| 720 | 0.085 | R3 best non-DoD regret cons | runs/v3main/summary_v3.json |
+| 721 | 0.44 | R3 dod3 fb all | runs/v3main/summary_v3.json |
+| 722 | 121 | R3 R3 n silent | runs/v3main/summary_v3.json |
+| 723 | 0.00 | R3 R3 retrain silent | runs/v3main/summary_v3.json |
+| 724 | 0.00 | R3 R3 validation silent | runs/v3main/summary_v3.json |
+| 725 | 0.81 | R3 R3 obs silent | runs/v3main/summary_v3.json |
+| 726 | 3 | R3 R3 T1 with inv flag | runs/v3main/summary_v3.json |
+| 727 | 146 | R3 R3 T1 cons n | runs/v3main/summary_v3.json |
+| 728 | 0.45 | R3 dod3_no_latest primary | runs/v3main/summary_v3.json |
+| 729 | -0.01 | R3 ablation no_latest diff | runs/v3main/summary_v3.json |
+| 730 | 0.08 | R3 dod3_no_latest missed | runs/v3main/summary_v3.json |
+| 731 | 0.024 | R3 dod3_no_latest regret | runs/v3main/summary_v3.json |
+| 732 | 0.82 | R3 fars dod3 | runs/v3main/summary_v3.json |
+| 733 | 0.72 | R3 fars dod | runs/v3main/summary_v3.json |
+| 734 | 0.16 | R3 posthoc fars dod fb | runs/v3main/posthoc_v3.json |
+| 735 | 0.05 | R3 posthoc fars dod3 fb | runs/v3main/posthoc_v3.json |
+| 736 | 97 | R3 posthoc landreg clean 2013 lost records | runs/v3main/posthoc_v3.json |
+| 737 | 0.31 | R3 cabi best full method | runs/v3main/summary_v3.json |
+| 738 | 198 | R3 posthoc cabi trip_adapter duration flags | runs/v3main/posthoc_v3.json |
+| 739 | 130 | R3 posthoc cabi current loses values | runs/v3main/posthoc_v3.json |
+| 740 | 46 | dev acs n cons | runs/v3dev/dev_v3.json |
+| 741 | 0.96 | dev acs dod correct | runs/v3dev/dev_v3.json |
+| 742 | 0.96 | dev acs dod3 correct | runs/v3dev/dev_v3.json |
+| 743 | 0.01 | dev acs dod fb | runs/v3dev/dev_v3.json |
+| 744 | 0.01 | dev acs dod3 fb | runs/v3dev/dev_v3.json |
+| 745 | 36 | dev tlc n cons | runs/v3dev/dev_v3.json |
+| 746 | 0.75 | dev tlc dod correct | runs/v3dev/dev_v3.json |
+| 747 | 0.94 | dev tlc dod3 correct | runs/v3dev/dev_v3.json |
+| 748 | 0.38 | dev tlc dod fb | runs/v3dev/dev_v3.json |
+| 749 | 0.02 | dev tlc dod3 fb | runs/v3dev/dev_v3.json |
+| 750 | 67 | dev news n cons | runs/v3dev/dev_v3.json |
+| 751 | 1.00 | dev news dod correct | runs/v3dev/dev_v3.json |
+| 752 | 0.97 | dev news dod3 correct | runs/v3dev/dev_v3.json |
+| 753 | 0.00 | dev news dod fb | runs/v3dev/dev_v3.json |
+| 754 | 0.00 | dev news dod3 fb | runs/v3dev/dev_v3.json |
+| 755 | 53 | dev divvy n cons | runs/v3dev/dev_v3.json |
+| 756 | 0.09 | dev divvy dod correct | runs/v3dev/dev_v3.json |
+| 757 | 0.21 | dev divvy dod2 correct | runs/v3dev/dev_v3.json |
+| 758 | 0.19 | dev divvy dod3 correct | runs/v3dev/dev_v3.json |
+| 759 | 0.90 | dev divvy dod fb | runs/v3dev/dev_v3.json |
+| 760 | 0.53 | dev divvy dod3 fb | runs/v3dev/dev_v3.json |
+| 761 | 58 | dev hmda n cons | runs/v3dev/dev_v3.json |
+| 762 | 0.33 | dev hmda dod correct | runs/v3dev/dev_v3.json |
+| 763 | 0.33 | dev hmda dod2 correct | runs/v3dev/dev_v3.json |
+| 764 | 0.50 | dev hmda dod3 correct | runs/v3dev/dev_v3.json |
+| 765 | 0.66 | dev hmda dod fb | runs/v3dev/dev_v3.json |
+| 766 | 0.49 | dev hmda dod3 fb | runs/v3dev/dev_v3.json |
+| 767 | 20 | dev bts n cons | runs/v3dev/dev_v3.json |
+| 768 | 1.00 | dev bts dod correct | runs/v3dev/dev_v3.json |
+| 769 | 1.00 | dev bts dod2 correct | runs/v3dev/dev_v3.json |
+| 770 | 1.00 | dev bts dod3 correct | runs/v3dev/dev_v3.json |
+| 771 | 0.00 | dev bts dod fb | runs/v3dev/dev_v3.json |
+| 772 | 0.00 | dev bts dod3 fb | runs/v3dev/dev_v3.json |
+| 773 | 6.77 | spend gpt-5.6-luna | runs/cost_ledger.json |
+| 774 | 5.73 | spend gpt-5.6-terra | runs/cost_ledger.json |
