@@ -1,0 +1,1 @@
+{"text": "{\"action\":\"boundary\",\"component\":\"fare_features\",\"period\":\"2025-01\"}", "usage": {"in": 42, "out": 178, "cached_in": 2798, "reasoning": 149}, "usd": 0.0027795999999999997, "wall_s": 4.24, "provider": "openai", "model": "gpt-5.6-terra"}

@@ -1,0 +1,1 @@
+{"text": "{\"action\":\"boundary\",\"component\":\"sources\",\"period\":\"2006\"}", "usage": {"in": 133, "out": 137, "cached_in": 3764, "reasoning": 111}, "usd": 0.0026628000000000003, "wall_s": 3.94, "provider": "openai", "model": "gpt-5.6-terra"}

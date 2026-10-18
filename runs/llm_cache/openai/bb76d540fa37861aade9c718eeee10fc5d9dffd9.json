@@ -1,0 +1,1 @@
+{"text": "{\"action\":\"replay\",\"component\":\"text_norm\"}", "usage": {"in": 101, "out": 76, "cached_in": 1174, "reasoning": 53}, "usd": 0.0013488, "wall_s": 1.95, "provider": "openai", "model": "gpt-5.6-terra"}

@@ -1,0 +1,1 @@
+{"text": "{\"action\":\"rollback\",\"component\":\"occ_group\"}", "usage": {"in": 189, "out": 195, "cached_in": 3185, "reasoning": 173}, "usd": 0.0003355, "wall_s": 3.36, "provider": "openai", "model": "gpt-5.6-luna"}

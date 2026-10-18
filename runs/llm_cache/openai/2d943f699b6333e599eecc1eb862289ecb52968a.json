@@ -1,0 +1,1 @@
+{"text": "{\"action\":\"effect\",\"components\":[\"clean\",\"airport_join\"]}", "usage": {"in": 1776, "out": 171, "cached_in": 0, "reasoning": 146}, "usd": 0.0005604000000000001, "wall_s": 3.7, "provider": "openai", "model": "gpt-5.6-luna"}

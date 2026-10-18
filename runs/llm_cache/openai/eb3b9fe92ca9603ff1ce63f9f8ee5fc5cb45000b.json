@@ -1,0 +1,1 @@
+{"text": "{\"action\":\"boundary\",\"component\":\"fatality_adapter\",\"period\":\"2006\"}", "usage": {"in": 41, "out": 137, "cached_in": 3146, "reasoning": 109}, "usd": 0.00023552000000000002, "wall_s": 2.97, "provider": "openai", "model": "gpt-5.6-luna"}

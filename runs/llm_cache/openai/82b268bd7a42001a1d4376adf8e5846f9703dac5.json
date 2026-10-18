@@ -1,0 +1,1 @@
+{"text": "{\"action\":\"effect\",\"components\":[\"zone_join\"]}", "usage": {"in": 80, "out": 52, "cached_in": 2896, "reasoning": 29}, "usd": 0.00013632, "wall_s": 1.69, "provider": "openai", "model": "gpt-5.6-luna"}

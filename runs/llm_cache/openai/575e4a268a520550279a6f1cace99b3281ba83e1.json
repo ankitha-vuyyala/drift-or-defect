@@ -1,0 +1,1 @@
+{"text": "{\"action\":\"effect\",\"components\":[\"person_agg\",\"vehicle_agg\"]}", "usage": {"in": 133, "out": 173, "cached_in": 3629, "reasoning": 145}, "usd": 0.00030678, "wall_s": 3.7, "provider": "openai", "model": "gpt-5.6-luna"}

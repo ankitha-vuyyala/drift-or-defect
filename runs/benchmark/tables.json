@@ -1,0 +1,934 @@
+{
+ "domains": {
+  "acs": {
+   "periods": 11,
+   "first": "2014",
+   "last": "2024",
+   "bronze_rows": {
+    "2014_person": 247393,
+    "2014_housing": 108729,
+    "2015_person": 250149,
+    "2015_housing": 109325,
+    "2016_person": 250342,
+    "2016_housing": 110433,
+    "2017_person": 251253,
+    "2017_housing": 111435,
+    "2018_person": 254677,
+    "2018_housing": 113338,
+    "2019_person": 254719,
+    "2019_housing": 113376,
+    "2020_person": 193489,
+    "2020_housing": 88915,
+    "2021_person": 254014,
+    "2021_housing": 113949,
+    "2022_person": 267740,
+    "2022_housing": 120385,
+    "2023_person": 269903,
+    "2023_housing": 120803,
+    "2024_person": 269463,
+    "2024_housing": 121504
+   },
+   "task": "binary",
+   "features": 16,
+   "components": [
+    {
+     "name": "person_adapter",
+     "inputs": [
+      "raw:person"
+     ],
+     "doc": "map published person columns to the canonical schema",
+     "variants": [
+      "v2014",
+      "v2019",
+      "v2019_refactor"
+     ]
+    },
+    {
+     "name": "housing_adapter",
+     "inputs": [
+      "raw:housing"
+     ],
+     "doc": "household attributes",
+     "variants": [
+      "v2014"
+     ]
+    },
+    {
+     "name": "person_clean",
+     "inputs": [
+      "person_adapter"
+     ],
+     "doc": "folktables-style universe filter and missing codes",
+     "variants": [
+      "v2014",
+      "v2024_loc"
+     ]
+    },
+    {
+     "name": "join_household",
+     "inputs": [
+      "person_clean",
+      "housing_adapter"
+     ],
+     "doc": "left join persons to households",
+     "variants": [
+      "v2014"
+     ]
+    },
+    {
+     "name": "occ_group",
+     "inputs": [
+      "join_household"
+     ],
+     "doc": "occupation code -> SOC major group via crosswalk artifact",
+     "variants": [
+      "v2014"
+     ]
+    },
+    {
+     "name": "features",
+     "inputs": [
+      "occ_group"
+     ],
+     "doc": "model features and label",
+     "variants": [
+      "v2014"
+     ]
+    },
+    {
+     "name": "encode",
+     "inputs": [
+      "features"
+     ],
+     "doc": "categorical codes from the fitted encoder artifact",
+     "variants": [
+      "v2014"
+     ]
+    }
+   ]
+  },
+  "tlc": {
+   "periods": 50,
+   "first": "2015-01",
+   "last": "2026-07",
+   "bronze_rows": {
+    "2015-01": 150167,
+    "2015-04": 150609,
+    "2015-07": 150378,
+    "2015-10": 150522,
+    "2016-01": 150055,
+    "2016-04": 150218,
+    "2016-06": 150520,
+    "2016-07": 149789,
+    "2016-10": 150340,
+    "2017-01": 149599,
+    "2017-04": 150364,
+    "2017-07": 149749,
+    "2017-10": 149820,
+    "2018-01": 150042,
+    "2018-04": 149957,
+    "2018-07": 150560,
+    "2018-10": 149912,
+    "2019-01": 150365,
+    "2019-04": 150000,
+    "2019-07": 150035,
+    "2019-10": 150085,
+    "2020-01": 149526,
+    "2020-04": 150090,
+    "2020-07": 149775,
+    "2020-10": 149440,
+    "2021-01": 149342,
+    "2021-04": 150134,
+    "2021-07": 150041,
+    "2021-10": 149864,
+    "2022-01": 149906,
+    "2022-04": 150018,
+    "2022-07": 150244,
+    "2022-10": 149450,
+    "2023-01": 149810,
+    "2023-04": 150910,
+    "2023-07": 149909,
+    "2023-10": 149776,
+    "2024-01": 149976,
+    "2024-04": 149883,
+    "2024-07": 150020,
+    "2024-10": 150704,
+    "2024-12": 149563,
+    "2025-01": 150163,
+    "2025-02": 150615,
+    "2025-04": 150320,
+    "2025-07": 150059,
+    "2025-10": 149743,
+    "2026-01": 150016,
+    "2026-04": 150188,
+    "2026-07": 149965
+   },
+   "task": "binary",
+   "features": 18,
+   "components": [
+    {
+     "name": "trip_adapter",
+     "inputs": [
+      "raw:trips"
+     ],
+     "doc": "published trip columns -> canonical schema",
+     "variants": [
+      "v2015"
+     ]
+    },
+    {
+     "name": "time_features",
+     "inputs": [
+      "trip_adapter"
+     ],
+     "doc": "hour, day of week, duration",
+     "variants": [
+      "v2015",
+      "v2024_td"
+     ]
+    },
+    {
+     "name": "clean",
+     "inputs": [
+      "time_features"
+     ],
+     "doc": "credit-card trips with plausible fare, distance and duration",
+     "variants": [
+      "v2015",
+      "v2024_loc"
+     ]
+    },
+    {
+     "name": "zone_join",
+     "inputs": [
+      "clean"
+     ],
+     "doc": "pickup/dropoff borough and service zone from the zone lookup",
+     "variants": [
+      "v2015"
+     ]
+    },
+    {
+     "name": "fare_features",
+     "inputs": [
+      "zone_join"
+     ],
+     "doc": "fare components, speed, and label",
+     "variants": [
+      "v2015"
+     ]
+    },
+    {
+     "name": "encode",
+     "inputs": [
+      "fare_features"
+     ],
+     "doc": "model matrix with categorical codes from the encoder artifact",
+     "variants": [
+      "v2015"
+     ]
+    }
+   ]
+  },
+  "news": {
+   "periods": 11,
+   "first": "2012",
+   "last": "2022",
+   "bronze_rows": {
+    "2012": 31355,
+    "2013": 34583,
+    "2014": 32339,
+    "2015": 32006,
+    "2016": 32098,
+    "2017": 29889,
+    "2018": 9734,
+    "2019": 2005,
+    "2020": 2054,
+    "2021": 2066,
+    "2022": 1398
+   },
+   "task": "multiclass",
+   "features": 1,
+   "components": [
+    {
+     "name": "ingest",
+     "inputs": [
+      "raw:articles"
+     ],
+     "doc": "published article records",
+     "variants": [
+      "v2012"
+     ]
+    },
+    {
+     "name": "label_map",
+     "inputs": [
+      "ingest"
+     ],
+     "doc": "raw section name -> harmonised section via the harmonisation table",
+     "variants": [
+      "v2012"
+     ]
+    },
+    {
+     "name": "text_norm",
+     "inputs": [
+      "label_map"
+     ],
+     "doc": "text = headline + description, normalised",
+     "variants": [
+      "v2012"
+     ]
+    },
+    {
+     "name": "vectorize",
+     "inputs": [
+      "text_norm"
+     ],
+     "doc": "token ids from the fitted vocabulary artifact",
+     "variants": [
+      "v2012"
+     ]
+    }
+   ]
+  }
+ },
+ "events": {
+  "acs": [
+   {
+    "period": "2017",
+    "table": "person",
+    "change": "SERIALNO format: 13-digit year-prefixed id",
+    "columns": [
+     "SERIALNO"
+    ]
+   },
+   {
+    "period": "2017",
+    "table": "housing",
+    "change": "SERIALNO format: 13-digit year-prefixed id",
+    "columns": [
+     "SERIALNO"
+    ]
+   },
+   {
+    "period": "2018",
+    "table": "person",
+    "change": "SERIALNO alphanumeric (GQ/HU); OCCP 2018 code list",
+    "columns": [
+     "SERIALNO",
+     "OCCP"
+    ]
+   },
+   {
+    "period": "2018",
+    "table": "housing",
+    "change": "SERIALNO alphanumeric (GQ/HU)",
+    "columns": [
+     "SERIALNO"
+    ]
+   },
+   {
+    "period": "2019",
+    "table": "person",
+    "change": "RELP->RELSHIPP, WKW->WKWN, JWTR->JWTRNS",
+    "columns": [
+     "RELP",
+     "RELSHIPP",
+     "WKW",
+     "WKWN",
+     "JWTR",
+     "JWTRNS"
+    ]
+   },
+   {
+    "period": "2023",
+    "table": "person",
+    "change": "ST->STATE",
+    "columns": [
+     "ST",
+     "STATE"
+    ]
+   }
+  ],
+  "tlc": [
+   {
+    "period": "2018-07",
+    "table": "trips",
+    "change": "passenger_count, RatecodeID published as double",
+    "columns": [
+     "passenger_count",
+     "RatecodeID"
+    ]
+   },
+   {
+    "period": "2019-01",
+    "table": "trips",
+    "change": "congestion_surcharge populated",
+    "columns": [
+     "congestion_surcharge"
+    ]
+   },
+   {
+    "period": "2021-01",
+    "table": "trips",
+    "change": "airport_fee populated",
+    "columns": [
+     "airport_fee"
+    ]
+   },
+   {
+    "period": "2023-04",
+    "table": "trips",
+    "change": "airport_fee renamed Airport_fee; VendorID/LocationIDs int32",
+    "columns": [
+     "airport_fee",
+     "Airport_fee",
+     "VendorID",
+     "PULocationID",
+     "DOLocationID"
+    ]
+   },
+   {
+    "period": "2025-01",
+    "table": "trips",
+    "change": "cbd_congestion_fee column added",
+    "columns": [
+     "cbd_congestion_fee"
+    ]
+   },
+   {
+    "period": "2026-07",
+    "table": "trips",
+    "change": "request_source column added",
+    "columns": [
+     "request_source"
+    ]
+   }
+  ],
+  "news": [
+   {
+    "period": "2014",
+    "table": "articles",
+    "change": "new category values: ['ARTS', 'COLLEGE', 'EDUCATION', 'FIFTY', 'GOOD NEWS', 'GREEN', 'HEALTHY LIVING', 'LATINO VOICES', 'MEDIA', 'PARENTS', 'POLITICS', 'RELIGION', 'STYLE', 'TASTE', 'WEIRD NEWS', 'WOMEN', 'WORLDPOST']",
+    "columns": [
+     "category"
+    ]
+   },
+   {
+    "period": "2015",
+    "table": "articles",
+    "change": "new category values: ['ARTS & CULTURE', 'THE WORLDPOST']",
+    "columns": [
+     "category"
+    ]
+   },
+   {
+    "period": "2017",
+    "table": "articles",
+    "change": "new category values: ['WORLD NEWS']",
+    "columns": [
+     "category"
+    ]
+   },
+   {
+    "period": "2018",
+    "table": "articles",
+    "change": "new category values: ['U.S. NEWS']",
+    "columns": [
+     "category"
+    ]
+   }
+  ]
+ },
+ "catalog": {
+  "acs": {
+   "acs.adapter_early_upgrade": {
+    "component": "person_adapter",
+    "kind": "benign",
+    "tier": "B",
+    "note": "2019-ready adapter deployed early",
+    "first_period": "2014",
+    "n_periods": 5
+   },
+   "acs.join_nodedupe": {
+    "component": "join_household",
+    "kind": "benign",
+    "tier": "B",
+    "note": "dedupe of the household side removed (keys are unique)",
+    "first_period": "2014",
+    "n_periods": 11
+   },
+   "acs.clean_env_p30": {
+    "component": "person_clean",
+    "kind": "defect",
+    "tier": "T2",
+    "note": "pandas 3 upgrade: chained-assignment fill becomes a no-op",
+    "first_period": "2014",
+    "n_periods": 11
+   },
+   "acs.clean_modernised": {
+    "component": "person_clean",
+    "kind": "benign",
+    "tier": "B",
+    "note": "chained assignment -> .loc",
+    "first_period": "2014",
+    "n_periods": 11
+   },
+   "acs.clean_modernised_p30": {
+    "component": "person_clean",
+    "kind": "benign",
+    "tier": "T2b",
+    "note": "pandas 3 upgrade of the modernised cleaning step",
+    "first_period": "2014",
+    "n_periods": 11
+   },
+   "acs.occ_env_p30": {
+    "component": "occ_group",
+    "kind": "benign",
+    "tier": "T2b",
+    "note": "pandas 3 upgrade of the crosswalk step",
+    "first_period": "2014",
+    "n_periods": 11
+   },
+   "acs.housing_env_p30": {
+    "component": "housing_adapter",
+    "kind": "benign",
+    "tier": "T2b",
+    "note": "pandas 3 upgrade of the housing adapter",
+    "first_period": "2014",
+    "n_periods": 11
+   },
+   "acs.adjinc_ignored": {
+    "component": "features",
+    "kind": "defect",
+    "tier": "T3",
+    "note": "income adjustment factor dropped (stale reference)",
+    "first_period": "2014",
+    "n_periods": 11
+   },
+   "acs.wkhp_month": {
+    "component": "features",
+    "kind": "defect",
+    "tier": "T3",
+    "note": "hours per week reported per month (unit change)",
+    "first_period": "2014",
+    "n_periods": 11
+   },
+   "acs.veh_stuck_tx": {
+    "component": "features",
+    "kind": "defect",
+    "tier": "T3",
+    "note": "vehicles feature stuck at 0 for Texas (upstream default)",
+    "first_period": "2014",
+    "n_periods": 11
+   },
+   "acs.encoder_refit": {
+    "component": "encode",
+    "kind": "defect",
+    "tier": "T3",
+    "note": "categorical codes re-fitted at serving time (training/serving skew)",
+    "first_period": "2014",
+    "n_periods": 11
+   },
+   "acs.key_digits": {
+    "component": "join_household",
+    "kind": "defect",
+    "tier": "T1",
+    "note": "alphanumeric SERIALNO 'fixed' by stripping letters (GQ/HU ids collide)",
+    "first_period": "2018",
+    "n_periods": 7
+   },
+   "acs.key_numeric_stale": {
+    "component": "join_household",
+    "kind": "defect",
+    "tier": "T1",
+    "note": "join keys still parsed as numbers after the id format change",
+    "first_period": "2018",
+    "n_periods": 7
+   },
+   "acs.occ_xwalk_stale": {
+    "component": "occ_group",
+    "kind": "defect",
+    "tier": "T1",
+    "note": "occupation crosswalk not refreshed for 2018 codes",
+    "first_period": "2018",
+    "n_periods": 7
+   },
+   "acs.relp_minus20": {
+    "component": "person_adapter",
+    "kind": "defect",
+    "tier": "T1",
+    "note": "RELSHIPP codes shifted by -20 instead of the official crosswalk",
+    "first_period": "2019",
+    "n_periods": 6
+   },
+   "acs.wkw_reversed": {
+    "component": "person_adapter",
+    "kind": "defect",
+    "tier": "T1",
+    "note": "WKWN binned into WKW categories in reverse order",
+    "first_period": "2019",
+    "n_periods": 6
+   },
+   "acs.wkw_passthrough": {
+    "component": "person_adapter",
+    "kind": "defect",
+    "tier": "T1",
+    "note": "WKWN weeks passed through as WKW categories",
+    "first_period": "2019",
+    "n_periods": 6
+   },
+   "acs.jwtr_rename": {
+    "component": "person_adapter",
+    "kind": "defect",
+    "tier": "T1",
+    "note": "JWTRNS used as JWTR without recoding (subway/rail/streetcar codes permuted)",
+    "first_period": "2019",
+    "n_periods": 6
+   },
+   "acs.adapter_refactor": {
+    "component": "person_adapter",
+    "kind": "benign",
+    "tier": "B",
+    "note": "refactor of the 2019 adapter",
+    "first_period": "2019",
+    "n_periods": 6
+   },
+   "acs.state_fill": {
+    "component": "person_adapter",
+    "kind": "defect",
+    "tier": "T1",
+    "note": "missing ST column filled with the most common training state",
+    "first_period": "2023",
+    "n_periods": 2
+   }
+  },
+  "tlc": {
+   "tlc.adapter_ci_early": {
+    "component": "trip_adapter",
+    "kind": "benign",
+    "tier": "B",
+    "note": "case-insensitive column lookup deployed early",
+    "first_period": "2015-01",
+    "n_periods": 34
+   },
+   "tlc.time_env_main": {
+    "component": "time_features",
+    "kind": "defect",
+    "tier": "T2",
+    "note": "pandas 2.2 / pyarrow 25 upgrade: parquet timestamps keep microsecond unit; epoch math via astype(int64)",
+    "first_period": "2015-01",
+    "n_periods": 50
+   },
+   "tlc.time_env_p30": {
+    "component": "time_features",
+    "kind": "defect",
+    "tier": "T2",
+    "note": "pandas 3 upgrade: epoch via astype(int64) changes resolution",
+    "first_period": "2015-01",
+    "n_periods": 50
+   },
+   "tlc.time_modernised": {
+    "component": "time_features",
+    "kind": "benign",
+    "tier": "B",
+    "note": "timedelta arithmetic in the upgraded environment",
+    "first_period": "2015-01",
+    "n_periods": 50
+   },
+   "tlc.time_modernised_p30": {
+    "component": "time_features",
+    "kind": "benign",
+    "tier": "T2b",
+    "note": "pandas 3 upgrade of the modernised time step",
+    "first_period": "2015-01",
+    "n_periods": 50
+   },
+   "tlc.clean_env_p30": {
+    "component": "clean",
+    "kind": "defect",
+    "tier": "T2",
+    "note": "pandas 3 upgrade: chained-assignment cleaning becomes a no-op",
+    "first_period": "2015-01",
+    "n_periods": 50
+   },
+   "tlc.clean_modernised": {
+    "component": "clean",
+    "kind": "benign",
+    "tier": "B",
+    "note": "chained assignment -> .loc",
+    "first_period": "2015-01",
+    "n_periods": 50
+   },
+   "tlc.zone_env_p30": {
+    "component": "zone_join",
+    "kind": "benign",
+    "tier": "T2b",
+    "note": "pandas 3 upgrade of the zone join",
+    "first_period": "2015-01",
+    "n_periods": 50
+   },
+   "tlc.tz_utc": {
+    "component": "time_features",
+    "kind": "defect",
+    "tier": "T3",
+    "note": "timestamps shifted as if converted from UTC",
+    "first_period": "2015-01",
+    "n_periods": 50
+   },
+   "tlc.do_key_bug": {
+    "component": "zone_join",
+    "kind": "defect",
+    "tier": "T3",
+    "note": "dropoff zone joined on the pickup id (copy-paste key bug)",
+    "first_period": "2015-01",
+    "n_periods": 50
+   },
+   "tlc.distance_km": {
+    "component": "fare_features",
+    "kind": "defect",
+    "tier": "T3",
+    "note": "trip distance converted to km (unit change)",
+    "first_period": "2015-01",
+    "n_periods": 50
+   },
+   "tlc.encoder_refit": {
+    "component": "encode",
+    "kind": "defect",
+    "tier": "T3",
+    "note": "categorical codes re-fitted at serving time (training/serving skew)",
+    "first_period": "2015-01",
+    "n_periods": 50
+   },
+   "tlc.ratecode_stale": {
+    "component": "trip_adapter",
+    "kind": "defect",
+    "tier": "T1",
+    "note": "rate code key built from the published dtype ('1.0' after the double change)",
+    "first_period": "2018-07",
+    "n_periods": 35
+   },
+   "tlc.airport_case_stale": {
+    "component": "trip_adapter",
+    "kind": "defect",
+    "tier": "T1",
+    "note": "case-sensitive lookup misses the renamed Airport_fee column (filled with 0)",
+    "first_period": "2023-04",
+    "n_periods": 16
+   },
+   "tlc.cbd_stale": {
+    "component": "trip_adapter",
+    "kind": "defect",
+    "tier": "T1",
+    "note": "new congestion fee not separated; lands in other_charges",
+    "first_period": "2025-01",
+    "n_periods": 8
+   }
+  },
+  "news": {
+   "news.text_env_p30": {
+    "component": "text_norm",
+    "kind": "benign",
+    "tier": "T2b",
+    "note": "pandas 3 upgrade of text normalisation (astype(str) keeps missing values; none occur in this source)",
+    "first_period": "2012",
+    "n_periods": 11
+   },
+   "news.ingest_env_p30": {
+    "component": "ingest",
+    "kind": "benign",
+    "tier": "T2b",
+    "note": "pandas 3 upgrade of ingestion",
+    "first_period": "2012",
+    "n_periods": 11
+   },
+   "news.no_lower": {
+    "component": "text_norm",
+    "kind": "defect",
+    "tier": "T3",
+    "note": "lower-casing step dropped",
+    "first_period": "2012",
+    "n_periods": 11
+   },
+   "news.headline_only": {
+    "component": "text_norm",
+    "kind": "defect",
+    "tier": "T3",
+    "note": "description dropped by a field-mapping bug",
+    "first_period": "2012",
+    "n_periods": 11
+   },
+   "news.mojibake": {
+    "component": "text_norm",
+    "kind": "defect",
+    "tier": "T3",
+    "note": "UTF-8 text decoded as Latin-1 upstream",
+    "first_period": "2012",
+    "n_periods": 11
+   },
+   "news.vocab_refit": {
+    "component": "vectorize",
+    "kind": "defect",
+    "tier": "T3",
+    "note": "vocabulary re-fitted at serving time (training/serving skew)",
+    "first_period": "2012",
+    "n_periods": 11
+   },
+   "news.label_map_full_early": {
+    "component": "label_map",
+    "kind": "benign",
+    "tier": "B",
+    "note": "complete harmonisation table deployed early",
+    "first_period": "2012",
+    "n_periods": 11
+   },
+   "news.harmonise_stale": {
+    "component": "label_map",
+    "kind": "defect",
+    "tier": "T1",
+    "note": "section harmonisation table not refreshed for new section names",
+    "first_period": "2013",
+    "n_periods": 10
+   }
+  }
+ },
+ "cases": {
+  "acs": {
+   "dev|benign|none": 20,
+   "dev|clean|none": 20,
+   "dev|defect|T1": 94,
+   "dev|defect|T2": 20,
+   "dev|defect|T3": 80,
+   "dev|two|T1": 7,
+   "dev|two|T1+T2": 4,
+   "dev|two|T1+T3": 14,
+   "dev|two|T2+T3": 8,
+   "dev|two|T3": 7
+  },
+  "tlc": {
+   "dev|benign|none": 9,
+   "dev|clean|none": 9,
+   "dev|defect|T1": 22,
+   "dev|defect|T2": 26,
+   "dev|defect|T3": 26,
+   "dev|two|T1+T2": 13,
+   "dev|two|T1+T3": 9,
+   "test|benign|none": 17,
+   "test|clean|none": 17,
+   "test|defect|T1": 22,
+   "test|defect|T2": 52,
+   "test|defect|T3": 78,
+   "test|two|T1+T2": 5,
+   "test|two|T1+T3": 4,
+   "test|two|T2": 3,
+   "test|two|T2+T3": 8,
+   "test|two|T3": 6
+  },
+  "news": {
+   "dev|benign|none": 5,
+   "dev|clean|none": 5,
+   "dev|defect|T3": 26,
+   "test|benign|none": 8,
+   "test|clean|none": 8,
+   "test|defect|T1": 11,
+   "test|defect|T3": 26,
+   "test|two|T1+T3": 8,
+   "test|two|T3": 5
+  }
+ },
+ "t2": {
+  "versions": {
+   "p15": "1.5.3",
+   "main": "2.2.3",
+   "p30": "3.0.6"
+  },
+  "differing": {
+   "chained_assignment": {
+    "p15": "[1.0, 5.0, 5.0]",
+    "main": "[1.0, 5.0, 5.0]",
+    "p30": "[1.0, 7.0, 9.0]"
+   },
+   "select_object_after_parquet": {
+    "p15": "(['s'], 'object')",
+    "main": "(['s'], 'object')",
+    "p30": "(['s'], 'str')"
+   },
+   "to_datetime_dayfirst_inference": {
+    "p15": "['2000-01-13 00:00:00', '2000-12-01 00:00:00', '2000-01-02 00:00:00']",
+    "main": "['2000-01-13 00:00:00', '2000-01-12 00:00:00', '2000-02-01 00:00:00']",
+    "p30": "['2000-01-13 00:00:00', '2000-01-12 00:00:00', '2000-02-01 00:00:00']"
+   },
+   "to_datetime_mixed": {
+    "p15": "['2000-01-13 00:00:00', '2000-01-12 10:00:00']",
+    "main": "EXCEPTION ValueError: time data \"01/12/2000 10:00\" doesn't match format \"%Y-%m-%d\", at position 1. You might want to try:\n    - passing `format` if your strings have a consistent format;\n    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;\n    - passing `format=",
+    "p30": "EXCEPTION ValueError: time data \"01/12/2000 10:00\" doesn't match format \"%Y-%m-%d\". You might want to try:\n    - passing `format` if your strings have a consistent format;\n    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;\n    - passing `format='mixed'`, and t"
+   },
+   "to_datetime_strings_int64": {
+    "p15": "('datetime64[ns]', [1451606400000000000, 1451607000000000000])",
+    "main": "('datetime64[ns]', [1451606400000000000, 1451607000000000000])",
+    "p30": "('datetime64[us]', [1451606400000000, 1451607000000000])"
+   },
+   "parquet_timestamp_int64": {
+    "p15": "('datetime64[ns]', [1451606400000000000, 1451607000000000000])",
+    "main": "('datetime64[us]', [1451606400000000, 1451607000000000])",
+    "p30": "('datetime64[us]', [1451606400000000, 1451607000000000])"
+   },
+   "astype_str_missing": {
+    "p15": "(['1.0', 'nan', '3.0'], ['a', 'None'])",
+    "main": "(['1.0', 'nan', '3.0'], ['a', 'None'])",
+    "p30": "(['1.0', nan, '3.0'], ['a', nan])"
+   },
+   "groupby_categorical_default": {
+    "p15": "{'a': 3, 'b': 3, 'c': 0}",
+    "main": "{'a': 3, 'b': 3, 'c': 0}",
+    "p30": "{'a': 3, 'b': 3}"
+   },
+   "groupby_apply_group_column": {
+    "p15": "{'a': ['g', 'v'], 'b': ['g', 'v']}",
+    "main": "{'a': ['g', 'v'], 'b': ['g', 'v']}",
+    "p30": "{'a': ['v'], 'b': ['v']}"
+   },
+   "replace_downcast": {
+    "p15": "('float64', 'int64')",
+    "main": "('float64', 'int64')",
+    "p30": "('float64', 'object')"
+   },
+   "value_counts_name": {
+    "p15": "'c'",
+    "main": "'count'",
+    "p30": "'count'"
+   },
+   "mean_mixed_frame": {
+    "p15": "[1.5]",
+    "main": "EXCEPTION TypeError: Could not convert ['xy'] to numeric",
+    "p30": "EXCEPTION TypeError: Cannot perform reduction 'mean' with string dtype"
+   },
+   "fillna_method": {
+    "p15": "[1.0, 1.0, 3.0]",
+    "main": "[1.0, 1.0, 3.0]",
+    "p30": "EXCEPTION TypeError: NDFrame.fillna() got an unexpected keyword argument 'method'"
+   },
+   "applymap_exists": {
+    "p15": "[[2]]",
+    "main": "[[2]]",
+    "p30": "EXCEPTION AttributeError: 'DataFrame' object has no attribute 'applymap'"
+   },
+   "str_contains_nan": {
+    "p15": "[True, None, False]",
+    "main": "[True, None, False]",
+    "p30": "[True, False, False]"
+   },
+   "get_dummies_dtype": {
+    "p15": "'uint8'",
+    "main": "'bool'",
+    "p30": "'bool'"
+   },
+   "resample_month_alias": {
+    "p15": "[3]",
+    "main": "[3]",
+    "p30": "EXCEPTION ValueError: Invalid frequency: M. Failed to parse with error message: ValueError(\"'M' is no longer supported for offsets. Please use 'ME' instead.\")"
+   }
+  }
+ }
+}

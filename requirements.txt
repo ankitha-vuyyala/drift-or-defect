@@ -1,0 +1,13 @@
+# Python 3.11. Versions used for all four rounds.
+numpy==2.2.6
+pandas==2.2.3
+pyarrow==25.0.1
+scikit-learn==1.9.1
+scipy==1.17.1
+matplotlib==3.11.2
+python-docx==1.2.0
+requests==2.34.2
+psutil==7.2.2
+duckdb==1.5.6
+# The pandas 1.5.3 and 3.0.6 environments used to replay library upgrades are created separately by
+# code/t2/setup_envs.py.

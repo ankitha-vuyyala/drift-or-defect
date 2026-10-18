@@ -1,0 +1,1 @@
+{"text": "{\"action\":\"rollback\",\"component\":\"label_map\"}", "usage": {"in": 1140, "out": 87, "cached_in": 0, "reasoning": 65}, "usd": 0.0003324, "wall_s": 1.88, "provider": "openai", "model": "gpt-5.6-luna"}

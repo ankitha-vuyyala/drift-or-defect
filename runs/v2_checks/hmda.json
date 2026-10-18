@@ -1,0 +1,362 @@
+{
+ "periods": {
+  "2012": {
+   "rows": 146865,
+   "label_rate": 0.1997,
+   "missing": {
+    "amount_k": 0.0,
+    "income_k": 0.0,
+    "lti": 0.0862,
+    "tract_minority_pct": 0.0063,
+    "tract_income_pct": 0.0063,
+    "msa_income_k": 0.0062,
+    "state": 0.0,
+    "county": 0.0,
+    "loan_type": 0.0,
+    "purpose": 0.0,
+    "occupancy": 0.0,
+    "property": 0.0,
+    "lien": 0.0,
+    "preapproval": 0.0
+   },
+   "acc_ref_2012": 0.8114,
+   "secs": 0.4
+  },
+  "2013": {
+   "rows": 146649,
+   "label_rate": 0.2138,
+   "missing": {
+    "amount_k": 0.0,
+    "income_k": 0.0,
+    "lti": 0.0763,
+    "tract_minority_pct": 0.004,
+    "tract_income_pct": 0.004,
+    "msa_income_k": 0.004,
+    "state": 0.0,
+    "county": 0.0,
+    "loan_type": 0.0,
+    "purpose": 0.0,
+    "occupancy": 0.0,
+    "property": 0.0,
+    "lien": 0.0,
+    "preapproval": 0.0
+   },
+   "acc_ref_2012": 0.7949,
+   "secs": 5.2
+  },
+  "2014": {
+   "rows": 144480,
+   "label_rate": 0.222,
+   "missing": {
+    "amount_k": 0.0,
+    "income_k": 0.0,
+    "lti": 0.0597,
+    "tract_minority_pct": 0.0064,
+    "tract_income_pct": 0.0064,
+    "msa_income_k": 0.0063,
+    "state": 0.0,
+    "county": 0.0047,
+    "loan_type": 0.0,
+    "purpose": 0.0,
+    "occupancy": 0.0,
+    "property": 0.0,
+    "lien": 0.0,
+    "preapproval": 0.0
+   },
+   "acc_ref_2012": 0.7966,
+   "secs": 5.4
+  },
+  "2015": {
+   "rows": 145321,
+   "label_rate": 0.1985,
+   "missing": {
+    "amount_k": 0.0,
+    "income_k": 0.0,
+    "lti": 0.0794,
+    "tract_minority_pct": 0.0032,
+    "tract_income_pct": 0.0032,
+    "msa_income_k": 0.0032,
+    "state": 0.0,
+    "county": 0.0,
+    "loan_type": 0.0,
+    "purpose": 0.0,
+    "occupancy": 0.0,
+    "property": 0.0,
+    "lien": 0.0,
+    "preapproval": 0.0
+   },
+   "acc_ref_2012": 0.814,
+   "acc_ref_2015": 0.8156,
+   "secs": 0.9
+  },
+  "2016": {
+   "rows": 146071,
+   "label_rate": 0.2076,
+   "missing": {
+    "amount_k": 0.0,
+    "income_k": 0.0,
+    "lti": 0.0818,
+    "tract_minority_pct": 0.0015,
+    "tract_income_pct": 0.0015,
+    "msa_income_k": 0.0015,
+    "state": 0.0,
+    "county": 0.0,
+    "loan_type": 0.0,
+    "purpose": 0.0,
+    "occupancy": 0.0,
+    "property": 0.0,
+    "lien": 0.0,
+    "preapproval": 0.0
+   },
+   "acc_ref_2012": 0.8066,
+   "acc_ref_2015": 0.8123,
+   "secs": 6.0
+  },
+  "2017": {
+   "rows": 145381,
+   "label_rate": 0.18,
+   "missing": {
+    "amount_k": 0.0001,
+    "income_k": 0.0,
+    "lti": 0.0479,
+    "tract_minority_pct": 0.0035,
+    "tract_income_pct": 0.0035,
+    "msa_income_k": 0.0035,
+    "state": 0.0,
+    "county": 0.0,
+    "loan_type": 0.0,
+    "purpose": 0.0,
+    "occupancy": 0.0,
+    "property": 0.0,
+    "lien": 0.0,
+    "preapproval": 0.0
+   },
+   "acc_ref_2012": 0.8297,
+   "acc_ref_2015": 0.8299,
+   "secs": 6.7
+  },
+  "2018": {
+   "rows": 113564,
+   "label_rate": 0.1947,
+   "missing": {
+    "amount_k": 0.0,
+    "income_k": 0.0,
+    "lti": 0.0336,
+    "tract_minority_pct": 0.0,
+    "tract_income_pct": 0.0,
+    "msa_income_k": 0.0,
+    "state": 0.0,
+    "county": 0.0115,
+    "loan_type": 0.0,
+    "purpose": 0.0323,
+    "occupancy": 0.0,
+    "property": 0.0,
+    "lien": 0.0,
+    "preapproval": 0.0
+   },
+   "acc_ref_2012": 0.818,
+   "acc_ref_2015": 0.8164,
+   "secs": 6.6
+  },
+  "2019": {
+   "rows": 121174,
+   "label_rate": 0.1554,
+   "missing": {
+    "amount_k": 0.0,
+    "income_k": 0.0,
+    "lti": 0.0755,
+    "tract_minority_pct": 0.0,
+    "tract_income_pct": 0.0,
+    "msa_income_k": 0.0,
+    "state": 0.0,
+    "county": 0.0059,
+    "loan_type": 0.0,
+    "purpose": 0.0272,
+    "occupancy": 0.0,
+    "property": 0.0,
+    "lien": 0.0,
+    "preapproval": 0.0
+   },
+   "acc_ref_2012": 0.8522,
+   "acc_ref_2015": 0.8463,
+   "secs": 6.5
+  },
+  "2020": {
+   "rows": 132920,
+   "label_rate": 0.1263,
+   "missing": {
+    "amount_k": 0.0,
+    "income_k": 0.0,
+    "lti": 0.1049,
+    "tract_minority_pct": 0.0,
+    "tract_income_pct": 0.0,
+    "msa_income_k": 0.0,
+    "state": 0.0,
+    "county": 0.0021,
+    "loan_type": 0.0,
+    "purpose": 0.0122,
+    "occupancy": 0.0,
+    "property": 0.0,
+    "lien": 0.0,
+    "preapproval": 0.0
+   },
+   "acc_ref_2012": 0.8797,
+   "acc_ref_2015": 0.8733,
+   "secs": 7.8
+  },
+  "2021": {
+   "rows": 129222,
+   "label_rate": 0.1265,
+   "missing": {
+    "amount_k": 0.0,
+    "income_k": 0.0,
+    "lti": 0.0844,
+    "tract_minority_pct": 0.0,
+    "tract_income_pct": 0.0,
+    "msa_income_k": 0.0,
+    "state": 0.0,
+    "county": 0.0022,
+    "loan_type": 0.0,
+    "purpose": 0.013,
+    "occupancy": 0.0,
+    "property": 0.0,
+    "lien": 0.0,
+    "preapproval": 0.0
+   },
+   "acc_ref_2012": 0.8707,
+   "acc_ref_2015": 0.8614,
+   "secs": 7.7
+  },
+  "2022": {
+   "rows": 107321,
+   "label_rate": 0.1799,
+   "missing": {
+    "amount_k": 0.0,
+    "income_k": 0.0,
+    "lti": 0.04,
+    "tract_minority_pct": 0.0,
+    "tract_income_pct": 0.0,
+    "msa_income_k": 0.0,
+    "state": 0.0,
+    "county": 0.0087,
+    "loan_type": 0.0,
+    "purpose": 0.0409,
+    "occupancy": 0.0,
+    "property": 0.0,
+    "lien": 0.0,
+    "preapproval": 0.0
+   },
+   "acc_ref_2012": 0.83,
+   "acc_ref_2015": 0.8246,
+   "secs": 7.5
+  },
+  "2023": {
+   "rows": 103164,
+   "label_rate": 0.2015,
+   "missing": {
+    "amount_k": 0.0,
+    "income_k": 0.0,
+    "lti": 0.0218,
+    "tract_minority_pct": 0.0,
+    "tract_income_pct": 0.0,
+    "msa_income_k": 0.0,
+    "state": 0.0,
+    "county": 0.0032,
+    "loan_type": 0.0,
+    "purpose": 0.0677,
+    "occupancy": 0.0,
+    "property": 0.0,
+    "lien": 0.0,
+    "preapproval": 0.0
+   },
+   "acc_ref_2012": 0.8203,
+   "acc_ref_2015": 0.8177,
+   "secs": 6.9
+  },
+  "2024": {
+   "rows": 107196,
+   "label_rate": 0.199,
+   "missing": {
+    "amount_k": 0.0,
+    "income_k": 0.0,
+    "lti": 0.0526,
+    "tract_minority_pct": 0.0,
+    "tract_income_pct": 0.0,
+    "msa_income_k": 0.0,
+    "state": 0.0,
+    "county": 0.0022,
+    "loan_type": 0.0,
+    "purpose": 0.0641,
+    "occupancy": 0.0,
+    "property": 0.0,
+    "lien": 0.0,
+    "preapproval": 0.0
+   },
+   "acc_ref_2012": 0.8217,
+   "acc_ref_2015": 0.8171,
+   "secs": 7.1
+  },
+  "2025": {
+   "rows": 107713,
+   "label_rate": 0.1834,
+   "missing": {
+    "amount_k": 0.0,
+    "income_k": 0.0,
+    "lti": 0.0642,
+    "tract_minority_pct": 0.0,
+    "tract_income_pct": 0.0,
+    "msa_income_k": 0.0,
+    "state": 0.0,
+    "county": 0.0023,
+    "loan_type": 0.0,
+    "purpose": 0.0554,
+    "occupancy": 0.0,
+    "property": 0.0,
+    "lien": 0.0,
+    "preapproval": 0.0
+   },
+   "acc_ref_2012": 0.8263,
+   "acc_ref_2015": 0.826,
+   "secs": 12.3
+  }
+ },
+ "references": {
+  "2012": {
+   "holdout_acc": 0.8113866098544944,
+   "secs": 6.8,
+   "by_period": {
+    "2012": 0.8114,
+    "2013": 0.7949,
+    "2014": 0.7966,
+    "2015": 0.814,
+    "2016": 0.8066,
+    "2017": 0.8297,
+    "2018": 0.818,
+    "2019": 0.8522,
+    "2020": 0.8797,
+    "2021": 0.8707,
+    "2022": 0.83,
+    "2023": 0.8203,
+    "2024": 0.8217,
+    "2025": 0.8263
+   }
+  },
+  "2015": {
+   "holdout_acc": 0.8156205584338178,
+   "secs": 6.0,
+   "by_period": {
+    "2015": 0.8156,
+    "2016": 0.8123,
+    "2017": 0.8299,
+    "2018": 0.8164,
+    "2019": 0.8463,
+    "2020": 0.8733,
+    "2021": 0.8614,
+    "2022": 0.8246,
+    "2023": 0.8177,
+    "2024": 0.8171,
+    "2025": 0.826
+   }
+  }
+ }
+}

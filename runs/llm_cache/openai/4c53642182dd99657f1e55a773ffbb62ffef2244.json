@@ -1,0 +1,1 @@
+{"text": "{\"action\":\"effect\",\"components\":[\"times\",\"scale\",\"sources\",\"fatal_agg\",\"join\"]}", "usage": {"in": 415, "out": 388, "cached_in": 4476, "reasoning": 356}, "usd": 0.0063812, "wall_s": 7.75, "provider": "openai", "model": "gpt-5.6-terra"}

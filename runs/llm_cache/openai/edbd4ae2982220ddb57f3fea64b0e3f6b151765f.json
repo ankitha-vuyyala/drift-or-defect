@@ -1,0 +1,1 @@
+{"text": "{\"action\":\"boundary\",\"component\":\"join_household\",\"period\":2017}", "usage": {"in": 586, "out": 143, "cached_in": 2562, "reasoning": 115}, "usd": 0.00034003999999999995, "wall_s": 3.33, "provider": "openai", "model": "gpt-5.6-luna"}

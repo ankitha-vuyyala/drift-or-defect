@@ -1,0 +1,622 @@
+{
+ "hmda_hist_2017_labels": {
+  "status": 200,
+  "len": "369821843",
+  "type": "application/zip",
+  "partial_head": "PK\u0003\u0004-\u0000\u0000\u0000\b\u0000\u0015MvNw|\u0016\u0012\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ffL\u0000\u0014\u0000hmda_2017_nationwide_first-lien-owner-occupied-1-4-family-records_labels.csv\u0001\u0000\u0010\u0000R4k\u0011\u0001\u0000\u0000\u0000q\u0007\u000b\u0016\u0000\u0000\u0000\u0000\u00ec}\u00dbr\u00db\u00d6\u00b2\u00ed\u00fb\u00f9\n\u0096\u009e\u00f6\u00ae\u0012q\u00e6\u00fd\u00f2(\u00cbq\u00ec\u00c4\u00b7mg\u00c5;O)X\u0082%\u0096(B\u0087\u0097xi}\u00fd\u0099\u00dd\rP\u0000HZ\u0084@B\u0000\u00cdUZ\u00b1\u0004\u0012 \t\u00ce\u009e\u00dd=z\u00f4\u00e8x\u00f6w\u00fa\u00ed\u00ef\u00fb$\u009e\u009eN\u0093\u00d9]:\u00b9L&\u00f3\u00bfG\u0097\u00a7\u00f1U2\u00b9\u00b8\u00ff{\u0012\u00df&\u00f9\u00ef\u00f1\u00d7\u00af\u00d3\u00fc\u00f7\u008b\u00f429\u001d\u00a7\u00f1\u00e4\u00ef\u00f9\u00fd]BO[\u00feyz7M\u00ef\u0092\u00e9\u00fc\u00be\u00f0`\u00e9\u0010=\u00f5n1\u00bdKg\u00c5\u0093\u00b3#\u00a7\u00e9\u00f7I2\u00fd;\u00bd\u00b8X\u00dc\u00c5\u00cbwQ9Hg\u00c4\u00b7\u00e9\"\u00bca\u00c6\u00d8,\u00bcD\u0012\u00df\u0085\u00d7\u00f9'\u001e\u00e7\u00af\u00b9<p\u001a_\u00ccGix{\u00f1M2\u00c9>U\u00e1\u00c8\u00e9\u00ed,\u00be\u00bd\u00a4\u00e3\u00f8\u00eb\u00e9l\u001e\u00cf\u00b3\u00b7F\u00bf\u00e2\u00a7\u00a7_\u00f1\u00c3_\u00c0\u000bgo-\u00fb\u009d\u008e'\u0093\u00d9b\u00f6\u00f7|\u001a\u00ae\u00ff\u00f7dq\u00fb5\t7\u00ed\u00een<\u00ba\u0088\u00c3\u001bM\u00e6\u00d7\u0093\u00d1\u00c5(?q\u00cd\u0003\u00e1b\u007fo|\u00fe\u00fa\u00c7\n\u0097\t\u00afJ\u00ef\u00fao^=\u00bar\u0000\u009f&\u00aaGW\u000e\u00e0\u00d3d\u00f5\u00e8\u00ca\u0001|\u009a\u00aa\u001e]9\u0080O\u00d3\u00d5\u00a3\u00ba\u00fc\u00c9\u008a\u009fb\u00f5\u0081u\u00c7\u00b2\u00cf\u00b2\u00fa\u00c0\u00bac\u00d9'Z}`\u00dd\u00b1\u00ecs\u00ad>\u00b0\u00eeX\u00f6\u00e9V\u001f(~\u00e2Y\u00f2\u00ef\u00ea\u00b7\u001f\u000e\u0095OZ>\u00a7z\u00b4p\u00d2hr\u0091\u0086\u0097\u00a3\u00b5\u00bf\u0098^\\\u00c7\u00b3` \u0005\u0093+\u001d;\r\u0096=\n\u0096\u0011lb\u0096N\u00f2\u00bb[>X\u00fd;\u00bb\u00ab\u00e5\u0083\u00d5\u00bf\u00b3\u00bbY>(O\u00a7`)30\u00c1\u00cb\u00d3\u00eb4\u00b9\u008b\u00ff\u0006\u00e3\t\u0096\u0081\u00ef\u00adx\u00e4t<\n6Y|\u00b4p\u00e04\u00b9\u001c\u00cdK\u000f\u0016\u000e\u009c\u00ce\u0092\u00ff\u00b7\b\u00fbQ\u0092\u001b\u00da]"
+ },
+ "hmda_api_vt_2018": {
+  "status": 200,
+  "bytes": 6955358,
+  "secs": 1.4,
+  "head": [
+   {
+    "lines": [
+     "activity_year,lei,derived_msa-md,state_code,county_code,census_tract,conforming_loan_limit,derived_loan_product_type,derived_dwelling_category,derived_ethnicity,derived_race,derived_sex,action_taken,purchaser_type,preapproval,loan_type,loan_purpose,lien_status,reverse_mortgage,open-end_line_of_credit,business_or_commercial_purpose,loan_amount,loan_to_value_ratio,interest_rate,rate_spread,hoepa_status,total_loan_costs,total_points_and_fees,origination_charges,discount_points,lender_credits,loan_term,prepayment_penalty_term,intro_rate_period,negative_amortization,interest_only_payment,balloon_payment,other_nonamortizing_features,property_value,construction_method,occupancy_type,manufactured_home_secured_property_type,manufactured_home_land_property_interest,total_units,multifamily_affordable_units,income,debt_to_income_ratio,applicant_credit_score_type,co-applicant_credit_score_type,applicant_ethnicity-1,applicant_ethnicity-2,applicant_ethnicity-3,applicant_ethnicity-4,applicant_ethnicity-5,co-applicant_ethnicity-1,co-applicant_ethnicity-2,co-applicant_ethnicity-3,co-applicant_ethnicity-4,co-applicant_ethnicity-5,applicant_ethnicity_observed,co-applicant_ethnicity_observed,applicant_race-1,applicant_race-2,applicant_race-3,applicant_race-4,applicant_race-5,co-applicant_race-1,co-applicant_race-2,co-applicant_race-3,co-applicant_race-4,co-applicant_race-5,applicant_race_observed,co-applicant_race_observed,applicant_sex,co-applicant_sex,applicant_sex_observed,co-applicant_sex_observed,applicant_age,co-applicant_age,applicant_age_above_62,co-applicant_age_above_62,submission_of_application,initially_payable_to_institution,aus-1,aus-2,aus-3,aus-4,aus-5,denial_reason-1,denial_reason-2,denial_reason-3,denial_reason-4,tract_population,tract_minority_population_percent,ffiec_msa_md_median_family_income,tract_to_msa_income_percentage,tract_owner_occupied_units,tract_one_to_four_family_homes,tract_median_age_of_housing_units",
+     "2018,5493009BOQDC6PCFR785,15540,VT,50007,50007003100,NC,Conventional:First Lien,Single Family (1-4 Units):Site-Built,Not Hispanic or Latino,White,Joint,1,0,2,1,1,1,2,2,2,1005000.0,74.13,4.5,0.201,2,10668.4,NA,5600.0,5000.0,30.0,372,NA,NA,2,1,2,2,1345000,1,1,3,5,1,NA,232,45,3,9,2,,,,,2,,,,,2,2,5,,,,,5,,,,,2,2,1,2,2,2,45-54,45-54,No,No,1,1,2,,,,,10,,,,9054,7.08000000000000007,93000,121,2983,3576,27"
+    ]
+   }
+  ]
+ },
+ "hmda_api_vt_2018_nofilter": {
+  "status": 200,
+  "bytes": 9264715,
+  "secs": 1.3,
+  "head": [
+   {
+    "lines": [
+     "activity_year,lei,derived_msa-md,state_code,county_code,census_tract,conforming_loan_limit,derived_loan_product_type,derived_dwelling_category,derived_ethnicity,derived_race,derived_sex,action_taken,purchaser_type,preapproval,loan_type,loan_purpose,lien_status,reverse_mortgage,open-end_line_of_credit,business_or_commercial_purpose,loan_amount,loan_to_value_ratio,interest_rate,rate_spread,hoepa_status,total_loan_costs,total_points_and_fees,origination_charges,discount_points,lender_credits,loan_term,prepayment_penalty_term,intro_rate_period,negative_amortization,interest_only_payment,balloon_payment,other_nonamortizing_features,property_value,construction_method,occupancy_type,manufactured_home_secured_property_type,manufactured_home_land_property_interest,total_units,multifamily_affordable_units,income,debt_to_income_ratio,applicant_credit_score_type,co-applicant_credit_score_type,applicant_ethnicity-1,applicant_ethnicity-2,applicant_ethnicity-3,applicant_ethnicity-4,applicant_ethnicity-5,co-applicant_ethnicity-1,co-applicant_ethnicity-2,co-applicant_ethnicity-3,co-applicant_ethnicity-4,co-applicant_ethnicity-5,applicant_ethnicity_observed,co-applicant_ethnicity_observed,applicant_race-1,applicant_race-2,applicant_race-3,applicant_race-4,applicant_race-5,co-applicant_race-1,co-applicant_race-2,co-applicant_race-3,co-applicant_race-4,co-applicant_race-5,applicant_race_observed,co-applicant_race_observed,applicant_sex,co-applicant_sex,applicant_sex_observed,co-applicant_sex_observed,applicant_age,co-applicant_age,applicant_age_above_62,co-applicant_age_above_62,submission_of_application,initially_payable_to_institution,aus-1,aus-2,aus-3,aus-4,aus-5,denial_reason-1,denial_reason-2,denial_reason-3,denial_reason-4,tract_population,tract_minority_population_percent,ffiec_msa_md_median_family_income,tract_to_msa_income_percentage,tract_owner_occupied_units,tract_one_to_four_family_homes,tract_median_age_of_housing_units",
+     "2018,KB1H1DSPRFMYMCUFXT09,99999,VT,50027,50027965200,C,Conventional:Subordinate Lien,Single Family (1-4 Units):Site-Built,Joint,White,Joint,1,0,2,1,2,2,2,1,2,35000.0,84.49,8.0,2.68,2,NA,NA,NA,NA,NA,361,36,NA,2,2,2,2,175000,1,1,3,5,1,NA,115,20%-<30%,1,9,2,,,,,14,,,,,2,2,5,,,,,5,,,,,2,2,2,1,2,2,55-64,55-64,No,No,1,1,5,,,,,10,,,,2763,1.65999999999999992,71900,106,915,1624,44"
+    ]
+   }
+  ]
+ },
+ "hmda_hist_page": {
+  "status": 200,
+  "bytes": 170097,
+  "secs": 0.4,
+  "head": [
+   {
+    "lines": [
+     "<!DOCTYPE html>",
+     ""
+    ]
+   }
+  ]
+ },
+ "fars_2019": {
+  "status": 200,
+  "bytes": 26974033,
+  "secs": 1.4,
+  "head": [
+   {
+    "member": "accident.CSV",
+    "size": 23764896,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VE_TOTAL,VE_FORMS,PVH_INVL,PEDS,PERSONS,PERMVIT,PERNOTMVIT,COUNTY,COUNTYNAME,CITY,CITYNAME,DAY,DAYNAME,MONTH,MONTHNAME,YEAR,DAY_WEEK,DAY_WEEKNAME,HOUR,HOURNAME,MINUTE,MINUTENAME,NHS,NHSNAME,ROUTE,ROUTENAME,TWAY_ID,TWAY_ID2,RUR_URB,RUR_URBNAME,FUNC_SYS,FUNC_SYSNAME,RD_OWNER,RD_OWNERNAME,MILEPT,MILEPTNAME,LATITUDE,LATITUDENAME,LONGITUD,LONGITUDNAME,SP_JUR,SP_JURNAME,HARM_EV,HARM_EVNAME,MAN_COLL,MAN_COLLNAME,RELJCT1,RELJCT1NAME,RELJCT2,RELJCT2NAME,TYP_INT,TYP_INTNAME,WRK_ZONE,WRK_ZONENAME,REL_ROAD,REL_ROADNAME,LGT_COND,LGT_CONDNAME,WEATHER1,WEATHER1NAME,WEATHER2,WEATHER2NAME,WEATHER,WEATHERNAME,SCH_BUS,SCH_BUSNAME,RAIL,RAILNAME,NOT_HOUR,NOT_HOURNAME,NOT_MIN,NOT_MINNAME,ARR_HOUR,ARR_HOURNAME,ARR_MIN,ARR_MINNAME,HOSP_HR,HOSP_HRNAME,HOSP_MN,HOSP_MNNAME,CF1,CF1NAME,CF2,CF2NAME,CF3,CF3NAME,FATALS,DRUNK_DR",
+     "1,Alabama,10001,2,2,0,0,3,3,0,81,LEE (81),2340,OPELIKA,7,7,2,February,2019,5,Thursday,12,12:00pm-12:59pm,54,54,1,This section IS ON the NHS,1,Interstate,I-85,,2,Urban,1,Interstate,1,State Highway Agency,641,641,32.66622222,32.66622222,-85.33665833,-85.33665833,0,No Special Jurisdiction,12,Motor Vehicle In-Transport,1,Front-to-Rear,0,No,1,Non-Junction,1,Not an Intersection,0,None,1,On Roadway,1,Daylight,1,Clear,0,No Additional Atmospheric Conditions,1,Clear,0,No,0000000,Not Applicable,12,12:00pm-12:59pm,59,59,13,1:00pm-1:59pm,9,9,13,1:00pm-1:59pm,27,27,0,None,0,None,0,None,1,1"
+    ]
+   },
+   {
+    "member": "CEvent.CSV",
+    "size": 10099932,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,EVENTNUM,VNUMBER1,AOI1,AOI1NAME,SOE,SOENAME,VNUMBER2,VNUMBER2NAME,AOI2,AOI2NAME",
+     "1,Alabama,10001,1,1,12,12 Clock Point,12,Motor Vehicle In-Transport,2,2,6,6 Clock Point"
+    ]
+   },
+   {
+    "member": "Damage.CSV",
+    "size": 7871387,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,MDAREAS,MDAREASNAME",
+     "1,Alabama,10001,1,12,12 Clock Value"
+    ]
+   },
+   {
+    "member": "Distract.CSV",
+    "size": 2212292,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,MDRDSTRD,MDRDSTRDNAME",
+     "1,Alabama,10001,1,99,Reported as Unknown if Distracted"
+    ]
+   },
+   {
+    "member": "DrImpair.CSV",
+    "size": 2604413,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,DRIMPAIR,DRIMPAIRNAME",
+     "1,Alabama,10001,1,0,None/Apparently Normal"
+    ]
+   },
+   {
+    "member": "Drugs.CSV",
+    "size": 5979966,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,PER_NO,DRUGSPEC,DRUGSPECNAME,DRUGRES,DRUGRESNAME",
+     "1,Alabama,10001,1,1,0,Test Not Given,0,Test Not Given"
+    ]
+   },
+   {
+    "member": "Factor.CSV",
+    "size": 1572676,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,MFACTOR,MFACTORNAME",
+     "1,Alabama,10001,1,0,None"
+    ]
+   },
+   {
+    "member": "Maneuver.CSV",
+    "size": 2232368,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,MDRMANAV,MDRMANAVNAME",
+     "1,Alabama,10001,1,0,Driver Did Not Maneuver to Avoid"
+    ]
+   },
+   {
+    "member": "MIACC.CSV",
+    "size": 1035176,
+    "lines": [
+     "ST_CASE,A1,A2,A3,A4,A5,A6,A7,A8,A9,A10",
+     "10001,0,0,0,0,0,0,0,0,0,0"
+    ]
+   },
+   {
+    "member": "MIDRVACC.CSV",
+    "size": 1015176,
+    "lines": [
+     "ST_CASE,A1,A2,A3,A4,A5,A6,A7,A8,A9,A10",
+     "10001,0,0,0,0,0,0,0,0,0,0"
+    ]
+   },
+   {
+    "member": "MIPER.CSV",
+    "size": 1990098,
+    "lines": [
+     "ST_CASE,VEH_NO,PER_NO,P1,P2,P3,P4,P5,P6,P7,P8,P9,P10",
+     "10001,1,1,0,0,0,0,0,0,0,0,0,0"
+    ]
+   },
+   {
+    "member": "NMCrash.CSV",
+    "size": 707414,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,PER_NO,MTM_CRSH,MTM_CRSHNAME",
+     "1,Alabama,10004,0,1,9,Wrong-Way Riding or Walking"
+    ]
+   },
+   {
+    "member": "NMDistract.CSV",
+    "size": 334518,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,PER_NO,MNMDSTRD,MNMDSTRDNAME",
+     "1,Alabama,10004,0,1,96,Not Reported"
+    ]
+   },
+   {
+    "member": "NMImpair.CSV",
+    "size": 400785,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,PER_NO,NMIMPAIR,NMIMPAIRNAME",
+     "1,Alabama,10004,0,1,0,None/Apparently Normal"
+    ]
+   },
+   {
+    "member": "NMPrior.CSV",
+    "size": 477171,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,PER_NO,MPR_ACT,MPR_ACTNAME",
+     "1,Alabama,10004,0,1,5,Movement Along Roadway with Traffic (In or Adjacent to Travel Lane)"
+    ]
+   },
+   {
+    "member": "Parkwork.CSV",
+    "size": 1307970,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,PVE_FORMS,PNUMOCCS,PNUMOCCSNAME,PDAY,PDAYNAME,PMONTH,PMONTHNAME,PHOUR,PHOURNAME,PMINUTE,PMINUTENAME,PHARM_EV,PHARM_EVNAME,PMAN_COLL,PMAN_COLLNAME,PTYPE,PTYPENAME,PHIT_RUN,PHIT_RUNNAME,PREG_STAT,PREG_STATNAME,POWNER,POWNERNAME,PMAKE,PMAKENAME,PMODEL,PMAK_MOD,PBODYTYP,PBODYTYPNAME,PMODYEAR,PMODYEARNAME,PVIN,PVINNAME,PVIN_1,PVIN_2,PVIN_3,PVIN_4,PVIN_5,PVIN_6,PVIN_7,PVIN_8,PVIN_9,PVIN_10,PVIN_11,PVIN_12,PTRAILER,PTRAILERNAME,PMCARR_I1,PMCARR_I1NAME,PMCARR_I2,PMCARR_I2NAME,PMCARR_ID,PMCARR_IDNAME,PGVWR,PGVWRNAME,PV_CONFIG,PV_CONFIGNAME,PCARGTYP,PCARGTYPNAME,PHAZ_INV,PHAZ_INVNAME,PHAZPLAC,PHAZPLACNAME,PHAZ_ID,PHAZ_IDNAME,PHAZ_CNO,PHAZ_CNONAME,PHAZ_REL,PHAZ_RELNAME,PBUS_USE,PBUS_USENAME,PSP_USE,PSP_USENAME,PEM_USE,PEM_USENAME,PUNDERIDE,PUNDERIDENAME,PIMPACT1,PIMPACT1NAME,PVEH_SEV,PVEH_SEVNAME,PTOWED,PTOWEDNAME,PM_HARM,PM_HARMNAME,PVEH_SC1,PVEH_SC1NAME,PVEH_SC2,PVEH_SC2NAME,PFIRE,PFIRENAME,PDEATHS,PTRLR1VIN,PTRLR1VINNAME,PTRLR2VIN,PTRLR2VINNAME,PTRLR3VIN,PTRLR3VINNAME",
+     "1,Alabama,10072,2,1,1,01,1,1,3,March,13,1:00pm-1:59pm,5,5,14,Parked Motor Vehicle,0,The First Harmful Event was Not a Collision with a Motor Vehicle in Transport,2,Motor Vehicle Not In-Transport Within the Trafficway,0,No,1,Alabama,6,Driverless/Motor Vehicle Parked/Stopped Off Roadway,7,Dodge,881,Dodge Medium/Heavy - CBE,61,\"Single-unit straight truck or Cab-Chassis (GVWR range 10,001 to 19,500 lbs.)\",2015,2015,3C7WRTAL4FG5,3C7WRTAL4FG5,3,C,7,W,R,T,A,L,4,F,G,5,1,One Trailing Unit,88,None,888888888,None,88888888888,None,2,\"10,001 lbs - 26,000 lbs\",4,Truck Pulling Trailer(s),98,Unknown Cargo Body Type,1,No,0,Not Applicable,0,Not Applicable,0,Not Applicable,0,Not Applicable,0,Not a Bus,0,No Special Use,0,Not Applicable,0,No Underride or Override Noted,6,6 Clock Point,4,Functional Damage,3,Towed Not Due to Disabling Damage,12,Motor Vehicle In-Transport,0,None,0,None,0,No or Not Reported,0,888888888888,Not Reported,777777777777,No Trailing Units,777777777777,No Trailing Units"
+    ]
+   },
+   {
+    "member": "PBType.CSV",
+    "size": 3102462,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,PER_NO,PBPTYPE,PBPTYPENAME,PBAGE,PBAGENAME,PBSEX,PBSEXNAME,PBCWALK,PBCWALKNAME,PBSWALK,PBSWALKNAME,PBSZONE,PBSZONENAME,PEDCTYPE,PEDCTYPENAME,BIKECTYPE,BIKECTYPENAME,PEDLOC,PEDLOCNAME,BIKELOC,BIKELOCNAME,PEDPOS,PEDPOSNAME,BIKEPOS,BIKEPOSNAME,PEDDIR,PEDDIRNAME,BIKEDIR,BIKEDIRNAME,MOTDIR,MOTDIRNAME,MOTMAN,MOTMANNAME,PEDLEG,PEDLEGNAME,PEDSNR,PEDSNRNAME,PEDCGP,PEDCGPNAME,BIKECGP,BIKECGPNAME",
+     "1,Alabama,10004,0,1,5,Pedestrian,28,28 Years,1,Male,0,None Noted,0,None Noted,0,None Noted,410,Walking/Running Along Roadway With Traffic - From Behind,0,Not a Cyclist,3,Not At Intersection,7,Not a Cyclist,3,Travel Lane,7,Not a Cyclist,8,Not Applicable,7,Not a Cyclist,8,Not Applicable,8,Not Applicable,8,Not Applicable,8,Not Applicable,400,Walking/Running Along Roadway,0,Not a Cyclist"
+    ]
+   },
+   {
+    "member": "Person.CSV",
+    "size": 90995642,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VE_FORMS,VEH_NO,PER_NO,STR_VEH,COUNTY,DAY,DAYNAME,MONTH,MONTHNAME,HOUR,HOURNAME,MINUTE,MINUTENAME,RUR_URB,RUR_URBNAME,FUNC_SYS,FUNC_SYSNAME,HARM_EV,HARM_EVNAME,MAN_COLL,MAN_COLLNAME,SCH_BUS,SCH_BUSNAME,MAKE,MAKENAME,MAK_MOD,BODY_TYP,BODY_TYPNAME,MOD_YEAR,MOD_YEARNAME,TOW_VEH,TOW_VEHNAME,SPEC_USE,SPEC_USENAME,EMER_USE,EMER_USENAME,ROLLOVER,ROLLOVERNAME,IMPACT1,IMPACT1NAME,FIRE_EXP,FIRE_EXPNAME,AGE,AGENAME,SEX,SEXNAME,PER_TYP,PER_TYPNAME,INJ_SEV,INJ_SEVNAME,SEAT_POS,SEAT_POSNAME,REST_USE,REST_USENAME,REST_MIS,REST_MISNAME,AIR_BAG,AIR_BAGNAME,EJECTION,EJECTIONNAME,EJ_PATH,EJ_PATHNAME,EXTRICAT,EXTRICATNAME,DRINKING,DRINKINGNAME,ALC_DET,ALC_DETNAME,ALC_STATUS,ALC_STATUSNAME,ATST_TYP,ATST_TYPNAME,ALC_RES,ALC_RESNAME,DRUGS,DRUGSNAME,DRUG_DET,DRUG_DETNAME,DSTATUS,DSTATUSNAME,HOSPITAL,HOSPITALNAME,DOA,DOANAME,DEATH_DA,DEATH_DANAME,DEATH_MO,DEATH_MONAME,DEATH_YR,DEATH_YRNAME,DEATH_HR,DEATH_HRNAME,DEATH_MN,DEATH_MNNAME,DEATH_TM,DEATH_TMNAME,LAG_HRS,LAG_HRSNAME,LAG_MINS,LAG_MINSNAME,P_SF1,P_SF1NAME,P_SF2,P_SF2NAME,P_SF3,P_SF3NAME,WORK_INJ,WORK_INJNAME,HISPANIC,HISPANICNAME,LOCATION,LOCATIONNAME,HELM_USE,HELM_USENAME,HELM_MIS,HELM_MISNAME",
+     "1,Alabama,10001,2,1,1,0,81,7,7,2,February,12,12:00pm-12:59pm,54,54,2,Urban,1,Interstate,12,Motor Vehicle In-Transport,1,Front-to-Rear,0,No,49,Toyota,Toyota Camry,4,\"4-door sedan, hardtop\",2009,2009,0,No Trailing Units,0,No Special Use,0,Not Applicable,0,No Rollover,12,12 Clock Point,0,No or Not Reported,34,34 Years,2,Female,1,Driver of a Motor Vehicle In-Transport,3,Suspected Serious Injury (A),11,\"Front Seat, Left Side\",3,Shoulder and Lap Belt Used,0,No Indication of Mis-Use,1,Deployed- Front,0,Not Ejected,0,Ejection Path Not Applicable,0,Not Extricated or Not Applicable,0,No (Alcohol Not Involved),9,Not Reported,0,Test Not Given,0,Test Not Given,996,Test Not Given,0,No (drugs not involved),8,Not Reported,0,Test Not Given,1,EMS Air,0,Not Applicable,88,Not Applicable (Non-Fatal),88,Not Applicable (Non-Fatal),8888,Not Applicable (Non-fatal),88,Not Applicable (Non-fatal),88,Not Applicable (Non-fatal),8888,Not Applicable (Non-fatal),999,Unknown,99,Unknown,0,None,0,None,0,None,8,Not Applicable (not a fatality),0,Not A Fatality (not Applicable),0,Occupant of a Motor Vehicle,20,Not Applicable,7,None Used/Not Applicable"
+    ]
+   },
+   {
+    "member": "Race.CSV",
+    "size": 4349924,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,PER_NO,RACE,RACENAME,ORDER,MULTRACE",
+     "1,Alabama,10001,1,1,0,Not a Fatality (not Applicable),1,0"
+    ]
+   },
+   {
+    "member": "SafetyEq.CSV",
+    "size": 726499,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,PER_NO,NMHELMET,NMHELMETNAME,NMPROPAD,NMPROPADNAME,NMOTHPRO,NMOTHPRONAME,NMREFCLO,NMREFCLONAME,NMLIGHT,NMLIGHTNAME,NMOTHPRE,NMOTHPRENAME",
+     "1,Alabama,10004,0,1,1,No,1,No,1,No,1,No,1,No,1,No"
+    ]
+   },
+   {
+    "member": "vehicle.csv",
+    "size": 90255420,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,VE_FORMS,NUMOCCS,NUMOCCSNAME,DAY,DAYNAME,MONTH,MONTHNAME,HOUR,HOURNAME,MINUTE,MINUTENAME,HARM_EV,HARM_EVNAME,MAN_COLL,MAN_COLLNAME,UNITTYPE,UNITTYPENAME,HIT_RUN,HIT_RUNNAME,REG_STAT,REG_STATNAME,OWNER,OWNERNAME,MAKE,MAKENAME,MODEL,MAK_MOD,MAK_MODNAME,BODY_TYP,BODY_TYPNAME,MOD_YEAR,MOD_YEARNAME,VIN,VINNAME,VIN_1,VIN_2,VIN_3,VIN_4,VIN_5,VIN_6,VIN_7,VIN_8,VIN_9,VIN_10,VIN_11,VIN_12,TOW_VEH,TOW_VEHNAME,J_KNIFE,J_KNIFENAME,MCARR_I1,MCARR_I1NAME,MCARR_I2,MCARR_I2NAME,MCARR_ID,MCARR_IDNAME,GVWR,GVWRNAME,V_CONFIG,V_CONFIGNAME,CARGO_BT,CARGO_BTNAME,HAZ_INV,HAZ_INVNAME,HAZ_PLAC,HAZ_PLACNAME,HAZ_ID,HAZ_IDNAME,HAZ_CNO,HAZ_CNONAME,HAZ_REL,HAZ_RELNAME,BUS_USE,BUS_USENAME,SPEC_USE,SPEC_USENAME,EMER_USE,EMER_USENAME,TRAV_SP,TRAV_SPNAME,UNDERIDE,UNDERIDENAME,ROLLOVER,ROLLOVERNAME,ROLINLOC,ROLINLOCNAME,IMPACT1,IMPACT1NAME,DEFORMED,DEFORMEDNAME,TOWED,TOWEDNAME,M_HARM,M_HARMNAME,VEH_SC1,VEH_SC1NAME,VEH_SC2,VEH_SC2NAME,FIRE_EXP,FIRE_EXPNAME,DR_PRES,DR_PRESNAME,L_STATE,L_STATENAME,DR_ZIP,DR_ZIPNAME,L_STATUS,L_STATUSNAME,L_TYPE,L_TYPENAME,CDL_STAT,CDL_STATNAME,L_ENDORS,L_ENDORSNAME,L_COMPL,L_COMPLNAME,L_RESTRI,L_RESTRINAME,DR_HGT,DR_HGTNAME,DR_WGT,DR_WGTNAME,PREV_ACC,PREV_ACCNAME,PREV_SUS1,PREV_SUS1NAME,PREV_SUS2,PREV_SUS2NAME,PREV_SUS3,PREV_SUS3NAME,PREV_DWI,PREV_DWINAME,PREV_SPD,PREV_SPDNAME,PREV_OTH,PREV_OTHNAME,FIRST_MO,FIRST_MONAME,FIRST_YR,FIRST_YRNAME,LAST_MO,LAST_MONAME,LAST_YR,LAST_YRNAME,SPEEDREL,SPEEDRELNAME,DR_SF1,DR_SF1NAME,DR_SF2,DR_SF2NAME,DR_SF3,DR_SF3NAME,DR_SF4,DR_SF4NAME,VTRAFWAY,VTRAFWAYNAME,VNUM_LAN,VNUM_LANNAME,VSPD_LIM,VSPD_LIMNAME,VALIGN,VALIGNNAME,VPROFILE,VPROFILENAME,VPAVETYP,VPAVETYPNAME,VSURCOND,VSURCONDNAME,VTRAFCON,VTRAFCONNAME,VTCONT_F,VTCONT_FNAME,P_CRASH1,P_CRASH1NAME,P_CRASH2,P_CRASH2NAME,P_CRASH3,P_CRASH3NAME,PCRASH4,PCRASH4NAME,PCRASH5,PCRASH5NAME,ACC_TYPE,ACC_TYPENAME,DEATHS,DR_DRINK,DR_DRINKNAME,TRLR1VIN,TRLR1VINNAME,TRLR2VIN,TRLR2VINNAME,TRLR3VIN,TRLR3VINNAME",
+     "1,Alabama,10001,1,2,2,02,7,7,2,February,12,12:00pm-12:59pm,54,54,12,Motor Vehicle In-Transport,1,Front-to-Rear,1,Motor Vehicle In-Transport (Inside or Outside the Trafficway),0,No,13,Georgia,3,Vehicle Registered as Business/Company/Government Vehicle,49,Toyota,40,49040,Toyota Camry,4,\"4-door sedan, hardtop\",2009,2009,4T1BE46K59U2,4T1BE46K59U2,4,T,1,B,E,4,6,K,5,9,U,2,0,No Trailing Units,0,Not an Articulated Vehicle,0,Not Applicable,000000000,Not Applicable,00000000000,Not Applicable,0,Not Applicable,0,Not Applicable,0,Not Applicable (N/A),1,No,0,Not Applicable,0,Not Applicable,0,Not Applicable,0,Not Applicable,0,Not a Bus,0,No Special Use,0,Not Applicable,999,Reported as Unknown,0,No Underride or Override Noted,0,No Rollover,0,No Rollover,12,12 Clock Point,6,Disabling Damage,2,Towed Due to Disabling Damage,12,Motor Vehicle In-Transport,0,None,0,None,0,No or Not Reported,1,Yes,13,Georgia,30241,30241,0,Not licensed,0,Not Licensed,0,No (CDL),0,No Endorsements required for this vehicle,0,Not licensed,0,No Restrictions or Not Applicable,64,64,140,14"
+    ]
+   },
+   {
+    "member": "VEvent.CSV",
+    "size": 12402372,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,EVENTNUM,VEH_NO,VEVENTNUM,VNUMBER1,AOI1,AOI1NAME,SOE,SOENAME,VNUMBER2,VNUMBER2NAME,AOI2,AOI2NAME",
+     "1,Alabama,10001,1,1,1,1,12,12 Clock Point,12,Motor Vehicle In-Transport,2,2,6,6 Clock Point"
+    ]
+   },
+   {
+    "member": "Violatn.CSV",
+    "size": 1950150,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,MVIOLATN,MVIOLATNNAME",
+     "1,Alabama,10001,1,0,None"
+    ]
+   },
+   {
+    "member": "Vision.CSV",
+    "size": 2354137,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,MVISOBSC,MVISOBSCNAME",
+     "1,Alabama,10001,1,0,No Obstruction Noted"
+    ]
+   },
+   {
+    "member": "VPICdecode.CSV",
+    "size": 37403936,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,VehicleDescriptor,VINDecodedOn,VINDecodeError,VehicleTypeId,VehicleType,ManufacturerFullNameId,ManufacturerFullName,MakeId,Make,ModelId,Model,ModelYear,Series,Trim,Series2,Trim2,PlantCountryId,PlantCountry,PlantState,PlantCity,PlantCompanyName,DestinationMarketId,DestinationMarket,BasePrice,Note,BodyClassId,BodyClass,DoorsCount,Windows,WheelBaseTypeId,WheelBaseType,TrackWidthIN,GrossVehicleWeightRatingFromId,GrossVehicleWeightRatingFrom,GrossVehicleWeightRatingToId,GrossVehicleWeightRatingTo,GrossCombWeightRatingFromId,GrossCombWeightRatingFrom,GrossCombWeightRatingToId,GrossCombWeightRatingTo,CurbWeightLB,WheelBaseIN_from,WheelBaseIN_To,WheelsCount,WheelSizeFrontIN,WheelSizeRearIN,TruckBodyCabTypeId,TruckBodyCabType,TruckBedTypeId,TruckBedType,TruckBedLengthIN,BusTypeId,BusType,BusFloorConfigurationTypeId,BusFloorConfigurationType,BusLengthFT,OtherBusInfo,CustomMotorcycleTypeId,CustomMotorcycleType,MotorcycleSuspensionTypeId,MotorcycleSuspensionType,MotorcycleChassisTypeId,MotorcycleChassisType,OtherMotorcycleInfo,SteeringLocationId,SteeringLocation,EntertainmentSystemId,EntertainmentSystem,SeatsCount,SeatRowsCount,TransmissionSpeeds,TransmissionStyleId,TransmissionStyle,DriveTypeId,DriveType,AxlesCount,AxleConfigurationId,AxleConfiguration,BrakeSystemTypeId,BrakeSystemType,BrakeSystemDesc,EVDriveUnitId,EVDriveUnit,BatteryKWh_From,BatteryKWh_to,BatteryV_From,BatteryV_to,BatteryA_From,BatteryA_to,BatteryPacksPerVehicle,BatteryModulesPerPack,BatteryCellsPerModule,BatteryTypeId,BatteryType,OtherBatteryInfo,ChargerLevelId,ChargerLevel,ChargerPowerKW,EngineManufacturer,EngineModel,EngineConfigurationId,EngineConfiguration,EnginePowerKW,EngineStrokeCycles,EngineCylindersCount,EngineBrakeHP_From,EngineBrakeHP_To,EngineCoolingTypeId,EngineCoolingType,DisplacementCI,DisplacementCC,DisplacementL,FuelTypePrimaryId,FuelTypePrimary,FuelTypeSecondaryId,FuelTypeSecondary,FuelDeliveryInjectionTypeId,FuelDeliveryInjectionType,EngineValveTrainDesignId,EngineValveTrainDesign,EngineElectrificationLevelId,EngineElectrificationLevel,EngineTurboId,EngineTurbo,TopSpeedMPH,OtherEngineInfo,SeatBeltTypeId,SeatBeltType,PretensionerId,Pretensioner,AirBagLocFrontId,AirBagLocFront,AirBagLocKneeId,AirBagLocKnee,AirBagLocSideId,AirBagLocSide,AirBagLocCurtainId,AirBagLocCurtain,AirBagLocSeatCushionId,AirBagLocSeatCushion,OtherRestraintSystemInfo,ForwardCollisionWarningId,ForwardCollisionWarning,DynamicBrakeSupportId,DynamicBrakeSupport,CrashImminentBrakingID,CrashImminentBraking,PedestrianAutoEmergencyBrakingId,PedestrianAutoEmergencyBraking,BlindSpotWarningId,BlindSpotWarning,BlindSpotInterventionId,BlindSpotIntervention,LaneDepartureWarningId,LaneDepartureWarning,LaneKeepingAssistanceId,LaneKeepingAssistance,LaneCenteringAssistanceId,LaneCenteringAssistance,BackupCameraId,BackupCamera,RearCrossTrafficAlertId,RearCrossTrafficAlert,RearAutomaticEmergencyBrakingId,RearAutomaticEmergencyBraking,ParkAssistId,ParkAssist,DaytimeRunningLightId,DaytimeRun"
+    ]
+   },
+   {
+    "member": "VPICTrailerdecode.CSV",
+    "size": 396944,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,TRAILER_NO,VehicleDescriptor,VINDecodedOn,VINDecodeError,VehicleTypeId,VehicleType,ManufacturerFullNameId,ManufacturerFullName,MakeId,Make,ModelId,Model,ModelYear,Series,Trim,PlantCountryId,PlantCountry,PlantState,PlantCity,PlantCompanyName,Note,BodyClassId,BodyClass,GrossVehicleWeightRatingFromId,GrossVehicleWeightRatingFrom,GrossVehicleWeightRatingToId,GrossVehicleWeightRatingTo,TrailerBodyTypeId,TrailerBodyType,TrailerTypeConnectionId,TrailerTypeConnection,TrailerLengthFT,OtherTrailerInfo,AxlesCount,AxleConfigurationId,AxleConfiguration",
+     "2,Alaska,20002,1,1,1GRAA062*GW******,2021-09-08 14:50:59,0,6,TRAILER,1073,GREAT DANE TRAILERS,520,GREAT DANE TRAILERS,13436,Great Dane Trailers,2016,,,6,UNITED STATES (USA),NEBRASKA,WAYNE,,,61,Trailer,,,,,,,4,Straight Semi/Semi Trailer,53.000,Dry Freight Van / Reefer Van / Insulated Van,2,,"
+    ]
+   },
+   {
+    "member": "VSOE.CSV",
+    "size": 7655706,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,VEVENTNUM,SOE,SOENAME,AOI,AOINAME",
+     "1,Alabama,10001,1,1,12,Motor Vehicle In-Transport,12,12 Clock Point"
+    ]
+   }
+  ]
+ },
+ "landreg_2019": {
+  "status": 200,
+  "len": "176115167",
+  "type": "text/csv",
+  "partial_head": "\"{8CAC1318-5AA6-0253-E053-6B04A8C08E51}\",\"165000\",\"2019-05-24 00:00\",\"M32 0JL\",\"S\",\"N\",\"F\",\"35\",\"\",\"STANWAY STREET\",\"STRETFORD\",\"MANCHESTER\",\"TRAFFORD\",\"GREATER MANCHESTER\",\"A\",\"A\"\n\"{8CAC1318-5AA7-0253-E053-6B04A8C08E51}\",\"116000\",\"2019-06-07 00:00\",\"L9 1DZ\",\"T\",\"N\",\"F\",\"91\",\"\",\"BREEZE HILL\",\"\",\"LIVERPOOL\",\"LIVERPOOL\",\"MERSEYSIDE\",\"A\",\"A\"\n\"{8CAC1318-5AA8-0253-E053-6B04A8C08E51}\",\"60000\",\"2019-05-23 00:00\",\"L4 0RS\",\"T\",\"N\",\"F\",\"26\",\"\",\"CONINGSBY ROAD\",\"\",\"LIVERPOOL\",\"LIVERPOOL\",\"MERSEYSIDE\",\"A\",\"A\"\n\"{8CAC1318-5AAA-0253-E053-6B04A8C08E51}\",\"192000\",\"2019-05-24 00:00\",\"WA3 1EP\",\"D\",\"N\",\"L\",\"23\",\""
+ },
+ "bts_2015_1": {
+  "status": 200,
+  "bytes": 23061477,
+  "secs": 11.3,
+  "head": [
+   {
+    "member": "On_Time_Reporting_Carrier_On_Time_Performance_(1987_present)_2015_1.csv",
+    "size": 211633508,
+    "lines": [
+     "\"Year\",\"Quarter\",\"Month\",\"DayofMonth\",\"DayOfWeek\",\"FlightDate\",\"Reporting_Airline\",\"DOT_ID_Reporting_Airline\",\"IATA_CODE_Reporting_Airline\",\"Tail_Number\",\"Flight_Number_Reporting_Airline\",\"OriginAirportID\",\"OriginAirportSeqID\",\"OriginCityMarketID\",\"Origin\",\"OriginCityName\",\"OriginState\",\"OriginStateFips\",\"OriginStateName\",\"OriginWac\",\"DestAirportID\",\"DestAirportSeqID\",\"DestCityMarketID\",\"Dest\",\"DestCityName\",\"DestState\",\"DestStateFips\",\"DestStateName\",\"DestWac\",\"CRSDepTime\",\"DepTime\",\"DepDelay\",\"DepDelayMinutes\",\"DepDel15\",\"DepartureDelayGroups\",\"DepTimeBlk\",\"TaxiOut\",\"WheelsOff\",\"WheelsOn\",\"TaxiIn\",\"CRSArrTime\",\"ArrTime\",\"ArrDelay\",\"ArrDelayMinutes\",\"ArrDel15\",\"ArrivalDelayGroups\",\"ArrTimeBlk\",\"Cancelled\",\"CancellationCode\",\"Diverted\",\"CRSElapsedTime\",\"ActualElapsedTime\",\"AirTime\",\"Flights\",\"Distance\",\"DistanceGroup\",\"CarrierDelay\",\"WeatherDelay\",\"NASDelay\",\"SecurityDelay\",\"LateAircraftDelay\",\"FirstDepTime\",\"TotalAddGTime\",\"LongestAddGTime\",\"DivAirportLandings\",\"DivReachedDest\",\"DivActualElapsedTime\",\"DivArrDelay\",\"DivDistance\",\"Div1Airport\",\"Div1AirportID\",\"Div1AirportSeqID\",\"Div1WheelsOn\",\"Div1TotalGTime\",\"Div1LongestGTime\",\"Div1WheelsOff\",\"Div1TailNum\",\"Div2Airport\",\"Div2AirportID\",\"Div2AirportSeqID\",\"Div2WheelsOn\",\"Div2TotalGTime\",\"Div2LongestGTime\",\"Div2WheelsOff\",\"Div2TailNum\",\"Div3Airport\",\"Div3AirportID\",\"Div3AirportSeqID\",\"Div3WheelsOn\",\"Div3TotalGTime\",\"Div3LongestGTime\",\"Div3WheelsOff\",\"Div3TailNum\",\"Div4Airport\",\"Div4AirportID\",\"Div4AirportSeqID\",\"Div4WheelsOn\",\"Div4TotalGTime\",\"Div4LongestGTime\",\"Div4WheelsOff\",\"Div4TailNum\",\"Div5Airport\",\"Div5AirportID\",\"Div5AirportSeqID\",\"Div5WheelsOn\",\"Div5TotalGTime\",\"Div5LongestGTime\",\"Div5WheelsOff\",\"Div5TailNum\",",
+     "2015,1,1,1,4,2015-01-01,\"AA\",19805,\"AA\",\"N787AA\",\"1\",12478,1247802,31703,\"JFK\",\"New York, NY\",\"NY\",\"36\",\"New York\",22,12892,1289203,32575,\"LAX\",\"Los Angeles, CA\",\"CA\",\"06\",\"California\",91,\"0900\",\"0855\",-5.00,0.00,0.00,-1,\"0900-0959\",17.00,\"0912\",\"1230\",7.00,\"1230\",\"1237\",7.00,7.00,0.00,0,\"1200-1259\",0.00,\"\",0.00,390.00,402.00,378.00,1.00,2475.00,10,,,,,,\"\",,,0,,,,,\"\",,,\"\",,,\"\",\"\",\"\",,,\"\",,,\"\",\"\",\"\",,,\"\",,,\"\",\"\",\"\",,,\"\",,,\"\",\"\",\"\",,,\"\",,,\"\",\"\","
+    ]
+   },
+   {
+    "member": "readme.html",
+    "size": 12152,
+    "lines": [
+     "<HTML>",
+     "<HEAD>"
+    ]
+   }
+  ]
+ },
+ "bts_2020_4": {
+  "status": 200,
+  "bytes": 12878743,
+  "secs": 10.6,
+  "head": [
+   {
+    "member": "On_Time_Reporting_Carrier_On_Time_Performance_(1987_present)_2020_4.csv",
+    "size": 131693594,
+    "lines": [
+     "\"Year\",\"Quarter\",\"Month\",\"DayofMonth\",\"DayOfWeek\",\"FlightDate\",\"Reporting_Airline\",\"DOT_ID_Reporting_Airline\",\"IATA_CODE_Reporting_Airline\",\"Tail_Number\",\"Flight_Number_Reporting_Airline\",\"OriginAirportID\",\"OriginAirportSeqID\",\"OriginCityMarketID\",\"Origin\",\"OriginCityName\",\"OriginState\",\"OriginStateFips\",\"OriginStateName\",\"OriginWac\",\"DestAirportID\",\"DestAirportSeqID\",\"DestCityMarketID\",\"Dest\",\"DestCityName\",\"DestState\",\"DestStateFips\",\"DestStateName\",\"DestWac\",\"CRSDepTime\",\"DepTime\",\"DepDelay\",\"DepDelayMinutes\",\"DepDel15\",\"DepartureDelayGroups\",\"DepTimeBlk\",\"TaxiOut\",\"WheelsOff\",\"WheelsOn\",\"TaxiIn\",\"CRSArrTime\",\"ArrTime\",\"ArrDelay\",\"ArrDelayMinutes\",\"ArrDel15\",\"ArrivalDelayGroups\",\"ArrTimeBlk\",\"Cancelled\",\"CancellationCode\",\"Diverted\",\"CRSElapsedTime\",\"ActualElapsedTime\",\"AirTime\",\"Flights\",\"Distance\",\"DistanceGroup\",\"CarrierDelay\",\"WeatherDelay\",\"NASDelay\",\"SecurityDelay\",\"LateAircraftDelay\",\"FirstDepTime\",\"TotalAddGTime\",\"LongestAddGTime\",\"DivAirportLandings\",\"DivReachedDest\",\"DivActualElapsedTime\",\"DivArrDelay\",\"DivDistance\",\"Div1Airport\",\"Div1AirportID\",\"Div1AirportSeqID\",\"Div1WheelsOn\",\"Div1TotalGTime\",\"Div1LongestGTime\",\"Div1WheelsOff\",\"Div1TailNum\",\"Div2Airport\",\"Div2AirportID\",\"Div2AirportSeqID\",\"Div2WheelsOn\",\"Div2TotalGTime\",\"Div2LongestGTime\",\"Div2WheelsOff\",\"Div2TailNum\",\"Div3Airport\",\"Div3AirportID\",\"Div3AirportSeqID\",\"Div3WheelsOn\",\"Div3TotalGTime\",\"Div3LongestGTime\",\"Div3WheelsOff\",\"Div3TailNum\",\"Div4Airport\",\"Div4AirportID\",\"Div4AirportSeqID\",\"Div4WheelsOn\",\"Div4TotalGTime\",\"Div4LongestGTime\",\"Div4WheelsOff\",\"Div4TailNum\",\"Div5Airport\",\"Div5AirportID\",\"Div5AirportSeqID\",\"Div5WheelsOn\",\"Div5TotalGTime\",\"Div5LongestGTime\",\"Div5WheelsOff\",\"Div5TailNum\",",
+     "2020,2,4,4,6,2020-04-04,\"G4\",20368,\"G4\",\"\",\"252\",10135,1013506,30135,\"ABE\",\"Allentown/Bethlehem/Easton, PA\",\"PA\",\"42\",\"Pennsylvania\",23,14082,1408202,34082,\"PGD\",\"Punta Gorda, FL\",\"FL\",\"12\",\"Florida\",33,\"0600\",\"\",,,,,\"0600-0659\",,\"\",\"\",,\"0838\",\"\",,,,,\"0800-0859\",1.00,\"D\",0.00,158.00,,,1.00,1018.00,5,,,,,,\"\",,,0,,,,,\"\",,,\"\",,,\"\",\"\",\"\",,,\"\",,,\"\",\"\",\"\",,,\"\",,,\"\",\"\",\"\",,,\"\",,,\"\",\"\",\"\",,,\"\",,,\"\",\"\","
+    ]
+   },
+   {
+    "member": "readme.html",
+    "size": 12152,
+    "lines": [
+     "<HTML>",
+     "<HEAD>"
+    ]
+   }
+  ]
+ },
+ "bts_2024_6": {
+  "status": 200,
+  "bytes": 31226761,
+  "secs": 36.2,
+  "head": [
+   {
+    "member": "On_Time_Reporting_Carrier_On_Time_Performance_(1987_present)_2024_6.csv",
+    "size": 276835835,
+    "lines": [
+     "\"Year\",\"Quarter\",\"Month\",\"DayofMonth\",\"DayOfWeek\",\"FlightDate\",\"Reporting_Airline\",\"DOT_ID_Reporting_Airline\",\"IATA_CODE_Reporting_Airline\",\"Tail_Number\",\"Flight_Number_Reporting_Airline\",\"OriginAirportID\",\"OriginAirportSeqID\",\"OriginCityMarketID\",\"Origin\",\"OriginCityName\",\"OriginState\",\"OriginStateFips\",\"OriginStateName\",\"OriginWac\",\"DestAirportID\",\"DestAirportSeqID\",\"DestCityMarketID\",\"Dest\",\"DestCityName\",\"DestState\",\"DestStateFips\",\"DestStateName\",\"DestWac\",\"CRSDepTime\",\"DepTime\",\"DepDelay\",\"DepDelayMinutes\",\"DepDel15\",\"DepartureDelayGroups\",\"DepTimeBlk\",\"TaxiOut\",\"WheelsOff\",\"WheelsOn\",\"TaxiIn\",\"CRSArrTime\",\"ArrTime\",\"ArrDelay\",\"ArrDelayMinutes\",\"ArrDel15\",\"ArrivalDelayGroups\",\"ArrTimeBlk\",\"Cancelled\",\"CancellationCode\",\"Diverted\",\"CRSElapsedTime\",\"ActualElapsedTime\",\"AirTime\",\"Flights\",\"Distance\",\"DistanceGroup\",\"CarrierDelay\",\"WeatherDelay\",\"NASDelay\",\"SecurityDelay\",\"LateAircraftDelay\",\"FirstDepTime\",\"TotalAddGTime\",\"LongestAddGTime\",\"DivAirportLandings\",\"DivReachedDest\",\"DivActualElapsedTime\",\"DivArrDelay\",\"DivDistance\",\"Div1Airport\",\"Div1AirportID\",\"Div1AirportSeqID\",\"Div1WheelsOn\",\"Div1TotalGTime\",\"Div1LongestGTime\",\"Div1WheelsOff\",\"Div1TailNum\",\"Div2Airport\",\"Div2AirportID\",\"Div2AirportSeqID\",\"Div2WheelsOn\",\"Div2TotalGTime\",\"Div2LongestGTime\",\"Div2WheelsOff\",\"Div2TailNum\",\"Div3Airport\",\"Div3AirportID\",\"Div3AirportSeqID\",\"Div3WheelsOn\",\"Div3TotalGTime\",\"Div3LongestGTime\",\"Div3WheelsOff\",\"Div3TailNum\",\"Div4Airport\",\"Div4AirportID\",\"Div4AirportSeqID\",\"Div4WheelsOn\",\"Div4TotalGTime\",\"Div4LongestGTime\",\"Div4WheelsOff\",\"Div4TailNum\",\"Div5Airport\",\"Div5AirportID\",\"Div5AirportSeqID\",\"Div5WheelsOn\",\"Div5TotalGTime\",\"Div5LongestGTime\",\"Div5WheelsOff\",\"Div5TailNum\",",
+     "2024,2,6,7,5,2024-06-07,\"9E\",20363,\"9E\",\"N272PQ\",\"4800\",10994,1099402,30994,\"CHS\",\"Charleston, SC\",\"SC\",\"45\",\"South Carolina\",37,12478,1247805,31703,\"JFK\",\"New York, NY\",\"NY\",\"36\",\"New York\",22,\"0700\",\"0650\",-10.00,0.00,0.00,-1,\"0700-0759\",15.00,\"0705\",\"0830\",11.00,\"0900\",\"0841\",-19.00,0.00,0.00,-2,\"0900-0959\",0.00,\"\",0.00,120.00,111.00,85.00,1.00,636.00,3,,,,,,\"\",,,0,,,,,\"\",,,\"\",,,\"\",\"\",\"\",,,\"\",,,\"\",\"\",\"\",,,\"\",,,\"\",\"\",\"\",,,\"\",,,\"\",\"\",\"\",,,\"\",,,\"\",\"\","
+    ]
+   },
+   {
+    "member": "readme.html",
+    "size": 12152,
+    "lines": [
+     "<HTML>",
+     "<HEAD>"
+    ]
+   }
+  ]
+ },
+ "Divvy_Stations_Trips_2013": {
+  "status": 200,
+  "bytes": 14626914,
+  "secs": 1.0,
+  "head": [
+   {
+    "member": "Divvy_Stations_Trips_2013/Divvy_Stations_2013.csv",
+    "size": 20111,
+    "lines": [
+     "id,name,latitude,longitude,dpcapacity,landmark,online date",
+     "5,State St & Harrison St,41.87395806,-87.62773949,19,30,6/28/2013"
+    ]
+   },
+   {
+    "member": "Divvy_Stations_Trips_2013/Divvy_Stations_2013.shp.zip",
+    "size": 16010,
+    "lines": [
+     "PK\u0003\u0004\u0014\u0000\u0000\u0000\u0000\u0000\u00e5\u0098HD\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0018\u0000\u0000\u0000Divvy_Stations_2013.shp/PK\u0003\u0004\u0014\u0000\u0000\u0000\b\u0000=iFD\u0019w\u008a\u0082+\u001a\u0000\u0000\u0096v\u0001\u0000/\u0000\u0000\u0000Divvy_Stations_2013.shp/Divvy_Stations_2013.dbf\u00ec]\u00dbn\u00e4d",
+     "\u00e6 q\u0087\u00c4#\u00cc\u0015W\u0080\u00fe\u00f3\u00e1"
+    ]
+   },
+   {
+    "member": "Divvy_Stations_Trips_2013/Divvy_Trips_2013.csv",
+    "size": 93389990,
+    "lines": [
+     "trip_id,starttime,stoptime,bikeid,tripduration,from_station_id,from_station_name,to_station_id,to_station_name,usertype,gender,birthday",
+     "4118,2013-06-27 12:11,2013-06-27 12:16,480,316,85,Michigan Ave & Oak St,28,Larrabee St & Menomonee St,Customer,,"
+    ]
+   },
+   {
+    "member": "Divvy_Stations_Trips_2013/README.txt",
+    "size": 1321,
+    "lines": [
+     "This file contains metadata for both the Trips and Stations table.",
+     ""
+    ]
+   }
+  ]
+ },
+ "Divvy_Stations_Trips_2014_Q1Q2": {
+  "status": 200,
+  "bytes": 17997624,
+  "secs": 1.0,
+  "head": [
+   {
+    "member": "Divvy_Trips_2014_Q1Q2.csv",
+    "size": 111674031,
+    "lines": [
+     "trip_id,starttime,stoptime,bikeid,tripduration,from_station_id,from_station_name,to_station_id,to_station_name,usertype,gender,birthyear",
+     "2355134,6/30/2014 23:57,7/1/2014 0:07,2006,604,131,Lincoln Ave & Belmont Ave,303,Broadway & Cornelia Ave,Subscriber,Male,1988"
+    ]
+   },
+   {
+    "member": "Divvy_Stations_2014_Q1Q2.shp.zip",
+    "size": 17412,
+    "lines": [
+     "PK\u0003\u0004\u0014\u0000\u0000\u0000\b\u0000\u0011\u0082\u00f6D\u00f2\u00eb\u0012\u00aa\u009e\u0002\u0000\u0000\u00c4\t\u0000\u0000",
+     "\u0000\u0000\u0000Divvy_Stations_2014_Q1Q2.shxm\u00d3kh\u00cea\u0018\u00c0\u00e1w\u008c\u00ff\u00f9\u0090$\t-i\u00b4$\u0096\u00a4"
+    ]
+   },
+   {
+    "member": "Divvy_Stations_2014-Q1Q2.xlsx",
+    "size": 25083,
+    "lines": [
+     "PK\u0003\u0004\u0014\u0000\u0006\u0000\b\u0000\u0000\u0000!\u0000b\u00ee\u009dh^\u0001\u0000\u0000\u0090\u0004\u0000\u0000\u0013\u0000\b\u0002[Content_Types].xml \u00a2\u0004\u0002(\u00a0\u0000\u0002\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00ac\u0094\u00cbN\u00c30\u0010E\u00f7H\u00fcC\u00e4-J\u00dc\u00b2@\b5\u00ed\u0082\u00c7\u0012*Q>\u00c0\u00c4\u0093\u00c6\u00aac[\u009eii\u00ff\u009e\u0089\u00fb\u0010B\u00a1\u0015j7\u00b1\u0012\u00cf\u00dc{2\u00f1\u00cdh\u00b2nm\u00b6\u0082\u0088\u00c6\u00bbR",
+     "\u008b\u0081\u00c8\u00c0U^\u001b7/\u00c5\u00c7\u00ec%\u00bf\u0017\u0019\u0092rZY\u00ef\u00a0\u0014\u001b@1\u0019__\u008df\u009b\u0000\u0098q\u00b7\u00c3R4D\u00e1AJ\u00ac\u001ah\u0015\u0016>\u0080\u00e3\u009d\u00da\u00c7V\u0011\u00df\u00c6\u00b9"
+    ]
+   },
+   {
+    "member": "README.txt",
+    "size": 1296,
+    "lines": [
+     "This file contains metadata for both the Trips and Stations table.",
+     ""
+    ]
+   }
+  ]
+ },
+ "Divvy_Trips_2015-Q1Q2": {
+  "status": 200,
+  "bytes": 22449725,
+  "secs": 1.1,
+  "head": [
+   {
+    "member": "Divvy_Trips_2015-Q1.csv",
+    "size": 25436302,
+    "lines": [
+     "trip_id,starttime,stoptime,bikeid,tripduration,from_station_id,from_station_name,to_station_id,to_station_name,usertype,gender,birthyear",
+     "4738454,3/31/2015 23:58,4/1/2015 0:03,1095,299,117,Wilton Ave & Belmont Ave,300,Broadway & Barry Ave,Subscriber,Male,1994"
+    ]
+   },
+   {
+    "member": "Divvy_Stations_2015.csv",
+    "size": 27647,
+    "lines": [
+     "id,name,latitude,longitude,dpcapacity,landmark",
+     "2,Michigan Ave & Balbo Ave,41.872293,-87.624091,35,541"
+    ]
+   },
+   {
+    "member": "Divvy_Trips_2015-Q2.csv",
+    "size": 110209615,
+    "lines": [
+     "trip_id,starttime,stoptime,bikeid,tripduration,from_station_id,from_station_name,to_station_id,to_station_name,usertype,gender,birthyear",
+     "5943500,6/30/2015 23:59,7/1/2015 0:10,1712,626,332,Halsted St & Diversey Pkwy,327,Sheffield Ave & Webster Ave,Subscriber,Male,1993"
+    ]
+   }
+  ]
+ },
+ "Divvy_Trips_2016_Q1Q2": {
+  "status": 200,
+  "bytes": 30964697,
+  "secs": 1.3,
+  "head": [
+   {
+    "member": "Divvy_Trips_2016_Q1Q2/Divvy_Stations_2016_Q1Q2.csv",
+    "size": 33547,
+    "lines": [
+     "id,name,latitude,longitude,dpcapacity,online_date",
+     "456,2112 W Peterson Ave,41.991178,-87.683593,15,5/12/2015"
+    ]
+   },
+   {
+    "member": "Divvy_Trips_2016_Q1Q2/Divvy_Trips_2016_04.csv",
+    "size": 28878172,
+    "lines": [
+     "trip_id,starttime,stoptime,bikeid,tripduration,from_station_id,from_station_name,to_station_id,to_station_name,usertype,gender,birthyear",
+     "9379901,4/30/2016 23:59,5/1/2016 0:11,21,733,123,California Ave & Milwaukee Ave,374,Western Ave & Walton St,Subscriber,Male,1982"
+    ]
+   },
+   {
+    "member": "Divvy_Trips_2016_Q1Q2/Divvy_Trips_2016_05.csv",
+    "size": 44987188,
+    "lines": [
+     "trip_id,starttime,stoptime,bikeid,tripduration,from_station_id,from_station_name,to_station_id,to_station_name,usertype,gender,birthyear",
+     "9835709,5/31/2016 23:57,6/1/2016 0:14,609,1045,22,May St & Taylor St,282,Halsted St & Maxwell St,Subscriber,Male,1993"
+    ]
+   },
+   {
+    "member": "Divvy_Trips_2016_Q1Q2/Divvy_Trips_2016_06.csv",
+    "size": 59617846,
+    "lines": [
+     "trip_id,starttime,stoptime,bikeid,tripduration,from_station_id,from_station_name,to_station_id,to_station_name,usertype,gender,birthyear",
+     "10426657,6/30/2016 23:59,7/1/2016 0:02,1508,190,93,Sheffield Ave & Willow St,113,Bissell St & Armitage Ave,Subscriber,Male,1993"
+    ]
+   },
+   {
+    "member": "Divvy_Trips_2016_Q1Q2/Divvy_Trips_2016_Q1.csv",
+    "size": 49786841,
+    "lines": [
+     "trip_id,starttime,stoptime,bikeid,tripduration,from_station_id,from_station_name,to_station_id,to_station_name,usertype,gender,birthyear",
+     "9080551,3/31/2016 23:53,4/1/2016 0:07,155,841,344,Ravenswood Ave & Lawrence Ave,458,Broadway & Thorndale Ave,Subscriber,Male,1986"
+    ]
+   },
+   {
+    "member": "Divvy_Trips_2016_Q1Q2/README.txt",
+    "size": 1331,
+    "lines": [
+     "This file contains metadata for both the Trips and Stations table.",
+     ""
+    ]
+   }
+  ]
+ },
+ "Divvy_Trips_2017_Q1Q2": {
+  "status": 200,
+  "bytes": 42028390,
+  "secs": 1.6,
+  "head": [
+   {
+    "member": "Divvy_Trips_2017_Q1.csv",
+    "size": 67969331,
+    "lines": [
+     "\"trip_id\",\"start_time\",\"end_time\",\"bikeid\",\"tripduration\",\"from_station_id\",\"from_station_name\",\"to_station_id\",\"to_station_name\",\"usertype\",\"gender\",\"birthyear\"",
+     "\"13518905\",\"3/31/2017 23:59:07\",\"4/1/2017 00:13:24\",\"5292\",\"857\",\"66\",\"Clinton St & Lake St\",\"171\",\"May St & Cullerton St\",\"Subscriber\",\"Male\",\"1989\""
+    ]
+   },
+   {
+    "member": "Divvy_Stations_2017_Q1Q2.csv",
+    "size": 56223,
+    "lines": [
+     "\"id\",\"name\",\"city\",\"latitude\",\"longitude\",\"dpcapacity\",\"online_date\"",
+     "\"456\",\"2112 W Peterson Ave\",\"Chicago\",\"41.991178\",\"-87.683593\",\"15\",\"2/10/2015 14:04:42\""
+    ]
+   },
+   {
+    "member": "README.txt",
+    "size": 1513,
+    "lines": [
+     "This file contains metadata for both Trips and Stations files.",
+     ""
+    ]
+   },
+   {
+    "member": "Divvy_Trips_2017_Q2.csv",
+    "size": 174311015,
+    "lines": [
+     "\"trip_id\",\"start_time\",\"end_time\",\"bikeid\",\"tripduration\",\"from_station_id\",\"from_station_name\",\"to_station_id\",\"to_station_name\",\"usertype\",\"gender\",\"birthyear\"",
+     "\"14853213\",\"6/30/2017 23:59:51\",\"7/1/2017 00:13:57\",\"893\",\"846\",\"107\",\"Desplaines St & Jackson Blvd\",\"56\",\"Desplaines St & Kinzie St\",\"Subscriber\",\"Male\",\"1975\""
+    ]
+   }
+  ]
+ },
+ "Divvy_Trips_2018_Q1": {
+  "status": 200,
+  "bytes": 10031818,
+  "secs": 0.7,
+  "head": [
+   {
+    "member": "Divvy_Trips_2018_Q1.csv",
+    "size": 53449681,
+    "lines": [
+     "01 - Rental Details Rental ID,01 - Rental Details Local Start Time,01 - Rental Details Local End Time,01 - Rental Details Bike ID,01 - Rental Details Duration In Seconds Uncapped,03 - Rental Start Station ID,03 - Rental Start Station Name,02 - Rental End Station ID,02 - Rental End Station Name,User Type,Member Gender,05 - Member Details Member Birthday Year",
+     "17536702,2018-01-01 00:12:00,2018-01-01 00:17:23,3304,323.0,69,Damen Ave & Pierce Ave,159,Claremont Ave & Hirsch St,Subscriber,Male,1988"
+    ]
+   }
+  ]
+ },
+ "Divvy_Trips_2018_Q2": {
+  "status": 200,
+  "bytes": 27175217,
+  "secs": 1.3,
+  "head": [
+   {
+    "member": "Divvy_Trips_2018_Q2.csv",
+    "size": 145385296,
+    "lines": [
+     "trip_id,start_time,end_time,bikeid,tripduration,from_station_id,from_station_name,to_station_id,to_station_name,usertype,gender,birthyear",
+     "18000527,2018-04-01 00:04:44,2018-04-01 00:13:03,3819,499.0,22,May St & Taylor St,171,May St & Cullerton St,Subscriber,Male,1994"
+    ]
+   }
+  ]
+ },
+ "Divvy_Trips_2019_Q1": {
+  "status": 200,
+  "bytes": 9565886,
+  "secs": 0.7,
+  "head": [
+   {
+    "member": "Divvy_Trips_2019_Q1.csv",
+    "size": 50528553,
+    "lines": [
+     "trip_id,start_time,end_time,bikeid,tripduration,from_station_id,from_station_name,to_station_id,to_station_name,usertype,gender,birthyear",
+     "21742443,2019-01-01 00:04:37,2019-01-01 00:11:07,2167,390.0,199,Wabash Ave & Grand Ave,84,Milwaukee Ave & Grand Ave,Subscriber,Male,1989"
+    ]
+   }
+  ]
+ },
+ "Divvy_Trips_2019_Q2": {
+  "status": 200,
+  "bytes": 28718468,
+  "secs": 1.1,
+  "head": [
+   {
+    "member": "Divvy_Trips_2019_Q2.csv",
+    "size": 152598335,
+    "lines": [
+     "01 - Rental Details Rental ID,01 - Rental Details Local Start Time,01 - Rental Details Local End Time,01 - Rental Details Bike ID,01 - Rental Details Duration In Seconds Uncapped,03 - Rental Start Station ID,03 - Rental Start Station Name,02 - Rental End Station ID,02 - Rental End Station Name,User Type,Member Gender,05 - Member Details Member Birthday Year",
+     "22178529,2019-04-01 00:02:22,2019-04-01 00:09:48,6251,446.0,81,Daley Center Plaza,56,Desplaines St & Kinzie St,Subscriber,Male,1975"
+    ]
+   }
+  ]
+ },
+ "Divvy_Trips_2019_Q3": {
+  "status": 200,
+  "bytes": 42361393,
+  "secs": 1.8,
+  "head": [
+   {
+    "member": "Divvy_Trips_2019_Q3.csv",
+    "size": 225527165,
+    "lines": [
+     "trip_id,start_time,end_time,bikeid,tripduration,from_station_id,from_station_name,to_station_id,to_station_name,usertype,gender,birthyear",
+     "23479388,2019-07-01 00:00:27,2019-07-01 00:20:41,3591,\"1,214.0\",117,Wilton Ave & Belmont Ave,497,Kimball Ave & Belmont Ave,Subscriber,Male,1992"
+    ]
+   }
+  ]
+ }
+}

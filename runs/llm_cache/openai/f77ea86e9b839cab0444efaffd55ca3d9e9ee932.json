@@ -1,0 +1,1 @@
+{"text": "{\"action\":\"replay\",\"component\":\"station_join\"}", "usage": {"in": 42, "out": 106, "cached_in": 1803, "reasoning": 83}, "usd": 0.00017166, "wall_s": 2.32, "provider": "openai", "model": "gpt-5.6-luna"}

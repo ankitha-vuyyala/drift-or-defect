@@ -1,0 +1,568 @@
+{
+ "round1": {
+  "change": {
+   "retrain_on_alarm": {
+    "n": 78,
+    "diag_correct": 0.0
+   },
+   "validation_first": {
+    "n": 78,
+    "diag_correct": 0.08974358974358974
+   },
+   "observational_attribution": {
+    "n": 78,
+    "diag_correct": 0.05128205128205128
+   },
+   "full_rollback": {
+    "n": 78,
+    "diag_correct": 0.0
+   },
+   "bisect": {
+    "n": 78,
+    "diag_correct": 0.34615384615384615
+   },
+   "bugdoc_shortcut": {
+    "n": 78,
+    "diag_correct": 0.46153846153846156
+   },
+   "dod": {
+    "n": 78,
+    "diag_correct": 0.6794871794871795
+   },
+   "dod_no_boundary": {
+    "n": 78,
+    "diag_correct": 0.358974358974359
+   },
+   "dod_b1": {
+    "n": 78,
+    "diag_correct": 0.5641025641025641
+   },
+   "dod_b1_no_prior": {
+    "n": 78,
+    "diag_correct": 0.5641025641025641
+   },
+   "dod_b1_uniform": {
+    "n": 78,
+    "diag_correct": 0.44871794871794873
+   },
+   "llm_report@luna": {
+    "n": 78,
+    "diag_correct": 0.21794871794871795
+   },
+   "llm_tools@luna": {
+    "n": 78,
+    "diag_correct": 0.4230769230769231
+   },
+   "llm_report@terra": {
+    "n": 78,
+    "diag_correct": 0.15384615384615385
+   },
+   "llm_tools@terra": {
+    "n": 78,
+    "diag_correct": 0.5512820512820513
+   }
+  },
+  "no_change": {
+   "retrain_on_alarm": {
+    "n": 19,
+    "diag_correct": 0.0
+   },
+   "validation_first": {
+    "n": 19,
+    "diag_correct": 0.15789473684210525
+   },
+   "observational_attribution": {
+    "n": 19,
+    "diag_correct": 0.5789473684210527
+   },
+   "full_rollback": {
+    "n": 19,
+    "diag_correct": 0.15789473684210525
+   },
+   "bisect": {
+    "n": 19,
+    "diag_correct": 0.7894736842105263
+   },
+   "bugdoc_shortcut": {
+    "n": 19,
+    "diag_correct": 0.7894736842105263
+   },
+   "dod": {
+    "n": 19,
+    "diag_correct": 1.0
+   },
+   "dod_no_boundary": {
+    "n": 19,
+    "diag_correct": 1.0
+   },
+   "dod_b1": {
+    "n": 19,
+    "diag_correct": 0.7368421052631579
+   },
+   "dod_b1_no_prior": {
+    "n": 19,
+    "diag_correct": 0.7368421052631579
+   },
+   "dod_b1_uniform": {
+    "n": 19,
+    "diag_correct": 0.6842105263157895
+   },
+   "llm_report@luna": {
+    "n": 19,
+    "diag_correct": 0.6842105263157895
+   },
+   "llm_tools@luna": {
+    "n": 19,
+    "diag_correct": 0.7894736842105263
+   },
+   "llm_report@terra": {
+    "n": 19,
+    "diag_correct": 0.631578947368421
+   },
+   "llm_tools@terra": {
+    "n": 19,
+    "diag_correct": 0.7894736842105263
+   }
+  }
+ },
+ "round2": {
+  "change": {
+   "retrain_on_alarm": {
+    "n": 314,
+    "diag_correct": 0.0
+   },
+   "validation_first": {
+    "n": 314,
+    "diag_correct": 0.14331210191082802
+   },
+   "observational_attribution": {
+    "n": 314,
+    "diag_correct": 0.3089171974522293
+   },
+   "full_rollback": {
+    "n": 314,
+    "diag_correct": 0.022292993630573247
+   },
+   "bisect": {
+    "n": 314,
+    "diag_correct": 0.06050955414012739
+   },
+   "bugdoc_shortcut": {
+    "n": 314,
+    "diag_correct": 0.24522292993630573
+   },
+   "dod": {
+    "n": 314,
+    "diag_correct": 0.09872611464968153
+   },
+   "dod_no_boundary": {
+    "n": 314,
+    "diag_correct": 0.28662420382165604
+   },
+   "dod_b1": {
+    "n": 314,
+    "diag_correct": 0.2356687898089172
+   },
+   "dod_b1_no_prior": {
+    "n": 314,
+    "diag_correct": 0.24522292993630573
+   },
+   "dod_b1_uniform": {
+    "n": 314,
+    "diag_correct": 0.22611464968152867
+   },
+   "dod2": {
+    "n": 314,
+    "diag_correct": 0.1624203821656051
+   },
+   "dod2_no_inv": {
+    "n": 314,
+    "diag_correct": 0.1624203821656051
+   },
+   "dod2_no_hist": {
+    "n": 314,
+    "diag_correct": 0.09872611464968153
+   },
+   "llm_report@luna": {
+    "n": 314,
+    "diag_correct": 0.20063694267515925
+   },
+   "llm_tools@luna": {
+    "n": 314,
+    "diag_correct": 0.2929936305732484
+   },
+   "llm_report@terra": {
+    "n": 24,
+    "diag_correct": 0.4166666666666667
+   },
+   "llm_tools@terra": {
+    "n": 24,
+    "diag_correct": 0.75
+   }
+  },
+  "no_change": {
+   "retrain_on_alarm": {
+    "n": 121,
+    "diag_correct": 0.0
+   },
+   "validation_first": {
+    "n": 121,
+    "diag_correct": 0.24793388429752067
+   },
+   "observational_attribution": {
+    "n": 121,
+    "diag_correct": 0.6942148760330579
+   },
+   "full_rollback": {
+    "n": 121,
+    "diag_correct": 0.21487603305785125
+   },
+   "bisect": {
+    "n": 121,
+    "diag_correct": 0.6528925619834711
+   },
+   "bugdoc_shortcut": {
+    "n": 121,
+    "diag_correct": 0.6611570247933884
+   },
+   "dod": {
+    "n": 121,
+    "diag_correct": 1.0
+   },
+   "dod_no_boundary": {
+    "n": 121,
+    "diag_correct": 1.0
+   },
+   "dod_b1": {
+    "n": 121,
+    "diag_correct": 0.8760330578512396
+   },
+   "dod_b1_no_prior": {
+    "n": 121,
+    "diag_correct": 0.859504132231405
+   },
+   "dod_b1_uniform": {
+    "n": 121,
+    "diag_correct": 0.9173553719008265
+   },
+   "dod2": {
+    "n": 121,
+    "diag_correct": 1.0
+   },
+   "dod2_no_inv": {
+    "n": 121,
+    "diag_correct": 1.0
+   },
+   "dod2_no_hist": {
+    "n": 121,
+    "diag_correct": 1.0
+   },
+   "llm_report@luna": {
+    "n": 121,
+    "diag_correct": 0.4628099173553719
+   },
+   "llm_tools@luna": {
+    "n": 121,
+    "diag_correct": 0.7272727272727273
+   },
+   "llm_report@terra": {
+    "n": 25,
+    "diag_correct": 0.32
+   },
+   "llm_tools@terra": {
+    "n": 25,
+    "diag_correct": 0.84
+   }
+  }
+ },
+ "round3": {
+  "change": {
+   "retrain_on_alarm": {
+    "n": 276,
+    "diag_correct": 0.0
+   },
+   "validation_first": {
+    "n": 276,
+    "diag_correct": 0.12681159420289856
+   },
+   "observational_attribution": {
+    "n": 276,
+    "diag_correct": 0.43478260869565216
+   },
+   "full_rollback": {
+    "n": 276,
+    "diag_correct": 0.036231884057971016
+   },
+   "bisect": {
+    "n": 276,
+    "diag_correct": 0.14492753623188406
+   },
+   "bugdoc_shortcut": {
+    "n": 276,
+    "diag_correct": 0.2427536231884058
+   },
+   "dod": {
+    "n": 276,
+    "diag_correct": 0.2463768115942029
+   },
+   "dod_no_boundary": {
+    "n": 276,
+    "diag_correct": 0.21739130434782608
+   },
+   "dod_b1": {
+    "n": 276,
+    "diag_correct": 0.27898550724637683
+   },
+   "dod_b1_no_prior": {
+    "n": 276,
+    "diag_correct": 0.2572463768115942
+   },
+   "dod_b1_uniform": {
+    "n": 276,
+    "diag_correct": 0.31521739130434784
+   },
+   "dod2": {
+    "n": 276,
+    "diag_correct": 0.2463768115942029
+   },
+   "dod3": {
+    "n": 276,
+    "diag_correct": 0.2717391304347826
+   },
+   "dod3_no_latest": {
+    "n": 276,
+    "diag_correct": 0.2608695652173913
+   },
+   "dod3_no_inv": {
+    "n": 276,
+    "diag_correct": 0.2717391304347826
+   },
+   "llm_report@luna": {
+    "n": 276,
+    "diag_correct": 0.21014492753623187
+   },
+   "llm_tools@luna": {
+    "n": 276,
+    "diag_correct": 0.358695652173913
+   },
+   "llm_report@terra": {
+    "n": 29,
+    "diag_correct": 0.3793103448275862
+   },
+   "llm_tools@terra": {
+    "n": 29,
+    "diag_correct": 0.4482758620689655
+   }
+  },
+  "no_change": {
+   "retrain_on_alarm": {
+    "n": 97,
+    "diag_correct": 0.0
+   },
+   "validation_first": {
+    "n": 97,
+    "diag_correct": 0.32989690721649484
+   },
+   "observational_attribution": {
+    "n": 97,
+    "diag_correct": 0.5257731958762887
+   },
+   "full_rollback": {
+    "n": 97,
+    "diag_correct": 0.15463917525773196
+   },
+   "bisect": {
+    "n": 97,
+    "diag_correct": 0.5051546391752577
+   },
+   "bugdoc_shortcut": {
+    "n": 97,
+    "diag_correct": 0.5257731958762887
+   },
+   "dod": {
+    "n": 97,
+    "diag_correct": 1.0
+   },
+   "dod_no_boundary": {
+    "n": 97,
+    "diag_correct": 1.0
+   },
+   "dod_b1": {
+    "n": 97,
+    "diag_correct": 0.8247422680412371
+   },
+   "dod_b1_no_prior": {
+    "n": 97,
+    "diag_correct": 0.7835051546391752
+   },
+   "dod_b1_uniform": {
+    "n": 97,
+    "diag_correct": 0.8041237113402062
+   },
+   "dod2": {
+    "n": 97,
+    "diag_correct": 1.0
+   },
+   "dod3": {
+    "n": 97,
+    "diag_correct": 1.0
+   },
+   "dod3_no_latest": {
+    "n": 97,
+    "diag_correct": 1.0
+   },
+   "dod3_no_inv": {
+    "n": 97,
+    "diag_correct": 1.0
+   },
+   "llm_report@luna": {
+    "n": 97,
+    "diag_correct": 0.6907216494845361
+   },
+   "llm_tools@luna": {
+    "n": 97,
+    "diag_correct": 0.7835051546391752
+   },
+   "llm_report@terra": {
+    "n": 12,
+    "diag_correct": 0.8333333333333334
+   },
+   "llm_tools@terra": {
+    "n": 12,
+    "diag_correct": 0.8333333333333334
+   }
+  }
+ },
+ "round4": {
+  "change": {
+   "retrain_on_alarm": {
+    "n": 226,
+    "diag_correct": 0.0
+   },
+   "validation_first": {
+    "n": 226,
+    "diag_correct": 0.035398230088495575
+   },
+   "observational_attribution": {
+    "n": 226,
+    "diag_correct": 0.13716814159292035
+   },
+   "full_rollback": {
+    "n": 226,
+    "diag_correct": 0.01327433628318584
+   },
+   "bisect": {
+    "n": 226,
+    "diag_correct": 0.4469026548672566
+   },
+   "bugdoc_shortcut": {
+    "n": 226,
+    "diag_correct": 0.5221238938053098
+   },
+   "dod": {
+    "n": 226,
+    "diag_correct": 0.6371681415929203
+   },
+   "dod2": {
+    "n": 226,
+    "diag_correct": 0.6415929203539823
+   },
+   "dod3": {
+    "n": 226,
+    "diag_correct": 0.5973451327433629
+   },
+   "dod4": {
+    "n": 226,
+    "diag_correct": 0.5530973451327433
+   },
+   "dod4_lite": {
+    "n": 226,
+    "diag_correct": 0.5530973451327433
+   },
+   "llm_report@luna": {
+    "n": 160,
+    "diag_correct": 0.0125
+   },
+   "llm_tools@luna": {
+    "n": 160,
+    "diag_correct": 0.425
+   },
+   "llm_report@terra": {
+    "n": 13,
+    "diag_correct": 0.0
+   },
+   "llm_tools@terra": {
+    "n": 13,
+    "diag_correct": 0.23076923076923078
+   }
+  },
+  "no_change": {
+   "retrain_on_alarm": {
+    "n": 30,
+    "diag_correct": 0.0
+   },
+   "validation_first": {
+    "n": 30,
+    "diag_correct": 0.4
+   },
+   "observational_attribution": {
+    "n": 30,
+    "diag_correct": 0.7
+   },
+   "full_rollback": {
+    "n": 30,
+    "diag_correct": 0.3
+   },
+   "bisect": {
+    "n": 30,
+    "diag_correct": 0.8333333333333334
+   },
+   "bugdoc_shortcut": {
+    "n": 30,
+    "diag_correct": 0.8333333333333334
+   },
+   "dod": {
+    "n": 30,
+    "diag_correct": 1.0
+   },
+   "dod2": {
+    "n": 30,
+    "diag_correct": 1.0
+   },
+   "dod3": {
+    "n": 30,
+    "diag_correct": 1.0
+   },
+   "dod4": {
+    "n": 30,
+    "diag_correct": 1.0
+   },
+   "dod4_lite": {
+    "n": 30,
+    "diag_correct": 1.0
+   },
+   "llm_report@luna": {
+    "n": 21,
+    "diag_correct": 0.9047619047619048
+   },
+   "llm_tools@luna": {
+    "n": 21,
+    "diag_correct": 0.8571428571428571
+   },
+   "llm_report@terra": {
+    "n": 5,
+    "diag_correct": 1.0
+   },
+   "llm_tools@terra": {
+    "n": 5,
+    "diag_correct": 1.0
+   }
+  },
+  "change_untouched": {
+   "n": 226,
+   "all_consequential_untouched": 125,
+   "dod4_correct": 125,
+   "dod4_fixed_or_listed": 226
+  }
+ }
+}

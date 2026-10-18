@@ -1,0 +1,1 @@
+{"text": "{\"action\":\"effect\",\"components\":[\"join_household\"]}", "usage": {"in": 99, "out": 104, "cached_in": 3324, "reasoning": 80}, "usd": 0.00021108, "wall_s": 2.05, "provider": "openai", "model": "gpt-5.6-luna"}

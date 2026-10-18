@@ -1,0 +1,3862 @@
+[
+ {
+  "value": "2,961",
+  "source": "runs/benchmark/tables_v4.json; runs/v4main/summary_v4.json",
+  "what": "Abstract: evaluated cases"
+ },
+ {
+  "value": "267",
+  "source": "runs/posthoc_by_change.json",
+  "what": "Abstract: no-change correct"
+ },
+ {
+  "value": "267",
+  "source": "runs/posthoc_by_change.json",
+  "what": "Abstract: no-change n"
+ },
+ {
+  "value": "0.000",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "Abstract: r4 false blame"
+ },
+ {
+  "value": "450",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "Abstract: r4 n"
+ },
+ {
+  "value": "0.000",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "Abstract: r4 silent miss"
+ },
+ {
+  "value": "256",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "Abstract: r4 cons n"
+ },
+ {
+  "value": "0.11",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "Abstract: r4 coverage"
+ },
+ {
+  "value": "1.00",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "Abstract: r4 correct decided"
+ },
+ {
+  "value": "5.3",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "Abstract: r4 review load"
+ },
+ {
+  "value": "2,961",
+  "source": "runs/benchmark/tables_v4.json; runs/v4main/summary_v4.json",
+  "what": "Intro: evaluated cases"
+ },
+ {
+  "value": "200",
+  "source": "runs/final; runs/v2main/summary_v2.json; runs/v3main/summary_v3.json",
+  "what": "Intro: silent cases rounds 1-3"
+ },
+ {
+  "value": "267",
+  "source": "runs/posthoc_by_change.json",
+  "what": "Intro: no-change correct"
+ },
+ {
+  "value": "267",
+  "source": "runs/posthoc_by_change.json",
+  "what": "Intro: no-change n"
+ },
+ {
+  "value": "0.000",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "Intro: r4 false blame"
+ },
+ {
+  "value": "0.000",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "Intro: r4 silent miss"
+ },
+ {
+  "value": "0.11",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "Intro: r4 coverage"
+ },
+ {
+  "value": "3,995,334",
+  "source": "runs/benchmark/tables_v4.json",
+  "what": "acs bronze rows"
+ },
+ {
+  "value": "4",
+  "source": "runs/benchmark/tables_v4.json",
+  "what": "acs dated changes"
+ },
+ {
+  "value": "274",
+  "source": "runs/benchmark/tables_v4.json",
+  "what": "acs cases"
+ },
+ {
+  "value": "7,502,536",
+  "source": "runs/benchmark/tables_v4.json",
+  "what": "tlc bronze rows"
+ },
+ {
+  "value": "6",
+  "source": "runs/benchmark/tables_v4.json",
+  "what": "tlc dated changes"
+ },
+ {
+  "value": "326",
+  "source": "runs/benchmark/tables_v4.json",
+  "what": "tlc cases"
+ },
+ {
+  "value": "209,527",
+  "source": "runs/benchmark/tables_v4.json",
+  "what": "news bronze rows"
+ },
+ {
+  "value": "4",
+  "source": "runs/benchmark/tables_v4.json",
+  "what": "news dated changes"
+ },
+ {
+  "value": "102",
+  "source": "runs/benchmark/tables_v4.json",
+  "what": "news cases"
+ },
+ {
+  "value": "5,103,638",
+  "source": "runs/benchmark/tables_v4.json",
+  "what": "divvy bronze rows"
+ },
+ {
+  "value": "10",
+  "source": "runs/benchmark/tables_v4.json",
+  "what": "divvy dated changes"
+ },
+ {
+  "value": "396",
+  "source": "runs/benchmark/tables_v4.json",
+  "what": "divvy cases"
+ },
+ {
+  "value": "2,100,000",
+  "source": "runs/benchmark/tables_v4.json",
+  "what": "hmda bronze rows"
+ },
+ {
+  "value": "6",
+  "source": "runs/benchmark/tables_v4.json",
+  "what": "hmda dated changes"
+ },
+ {
+  "value": "280",
+  "source": "runs/benchmark/tables_v4.json",
+  "what": "hmda cases"
+ },
+ {
+  "value": "7,050,000",
+  "source": "runs/benchmark/tables_v4.json",
+  "what": "bts bronze rows"
+ },
+ {
+  "value": "0",
+  "source": "runs/benchmark/tables_v4.json",
+  "what": "bts dated changes"
+ },
+ {
+  "value": "324",
+  "source": "runs/benchmark/tables_v4.json",
+  "what": "bts cases"
+ },
+ {
+  "value": "5,100,000",
+  "source": "runs/benchmark/tables_v4.json",
+  "what": "cabi bronze rows"
+ },
+ {
+  "value": "5",
+  "source": "runs/benchmark/tables_v4.json",
+  "what": "cabi dated changes"
+ },
+ {
+  "value": "312",
+  "source": "runs/benchmark/tables_v4.json",
+  "what": "cabi cases"
+ },
+ {
+  "value": "509,887",
+  "source": "runs/benchmark/tables_v4.json",
+  "what": "fars bronze rows"
+ },
+ {
+  "value": "6",
+  "source": "runs/benchmark/tables_v4.json",
+  "what": "fars dated changes"
+ },
+ {
+  "value": "240",
+  "source": "runs/benchmark/tables_v4.json",
+  "what": "fars cases"
+ },
+ {
+  "value": "2,700,000",
+  "source": "runs/benchmark/tables_v4.json",
+  "what": "landreg bronze rows"
+ },
+ {
+  "value": "1",
+  "source": "runs/benchmark/tables_v4.json",
+  "what": "landreg dated changes"
+ },
+ {
+  "value": "257",
+  "source": "runs/benchmark/tables_v4.json",
+  "what": "landreg cases"
+ },
+ {
+  "value": "3,604,343",
+  "source": "runs/benchmark/tables_v4.json",
+  "what": "storm bronze rows"
+ },
+ {
+  "value": "8",
+  "source": "runs/benchmark/tables_v4.json",
+  "what": "storm dated changes"
+ },
+ {
+  "value": "640",
+  "source": "runs/benchmark/tables_v4.json",
+  "what": "storm cases"
+ },
+ {
+  "value": "3,057,640",
+  "source": "runs/benchmark/tables_v4.json",
+  "what": "chicago bronze rows"
+ },
+ {
+  "value": "3",
+  "source": "runs/benchmark/tables_v4.json",
+  "what": "chicago dated changes"
+ },
+ {
+  "value": "231",
+  "source": "runs/benchmark/tables_v4.json",
+  "what": "chicago cases"
+ },
+ {
+  "value": "40,932,905",
+  "source": "runs/benchmark/tables_v4.json",
+  "what": "total bronze rows"
+ },
+ {
+  "value": "3,382",
+  "source": "runs/benchmark/tables_v4.json",
+  "what": "total cases"
+ },
+ {
+  "value": "8eab1e0e42e9",
+  "source": "runs/freeze.json",
+  "what": "round 1 freeze digest"
+ },
+ {
+  "value": "30",
+  "source": "runs/freeze*.json",
+  "what": "round 1 frozen files"
+ },
+ {
+  "value": "e50ee051bbc5",
+  "source": "runs/freeze_v2.json",
+  "what": "round 2 freeze digest"
+ },
+ {
+  "value": "25",
+  "source": "runs/freeze*.json",
+  "what": "round 2 frozen files"
+ },
+ {
+  "value": "fb3229bdedc2",
+  "source": "runs/freeze_v3.json",
+  "what": "round 3 freeze digest"
+ },
+ {
+  "value": "33",
+  "source": "runs/freeze*.json",
+  "what": "round 3 frozen files"
+ },
+ {
+  "value": "9543f4c5d4e8",
+  "source": "runs/freeze_v4.json",
+  "what": "round 4 freeze digest"
+ },
+ {
+  "value": "36",
+  "source": "runs/freeze*.json",
+  "what": "round 4 frozen files"
+ },
+ {
+  "value": "219",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "storm cases evaluated"
+ },
+ {
+  "value": "640",
+  "source": "runs/benchmark/tables_v4.json",
+  "what": "storm cases generated"
+ },
+ {
+  "value": "0.00",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "R4 retrain_on_alarm false blame all"
+ },
+ {
+  "value": "1.00",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "R4 retrain_on_alarm silent miss cons"
+ },
+ {
+  "value": "1.00",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "R4 retrain_on_alarm coverage"
+ },
+ {
+  "value": "0.43",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "R4 retrain_on_alarm correct where decided"
+ },
+ {
+  "value": "0.00",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "R4 retrain_on_alarm correct cons"
+ },
+ {
+  "value": "0.00",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "R4 retrain_on_alarm review load"
+ },
+ {
+  "value": "0.83",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "R4 validation_first false blame all"
+ },
+ {
+  "value": "0.59",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "R4 validation_first silent miss cons"
+ },
+ {
+  "value": "1.00",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "R4 validation_first coverage"
+ },
+ {
+  "value": "0.13",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "R4 validation_first correct where decided"
+ },
+ {
+  "value": "0.08",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "R4 validation_first correct cons"
+ },
+ {
+  "value": "0.00",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "R4 validation_first review load"
+ },
+ {
+  "value": "0.82",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "R4 observational_attribution false blame all"
+ },
+ {
+  "value": "0.80",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "R4 observational_attribution silent miss cons"
+ },
+ {
+  "value": "1.00",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "R4 observational_attribution coverage"
+ },
+ {
+  "value": "0.16",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "R4 observational_attribution correct where decided"
+ },
+ {
+  "value": "0.20",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "R4 observational_attribution correct cons"
+ },
+ {
+  "value": "0.00",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "R4 observational_attribution review load"
+ },
+ {
+  "value": "0.28",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "R4 full_rollback false blame all"
+ },
+ {
+  "value": "0.47",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "R4 full_rollback silent miss cons"
+ },
+ {
+  "value": "1.00",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "R4 full_rollback coverage"
+ },
+ {
+  "value": "0.46",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "R4 full_rollback correct where decided"
+ },
+ {
+  "value": "0.05",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "R4 full_rollback correct cons"
+ },
+ {
+  "value": "0.00",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "R4 full_rollback review load"
+ },
+ {
+  "value": "0.02",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "R4 bisect false blame all"
+ },
+ {
+  "value": "0.48",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "R4 bisect silent miss cons"
+ },
+ {
+  "value": "1.00",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "R4 bisect coverage"
+ },
+ {
+  "value": "0.71",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "R4 bisect correct where decided"
+ },
+ {
+  "value": "0.49",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "R4 bisect correct cons"
+ },
+ {
+  "value": "0.00",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "R4 bisect review load"
+ },
+ {
+  "value": "0.03",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "R4 bugdoc_shortcut false blame all"
+ },
+ {
+  "value": "0.39",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "R4 bugdoc_shortcut silent miss cons"
+ },
+ {
+  "value": "1.00",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "R4 bugdoc_shortcut coverage"
+ },
+ {
+  "value": "0.75",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "R4 bugdoc_shortcut correct where decided"
+ },
+ {
+  "value": "0.56",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "R4 bugdoc_shortcut correct cons"
+ },
+ {
+  "value": "0.00",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "R4 bugdoc_shortcut review load"
+ },
+ {
+  "value": "0.88",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "R4 llm_report@luna false blame all"
+ },
+ {
+  "value": "0.44",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "R4 llm_report@luna silent miss cons"
+ },
+ {
+  "value": "1.00",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "R4 llm_report@luna coverage"
+ },
+ {
+  "value": "0.12",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "R4 llm_report@luna correct where decided"
+ },
+ {
+  "value": "0.12",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "R4 llm_report@luna correct cons"
+ },
+ {
+  "value": "0.00",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "R4 llm_report@luna review load"
+ },
+ {
+  "value": "0.32",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "R4 llm_tools@luna false blame all"
+ },
+ {
+  "value": "0.36",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "R4 llm_tools@luna silent miss cons"
+ },
+ {
+  "value": "1.00",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "R4 llm_tools@luna coverage"
+ },
+ {
+  "value": "0.57",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "R4 llm_tools@luna correct where decided"
+ },
+ {
+  "value": "0.48",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "R4 llm_tools@luna correct cons"
+ },
+ {
+  "value": "0.00",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "R4 llm_tools@luna review load"
+ },
+ {
+  "value": "0.22",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "R4 llm_report@terra silent miss cons"
+ },
+ {
+  "value": "0.28",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "R4 llm_report@terra correct cons"
+ },
+ {
+  "value": "0.33",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "R4 llm_tools@terra silent miss cons"
+ },
+ {
+  "value": "0.44",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "R4 llm_tools@terra correct cons"
+ },
+ {
+  "value": "0.04",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "R4 dod false blame all"
+ },
+ {
+  "value": "0.27",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "R4 dod silent miss cons"
+ },
+ {
+  "value": "1.00",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "R4 dod coverage"
+ },
+ {
+  "value": "0.81",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "R4 dod correct where decided"
+ },
+ {
+  "value": "0.68",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "R4 dod correct cons"
+ },
+ {
+  "value": "0.00",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "R4 dod review load"
+ },
+ {
+  "value": "0.04",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "R4 dod2 false blame all"
+ },
+ {
+  "value": "0.27",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "R4 dod2 silent miss cons"
+ },
+ {
+  "value": "1.00",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "R4 dod2 coverage"
+ },
+ {
+  "value": "0.82",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "R4 dod2 correct where decided"
+ },
+ {
+  "value": "0.68",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "R4 dod2 correct cons"
+ },
+ {
+  "value": "0.00",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "R4 dod2 review load"
+ },
+ {
+  "value": "0.04",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "R4 dod3 false blame all"
+ },
+ {
+  "value": "0.32",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "R4 dod3 silent miss cons"
+ },
+ {
+  "value": "1.00",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "R4 dod3 coverage"
+ },
+ {
+  "value": "0.79",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "R4 dod3 correct where decided"
+ },
+ {
+  "value": "0.64",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "R4 dod3 correct cons"
+ },
+ {
+  "value": "0.00",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "R4 dod3 review load"
+ },
+ {
+  "value": "0.00",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "R4 dod4_lite false blame all"
+ },
+ {
+  "value": "0.00",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "R4 dod4_lite silent miss cons"
+ },
+ {
+  "value": "0.11",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "R4 dod4_lite coverage"
+ },
+ {
+  "value": "1.00",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "R4 dod4_lite correct where decided"
+ },
+ {
+  "value": "0.61",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "R4 dod4_lite correct cons"
+ },
+ {
+  "value": "5.28",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "R4 dod4_lite review load"
+ },
+ {
+  "value": "0.00",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "R4 dod4 false blame all"
+ },
+ {
+  "value": "0.00",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "R4 dod4 silent miss cons"
+ },
+ {
+  "value": "0.11",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "R4 dod4 coverage"
+ },
+ {
+  "value": "1.00",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "R4 dod4 correct where decided"
+ },
+ {
+  "value": "0.61",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "R4 dod4 correct cons"
+ },
+ {
+  "value": "5.28",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "R4 dod4 review load"
+ },
+ {
+  "value": "0.000",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "R4 H15 dod4 false blame"
+ },
+ {
+  "value": "450",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "R4 H15 n"
+ },
+ {
+  "value": "-0.05",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "R4 H15 diff vs dod3"
+ },
+ {
+  "value": "-0.10",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "R4 H15 lo"
+ },
+ {
+  "value": "-0.01",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "R4 H15 hi"
+ },
+ {
+  "value": "0.0005",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "R4 H15 p"
+ },
+ {
+  "value": "0.000",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "R4 H16 dod4 silent miss"
+ },
+ {
+  "value": "256",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "R4 H16 n"
+ },
+ {
+  "value": "0.11",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "R4 H17 coverage"
+ },
+ {
+  "value": "1.00",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "R4 H17 correct decided all"
+ },
+ {
+  "value": "51",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "R4 H17 n all"
+ },
+ {
+  "value": "1.00",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "R4 H17 correct decided cons"
+ },
+ {
+  "value": "30",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "R4 H17 n cons"
+ },
+ {
+  "value": "30",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "R4 H18 n"
+ },
+ {
+  "value": "1.00",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "R4 H18 dod4"
+ },
+ {
+  "value": "0.83",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "R4 H18 best other"
+ },
+ {
+  "value": "5.28",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "R4 review load"
+ },
+ {
+  "value": "0.46",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "R4 review share"
+ },
+ {
+  "value": "65",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "R4 suspect n"
+ },
+ {
+  "value": "46",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "R4 suspect effective"
+ },
+ {
+  "value": "2312",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "R4 no evidence n"
+ },
+ {
+  "value": "154",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "R4 no evidence effective"
+ },
+ {
+  "value": "0.61",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "R4 H19 AUC"
+ },
+ {
+  "value": "0.12",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "R4 storm coverage"
+ },
+ {
+  "value": "6.53",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "R4 storm review load"
+ },
+ {
+  "value": "0.000",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "R4 storm dod4 false blame"
+ },
+ {
+  "value": "0.06",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "R4 storm dod3 false blame"
+ },
+ {
+  "value": "0.11",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "R4 chicago coverage"
+ },
+ {
+  "value": "4.10",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "R4 chicago review load"
+ },
+ {
+  "value": "0.000",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "R4 chicago dod4 false blame"
+ },
+ {
+  "value": "0.03",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "R4 chicago dod3 false blame"
+ },
+ {
+  "value": "0.61",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "R4 two-verdict correct dod4"
+ },
+ {
+  "value": "0.68",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "R4 two-verdict correct best committing"
+ },
+ {
+  "value": "0.038",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "R4 false blame best committing"
+ },
+ {
+  "value": "0.270",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "R4 silent miss best committing"
+ },
+ {
+  "value": "0.46",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "R4 review share 2"
+ },
+ {
+  "value": "0.23",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "R4 suspect recall"
+ },
+ {
+  "value": "97",
+  "source": "runs/final (test split)",
+  "what": "R1-3 summary: r1 n cons"
+ },
+ {
+  "value": "0.74",
+  "source": "runs/final (test split)",
+  "what": "R1-3 summary: r1 dod"
+ },
+ {
+  "value": "0.60",
+  "source": "runs/final (test split)",
+  "what": "R1-3 summary: r1 best"
+ },
+ {
+  "value": "+0.14",
+  "source": "runs/final (test split)",
+  "what": "R1-3 summary: r1 diff"
+ },
+ {
+  "value": "+0.05",
+  "source": "runs/final (test split)",
+  "what": "R1-3 summary: r1 lo"
+ },
+ {
+  "value": "+0.25",
+  "source": "runs/final (test split)",
+  "what": "R1-3 summary: r1 hi"
+ },
+ {
+  "value": "0.008",
+  "source": "runs/final (test split)",
+  "what": "R1-3 summary: r1 p"
+ },
+ {
+  "value": "435",
+  "source": "runs/v2main/summary_v2.json",
+  "what": "R1-3 summary: r2 n cons"
+ },
+ {
+  "value": "0.40",
+  "source": "runs/v2main/summary_v2.json",
+  "what": "R1-3 summary: r2 dod2"
+ },
+ {
+  "value": "0.80",
+  "source": "runs/v2main/summary_v2.json",
+  "what": "R1-3 summary: r2 best"
+ },
+ {
+  "value": "-0.16",
+  "source": "runs/v2main/summary_v2.json",
+  "what": "R1-3 summary: r2 diff"
+ },
+ {
+  "value": "-0.37",
+  "source": "runs/v2main/summary_v2.json",
+  "what": "R1-3 summary: r2 lo"
+ },
+ {
+  "value": "+0.02",
+  "source": "runs/v2main/summary_v2.json",
+  "what": "R1-3 summary: r2 hi"
+ },
+ {
+  "value": "49",
+  "source": "runs/v2main/summary_v2.json",
+  "what": "R1-3 summary: r2 test n"
+ },
+ {
+  "value": "0.368",
+  "source": "runs/v2main/summary_v2.json",
+  "what": "R1-3 summary: r2 p"
+ },
+ {
+  "value": "373",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R1-3 summary: r3 n cons"
+ },
+ {
+  "value": "0.46",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R1-3 summary: r3 dod3"
+ },
+ {
+  "value": "0.56",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R1-3 summary: r3 best"
+ },
+ {
+  "value": "-0.05",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R1-3 summary: r3 diff"
+ },
+ {
+  "value": "-0.33",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R1-3 summary: r3 lo"
+ },
+ {
+  "value": "+0.26",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R1-3 summary: r3 hi"
+ },
+ {
+  "value": "41",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R1-3 summary: r3 test n"
+ },
+ {
+  "value": "0.882",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R1-3 summary: r3 p"
+ },
+ {
+  "value": "-0.05",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R1-3 summary: H13 diff"
+ },
+ {
+  "value": "0.009",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R1-3 summary: H13 p"
+ },
+ {
+  "value": "1.00",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R1-3 summary: H14 same"
+ },
+ {
+  "value": "+0.02",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R1-3 summary: H12 diff"
+ },
+ {
+  "value": "0.882",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R1-3 summary: H12 p"
+ },
+ {
+  "value": "0.68",
+  "source": "runs/posthoc_by_change.json",
+  "what": "R1-3 summary: best DoD change rounds 1-3"
+ },
+ {
+  "value": "200",
+  "source": "runs/final; runs/v2main/summary_v2.json; runs/v3main/summary_v3.json",
+  "what": "R1-3 summary: silent cases rounds 1-3"
+ },
+ {
+  "value": "19",
+  "source": "runs/posthoc_by_change.json",
+  "what": "Across: r1 no_change n"
+ },
+ {
+  "value": "1.00",
+  "source": "runs/posthoc_by_change.json",
+  "what": "Across: r1 no_change dod"
+ },
+ {
+  "value": "1.00",
+  "source": "runs/posthoc_by_change.json",
+  "what": "Across: r1 no_change dod"
+ },
+ {
+  "value": "0.79",
+  "source": "runs/posthoc_by_change.json",
+  "what": "Across: r1 no_change best other"
+ },
+ {
+  "value": "78",
+  "source": "runs/posthoc_by_change.json",
+  "what": "Across: r1 change n"
+ },
+ {
+  "value": "0.68",
+  "source": "runs/posthoc_by_change.json",
+  "what": "Across: r1 change dod"
+ },
+ {
+  "value": "0.68",
+  "source": "runs/posthoc_by_change.json",
+  "what": "Across: r1 change dod"
+ },
+ {
+  "value": "0.55",
+  "source": "runs/posthoc_by_change.json",
+  "what": "Across: r1 change best other"
+ },
+ {
+  "value": "121",
+  "source": "runs/posthoc_by_change.json",
+  "what": "Across: r2 no_change n"
+ },
+ {
+  "value": "1.00",
+  "source": "runs/posthoc_by_change.json",
+  "what": "Across: r2 no_change dod2"
+ },
+ {
+  "value": "1.00",
+  "source": "runs/posthoc_by_change.json",
+  "what": "Across: r2 no_change dod"
+ },
+ {
+  "value": "0.73",
+  "source": "runs/posthoc_by_change.json",
+  "what": "Across: r2 no_change best other"
+ },
+ {
+  "value": "314",
+  "source": "runs/posthoc_by_change.json",
+  "what": "Across: r2 change n"
+ },
+ {
+  "value": "0.16",
+  "source": "runs/posthoc_by_change.json",
+  "what": "Across: r2 change dod2"
+ },
+ {
+  "value": "0.10",
+  "source": "runs/posthoc_by_change.json",
+  "what": "Across: r2 change dod"
+ },
+ {
+  "value": "0.31",
+  "source": "runs/posthoc_by_change.json",
+  "what": "Across: r2 change best other"
+ },
+ {
+  "value": "97",
+  "source": "runs/posthoc_by_change.json",
+  "what": "Across: r3 no_change n"
+ },
+ {
+  "value": "1.00",
+  "source": "runs/posthoc_by_change.json",
+  "what": "Across: r3 no_change dod3"
+ },
+ {
+  "value": "1.00",
+  "source": "runs/posthoc_by_change.json",
+  "what": "Across: r3 no_change dod"
+ },
+ {
+  "value": "0.78",
+  "source": "runs/posthoc_by_change.json",
+  "what": "Across: r3 no_change best other"
+ },
+ {
+  "value": "276",
+  "source": "runs/posthoc_by_change.json",
+  "what": "Across: r3 change n"
+ },
+ {
+  "value": "0.27",
+  "source": "runs/posthoc_by_change.json",
+  "what": "Across: r3 change dod3"
+ },
+ {
+  "value": "0.25",
+  "source": "runs/posthoc_by_change.json",
+  "what": "Across: r3 change dod"
+ },
+ {
+  "value": "0.43",
+  "source": "runs/posthoc_by_change.json",
+  "what": "Across: r3 change best other"
+ },
+ {
+  "value": "30",
+  "source": "runs/posthoc_by_change.json",
+  "what": "Across: r4 no_change n"
+ },
+ {
+  "value": "1.00",
+  "source": "runs/posthoc_by_change.json",
+  "what": "Across: r4 no_change dod4"
+ },
+ {
+  "value": "1.00",
+  "source": "runs/posthoc_by_change.json",
+  "what": "Across: r4 no_change dod"
+ },
+ {
+  "value": "0.83",
+  "source": "runs/posthoc_by_change.json",
+  "what": "Across: r4 no_change best other"
+ },
+ {
+  "value": "226",
+  "source": "runs/posthoc_by_change.json",
+  "what": "Across: r4 change n"
+ },
+ {
+  "value": "0.55",
+  "source": "runs/posthoc_by_change.json",
+  "what": "Across: r4 change dod4"
+ },
+ {
+  "value": "0.64",
+  "source": "runs/posthoc_by_change.json",
+  "what": "Across: r4 change dod"
+ },
+ {
+  "value": "0.52",
+  "source": "runs/posthoc_by_change.json",
+  "what": "Across: r4 change best other"
+ },
+ {
+  "value": "267",
+  "source": "runs/posthoc_by_change.json",
+  "what": "Across: no-change correct all rounds"
+ },
+ {
+  "value": "267",
+  "source": "runs/posthoc_by_change.json",
+  "what": "Across: no-change n all rounds"
+ },
+ {
+  "value": "0.68",
+  "source": "runs/posthoc_by_change.json",
+  "what": "Across: best change rounds 1-3"
+ },
+ {
+  "value": "0.64",
+  "source": "runs/posthoc_by_change.json",
+  "what": "Across: r4 change best committing"
+ },
+ {
+  "value": "226",
+  "source": "runs/posthoc_by_change.json",
+  "what": "Across: r4 change n"
+ },
+ {
+  "value": "0.55",
+  "source": "runs/posthoc_by_change.json",
+  "what": "Across: r4 change dod4"
+ },
+ {
+  "value": "125",
+  "source": "runs/posthoc_by_change.json",
+  "what": "Across: r4 change untouched"
+ },
+ {
+  "value": "226",
+  "source": "runs/posthoc_by_change.json",
+  "what": "Across: r4 change untouched n"
+ },
+ {
+  "value": "125",
+  "source": "runs/posthoc_by_change.json",
+  "what": "Across: r4 change untouched dod4 correct"
+ },
+ {
+  "value": "0.00",
+  "source": "runs/final (test split)",
+  "what": "Errors R1: retrain_on_alarm false blame"
+ },
+ {
+  "value": "1.00",
+  "source": "runs/final (test split)",
+  "what": "Errors R1: retrain_on_alarm missed"
+ },
+ {
+  "value": "0.00",
+  "source": "runs/v2main/summary_v2.json",
+  "what": "Errors R2: retrain_on_alarm false blame"
+ },
+ {
+  "value": "1.00",
+  "source": "runs/v2main/summary_v2.json",
+  "what": "Errors R2: retrain_on_alarm missed"
+ },
+ {
+  "value": "0.00",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "Errors R3: retrain_on_alarm false blame"
+ },
+ {
+  "value": "1.00",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "Errors R3: retrain_on_alarm missed"
+ },
+ {
+  "value": "0.00",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "Errors R4: retrain_on_alarm false blame"
+ },
+ {
+  "value": "1.00",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "Errors R4: retrain_on_alarm missed"
+ },
+ {
+  "value": "0.48",
+  "source": "runs/final (test split)",
+  "what": "Errors R1: validation_first false blame"
+ },
+ {
+  "value": "0.73",
+  "source": "runs/final (test split)",
+  "what": "Errors R1: validation_first missed"
+ },
+ {
+  "value": "0.73",
+  "source": "runs/v2main/summary_v2.json",
+  "what": "Errors R2: validation_first false blame"
+ },
+ {
+  "value": "0.57",
+  "source": "runs/v2main/summary_v2.json",
+  "what": "Errors R2: validation_first missed"
+ },
+ {
+  "value": "0.39",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "Errors R3: validation_first false blame"
+ },
+ {
+  "value": "0.63",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "Errors R3: validation_first missed"
+ },
+ {
+  "value": "0.83",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "Errors R4: validation_first false blame"
+ },
+ {
+  "value": "0.59",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "Errors R4: validation_first missed"
+ },
+ {
+  "value": "0.67",
+  "source": "runs/final (test split)",
+  "what": "Errors R1: observational_attribution false blame"
+ },
+ {
+  "value": "0.85",
+  "source": "runs/final (test split)",
+  "what": "Errors R1: observational_attribution missed"
+ },
+ {
+  "value": "0.55",
+  "source": "runs/v2main/summary_v2.json",
+  "what": "Errors R2: observational_attribution false blame"
+ },
+ {
+  "value": "0.58",
+  "source": "runs/v2main/summary_v2.json",
+  "what": "Errors R2: observational_attribution missed"
+ },
+ {
+  "value": "0.49",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "Errors R3: observational_attribution false blame"
+ },
+ {
+  "value": "0.54",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "Errors R3: observational_attribution missed"
+ },
+ {
+  "value": "0.82",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "Errors R4: observational_attribution false blame"
+ },
+ {
+  "value": "0.80",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "Errors R4: observational_attribution missed"
+ },
+ {
+  "value": "0.30",
+  "source": "runs/final (test split)",
+  "what": "Errors R1: full_rollback false blame"
+ },
+ {
+  "value": "0.32",
+  "source": "runs/final (test split)",
+  "what": "Errors R1: full_rollback missed"
+ },
+ {
+  "value": "0.07",
+  "source": "runs/v2main/summary_v2.json",
+  "what": "Errors R2: full_rollback false blame"
+ },
+ {
+  "value": "0.77",
+  "source": "runs/v2main/summary_v2.json",
+  "what": "Errors R2: full_rollback missed"
+ },
+ {
+  "value": "0.13",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "Errors R3: full_rollback false blame"
+ },
+ {
+  "value": "0.73",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "Errors R3: full_rollback missed"
+ },
+ {
+  "value": "0.28",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "Errors R4: full_rollback false blame"
+ },
+ {
+  "value": "0.47",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "Errors R4: full_rollback missed"
+ },
+ {
+  "value": "0.14",
+  "source": "runs/final (test split)",
+  "what": "Errors R1: bisect false blame"
+ },
+ {
+  "value": "0.34",
+  "source": "runs/final (test split)",
+  "what": "Errors R1: bisect missed"
+ },
+ {
+  "value": "0.00",
+  "source": "runs/v2main/summary_v2.json",
+  "what": "Errors R2: bisect false blame"
+ },
+ {
+  "value": "0.77",
+  "source": "runs/v2main/summary_v2.json",
+  "what": "Errors R2: bisect missed"
+ },
+ {
+  "value": "0.05",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "Errors R3: bisect false blame"
+ },
+ {
+  "value": "0.74",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "Errors R3: bisect missed"
+ },
+ {
+  "value": "0.02",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "Errors R4: bisect false blame"
+ },
+ {
+  "value": "0.48",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "Errors R4: bisect missed"
+ },
+ {
+  "value": "0.11",
+  "source": "runs/final (test split)",
+  "what": "Errors R1: bugdoc_shortcut false blame"
+ },
+ {
+  "value": "0.33",
+  "source": "runs/final (test split)",
+  "what": "Errors R1: bugdoc_shortcut missed"
+ },
+ {
+  "value": "0.07",
+  "source": "runs/v2main/summary_v2.json",
+  "what": "Errors R2: bugdoc_shortcut false blame"
+ },
+ {
+  "value": "0.62",
+  "source": "runs/v2main/summary_v2.json",
+  "what": "Errors R2: bugdoc_shortcut missed"
+ },
+ {
+  "value": "0.11",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "Errors R3: bugdoc_shortcut false blame"
+ },
+ {
+  "value": "0.64",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "Errors R3: bugdoc_shortcut missed"
+ },
+ {
+  "value": "0.03",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "Errors R4: bugdoc_shortcut false blame"
+ },
+ {
+  "value": "0.39",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "Errors R4: bugdoc_shortcut missed"
+ },
+ {
+  "value": "0.56",
+  "source": "runs/final (test split)",
+  "what": "Errors R1: llm_report@luna false blame"
+ },
+ {
+  "value": "0.64",
+  "source": "runs/final (test split)",
+  "what": "Errors R1: llm_report@luna missed"
+ },
+ {
+  "value": "0.64",
+  "source": "runs/v2main/summary_v2.json",
+  "what": "Errors R2: llm_report@luna false blame"
+ },
+ {
+  "value": "0.52",
+  "source": "runs/v2main/summary_v2.json",
+  "what": "Errors R2: llm_report@luna missed"
+ },
+ {
+  "value": "0.59",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "Errors R3: llm_report@luna false blame"
+ },
+ {
+  "value": "0.39",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "Errors R3: llm_report@luna missed"
+ },
+ {
+  "value": "0.88",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "Errors R4: llm_report@luna false blame"
+ },
+ {
+  "value": "0.44",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "Errors R4: llm_report@luna missed"
+ },
+ {
+  "value": "0.32",
+  "source": "runs/final (test split)",
+  "what": "Errors R1: llm_tools@luna false blame"
+ },
+ {
+  "value": "0.37",
+  "source": "runs/final (test split)",
+  "what": "Errors R1: llm_tools@luna missed"
+ },
+ {
+  "value": "0.41",
+  "source": "runs/v2main/summary_v2.json",
+  "what": "Errors R2: llm_tools@luna false blame"
+ },
+ {
+  "value": "0.51",
+  "source": "runs/v2main/summary_v2.json",
+  "what": "Errors R2: llm_tools@luna missed"
+ },
+ {
+  "value": "0.30",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "Errors R3: llm_tools@luna false blame"
+ },
+ {
+  "value": "0.44",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "Errors R3: llm_tools@luna missed"
+ },
+ {
+  "value": "0.32",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "Errors R4: llm_tools@luna false blame"
+ },
+ {
+  "value": "0.36",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "Errors R4: llm_tools@luna missed"
+ },
+ {
+  "value": "0.33",
+  "source": "runs/final (test split)",
+  "what": "Errors R1: dod false blame"
+ },
+ {
+  "value": "0.08",
+  "source": "runs/final (test split)",
+  "what": "Errors R1: dod missed"
+ },
+ {
+  "value": "0.54",
+  "source": "runs/v2main/summary_v2.json",
+  "what": "Errors R2: dod false blame"
+ },
+ {
+  "value": "0.07",
+  "source": "runs/v2main/summary_v2.json",
+  "what": "Errors R2: dod missed"
+ },
+ {
+  "value": "0.47",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "Errors R3: dod false blame"
+ },
+ {
+  "value": "0.18",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "Errors R3: dod missed"
+ },
+ {
+  "value": "0.04",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "Errors R4: dod false blame"
+ },
+ {
+  "value": "0.27",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "Errors R4: dod missed"
+ },
+ {
+  "value": "0.52",
+  "source": "runs/v2main/summary_v2.json",
+  "what": "Errors R2: dod2 false blame"
+ },
+ {
+  "value": "0.07",
+  "source": "runs/v2main/summary_v2.json",
+  "what": "Errors R2: dod2 missed"
+ },
+ {
+  "value": "0.47",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "Errors R3: dod2 false blame"
+ },
+ {
+  "value": "0.18",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "Errors R3: dod2 missed"
+ },
+ {
+  "value": "0.04",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "Errors R4: dod2 false blame"
+ },
+ {
+  "value": "0.27",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "Errors R4: dod2 missed"
+ },
+ {
+  "value": "0.44",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "Errors R3: dod3 false blame"
+ },
+ {
+  "value": "0.20",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "Errors R3: dod3 missed"
+ },
+ {
+  "value": "0.04",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "Errors R4: dod3 false blame"
+ },
+ {
+  "value": "0.32",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "Errors R4: dod3 missed"
+ },
+ {
+  "value": "0.00",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "Errors R4: dod4 false blame"
+ },
+ {
+  "value": "0.00",
+  "source": "runs/v4main/summary_v4.json",
+  "what": "Errors R4: dod4 missed"
+ },
+ {
+  "value": "0.33",
+  "source": "runs/final; runs/v2main/summary_v2.json; runs/v3main/summary_v3.json",
+  "what": "min bisect/bugdoc missed"
+ },
+ {
+  "value": "0.77",
+  "source": "runs/final; runs/v2main/summary_v2.json; runs/v3main/summary_v3.json",
+  "what": "max bisect/bugdoc missed"
+ },
+ {
+  "value": "0.33",
+  "source": "runs/final; runs/v2main/summary_v2.json; runs/v3main/summary_v3.json",
+  "what": "min DoD false blame rounds 1-3"
+ },
+ {
+  "value": "0.54",
+  "source": "runs/final; runs/v2main/summary_v2.json; runs/v3main/summary_v3.json",
+  "what": "max DoD false blame rounds 1-3"
+ },
+ {
+  "value": "1.00",
+  "source": "runs/final; runs/v2main/summary_v2.json; runs/v3main/summary_v3.json",
+  "what": "share of DoD false blames at published changes"
+ },
+ {
+  "value": "3,577",
+  "source": "runs/posthoc_local_vs_e2e.json",
+  "what": "LvE: unforced rollbacks"
+ },
+ {
+  "value": "1,575",
+  "source": "runs/posthoc_local_vs_e2e.json",
+  "what": "LvE: unforced differ effective"
+ },
+ {
+  "value": "1",
+  "source": "runs/posthoc_local_vs_e2e.json",
+  "what": "LvE: unforced differ not effective"
+ },
+ {
+  "value": "0",
+  "source": "runs/posthoc_local_vs_e2e.json",
+  "what": "LvE: unforced equal effective"
+ },
+ {
+  "value": "2,001",
+  "source": "runs/posthoc_local_vs_e2e.json",
+  "what": "LvE: unforced equal"
+ },
+ {
+  "value": "2,374",
+  "source": "runs/posthoc_local_vs_e2e.json",
+  "what": "LvE: forced differ"
+ },
+ {
+  "value": "356",
+  "source": "runs/posthoc_local_vs_e2e.json",
+  "what": "LvE: forced differ effective"
+ },
+ {
+  "value": "12",
+  "source": "runs/posthoc_local_vs_e2e.json",
+  "what": "LvE: forced equal effective"
+ },
+ {
+  "value": "218",
+  "source": "runs/posthoc_local_vs_e2e.json",
+  "what": "LvE: r4 propagation tests"
+ },
+ {
+  "value": "2,511",
+  "source": "runs/v4dev/summary_v4_dev.json",
+  "what": "DoD-4 dev: dev n"
+ },
+ {
+  "value": "0.000",
+  "source": "runs/v4dev/summary_v4_dev.json",
+  "what": "DoD-4 dev: dev false blame"
+ },
+ {
+  "value": "0.000",
+  "source": "runs/v4dev/summary_v4_dev.json",
+  "what": "DoD-4 dev: dev silent miss"
+ },
+ {
+  "value": "0.30",
+  "source": "runs/v4dev/summary_v4_dev.json",
+  "what": "DoD-4 dev: dev coverage"
+ },
+ {
+  "value": "1.00",
+  "source": "runs/v4dev/summary_v4_dev.json",
+  "what": "DoD-4 dev: dev correct where decided"
+ },
+ {
+  "value": "2.31",
+  "source": "runs/v4dev/summary_v4_dev.json",
+  "what": "DoD-4 dev: dev review load"
+ },
+ {
+  "value": "0.45",
+  "source": "runs/v4dev/summary_v4_dev.json",
+  "what": "DoD-4 dev: dev review share"
+ },
+ {
+  "value": "0.44",
+  "source": "runs/v4dev/summary_v4_dev.json",
+  "what": "DoD-4 dev: dev dod3 false blame"
+ },
+ {
+  "value": "809",
+  "source": "runs/v4dev/summary_v4_dev.json",
+  "what": "DoD-4 dev: dev dod3 n"
+ },
+ {
+  "value": "0.74",
+  "source": "runs/posthoc_sensitivity.json",
+  "what": "Sensitivity: r1 all"
+ },
+ {
+  "value": "0.48",
+  "source": "runs/posthoc_sensitivity.json",
+  "what": "Sensitivity: r1 lodo min"
+ },
+ {
+  "value": "1.00",
+  "source": "runs/posthoc_sensitivity.json",
+  "what": "Sensitivity: r1 lodo max"
+ },
+ {
+  "value": "0.56",
+  "source": "runs/posthoc_sensitivity.json",
+  "what": "Sensitivity: r1 loeo min"
+ },
+ {
+  "value": "0.97",
+  "source": "runs/posthoc_sensitivity.json",
+  "what": "Sensitivity: r1 loeo max"
+ },
+ {
+  "value": "0.40",
+  "source": "runs/posthoc_sensitivity.json",
+  "what": "Sensitivity: r2 all"
+ },
+ {
+  "value": "0.21",
+  "source": "runs/posthoc_sensitivity.json",
+  "what": "Sensitivity: r2 lodo min"
+ },
+ {
+  "value": "0.66",
+  "source": "runs/posthoc_sensitivity.json",
+  "what": "Sensitivity: r2 lodo max"
+ },
+ {
+  "value": "0.41",
+  "source": "runs/posthoc_sensitivity.json",
+  "what": "Sensitivity: r2 loeo min"
+ },
+ {
+  "value": "0.60",
+  "source": "runs/posthoc_sensitivity.json",
+  "what": "Sensitivity: r2 loeo max"
+ },
+ {
+  "value": "0.46",
+  "source": "runs/posthoc_sensitivity.json",
+  "what": "Sensitivity: r3 all"
+ },
+ {
+  "value": "0.35",
+  "source": "runs/posthoc_sensitivity.json",
+  "what": "Sensitivity: r3 lodo min"
+ },
+ {
+  "value": "0.75",
+  "source": "runs/posthoc_sensitivity.json",
+  "what": "Sensitivity: r3 lodo max"
+ },
+ {
+  "value": "0.40",
+  "source": "runs/posthoc_sensitivity.json",
+  "what": "Sensitivity: r3 loeo min"
+ },
+ {
+  "value": "0.77",
+  "source": "runs/posthoc_sensitivity.json",
+  "what": "Sensitivity: r3 loeo max"
+ },
+ {
+  "value": "0.61",
+  "source": "runs/posthoc_sensitivity.json",
+  "what": "Sensitivity: r4 all"
+ },
+ {
+  "value": "0.41",
+  "source": "runs/posthoc_sensitivity.json",
+  "what": "Sensitivity: r4 lodo min"
+ },
+ {
+  "value": "0.86",
+  "source": "runs/posthoc_sensitivity.json",
+  "what": "Sensitivity: r4 lodo max"
+ },
+ {
+  "value": "0.48",
+  "source": "runs/posthoc_sensitivity.json",
+  "what": "Sensitivity: r4 loeo min"
+ },
+ {
+  "value": "0.80",
+  "source": "runs/posthoc_sensitivity.json",
+  "what": "Sensitivity: r4 loeo max"
+ },
+ {
+  "value": "0.000",
+  "source": "runs/posthoc_sensitivity.json",
+  "what": "Sensitivity: r4 max fb leave-out"
+ },
+ {
+  "value": "0.000",
+  "source": "runs/posthoc_sensitivity.json",
+  "what": "Sensitivity: r4 max sm leave-out"
+ },
+ {
+  "value": "0.00",
+  "source": "runs/final (test split)",
+  "what": "R1 retrain_on_alarm pooled"
+ },
+ {
+  "value": "0.00",
+  "source": "runs/final (test split)",
+  "what": "R1 retrain_on_alarm news"
+ },
+ {
+  "value": "0.00",
+  "source": "runs/final (test split)",
+  "what": "R1 retrain_on_alarm tlc"
+ },
+ {
+  "value": "0.00",
+  "source": "runs/final (test split)",
+  "what": "R1 retrain_on_alarm silent"
+ },
+ {
+  "value": "0.00",
+  "source": "runs/final (test split)",
+  "what": "R1 retrain_on_alarm false blame"
+ },
+ {
+  "value": "0.10",
+  "source": "runs/final (test split)",
+  "what": "R1 validation_first pooled"
+ },
+ {
+  "value": "0.10",
+  "source": "runs/final (test split)",
+  "what": "R1 validation_first news"
+ },
+ {
+  "value": "0.10",
+  "source": "runs/final (test split)",
+  "what": "R1 validation_first tlc"
+ },
+ {
+  "value": "0.00",
+  "source": "runs/final (test split)",
+  "what": "R1 validation_first silent"
+ },
+ {
+  "value": "0.48",
+  "source": "runs/final (test split)",
+  "what": "R1 validation_first false blame"
+ },
+ {
+  "value": "0.15",
+  "source": "runs/final (test split)",
+  "what": "R1 observational_attribution pooled"
+ },
+ {
+  "value": "0.12",
+  "source": "runs/final (test split)",
+  "what": "R1 observational_attribution news"
+ },
+ {
+  "value": "0.19",
+  "source": "runs/final (test split)",
+  "what": "R1 observational_attribution tlc"
+ },
+ {
+  "value": "0.28",
+  "source": "runs/final (test split)",
+  "what": "R1 observational_attribution silent"
+ },
+ {
+  "value": "0.67",
+  "source": "runs/final (test split)",
+  "what": "R1 observational_attribution false blame"
+ },
+ {
+  "value": "0.03",
+  "source": "runs/final (test split)",
+  "what": "R1 full_rollback pooled"
+ },
+ {
+  "value": "0.04",
+  "source": "runs/final (test split)",
+  "what": "R1 full_rollback news"
+ },
+ {
+  "value": "0.02",
+  "source": "runs/final (test split)",
+  "what": "R1 full_rollback tlc"
+ },
+ {
+  "value": "0.05",
+  "source": "runs/final (test split)",
+  "what": "R1 full_rollback silent"
+ },
+ {
+  "value": "0.30",
+  "source": "runs/final (test split)",
+  "what": "R1 full_rollback false blame"
+ },
+ {
+  "value": "0.43",
+  "source": "runs/final (test split)",
+  "what": "R1 bisect pooled"
+ },
+ {
+  "value": "0.20",
+  "source": "runs/final (test split)",
+  "what": "R1 bisect news"
+ },
+ {
+  "value": "0.67",
+  "source": "runs/final (test split)",
+  "what": "R1 bisect tlc"
+ },
+ {
+  "value": "0.38",
+  "source": "runs/final (test split)",
+  "what": "R1 bisect silent"
+ },
+ {
+  "value": "0.14",
+  "source": "runs/final (test split)",
+  "what": "R1 bisect false blame"
+ },
+ {
+  "value": "0.53",
+  "source": "runs/final (test split)",
+  "what": "R1 bugdoc_shortcut pooled"
+ },
+ {
+  "value": "0.39",
+  "source": "runs/final (test split)",
+  "what": "R1 bugdoc_shortcut news"
+ },
+ {
+  "value": "0.67",
+  "source": "runs/final (test split)",
+  "what": "R1 bugdoc_shortcut tlc"
+ },
+ {
+  "value": "0.54",
+  "source": "runs/final (test split)",
+  "what": "R1 bugdoc_shortcut silent"
+ },
+ {
+  "value": "0.11",
+  "source": "runs/final (test split)",
+  "what": "R1 bugdoc_shortcut false blame"
+ },
+ {
+  "value": "0.31",
+  "source": "runs/final (test split)",
+  "what": "R1 llm_report@luna pooled"
+ },
+ {
+  "value": "0.47",
+  "source": "runs/final (test split)",
+  "what": "R1 llm_report@luna news"
+ },
+ {
+  "value": "0.15",
+  "source": "runs/final (test split)",
+  "what": "R1 llm_report@luna tlc"
+ },
+ {
+  "value": "0.46",
+  "source": "runs/final (test split)",
+  "what": "R1 llm_report@luna silent"
+ },
+ {
+  "value": "0.56",
+  "source": "runs/final (test split)",
+  "what": "R1 llm_report@luna false blame"
+ },
+ {
+  "value": "0.49",
+  "source": "runs/final (test split)",
+  "what": "R1 llm_tools@luna pooled"
+ },
+ {
+  "value": "0.61",
+  "source": "runs/final (test split)",
+  "what": "R1 llm_tools@luna news"
+ },
+ {
+  "value": "0.38",
+  "source": "runs/final (test split)",
+  "what": "R1 llm_tools@luna tlc"
+ },
+ {
+  "value": "0.56",
+  "source": "runs/final (test split)",
+  "what": "R1 llm_tools@luna silent"
+ },
+ {
+  "value": "0.32",
+  "source": "runs/final (test split)",
+  "what": "R1 llm_tools@luna false blame"
+ },
+ {
+  "value": "0.25",
+  "source": "runs/final (test split)",
+  "what": "R1 llm_report@terra pooled"
+ },
+ {
+  "value": "0.33",
+  "source": "runs/final (test split)",
+  "what": "R1 llm_report@terra news"
+ },
+ {
+  "value": "0.17",
+  "source": "runs/final (test split)",
+  "what": "R1 llm_report@terra tlc"
+ },
+ {
+  "value": "0.31",
+  "source": "runs/final (test split)",
+  "what": "R1 llm_report@terra silent"
+ },
+ {
+  "value": "0.60",
+  "source": "runs/final (test split)",
+  "what": "R1 llm_tools@terra pooled"
+ },
+ {
+  "value": "0.80",
+  "source": "runs/final (test split)",
+  "what": "R1 llm_tools@terra news"
+ },
+ {
+  "value": "0.40",
+  "source": "runs/final (test split)",
+  "what": "R1 llm_tools@terra tlc"
+ },
+ {
+  "value": "0.85",
+  "source": "runs/final (test split)",
+  "what": "R1 llm_tools@terra silent"
+ },
+ {
+  "value": "0.48",
+  "source": "runs/final (test split)",
+  "what": "R1 dod_no_boundary pooled"
+ },
+ {
+  "value": "0.18",
+  "source": "runs/final (test split)",
+  "what": "R1 dod_no_boundary news"
+ },
+ {
+  "value": "0.79",
+  "source": "runs/final (test split)",
+  "what": "R1 dod_no_boundary tlc"
+ },
+ {
+  "value": "0.46",
+  "source": "runs/final (test split)",
+  "what": "R1 dod_no_boundary silent"
+ },
+ {
+  "value": "0.14",
+  "source": "runs/final (test split)",
+  "what": "R1 dod_no_boundary false blame"
+ },
+ {
+  "value": "0.74",
+  "source": "runs/final (test split)",
+  "what": "R1 dod pooled"
+ },
+ {
+  "value": "1.00",
+  "source": "runs/final (test split)",
+  "what": "R1 dod news"
+ },
+ {
+  "value": "0.48",
+  "source": "runs/final (test split)",
+  "what": "R1 dod tlc"
+ },
+ {
+  "value": "1.00",
+  "source": "runs/final (test split)",
+  "what": "R1 dod silent"
+ },
+ {
+  "value": "0.33",
+  "source": "runs/final (test split)",
+  "what": "R1 dod false blame"
+ },
+ {
+  "value": "97",
+  "source": "runs/final (test split)",
+  "what": "R1 consequential test cases"
+ },
+ {
+  "value": "39",
+  "source": "runs/final (test split)",
+  "what": "R1 silent consequential cases"
+ },
+ {
+  "value": "0.00",
+  "source": "runs/final (test split)",
+  "what": "R1 H1 retrain silent"
+ },
+ {
+  "value": "0.00",
+  "source": "runs/final (test split)",
+  "what": "R1 H1 validation silent"
+ },
+ {
+  "value": "0.28",
+  "source": "runs/final (test split)",
+  "what": "R1 H1 obs silent"
+ },
+ {
+  "value": "0.46",
+  "source": "runs/final (test split)",
+  "what": "R1 H1 llm silent"
+ },
+ {
+  "value": "0.74",
+  "source": "runs/final (test split)",
+  "what": "R1 dod primary"
+ },
+ {
+  "value": "0.60",
+  "source": "runs/final (test split)",
+  "what": "R1 best baseline"
+ },
+ {
+  "value": "+0.14",
+  "source": "runs/final (test split)",
+  "what": "R1 H2 diff"
+ },
+ {
+  "value": "+0.05",
+  "source": "runs/final (test split)",
+  "what": "R1 H2 lo"
+ },
+ {
+  "value": "+0.25",
+  "source": "runs/final (test split)",
+  "what": "R1 H2 hi"
+ },
+ {
+  "value": "0.008",
+  "source": "runs/final (test split)",
+  "what": "R1 H2 p"
+ },
+ {
+  "value": "1.00",
+  "source": "runs/final (test split)",
+  "what": "R1 news dod"
+ },
+ {
+  "value": "0.48",
+  "source": "runs/final (test split)",
+  "what": "R1 tlc dod"
+ },
+ {
+  "value": "0.60",
+  "source": "runs/final (test split)",
+  "what": "R1 dod_b1"
+ },
+ {
+  "value": "0.49",
+  "source": "runs/final (test split)",
+  "what": "R1 dod_b1_uniform"
+ },
+ {
+  "value": "+0.10",
+  "source": "runs/final (test split)",
+  "what": "R1 H3 diff"
+ },
+ {
+  "value": "-0.02",
+  "source": "runs/final (test split)",
+  "what": "R1 H3 lo"
+ },
+ {
+  "value": "+0.24",
+  "source": "runs/final (test split)",
+  "what": "R1 H3 hi"
+ },
+ {
+  "value": "13.9",
+  "source": "runs/final (test split)",
+  "what": "R1 dod compute"
+ },
+ {
+  "value": "4.1",
+  "source": "runs/final (test split)",
+  "what": "R1 bugdoc compute"
+ },
+ {
+  "value": "-0.32",
+  "source": "runs/final (test split)",
+  "what": "R1 H4 miss vs retrain"
+ },
+ {
+  "value": "-0.23",
+  "source": "runs/final (test split)",
+  "what": "R1 H4 miss vs validation"
+ },
+ {
+  "value": "-0.14",
+  "source": "runs/final (test split)",
+  "what": "R1 H4 fb vs validation"
+ },
+ {
+  "value": "0.16",
+  "source": "runs/final (test split)",
+  "what": "R1 H4 fragility gap"
+ },
+ {
+  "value": "+0.33",
+  "source": "runs/final (test split)",
+  "what": "R1 H4 fb vs retrain"
+ },
+ {
+  "value": "0.95",
+  "source": "runs/final (test split)",
+  "what": "R1 H5 dod"
+ },
+ {
+  "value": "0.14",
+  "source": "runs/final (test split)",
+  "what": "R1 H5 no boundary"
+ },
+ {
+  "value": "21",
+  "source": "runs/final (test split)",
+  "what": "R1 H5 n"
+ },
+ {
+  "value": "93",
+  "source": "runs/final/posthoc.json",
+  "what": "R1 P4 cases"
+ },
+ {
+  "value": "90",
+  "source": "runs/final/posthoc.json",
+  "what": "R1 P4 airport flags"
+ },
+ {
+  "value": "0.00",
+  "source": "runs/v2main/summary_v2.json",
+  "what": "R2 retrain_on_alarm pooled"
+ },
+ {
+  "value": "0.00",
+  "source": "runs/v2main/summary_v2.json",
+  "what": "R2 retrain_on_alarm divvy"
+ },
+ {
+  "value": "0.00",
+  "source": "runs/v2main/summary_v2.json",
+  "what": "R2 retrain_on_alarm hmda"
+ },
+ {
+  "value": "0.00",
+  "source": "runs/v2main/summary_v2.json",
+  "what": "R2 retrain_on_alarm bts"
+ },
+ {
+  "value": "0.00",
+  "source": "runs/v2main/summary_v2.json",
+  "what": "R2 retrain_on_alarm silent"
+ },
+ {
+  "value": "0.00",
+  "source": "runs/v2main/summary_v2.json",
+  "what": "R2 retrain_on_alarm false blame events"
+ },
+ {
+  "value": "0.17",
+  "source": "runs/v2main/summary_v2.json",
+  "what": "R2 validation_first pooled"
+ },
+ {
+  "value": "0.09",
+  "source": "runs/v2main/summary_v2.json",
+  "what": "R2 validation_first divvy"
+ },
+ {
+  "value": "0.28",
+  "source": "runs/v2main/summary_v2.json",
+  "what": "R2 validation_first hmda"
+ },
+ {
+  "value": "0.24",
+  "source": "runs/v2main/summary_v2.json",
+  "what": "R2 validation_first bts"
+ },
+ {
+  "value": "0.00",
+  "source": "runs/v2main/summary_v2.json",
+  "what": "R2 validation_first silent"
+ },
+ {
+  "value": "0.81",
+  "source": "runs/v2main/summary_v2.json",
+  "what": "R2 validation_first false blame events"
+ },
+ {
+  "value": "0.42",
+  "source": "runs/v2main/summary_v2.json",
+  "what": "R2 observational_attribution pooled"
+ },
+ {
+  "value": "0.28",
+  "source": "runs/v2main/summary_v2.json",
+  "what": "R2 observational_attribution divvy"
+ },
+ {
+  "value": "0.46",
+  "source": "runs/v2main/summary_v2.json",
+  "what": "R2 observational_attribution hmda"
+ },
+ {
+  "value": "0.68",
+  "source": "runs/v2main/summary_v2.json",
+  "what": "R2 observational_attribution bts"
+ },
+ {
+  "value": "0.72",
+  "source": "runs/v2main/summary_v2.json",
+  "what": "R2 observational_attribution silent"
+ },
+ {
+  "value": "0.72",
+  "source": "runs/v2main/summary_v2.json",
+  "what": "R2 observational_attribution false blame events"
+ },
+ {
+  "value": "0.08",
+  "source": "runs/v2main/summary_v2.json",
+  "what": "R2 full_rollback pooled"
+ },
+ {
+  "value": "0.02",
+  "source": "runs/v2main/summary_v2.json",
+  "what": "R2 full_rollback divvy"
+ },
+ {
+  "value": "0.05",
+  "source": "runs/v2main/summary_v2.json",
+  "what": "R2 full_rollback hmda"
+ },
+ {
+  "value": "0.24",
+  "source": "runs/v2main/summary_v2.json",
+  "what": "R2 full_rollback bts"
+ },
+ {
+  "value": "0.12",
+  "source": "runs/v2main/summary_v2.json",
+  "what": "R2 full_rollback silent"
+ },
+ {
+  "value": "0.02",
+  "source": "runs/v2main/summary_v2.json",
+  "what": "R2 full_rollback false blame events"
+ },
+ {
+  "value": "0.23",
+  "source": "runs/v2main/summary_v2.json",
+  "what": "R2 bisect pooled"
+ },
+ {
+  "value": "0.06",
+  "source": "runs/v2main/summary_v2.json",
+  "what": "R2 bisect divvy"
+ },
+ {
+  "value": "0.21",
+  "source": "runs/v2main/summary_v2.json",
+  "what": "R2 bisect hmda"
+ },
+ {
+  "value": "0.61",
+  "source": "runs/v2main/summary_v2.json",
+  "what": "R2 bisect bts"
+ },
+ {
+  "value": "0.62",
+  "source": "runs/v2main/summary_v2.json",
+  "what": "R2 bisect silent"
+ },
+ {
+  "value": "0.00",
+  "source": "runs/v2main/summary_v2.json",
+  "what": "R2 bisect false blame events"
+ },
+ {
+  "value": "0.36",
+  "source": "runs/v2main/summary_v2.json",
+  "what": "R2 bugdoc_shortcut pooled"
+ },
+ {
+  "value": "0.17",
+  "source": "runs/v2main/summary_v2.json",
+  "what": "R2 bugdoc_shortcut divvy"
+ },
+ {
+  "value": "0.52",
+  "source": "runs/v2main/summary_v2.json",
+  "what": "R2 bugdoc_shortcut hmda"
+ },
+ {
+  "value": "0.63",
+  "source": "runs/v2main/summary_v2.json",
+  "what": "R2 bugdoc_shortcut bts"
+ },
+ {
+  "value": "0.68",
+  "source": "runs/v2main/summary_v2.json",
+  "what": "R2 bugdoc_shortcut silent"
+ },
+ {
+  "value": "0.11",
+  "source": "runs/v2main/summary_v2.json",
+  "what": "R2 bugdoc_shortcut false blame events"
+ },
+ {
+  "value": "0.27",
+  "source": "runs/v2main/summary_v2.json",
+  "what": "R2 llm_report@luna pooled"
+ },
+ {
+  "value": "0.14",
+  "source": "runs/v2main/summary_v2.json",
+  "what": "R2 llm_report@luna divvy"
+ },
+ {
+  "value": "0.42",
+  "source": "runs/v2main/summary_v2.json",
+  "what": "R2 llm_report@luna hmda"
+ },
+ {
+  "value": "0.41",
+  "source": "runs/v2main/summary_v2.json",
+  "what": "R2 llm_report@luna bts"
+ },
+ {
+  "value": "0.50",
+  "source": "runs/v2main/summary_v2.json",
+  "what": "R2 llm_report@luna silent"
+ },
+ {
+  "value": "0.81",
+  "source": "runs/v2main/summary_v2.json",
+  "what": "R2 llm_report@luna false blame events"
+ },
+ {
+  "value": "0.41",
+  "source": "runs/v2main/summary_v2.json",
+  "what": "R2 llm_tools@luna pooled"
+ },
+ {
+  "value": "0.23",
+  "source": "runs/v2main/summary_v2.json",
+  "what": "R2 llm_tools@luna divvy"
+ },
+ {
+  "value": "0.54",
+  "source": "runs/v2main/summary_v2.json",
+  "what": "R2 llm_tools@luna hmda"
+ },
+ {
+  "value": "0.69",
+  "source": "runs/v2main/summary_v2.json",
+  "what": "R2 llm_tools@luna bts"
+ },
+ {
+  "value": "0.70",
+  "source": "runs/v2main/summary_v2.json",
+  "what": "R2 llm_tools@luna silent"
+ },
+ {
+  "value": "0.66",
+  "source": "runs/v2main/summary_v2.json",
+  "what": "R2 llm_tools@luna false blame events"
+ },
+ {
+  "value": "0.37",
+  "source": "runs/v2main/summary_v2.json",
+  "what": "R2 llm_report@terra pooled"
+ },
+ {
+  "value": "0.58",
+  "source": "runs/v2main/summary_v2.json",
+  "what": "R2 llm_report@terra divvy"
+ },
+ {
+  "value": "0.41",
+  "source": "runs/v2main/summary_v2.json",
+  "what": "R2 llm_report@terra hmda"
+ },
+ {
+  "value": "0.20",
+  "source": "runs/v2main/summary_v2.json",
+  "what": "R2 llm_report@terra bts"
+ },
+ {
+  "value": "0.67",
+  "source": "runs/v2main/summary_v2.json",
+  "what": "R2 llm_report@terra silent"
+ },
+ {
+  "value": "0.80",
+  "source": "runs/v2main/summary_v2.json",
+  "what": "R2 llm_tools@terra pooled"
+ },
+ {
+  "value": "0.83",
+  "source": "runs/v2main/summary_v2.json",
+  "what": "R2 llm_tools@terra divvy"
+ },
+ {
+  "value": "0.76",
+  "source": "runs/v2main/summary_v2.json",
+  "what": "R2 llm_tools@terra hmda"
+ },
+ {
+  "value": "0.80",
+  "source": "runs/v2main/summary_v2.json",
+  "what": "R2 llm_tools@terra bts"
+ },
+ {
+  "value": "0.83",
+  "source": "runs/v2main/summary_v2.json",
+  "what": "R2 llm_tools@terra silent"
+ },
+ {
+  "value": "0.49",
+  "source": "runs/v2main/summary_v2.json",
+  "what": "R2 dod_no_boundary pooled"
+ },
+ {
+  "value": "0.20",
+  "source": "runs/v2main/summary_v2.json",
+  "what": "R2 dod_no_boundary divvy"
+ },
+ {
+  "value": "0.62",
+  "source": "runs/v2main/summary_v2.json",
+  "what": "R2 dod_no_boundary hmda"
+ },
+ {
+  "value": "1.00",
+  "source": "runs/v2main/summary_v2.json",
+  "what": "R2 dod_no_boundary bts"
+ },
+ {
+  "value": "0.95",
+  "source": "runs/v2main/summary_v2.json",
+  "what": "R2 dod_no_boundary silent"
+ },
+ {
+  "value": "0.71",
+  "source": "runs/v2main/summary_v2.json",
+  "what": "R2 dod_no_boundary false blame events"
+ },
+ {
+  "value": "0.35",
+  "source": "runs/v2main/summary_v2.json",
+  "what": "R2 dod pooled"
+ },
+ {
+  "value": "0.07",
+  "source": "runs/v2main/summary_v2.json",
+  "what": "R2 dod divvy"
+ },
+ {
+  "value": "0.34",
+  "source": "runs/v2main/summary_v2.json",
+  "what": "R2 dod hmda"
+ },
+ {
+  "value": "1.00",
+  "source": "runs/v2main/summary_v2.json",
+  "what": "R2 dod bts"
+ },
+ {
+  "value": "0.93",
+  "source": "runs/v2main/summary_v2.json",
+  "what": "R2 dod silent"
+ },
+ {
+  "value": "0.88",
+  "source": "runs/v2main/summary_v2.json",
+  "what": "R2 dod false blame events"
+ },
+ {
+  "value": "0.40",
+  "source": "runs/v2main/summary_v2.json",
+  "what": "R2 dod2 pooled"
+ },
+ {
+  "value": "0.16",
+  "source": "runs/v2main/summary_v2.json",
+  "what": "R2 dod2 divvy"
+ },
+ {
+  "value": "0.34",
+  "source": "runs/v2main/summary_v2.json",
+  "what": "R2 dod2 hmda"
+ },
+ {
+  "value": "1.00",
+  "source": "runs/v2main/summary_v2.json",
+  "what": "R2 dod2 bts"
+ },
+ {
+  "value": "0.93",
+  "source": "runs/v2main/summary_v2.json",
+  "what": "R2 dod2 silent"
+ },
+ {
+  "value": "0.85",
+  "source": "runs/v2main/summary_v2.json",
+  "what": "R2 dod2 false blame events"
+ },
+ {
+  "value": "0.40",
+  "source": "runs/v2main/summary_v2.json",
+  "what": "R2 dod2 primary"
+ },
+ {
+  "value": "0.35",
+  "source": "runs/v2main/summary_v2.json",
+  "what": "R2 dod primary"
+ },
+ {
+  "value": "+0.05",
+  "source": "runs/v2main/summary_v2.json",
+  "what": "R2 H6 diff"
+ },
+ {
+  "value": "0.37",
+  "source": "runs/v2main/summary_v2.json",
+  "what": "R2 H6 p"
+ },
+ {
+  "value": "0.85",
+  "source": "runs/v2main/summary_v2.json",
+  "what": "R2 dod2 fb events"
+ },
+ {
+  "value": "0.88",
+  "source": "runs/v2main/summary_v2.json",
+  "what": "R2 dod fb events"
+ },
+ {
+  "value": "-0.03",
+  "source": "runs/v2main/summary_v2.json",
+  "what": "R2 H7 diff"
+ },
+ {
+  "value": "0.37",
+  "source": "runs/v2main/summary_v2.json",
+  "what": "R2 H7 p"
+ },
+ {
+  "value": "0.16",
+  "source": "runs/v2main/summary_v2.json",
+  "what": "R2 H8 gap"
+ },
+ {
+  "value": "49",
+  "source": "runs/v2main/summary_v2.json",
+  "what": "R2 H8 n"
+ },
+ {
+  "value": "-0.37",
+  "source": "runs/v2main/summary_v2.json",
+  "what": "R2 H8 lo"
+ },
+ {
+  "value": "+0.02",
+  "source": "runs/v2main/summary_v2.json",
+  "what": "R2 H8 hi"
+ },
+ {
+  "value": "0.37",
+  "source": "runs/v2main/summary_v2.json",
+  "what": "R2 H8 p"
+ },
+ {
+  "value": "1.00",
+  "source": "runs/v2main/summary_v2.json",
+  "what": "R2 bts dod2"
+ },
+ {
+  "value": "0.16",
+  "source": "runs/v2main/summary_v2.json",
+  "what": "R2 divvy dod2"
+ },
+ {
+  "value": "0.07",
+  "source": "runs/v2main/summary_v2.json",
+  "what": "R2 divvy dod"
+ },
+ {
+  "value": "0.34",
+  "source": "runs/v2main/summary_v2.json",
+  "what": "R2 hmda dod2"
+ },
+ {
+  "value": "0.86",
+  "source": "runs/v2main/summary_v2.json",
+  "what": "R2 divvy dod2 fb"
+ },
+ {
+  "value": "0.65",
+  "source": "runs/v2main/summary_v2.json",
+  "what": "R2 hmda dod2 fb"
+ },
+ {
+  "value": "0.00",
+  "source": "runs/v2main/summary_v2.json",
+  "what": "R2 H9 retrain silent"
+ },
+ {
+  "value": "0.00",
+  "source": "runs/v2main/summary_v2.json",
+  "what": "R2 H9 validation silent"
+ },
+ {
+  "value": "40",
+  "source": "runs/v2main/summary_v2.json",
+  "what": "R2 H9 n silent"
+ },
+ {
+  "value": "0.72",
+  "source": "runs/v2main/summary_v2.json",
+  "what": "R2 H9 obs silent"
+ },
+ {
+  "value": "0",
+  "source": "runs/v2main/summary_v2.json",
+  "what": "R2 H10 n inv flagged"
+ },
+ {
+  "value": "179",
+  "source": "runs/v2main/summary_v2.json",
+  "what": "R2 H10 n T1"
+ },
+ {
+  "value": "0.24",
+  "source": "runs/v2main/summary_v2.json",
+  "what": "R2 H10 dod2 T1"
+ },
+ {
+  "value": "0.13",
+  "source": "runs/v2main/summary_v2.json",
+  "what": "R2 H10 dod T1"
+ },
+ {
+  "value": "10",
+  "source": "runs/benchmark/tables_v3.json",
+  "what": "divvy dated changes from 2016-Q3"
+ },
+ {
+  "value": "0.65",
+  "source": "runs/v2main/posthoc_r2.json",
+  "what": "R2 posthoc hmda fb"
+ },
+ {
+  "value": "0.42",
+  "source": "runs/v2main/posthoc_r2.json",
+  "what": "R2 posthoc hmda fb latest"
+ },
+ {
+  "value": "0.91",
+  "source": "runs/v2main/posthoc_r2.json",
+  "what": "R2 posthoc divvy fb"
+ },
+ {
+  "value": "0.65",
+  "source": "runs/v2main/posthoc_r2.json",
+  "what": "R2 posthoc divvy fb latest"
+ },
+ {
+  "value": "0.00",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 retrain_on_alarm pooled"
+ },
+ {
+  "value": "0.00",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 retrain_on_alarm cabi"
+ },
+ {
+  "value": "0.00",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 retrain_on_alarm fars"
+ },
+ {
+  "value": "0.00",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 retrain_on_alarm landreg"
+ },
+ {
+  "value": "0.00",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 retrain_on_alarm silent"
+ },
+ {
+  "value": "0.00",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 retrain_on_alarm false blame events"
+ },
+ {
+  "value": "0.0",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 retrain_on_alarm compute"
+ },
+ {
+  "value": "0.18",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 validation_first pooled"
+ },
+ {
+  "value": "0.03",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 validation_first cabi"
+ },
+ {
+  "value": "0.22",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 validation_first fars"
+ },
+ {
+  "value": "0.37",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 validation_first landreg"
+ },
+ {
+  "value": "0.00",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 validation_first silent"
+ },
+ {
+  "value": "0.49",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 validation_first false blame events"
+ },
+ {
+  "value": "0.0",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 validation_first compute"
+ },
+ {
+  "value": "0.46",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 observational_attribution pooled"
+ },
+ {
+  "value": "0.30",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 observational_attribution cabi"
+ },
+ {
+  "value": "0.82",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 observational_attribution fars"
+ },
+ {
+  "value": "0.41",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 observational_attribution landreg"
+ },
+ {
+  "value": "0.81",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 observational_attribution silent"
+ },
+ {
+  "value": "0.64",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 observational_attribution false blame events"
+ },
+ {
+  "value": "0.0",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 observational_attribution compute"
+ },
+ {
+  "value": "0.07",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 full_rollback pooled"
+ },
+ {
+  "value": "0.04",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 full_rollback cabi"
+ },
+ {
+  "value": "0.07",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 full_rollback fars"
+ },
+ {
+  "value": "0.11",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 full_rollback landreg"
+ },
+ {
+  "value": "0.10",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 full_rollback silent"
+ },
+ {
+  "value": "0.12",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 full_rollback false blame events"
+ },
+ {
+  "value": "1.5",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 full_rollback compute"
+ },
+ {
+  "value": "0.24",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 bisect pooled"
+ },
+ {
+  "value": "0.10",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 bisect cabi"
+ },
+ {
+  "value": "0.39",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 bisect fars"
+ },
+ {
+  "value": "0.32",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 bisect landreg"
+ },
+ {
+  "value": "0.45",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 bisect silent"
+ },
+ {
+  "value": "0.07",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 bisect false blame events"
+ },
+ {
+  "value": "2.9",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 bisect compute"
+ },
+ {
+  "value": "0.32",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 bugdoc_shortcut pooled"
+ },
+ {
+  "value": "0.27",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 bugdoc_shortcut cabi"
+ },
+ {
+  "value": "0.38",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 bugdoc_shortcut fars"
+ },
+ {
+  "value": "0.34",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 bugdoc_shortcut landreg"
+ },
+ {
+  "value": "0.45",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 bugdoc_shortcut silent"
+ },
+ {
+  "value": "0.16",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 bugdoc_shortcut false blame events"
+ },
+ {
+  "value": "4.1",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 bugdoc_shortcut compute"
+ },
+ {
+  "value": "0.34",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 llm_report@luna pooled"
+ },
+ {
+  "value": "0.10",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 llm_report@luna cabi"
+ },
+ {
+  "value": "0.67",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 llm_report@luna fars"
+ },
+ {
+  "value": "0.42",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 llm_report@luna landreg"
+ },
+ {
+  "value": "0.56",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 llm_report@luna silent"
+ },
+ {
+  "value": "0.78",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 llm_report@luna false blame events"
+ },
+ {
+  "value": "0.0",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 llm_report@luna compute"
+ },
+ {
+  "value": "0.47",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 llm_tools@luna pooled"
+ },
+ {
+  "value": "0.24",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 llm_tools@luna cabi"
+ },
+ {
+  "value": "0.66",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 llm_tools@luna fars"
+ },
+ {
+  "value": "0.66",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 llm_tools@luna landreg"
+ },
+ {
+  "value": "0.61",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 llm_tools@luna silent"
+ },
+ {
+  "value": "0.42",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 llm_tools@luna false blame events"
+ },
+ {
+  "value": "6.9",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 llm_tools@luna compute"
+ },
+ {
+  "value": "0.51",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 llm_report@terra pooled"
+ },
+ {
+  "value": "0.53",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 llm_report@terra cabi"
+ },
+ {
+  "value": "0.60",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 llm_report@terra fars"
+ },
+ {
+  "value": "0.36",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 llm_report@terra landreg"
+ },
+ {
+  "value": "0.48",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 llm_report@terra silent"
+ },
+ {
+  "value": "0.56",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 llm_tools@terra pooled"
+ },
+ {
+  "value": "0.67",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 llm_tools@terra cabi"
+ },
+ {
+  "value": "0.60",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 llm_tools@terra fars"
+ },
+ {
+  "value": "0.36",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 llm_tools@terra landreg"
+ },
+ {
+  "value": "0.48",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 llm_tools@terra silent"
+ },
+ {
+  "value": "0.42",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 dod_no_boundary pooled"
+ },
+ {
+  "value": "0.20",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 dod_no_boundary cabi"
+ },
+ {
+  "value": "0.51",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 dod_no_boundary fars"
+ },
+ {
+  "value": "0.68",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 dod_no_boundary landreg"
+ },
+ {
+  "value": "0.61",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 dod_no_boundary silent"
+ },
+ {
+  "value": "0.25",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 dod_no_boundary false blame events"
+ },
+ {
+  "value": "10.4",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 dod_no_boundary compute"
+ },
+ {
+  "value": "0.44",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 dod pooled"
+ },
+ {
+  "value": "0.14",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 dod cabi"
+ },
+ {
+  "value": "0.72",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 dod fars"
+ },
+ {
+  "value": "0.68",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 dod landreg"
+ },
+ {
+  "value": "0.69",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 dod silent"
+ },
+ {
+  "value": "0.67",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 dod false blame events"
+ },
+ {
+  "value": "22.6",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 dod compute"
+ },
+ {
+  "value": "0.44",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 dod2 pooled"
+ },
+ {
+  "value": "0.14",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 dod2 cabi"
+ },
+ {
+  "value": "0.72",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 dod2 fars"
+ },
+ {
+  "value": "0.68",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 dod2 landreg"
+ },
+ {
+  "value": "0.69",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 dod2 silent"
+ },
+ {
+  "value": "0.67",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 dod2 false blame events"
+ },
+ {
+  "value": "38.0",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 dod2 compute"
+ },
+ {
+  "value": "0.45",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 dod3_no_latest pooled"
+ },
+ {
+  "value": "0.11",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 dod3_no_latest cabi"
+ },
+ {
+  "value": "0.80",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 dod3_no_latest fars"
+ },
+ {
+  "value": "0.68",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 dod3_no_latest landreg"
+ },
+ {
+  "value": "0.71",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 dod3_no_latest silent"
+ },
+ {
+  "value": "0.67",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 dod3_no_latest false blame events"
+ },
+ {
+  "value": "40.1",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 dod3_no_latest compute"
+ },
+ {
+  "value": "0.46",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 dod3_no_inv pooled"
+ },
+ {
+  "value": "0.12",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 dod3_no_inv cabi"
+ },
+ {
+  "value": "0.82",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 dod3_no_inv fars"
+ },
+ {
+  "value": "0.68",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 dod3_no_inv landreg"
+ },
+ {
+  "value": "0.74",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 dod3_no_inv silent"
+ },
+ {
+  "value": "0.62",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 dod3_no_inv false blame events"
+ },
+ {
+  "value": "31.9",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 dod3_no_inv compute"
+ },
+ {
+  "value": "0.46",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 dod3 pooled"
+ },
+ {
+  "value": "0.12",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 dod3 cabi"
+ },
+ {
+  "value": "0.82",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 dod3 fars"
+ },
+ {
+  "value": "0.68",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 dod3 landreg"
+ },
+ {
+  "value": "0.74",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 dod3 silent"
+ },
+ {
+  "value": "0.62",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 dod3 false blame events"
+ },
+ {
+  "value": "44.0",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 dod3 compute"
+ },
+ {
+  "value": "0.46",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 dod3 primary"
+ },
+ {
+  "value": "0.56",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 best baseline primary"
+ },
+ {
+  "value": "-0.05",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 H11 diff"
+ },
+ {
+  "value": "-0.33",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 H11 lo"
+ },
+ {
+  "value": "+0.26",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 H11 hi"
+ },
+ {
+  "value": "41",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 H11 n"
+ },
+ {
+  "value": "0.882",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 H11 p"
+ },
+ {
+  "value": "41",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 terra n"
+ },
+ {
+  "value": "125",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 planned terra n"
+ },
+ {
+  "value": "0.47",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 best full 1"
+ },
+ {
+  "value": "0.46",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 best full 2"
+ },
+ {
+  "value": "0.44",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 dod primary"
+ },
+ {
+  "value": "0.44",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 dod2 primary"
+ },
+ {
+  "value": "+0.02",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 H12 diff"
+ },
+ {
+  "value": "-0.02",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 H12 lo"
+ },
+ {
+  "value": "+0.07",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 H12 hi"
+ },
+ {
+  "value": "0.882",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 H12 p"
+ },
+ {
+  "value": "566",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 H13 n"
+ },
+ {
+  "value": "0.62",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 dod3 fb events"
+ },
+ {
+  "value": "0.67",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 dod fb events"
+ },
+ {
+  "value": "-0.05",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 H13 diff"
+ },
+ {
+  "value": "-0.09",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 H13 lo"
+ },
+ {
+  "value": "-0.01",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 H13 hi"
+ },
+ {
+  "value": "0.009",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 H13 p"
+ },
+ {
+  "value": "243",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 H14 n"
+ },
+ {
+  "value": "1.00",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 H14 same"
+ },
+ {
+  "value": "0.20",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 dod3 missed cons"
+ },
+ {
+  "value": "0.54",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 obs missed cons"
+ },
+ {
+  "value": "0.64",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 bugdoc missed cons"
+ },
+ {
+  "value": "1.00",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 retrain missed cons"
+ },
+ {
+  "value": "0.066",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 dod3 regret cons"
+ },
+ {
+  "value": "0.085",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 best non-DoD regret cons"
+ },
+ {
+  "value": "0.44",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 dod3 fb all"
+ },
+ {
+  "value": "121",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 R3 n silent"
+ },
+ {
+  "value": "0.00",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 R3 retrain silent"
+ },
+ {
+  "value": "0.00",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 R3 validation silent"
+ },
+ {
+  "value": "0.81",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 R3 obs silent"
+ },
+ {
+  "value": "3",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 R3 T1 with inv flag"
+ },
+ {
+  "value": "146",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 R3 T1 cons n"
+ },
+ {
+  "value": "0.45",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 dod3_no_latest primary"
+ },
+ {
+  "value": "-0.01",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 ablation no_latest diff"
+ },
+ {
+  "value": "0.08",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 dod3_no_latest missed"
+ },
+ {
+  "value": "0.024",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 dod3_no_latest regret"
+ },
+ {
+  "value": "0.82",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 fars dod3"
+ },
+ {
+  "value": "0.72",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 fars dod"
+ },
+ {
+  "value": "0.16",
+  "source": "runs/v3main/posthoc_v3.json",
+  "what": "R3 posthoc fars dod fb"
+ },
+ {
+  "value": "0.05",
+  "source": "runs/v3main/posthoc_v3.json",
+  "what": "R3 posthoc fars dod3 fb"
+ },
+ {
+  "value": "97",
+  "source": "runs/v3main/posthoc_v3.json",
+  "what": "R3 posthoc landreg clean 2013 lost records"
+ },
+ {
+  "value": "0.31",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 cabi best full method"
+ },
+ {
+  "value": "198",
+  "source": "runs/v3main/posthoc_v3.json",
+  "what": "R3 posthoc cabi trip_adapter duration flags"
+ },
+ {
+  "value": "130",
+  "source": "runs/v3main/posthoc_v3.json",
+  "what": "R3 posthoc cabi current loses values"
+ },
+ {
+  "value": "46",
+  "source": "runs/v3dev/dev_v3.json",
+  "what": "dev acs n cons"
+ },
+ {
+  "value": "0.96",
+  "source": "runs/v3dev/dev_v3.json",
+  "what": "dev acs dod correct"
+ },
+ {
+  "value": "0.96",
+  "source": "runs/v3dev/dev_v3.json",
+  "what": "dev acs dod3 correct"
+ },
+ {
+  "value": "0.01",
+  "source": "runs/v3dev/dev_v3.json",
+  "what": "dev acs dod fb"
+ },
+ {
+  "value": "0.01",
+  "source": "runs/v3dev/dev_v3.json",
+  "what": "dev acs dod3 fb"
+ },
+ {
+  "value": "36",
+  "source": "runs/v3dev/dev_v3.json",
+  "what": "dev tlc n cons"
+ },
+ {
+  "value": "0.75",
+  "source": "runs/v3dev/dev_v3.json",
+  "what": "dev tlc dod correct"
+ },
+ {
+  "value": "0.94",
+  "source": "runs/v3dev/dev_v3.json",
+  "what": "dev tlc dod3 correct"
+ },
+ {
+  "value": "0.38",
+  "source": "runs/v3dev/dev_v3.json",
+  "what": "dev tlc dod fb"
+ },
+ {
+  "value": "0.02",
+  "source": "runs/v3dev/dev_v3.json",
+  "what": "dev tlc dod3 fb"
+ },
+ {
+  "value": "67",
+  "source": "runs/v3dev/dev_v3.json",
+  "what": "dev news n cons"
+ },
+ {
+  "value": "1.00",
+  "source": "runs/v3dev/dev_v3.json",
+  "what": "dev news dod correct"
+ },
+ {
+  "value": "0.97",
+  "source": "runs/v3dev/dev_v3.json",
+  "what": "dev news dod3 correct"
+ },
+ {
+  "value": "0.00",
+  "source": "runs/v3dev/dev_v3.json",
+  "what": "dev news dod fb"
+ },
+ {
+  "value": "0.00",
+  "source": "runs/v3dev/dev_v3.json",
+  "what": "dev news dod3 fb"
+ },
+ {
+  "value": "53",
+  "source": "runs/v3dev/dev_v3.json",
+  "what": "dev divvy n cons"
+ },
+ {
+  "value": "0.09",
+  "source": "runs/v3dev/dev_v3.json",
+  "what": "dev divvy dod correct"
+ },
+ {
+  "value": "0.21",
+  "source": "runs/v3dev/dev_v3.json",
+  "what": "dev divvy dod2 correct"
+ },
+ {
+  "value": "0.19",
+  "source": "runs/v3dev/dev_v3.json",
+  "what": "dev divvy dod3 correct"
+ },
+ {
+  "value": "0.90",
+  "source": "runs/v3dev/dev_v3.json",
+  "what": "dev divvy dod fb"
+ },
+ {
+  "value": "0.53",
+  "source": "runs/v3dev/dev_v3.json",
+  "what": "dev divvy dod3 fb"
+ },
+ {
+  "value": "58",
+  "source": "runs/v3dev/dev_v3.json",
+  "what": "dev hmda n cons"
+ },
+ {
+  "value": "0.33",
+  "source": "runs/v3dev/dev_v3.json",
+  "what": "dev hmda dod correct"
+ },
+ {
+  "value": "0.33",
+  "source": "runs/v3dev/dev_v3.json",
+  "what": "dev hmda dod2 correct"
+ },
+ {
+  "value": "0.50",
+  "source": "runs/v3dev/dev_v3.json",
+  "what": "dev hmda dod3 correct"
+ },
+ {
+  "value": "0.66",
+  "source": "runs/v3dev/dev_v3.json",
+  "what": "dev hmda dod fb"
+ },
+ {
+  "value": "0.49",
+  "source": "runs/v3dev/dev_v3.json",
+  "what": "dev hmda dod3 fb"
+ },
+ {
+  "value": "20",
+  "source": "runs/v3dev/dev_v3.json",
+  "what": "dev bts n cons"
+ },
+ {
+  "value": "1.00",
+  "source": "runs/v3dev/dev_v3.json",
+  "what": "dev bts dod correct"
+ },
+ {
+  "value": "1.00",
+  "source": "runs/v3dev/dev_v3.json",
+  "what": "dev bts dod2 correct"
+ },
+ {
+  "value": "1.00",
+  "source": "runs/v3dev/dev_v3.json",
+  "what": "dev bts dod3 correct"
+ },
+ {
+  "value": "0.00",
+  "source": "runs/v3dev/dev_v3.json",
+  "what": "dev bts dod fb"
+ },
+ {
+  "value": "0.00",
+  "source": "runs/v3dev/dev_v3.json",
+  "what": "dev bts dod3 fb"
+ },
+ {
+  "value": "6.77",
+  "source": "runs/cost_ledger.json",
+  "what": "spend gpt-5.6-luna"
+ },
+ {
+  "value": "5.73",
+  "source": "runs/cost_ledger.json",
+  "what": "spend gpt-5.6-terra"
+ }
+]

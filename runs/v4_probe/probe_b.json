@@ -1,0 +1,344 @@
+{
+ "crashes_counts": [
+  {
+   "y": "2013",
+   "n": "2"
+  },
+  {
+   "y": "2014",
+   "n": "6"
+  },
+  {
+   "y": "2015",
+   "n": "9834"
+  },
+  {
+   "y": "2016",
+   "n": "44297"
+  },
+  {
+   "y": "2017",
+   "n": "83786"
+  },
+  {
+   "y": "2018",
+   "n": "118952"
+  },
+  {
+   "y": "2019",
+   "n": "117764"
+  },
+  {
+   "y": "2020",
+   "n": "92096"
+  },
+  {
+   "y": "2021",
+   "n": "108767"
+  },
+  {
+   "y": "2022",
+   "n": "108413"
+  },
+  {
+   "y": "2023",
+   "n": "110754"
+  },
+  {
+   "y": "2024",
+   "n": "112057"
+  },
+  {
+   "y": "2025",
+   "n": "109117"
+  },
+  {
+   "y": "2026",
+   "n": "85658"
+  }
+ ],
+ "crashes_sample": [
+  {
+   "crash_record_id": "006bc88aa00209dba00e7f4e77939f4cac6d1918b26e0fdc14f9594dbde0aeb4c0de21e0b0ca0480bb36f68bee6ccc03f8e085d4502517eaf8dc89e832d2c6d0",
+   "crash_date": "2020-07-28T21:37:00.000",
+   "posted_speed_limit": "25",
+   "traffic_control_device": "NO CONTROLS",
+   "device_condition": "NO CONTROLS",
+   "weather_condition": "CLEAR",
+   "lighting_condition": "DARKNESS",
+   "first_crash_type": "FIXED OBJECT",
+   "trafficway_type": "NOT DIVIDED",
+   "alignment": "CURVE, LEVEL",
+   "roadway_surface_cond": "DRY",
+   "road_defect": "NO DEFECTS",
+   "report_type": "ON SCENE",
+   "crash_type": "INJURY AND / OR TOW DUE TO CRASH",
+   "damage": "OVER $1,500",
+   "date_police_notified": "2020-07-28T22:38:00.000",
+   "prim_contributory_cause": "PHYSICAL CONDITION OF DRIVER",
+   "sec_contributory_cause": "UNABLE TO DETERMINE",
+   "street_no": "8300",
+   "street_direction": "S",
+   "street_name": "COMMERCIAL AVE",
+   "beat_of_occurrence": "424",
+   "num_units": "1.0",
+   "crash_month": "7",
+   "most_severe_injury": "NONINCAPACITATING INJURY",
+   "injuries_total": "1.0",
+   "injuries_fatal": "0",
+   "injuries_incapacitating": "0",
+   "injuries_non_incapacitating": "1",
+   "injuries_reported_not_evident": "0",
+   "injuries_no_indication": "3",
+   "injuries_unknown": "0",
+   "crash_hour": "21",
+   "crash_day_of_week": "3",
+   "idot_control_no": "X001971047"
+  },
+  {
+   "crash_record_id": "8bd0613f9b39d21c255f4c0c6964a95418c448fe25015be83fd6232aeccbc1276ae2b4c5264271b81ed99d27415c4cea3e2670eb8749029d329f6ac42a9f855a",
+   "crash_date": "2020-08-12T18:49:00.000",
+   "posted_speed_limit": "30",
+   "traffic_control_device": "TRAFFIC SIGNAL",
+   "device_condition": "FUNCTIONING PROPERLY",
+   "weather_condition": "CLEAR",
+   "lighting_condition": "DUSK",
+   "first_crash_type": "SIDESWIPE SAME DIRECTION",
+   "trafficway_type": "FOUR WAY",
+   "alignment": "STRAIGHT AND LEVEL",
+   "roadway_surface_cond": "DRY",
+   "road_defect": "NO DEFECTS",
+   "report_type": "NOT ON SCENE (DESK REPORT)",
+   "crash_type": "NO INJURY / DRIVE AWAY",
+   "intersection_related_i": "Y",
+   "hit_and_run_i": "Y",
+   "damage": "$501 - $1,500",
+   "date_police_notified": "2020-08-12T21:00:00.000",
+   "prim_contributory_cause": "IMPROPER OVERTAKING/PASSING",
+   "sec_contributory_cause": "IMPROPER OVERTAKING/PASSING",
+   "street_no": "2400",
+   "street_direction": "E",
+   "street_name": "71ST ST",
+   "beat_of_occurrence": "334",
+   "num_units": "2.0",
+   "crash_month": "8",
+   "most_severe_injury": "NO INDICATION OF INJURY",
+   "injuries_total": "0.0",
+   "injuries_fatal": "0",
+   "injuries_incapacitating": "0",
+   "injuries_non_incapacitating": "0",
+   "injuries_reported_not_evident": "0",
+   "injuries_no_indication": "2",
+   "injuries_unknown": "0",
+   "crash_hour": "18",
+   "crash_day_of_week": "4",
+   "idot_control_no": "X001984876"
+  }
+ ],
+ "people_counts": [
+  {
+   "y": "2013",
+   "n": "5"
+  },
+  {
+   "y": "2014",
+   "n": "11"
+  },
+  {
+   "y": "2015",
+   "n": "20943"
+  },
+  {
+   "y": "2016",
+   "n": "96022"
+  },
+  {
+   "y": "2017",
+   "n": "185328"
+  },
+  {
+   "y": "2018",
+   "n": "265712"
+  },
+  {
+   "y": "2019",
+   "n": "264009"
+  },
+  {
+   "y": "2020",
+   "n": "199992"
+  },
+  {
+   "y": "2021",
+   "n": "233799"
+  },
+  {
+   "y": "2022",
+   "n": "233845"
+  },
+  {
+   "y": "2023",
+   "n": "245190"
+  },
+  {
+   "y": "2024",
+   "n": "246702"
+  },
+  {
+   "y": "2025",
+   "n": "238402"
+  },
+  {
+   "y": "2026",
+   "n": "187499"
+  }
+ ],
+ "people_sample": [
+  {
+   "person_id": "O2406803",
+   "person_type": "DRIVER",
+   "crash_record_id": "ab2ee2609313f4208494093f888ef46d4fa315a5bb5049fd7f7008494c73848e4f923c0a1f88dd6696432bd2c7a89e7d6fb8041396aebc1762cef72a27c3f8c5",
+   "vehicle_id": "2295337",
+   "crash_date": "2026-10-07T01:25:00.000",
+   "city": "BERWYN",
+   "state": "IL",
+   "zipcode": "60402",
+   "sex": "F",
+   "age": "53",
+   "drivers_license_state": "IL",
+   "drivers_license_class": "D",
+   "safety_equipment": "USAGE UNKNOWN",
+   "airbag_deployed": "NOT APPLICABLE",
+   "ejection": "NONE",
+   "injury_classification": "NO INDICATION OF INJURY",
+   "driver_action": "FOLLOWED TOO CLOSELY",
+   "driver_vision": "NOT OBSCURED",
+   "physical_condition": "UNKNOWN",
+   "bac_result": "TEST NOT OFFERED"
+  },
+  {
+   "person_id": "O2406804",
+   "person_type": "DRIVER",
+   "crash_record_id": "ab2ee2609313f4208494093f888ef46d4fa315a5bb5049fd7f7008494c73848e4f923c0a1f88dd6696432bd2c7a89e7d6fb8041396aebc1762cef72a27c3f8c5",
+   "vehicle_id": "2295342",
+   "crash_date": "2026-10-07T01:25:00.000",
+   "city": "CHICAGO",
+   "state": "IL",
+   "zipcode": "60639",
+   "sex": "M",
+   "age": "58",
+   "drivers_license_state": "IL",
+   "drivers_license_class": "D",
+   "safety_equipment": "USAGE UNKNOWN",
+   "airbag_deployed": "NOT APPLICABLE",
+   "ejection": "NONE",
+   "injury_classification": "NO INDICATION OF INJURY",
+   "driver_action": "NONE",
+   "driver_vision": "UNKNOWN",
+   "physical_condition": "NORMAL",
+   "bac_result": "TEST NOT OFFERED"
+  }
+ ],
+ "vehicles_counts": [
+  {
+   "y": "2013",
+   "n": "4"
+  },
+  {
+   "y": "2014",
+   "n": "12"
+  },
+  {
+   "y": "2015",
+   "n": "19693"
+  },
+  {
+   "y": "2016",
+   "n": "89146"
+  },
+  {
+   "y": "2017",
+   "n": "170194"
+  },
+  {
+   "y": "2018",
+   "n": "241884"
+  },
+  {
+   "y": "2019",
+   "n": "240202"
+  },
+  {
+   "y": "2020",
+   "n": "189605"
+  },
+  {
+   "y": "2021",
+   "n": "222458"
+  },
+  {
+   "y": "2022",
+   "n": "220602"
+  },
+  {
+   "y": "2023",
+   "n": "227436"
+  },
+  {
+   "y": "2024",
+   "n": "228318"
+  },
+  {
+   "y": "2025",
+   "n": "221865"
+  },
+  {
+   "y": "2026",
+   "n": "174273"
+  }
+ ],
+ "vehicles_sample": [
+  {
+   "crash_unit_id": "2406803",
+   "crash_record_id": "ab2ee2609313f4208494093f888ef46d4fa315a5bb5049fd7f7008494c73848e4f923c0a1f88dd6696432bd2c7a89e7d6fb8041396aebc1762cef72a27c3f8c5",
+   "crash_date": "2026-10-07T01:25:00.000",
+   "unit_no": "1",
+   "unit_type": "DRIVER",
+   "vehicle_id": "2295337",
+   "make": "GENERAL MOTORS CORPORATION (GMC)",
+   "model": "ACADIA",
+   "lic_plate_state": "IL",
+   "vehicle_year": "2017",
+   "vehicle_defect": "UNKNOWN",
+   "vehicle_type": "PASSENGER",
+   "vehicle_use": "PERSONAL",
+   "travel_direction": "S",
+   "maneuver": "STRAIGHT AHEAD",
+   "occupant_cnt": "1",
+   "area_12_i": "Y",
+   "first_contact_point": "FRONT"
+  },
+  {
+   "crash_unit_id": "2406804",
+   "crash_record_id": "ab2ee2609313f4208494093f888ef46d4fa315a5bb5049fd7f7008494c73848e4f923c0a1f88dd6696432bd2c7a89e7d6fb8041396aebc1762cef72a27c3f8c5",
+   "crash_date": "2026-10-07T01:25:00.000",
+   "unit_no": "2",
+   "unit_type": "DRIVER",
+   "vehicle_id": "2295342",
+   "make": "JEEP",
+   "model": "COMPASS",
+   "lic_plate_state": "MN",
+   "vehicle_year": "2025",
+   "vehicle_defect": "NONE",
+   "vehicle_type": "PASSENGER",
+   "vehicle_use": "PERSONAL",
+   "travel_direction": "S",
+   "maneuver": "STRAIGHT AHEAD",
+   "occupant_cnt": "1",
+   "area_05_i": "Y",
+   "area_06_i": "Y",
+   "area_07_i": "Y",
+   "first_contact_point": "REAR"
+  }
+ ]
+}

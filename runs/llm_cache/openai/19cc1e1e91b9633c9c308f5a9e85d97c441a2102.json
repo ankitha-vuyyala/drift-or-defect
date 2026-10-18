@@ -1,0 +1,1 @@
+{"text": "{\"action\":\"effect\",\"components\":[\"housing_adapter\"]}", "usage": {"in": 586, "out": 278, "cached_in": 2775, "reasoning": 255}, "usd": 0.0005063, "wall_s": 4.56, "provider": "openai", "model": "gpt-5.6-luna"}

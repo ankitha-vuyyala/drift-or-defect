@@ -1,0 +1,509 @@
+{
+ "storm_files": [
+  "StormEvents_details-ftp_v1.0_d1950_c20260323.csv.gz",
+  "StormEvents_details-ftp_v1.0_d1951_c20260323.csv.gz",
+  "StormEvents_details-ftp_v1.0_d1952_c20260323.csv.gz",
+  "StormEvents_details-ftp_v1.0_d1953_c20260323.csv.gz",
+  "StormEvents_details-ftp_v1.0_d1954_c20260323.csv.gz",
+  "StormEvents_details-ftp_v1.0_d1955_c20260323.csv.gz",
+  "StormEvents_details-ftp_v1.0_d1956_c20260323.csv.gz",
+  "StormEvents_details-ftp_v1.0_d1957_c20260323.csv.gz",
+  "StormEvents_details-ftp_v1.0_d1958_c20260323.csv.gz",
+  "StormEvents_details-ftp_v1.0_d1959_c20260323.csv.gz",
+  "StormEvents_details-ftp_v1.0_d1960_c20260323.csv.gz",
+  "StormEvents_details-ftp_v1.0_d1961_c20260323.csv.gz",
+  "StormEvents_details-ftp_v1.0_d1962_c20260323.csv.gz",
+  "StormEvents_details-ftp_v1.0_d1963_c20260323.csv.gz",
+  "StormEvents_details-ftp_v1.0_d1964_c20260323.csv.gz",
+  "StormEvents_details-ftp_v1.0_d1965_c20260323.csv.gz",
+  "StormEvents_details-ftp_v1.0_d1966_c20260323.csv.gz",
+  "StormEvents_details-ftp_v1.0_d1967_c20260323.csv.gz",
+  "StormEvents_details-ftp_v1.0_d1968_c20260323.csv.gz",
+  "StormEvents_details-ftp_v1.0_d1969_c20260323.csv.gz",
+  "StormEvents_details-ftp_v1.0_d1970_c20260323.csv.gz",
+  "StormEvents_details-ftp_v1.0_d1971_c20260323.csv.gz",
+  "StormEvents_details-ftp_v1.0_d1972_c20260323.csv.gz",
+  "StormEvents_details-ftp_v1.0_d1973_c20260323.csv.gz",
+  "StormEvents_details-ftp_v1.0_d1974_c20260323.csv.gz",
+  "StormEvents_details-ftp_v1.0_d1975_c20260323.csv.gz",
+  "StormEvents_details-ftp_v1.0_d1976_c20260323.csv.gz",
+  "StormEvents_details-ftp_v1.0_d1977_c20260323.csv.gz",
+  "StormEvents_details-ftp_v1.0_d1978_c20260323.csv.gz",
+  "StormEvents_details-ftp_v1.0_d1979_c20260323.csv.gz",
+  "StormEvents_details-ftp_v1.0_d1980_c20260323.csv.gz",
+  "StormEvents_details-ftp_v1.0_d1981_c20260323.csv.gz",
+  "StormEvents_details-ftp_v1.0_d1982_c20260323.csv.gz",
+  "StormEvents_details-ftp_v1.0_d1983_c20260323.csv.gz",
+  "StormEvents_details-ftp_v1.0_d1984_c20260527.csv.gz",
+  "StormEvents_details-ftp_v1.0_d1985_c20260323.csv.gz",
+  "StormEvents_details-ftp_v1.0_d1986_c20260323.csv.gz",
+  "StormEvents_details-ftp_v1.0_d1987_c20260323.csv.gz",
+  "StormEvents_details-ftp_v1.0_d1988_c20260323.csv.gz",
+  "StormEvents_details-ftp_v1.0_d1989_c20260323.csv.gz",
+  "StormEvents_details-ftp_v1.0_d1990_c20260323.csv.gz",
+  "StormEvents_details-ftp_v1.0_d1991_c20260323.csv.gz",
+  "StormEvents_details-ftp_v1.0_d1992_c20260323.csv.gz",
+  "StormEvents_details-ftp_v1.0_d1993_c20260323.csv.gz",
+  "StormEvents_details-ftp_v1.0_d1994_c20260323.csv.gz",
+  "StormEvents_details-ftp_v1.0_d1995_c20260323.csv.gz",
+  "StormEvents_details-ftp_v1.0_d1996_c20260323.csv.gz",
+  "StormEvents_details-ftp_v1.0_d1997_c20260323.csv.gz",
+  "StormEvents_details-ftp_v1.0_d1998_c20260323.csv.gz",
+  "StormEvents_details-ftp_v1.0_d1999_c20260323.csv.gz",
+  "StormEvents_details-ftp_v1.0_d2000_c20260323.csv.gz",
+  "StormEvents_details-ftp_v1.0_d2001_c20260323.csv.gz",
+  "StormEvents_details-ftp_v1.0_d2002_c20260323.csv.gz",
+  "StormEvents_details-ftp_v1.0_d2003_c20260323.csv.gz",
+  "StormEvents_details-ftp_v1.0_d2004_c20260323.csv.gz",
+  "StormEvents_details-ftp_v1.0_d2005_c20260323.csv.gz",
+  "StormEvents_details-ftp_v1.0_d2006_c20260323.csv.gz",
+  "StormEvents_details-ftp_v1.0_d2007_c20260323.csv.gz",
+  "StormEvents_details-ftp_v1.0_d2008_c20260323.csv.gz",
+  "StormEvents_details-ftp_v1.0_d2009_c20260323.csv.gz",
+  "StormEvents_details-ftp_v1.0_d2010_c20260323.csv.gz",
+  "StormEvents_details-ftp_v1.0_d2011_c20260323.csv.gz",
+  "StormEvents_details-ftp_v1.0_d2012_c20260323.csv.gz",
+  "StormEvents_details-ftp_v1.0_d2013_c20260323.csv.gz",
+  "StormEvents_details-ftp_v1.0_d2014_c20260323.csv.gz",
+  "StormEvents_details-ftp_v1.0_d2015_c20260323.csv.gz",
+  "StormEvents_details-ftp_v1.0_d2016_c20260323.csv.gz",
+  "StormEvents_details-ftp_v1.0_d2017_c20260519.csv.gz",
+  "StormEvents_details-ftp_v1.0_d2018_c20260323.csv.gz",
+  "StormEvents_details-ftp_v1.0_d2019_c20260323.csv.gz",
+  "StormEvents_details-ftp_v1.0_d2020_c20260323.csv.gz",
+  "StormEvents_details-ftp_v1.0_d2021_c20260323.csv.gz",
+  "StormEvents_details-ftp_v1.0_d2022_c20260625.csv.gz",
+  "StormEvents_details-ftp_v1.0_d2023_c20260323.csv.gz",
+  "StormEvents_details-ftp_v1.0_d2024_c20260728.csv.gz",
+  "StormEvents_details-ftp_v1.0_d2025_c20260819.csv.gz",
+  "StormEvents_details-ftp_v1.0_d2026_c20260918.csv.gz",
+  "StormEvents_fatalities-ftp_v1.0_d1950_c20260323.csv.gz",
+  "StormEvents_fatalities-ftp_v1.0_d1951_c20260323.csv.gz",
+  "StormEvents_fatalities-ftp_v1.0_d1952_c20260323.csv.gz",
+  "StormEvents_fatalities-ftp_v1.0_d1953_c20260323.csv.gz",
+  "StormEvents_fatalities-ftp_v1.0_d1954_c20260323.csv.gz",
+  "StormEvents_fatalities-ftp_v1.0_d1955_c20260323.csv.gz",
+  "StormEvents_fatalities-ftp_v1.0_d1956_c20260323.csv.gz",
+  "StormEvents_fatalities-ftp_v1.0_d1957_c20260323.csv.gz",
+  "StormEvents_fatalities-ftp_v1.0_d1958_c20260323.csv.gz",
+  "StormEvents_fatalities-ftp_v1.0_d1959_c20260323.csv.gz",
+  "StormEvents_fatalities-ftp_v1.0_d1960_c20260323.csv.gz",
+  "StormEvents_fatalities-ftp_v1.0_d1961_c20260323.csv.gz",
+  "StormEvents_fatalities-ftp_v1.0_d1962_c20260323.csv.gz",
+  "StormEvents_fatalities-ftp_v1.0_d1963_c20260323.csv.gz",
+  "StormEvents_fatalities-ftp_v1.0_d1964_c20260323.csv.gz",
+  "StormEvents_fatalities-ftp_v1.0_d1965_c20260323.csv.gz",
+  "StormEvents_fatalities-ftp_v1.0_d1966_c20260323.csv.gz",
+  "StormEvents_fatalities-ftp_v1.0_d1967_c20260323.csv.gz",
+  "StormEvents_fatalities-ftp_v1.0_d1968_c20260323.csv.gz",
+  "StormEvents_fatalities-ftp_v1.0_d1969_c20260323.csv.gz",
+  "StormEvents_fatalities-ftp_v1.0_d1970_c20260323.csv.gz",
+  "StormEvents_fatalities-ftp_v1.0_d1971_c20260323.csv.gz",
+  "StormEvents_fatalities-ftp_v1.0_d1972_c20260323.csv.gz",
+  "StormEvents_fatalities-ftp_v1.0_d1973_c20260323.csv.gz",
+  "StormEvents_fatalities-ftp_v1.0_d1974_c20260323.csv.gz",
+  "StormEvents_fatalities-ftp_v1.0_d1975_c20260323.csv.gz",
+  "StormEvents_fatalities-ftp_v1.0_d1976_c20260323.csv.gz",
+  "StormEvents_fatalities-ftp_v1.0_d1977_c20260323.csv.gz",
+  "StormEvents_fatalities-ftp_v1.0_d1978_c20260323.csv.gz",
+  "StormEvents_fatalities-ftp_v1.0_d1979_c20260323.csv.gz",
+  "StormEvents_fatalities-ftp_v1.0_d1980_c20260323.csv.gz",
+  "StormEvents_fatalities-ftp_v1.0_d1981_c20260323.csv.gz",
+  "StormEvents_fatalities-ftp_v1.0_d1982_c20260323.csv.gz",
+  "StormEvents_fatalities-ftp_v1.0_d1983_c20260323.csv.gz",
+  "StormEvents_fatalities-ftp_v1.0_d1984_c20260527.csv.gz",
+  "StormEvents_fatalities-ftp_v1.0_d1985_c20260323.csv.gz",
+  "StormEvents_fatalities-ftp_v1.0_d1986_c20260323.csv.gz",
+  "StormEvents_fatalities-ftp_v1.0_d1987_c20260323.csv.gz",
+  "StormEvents_fatalities-ftp_v1.0_d1988_c20260323.csv.gz",
+  "StormEvents_fatalities-ftp_v1.0_d1989_c20260323.csv.gz",
+  "StormEvents_fatalities-ftp_v1.0_d1990_c20260323.csv.gz",
+  "StormEvents_fatalities-ftp_v1.0_d1991_c20260323.csv.gz",
+  "StormEvents_fatalities-ftp_v1.0_d1992_c20260323.csv.gz",
+  "StormEvents_fatalities-ftp_v1.0_d1993_c20260323.csv.gz",
+  "StormEvents_fatalities-ftp_v1.0_d1994_c20260323.csv.gz",
+  "StormEvents_fatalities-ftp_v1.0_d1995_c20260323.csv.gz",
+  "StormEvents_fatalities-ftp_v1.0_d1996_c20260323.csv.gz",
+  "StormEvents_fatalities-ftp_v1.0_d1997_c20260323.csv.gz",
+  "StormEvents_fatalities-ftp_v1.0_d1998_c20260323.csv.gz",
+  "StormEvents_fatalities-ftp_v1.0_d1999_c20260323.csv.gz",
+  "StormEvents_fatalities-ftp_v1.0_d2000_c20260323.csv.gz",
+  "StormEvents_fatalities-ftp_v1.0_d2001_c20260323.csv.gz",
+  "StormEvents_fatalities-ftp_v1.0_d2002_c20260323.csv.gz",
+  "StormEvents_fatalities-ftp_v1.0_d2003_c20260323.csv.gz",
+  "StormEvents_fatalities-ftp_v1.0_d2004_c20260323.csv.gz",
+  "StormEvents_fatalities-ftp_v1.0_d2005_c20260323.csv.gz",
+  "StormEvents_fatalities-ftp_v1.0_d2006_c20260323.csv.gz",
+  "StormEvents_fatalities-ftp_v1.0_d2007_c20260323.csv.gz",
+  "StormEvents_fatalities-ftp_v1.0_d2008_c20260323.csv.gz",
+  "StormEvents_fatalities-ftp_v1.0_d2009_c20260323.csv.gz",
+  "StormEvents_fatalities-ftp_v1.0_d2010_c20260323.csv.gz",
+  "StormEvents_fatalities-ftp_v1.0_d2011_c20260323.csv.gz",
+  "StormEvents_fatalities-ftp_v1.0_d2012_c20260323.csv.gz",
+  "StormEvents_fatalities-ftp_v1.0_d2013_c20260323.csv.gz",
+  "StormEvents_fatalities-ftp_v1.0_d2014_c20260323.csv.gz",
+  "StormEvents_fatalities-ftp_v1.0_d2015_c20260323.csv.gz",
+  "StormEvents_fatalities-ftp_v1.0_d2016_c20260323.csv.gz",
+  "StormEvents_fatalities-ftp_v1.0_d2017_c20260519.csv.gz",
+  "StormEvents_fatalities-ftp_v1.0_d2018_c20260323.csv.gz",
+  "StormEvents_fatalities-ftp_v1.0_d2019_c20260323.csv.gz",
+  "StormEvents_fatalities-ftp_v1.0_d2020_c20260323.csv.gz",
+  "StormEvents_fatalities-ftp_v1.0_d2021_c20260323.csv.gz",
+  "StormEvents_fatalities-ftp_v1.0_d2022_c20260625.csv.gz",
+  "StormEvents_fatalities-ftp_v1.0_d2023_c20260323.csv.gz",
+  "StormEvents_fatalities-ftp_v1.0_d2024_c20260728.csv.gz",
+  "StormEvents_fatalities-ftp_v1.0_d2025_c20260819.csv.gz",
+  "StormEvents_fatalities-ftp_v1.0_d2026_c20260918.csv.gz",
+  "StormEvents_locations-ftp_v1.0_d1950_c20260707.csv.gz",
+  "StormEvents_locations-ftp_v1.0_d1951_c20260707.csv.gz",
+  "StormEvents_locations-ftp_v1.0_d1952_c20260707.csv.gz",
+  "StormEvents_locations-ftp_v1.0_d1953_c20260707.csv.gz",
+  "StormEvents_locations-ftp_v1.0_d1954_c20260707.csv.gz",
+  "StormEvents_locations-ftp_v1.0_d1955_c20260707.csv.gz",
+  "StormEvents_locations-ftp_v1.0_d1956_c20260707.csv.gz",
+  "StormEvents_locations-ftp_v1.0_d1957_c20260707.csv.gz",
+  "StormEvents_locations-ftp_v1.0_d1958_c20260707.csv.gz",
+  "StormEvents_locations-ftp_v1.0_d1959_c20260707.csv.gz",
+  "StormEvents_locations-ftp_v1.0_d1960_c20260707.csv.gz",
+  "StormEvents_locations-ftp_v1.0_d1961_c20260707.csv.gz",
+  "StormEvents_locations-ftp_v1.0_d1962_c20260707.csv.gz",
+  "StormEvents_locations-ftp_v1.0_d1963_c20260707.csv.gz",
+  "StormEvents_locations-ftp_v1.0_d1964_c20260707.csv.gz",
+  "StormEvents_locations-ftp_v1.0_d1965_c20260707.csv.gz",
+  "StormEvents_locations-ftp_v1.0_d1966_c20260707.csv.gz",
+  "StormEvents_locations-ftp_v1.0_d1967_c20260707.csv.gz",
+  "StormEvents_locations-ftp_v1.0_d1968_c20260707.csv.gz",
+  "StormEvents_locations-ftp_v1.0_d1969_c20260707.csv.gz",
+  "StormEvents_locations-ftp_v1.0_d1970_c20260707.csv.gz",
+  "StormEvents_locations-ftp_v1.0_d1971_c20260707.csv.gz",
+  "StormEvents_locations-ftp_v1.0_d1972_c20260707.csv.gz",
+  "StormEvents_locations-ftp_v1.0_d1973_c20260707.csv.gz",
+  "StormEvents_locations-ftp_v1.0_d1974_c20260707.csv.gz",
+  "StormEvents_locations-ftp_v1.0_d1975_c20260707.csv.gz",
+  "StormEvents_locations-ftp_v1.0_d1976_c20260707.csv.gz",
+  "StormEvents_locations-ftp_v1.0_d1977_c20260707.csv.gz",
+  "StormEvents_locations-ftp_v1.0_d1978_c20260707.csv.gz",
+  "StormEvents_locations-ftp_v1.0_d1979_c20260707.csv.gz",
+  "StormEvents_locations-ftp_v1.0_d1980_c20260707.csv.gz",
+  "StormEvents_locations-ftp_v1.0_d1981_c20260707.csv.gz",
+  "StormEvents_locations-ftp_v1.0_d1982_c20260707.csv.gz",
+  "StormEvents_locations-ftp_v1.0_d1983_c20260707.csv.gz",
+  "StormEvents_locations-ftp_v1.0_d1984_c20260707.csv.gz",
+  "StormEvents_locations-ftp_v1.0_d1985_c20260707.csv.gz",
+  "StormEvents_locations-ftp_v1.0_d1986_c20260707.csv.gz",
+  "StormEvents_locations-ftp_v1.0_d1987_c20260707.csv.gz",
+  "StormEvents_locations-ftp_v1.0_d1988_c20260707.csv.gz",
+  "StormEvents_locations-ftp_v1.0_d1989_c20260707.csv.gz",
+  "StormEvents_locations-ftp_v1.0_d1990_c20260707.csv.gz",
+  "StormEvents_locations-ftp_v1.0_d1991_c20260707.csv.gz",
+  "StormEvents_locations-ftp_v1.0_d1992_c20260707.csv.gz",
+  "StormEvents_locations-ftp_v1.0_d1993_c20260707.csv.gz",
+  "StormEvents_locations-ftp_v1.0_d1994_c20260707.csv.gz",
+  "StormEvents_locations-ftp_v1.0_d1995_c20260707.csv.gz",
+  "StormEvents_locations-ftp_v1.0_d1996_c20260707.csv.gz",
+  "StormEvents_locations-ftp_v1.0_d1997_c20260707.csv.gz",
+  "StormEvents_locations-ftp_v1.0_d1998_c20260707.csv.gz",
+  "StormEvents_locations-ftp_v1.0_d1999_c20260707.csv.gz",
+  "StormEvents_locations-ftp_v1.0_d2000_c20260707.csv.gz",
+  "StormEvents_locations-ftp_v1.0_d2001_c20260707.csv.gz",
+  "StormEvents_locations-ftp_v1.0_d2002_c20260707.csv.gz",
+  "StormEvents_locations-ftp_v1.0_d2003_c20260707.csv.gz",
+  "StormEvents_locations-ftp_v1.0_d2004_c20260707.csv.gz",
+  "StormEvents_locations-ftp_v1.0_d2005_c20260707.csv.gz",
+  "StormEvents_locations-ftp_v1.0_d2006_c20260707.csv.gz",
+  "StormEvents_locations-ftp_v1.0_d2007_c20260707.csv.gz",
+  "StormEvents_locations-ftp_v1.0_d2008_c20260707.csv.gz",
+  "StormEvents_locations-ftp_v1.0_d2009_c20260707.csv.gz",
+  "StormEvents_locations-ftp_v1.0_d2010_c20260707.csv.gz",
+  "StormEvents_locations-ftp_v1.0_d2011_c20260707.csv.gz",
+  "StormEvents_locations-ftp_v1.0_d2012_c20260707.csv.gz",
+  "StormEvents_locations-ftp_v1.0_d2013_c20260707.csv.gz",
+  "StormEvents_locations-ftp_v1.0_d2014_c20260707.csv.gz",
+  "StormEvents_locations-ftp_v1.0_d2015_c20260707.csv.gz",
+  "StormEvents_locations-ftp_v1.0_d2016_c20260707.csv.gz",
+  "StormEvents_locations-ftp_v1.0_d2017_c20260707.csv.gz",
+  "StormEvents_locations-ftp_v1.0_d2018_c20260707.csv.gz",
+  "StormEvents_locations-ftp_v1.0_d2019_c20260707.csv.gz",
+  "StormEvents_locations-ftp_v1.0_d2020_c20260707.csv.gz",
+  "StormEvents_locations-ftp_v1.0_d2021_c20260707.csv.gz",
+  "StormEvents_locations-ftp_v1.0_d2022_c20260707.csv.gz",
+  "StormEvents_locations-ftp_v1.0_d2023_c20260707.csv.gz",
+  "StormEvents_locations-ftp_v1.0_d2024_c20260728.csv.gz",
+  "StormEvents_locations-ftp_v1.0_d2025_c20260819.csv.gz",
+  "StormEvents_locations-ftp_v1.0_d2026_c20260918.csv.gz"
+ ],
+ "storm_heads": {
+  "StormEvents_details-ftp_v1.0_d1996_c20260323.csv.gz": {
+   "bytes": 6297309,
+   "rows": 48534,
+   "head": [
+    "BEGIN_YEARMONTH,BEGIN_DAY,BEGIN_TIME,END_YEARMONTH,END_DAY,END_TIME,EPISODE_ID,EVENT_ID,STATE,STATE_FIPS,YEAR,MONTH_NAME,EVENT_TYPE,CZ_TYPE,CZ_FIPS,CZ_NAME,WFO,BEGIN_DATE_TIME,CZ_TIMEZONE,END_DATE_TIME,INJURIES_DIRECT,INJURIES_INDIRECT,DEATHS_DIRECT,DEATHS_INDIRECT,DAMAGE_PROPERTY,DAMAGE_CROPS,SOURCE,MAGNITUDE,MAGNITUDE_TYPE,FLOOD_CAUSE,CATEGORY,TOR_F_SCALE,TOR_LENGTH,TOR_WIDTH,TOR_OTHER_WFO,TOR_OTHER_CZ_STATE,TOR_OTHER_CZ_FIPS,TOR_OTHER_CZ_NAME,BEGIN_RANGE,BEGIN_AZIMUTH,BEGIN_LOCATION,END_RANGE,END_AZIMUTH,END_LOCATION,BEGIN_LAT,BEGIN_LON,END_LAT,END_LON,EPISODE_NARRATIVE,EVENT_NARRATIVE,DATA_SOURCE",
+    "199610,29,1710,199610,30,600,2052149,5570068,\"ILLINOIS\",17,1996,\"October\",\"High Wind\",\"Z\",34,\"HANCOCK\",\"DVN\",\"29-OCT-96 17:10:00\",\"CST\",\"30-OCT-96 06:00:00\",\"0\",\"0\",\"0\",\"0\",,,,\"52\",,,,,,,,,,,,,,,,,,,,,\"Strong gradient winds followed behind a line of thunderstorms which occurred along a strong cold front.  This caused widespread damage to trees and power lines.  Numerous tin sheds and a few barns were destroyed during the 15 to 20 hours of strong to severe winds.  Power outages were too numerous to count and one of these outages was credited with starting a furnace fire.  The fire however was confined and no dollar damage was reported.  In spite of the widespread damage to trees, several newspaper articles across the area reported that damage to unharvested crops was minimal.\",,\"PDC\"",
+    "199610,21,900,199610,21,900,2052748,5570362,\"OKLAHOMA\",40,1996,\"October\",\"Flash Flood\",\"C\",13,\"BRYAN\",\"OUN\",\"21-OCT-96 09:00:00\",\"CST\",\"21-OCT-96 09:00:00\",\"0\",\"0\",\"0\",\"0\",,,,,,,,,,,,,,,,,\"DURANT\",,,\"DURANT\",,,,,\"Flash flood waters washed out a small bridge across the highway south of Rock Creek School.\",,\"PDC\""
+   ]
+  },
+  "StormEvents_details-ftp_v1.0_d2000_c20260323.csv.gz": {
+   "bytes": 7914864,
+   "rows": 52007,
+   "head": [
+    "BEGIN_YEARMONTH,BEGIN_DAY,BEGIN_TIME,END_YEARMONTH,END_DAY,END_TIME,EPISODE_ID,EVENT_ID,STATE,STATE_FIPS,YEAR,MONTH_NAME,EVENT_TYPE,CZ_TYPE,CZ_FIPS,CZ_NAME,WFO,BEGIN_DATE_TIME,CZ_TIMEZONE,END_DATE_TIME,INJURIES_DIRECT,INJURIES_INDIRECT,DEATHS_DIRECT,DEATHS_INDIRECT,DAMAGE_PROPERTY,DAMAGE_CROPS,SOURCE,MAGNITUDE,MAGNITUDE_TYPE,FLOOD_CAUSE,CATEGORY,TOR_F_SCALE,TOR_LENGTH,TOR_WIDTH,TOR_OTHER_WFO,TOR_OTHER_CZ_STATE,TOR_OTHER_CZ_FIPS,TOR_OTHER_CZ_NAME,BEGIN_RANGE,BEGIN_AZIMUTH,BEGIN_LOCATION,END_RANGE,END_AZIMUTH,END_LOCATION,BEGIN_LAT,BEGIN_LON,END_LAT,END_LON,EPISODE_NARRATIVE,EVENT_NARRATIVE,DATA_SOURCE",
+    "200012,31,600,200012,31,900,1104812,5165377,\"FLORIDA\",12,2000,\"December\",\"Extreme Cold/Wind Chill\",\"Z\",67,\"INLAND PALM BEACH\",\"MFL\",\"31-DEC-00 06:00:00\",\"EST\",\"31-DEC-00 09:00:00\",\"0\",\"0\",\"0\",\"0\",,,\"NEWSPAPER\",,,,,,,,,,,,,,,,,,,,,,\"Temperatures fell into the mid-20s over Glades, Hendry, eastern Collier, and western portions of Palm Beach and Broward counties and fell to 32 degrees in the farming areas of south Miami-Dade County.  An 85-year old Belle Glade woman died in a fire caused by a kerosene heater.  Fort Lauderdale Fire-Rescue reported an increase in breathing-related emergencies among the elderly.  Damage to vegetable crops occurred in Hendry and Glades counties.\",,\"PDC\"",
+    "200012,31,600,200012,31,900,1104812,5165378,\"FLORIDA\",12,2000,\"December\",\"Extreme Cold/Wind Chill\",\"Z\",70,\"INLAND COLLIER\",\"MFL\",\"31-DEC-00 06:00:00\",\"EST\",\"31-DEC-00 09:00:00\",\"0\",\"0\",\"0\",\"0\",,,\"NEWSPAPER\",,,,,,,,,,,,,,,,,,,,,,\"Temperatures fell into the mid-20s over Glades, Hendry, eastern Collier, and western portions of Palm Beach and Broward counties and fell to 32 degrees in the farming areas of south Miami-Dade County.  An 85-year old Belle Glade woman died in a fire caused by a kerosene heater.  Fort Lauderdale Fire-Rescue reported an increase in breathing-related emergencies among the elderly.  Damage to vegetable crops occurred in Hendry and Glades counties.\",,\"PDC\""
+   ]
+  },
+  "StormEvents_details-ftp_v1.0_d2006_c20260323.csv.gz": {
+   "bytes": 7590951,
+   "rows": 56400,
+   "head": [
+    "BEGIN_YEARMONTH,BEGIN_DAY,BEGIN_TIME,END_YEARMONTH,END_DAY,END_TIME,EPISODE_ID,EVENT_ID,STATE,STATE_FIPS,YEAR,MONTH_NAME,EVENT_TYPE,CZ_TYPE,CZ_FIPS,CZ_NAME,WFO,BEGIN_DATE_TIME,CZ_TIMEZONE,END_DATE_TIME,INJURIES_DIRECT,INJURIES_INDIRECT,DEATHS_DIRECT,DEATHS_INDIRECT,DAMAGE_PROPERTY,DAMAGE_CROPS,SOURCE,MAGNITUDE,MAGNITUDE_TYPE,FLOOD_CAUSE,CATEGORY,TOR_F_SCALE,TOR_LENGTH,TOR_WIDTH,TOR_OTHER_WFO,TOR_OTHER_CZ_STATE,TOR_OTHER_CZ_FIPS,TOR_OTHER_CZ_NAME,BEGIN_RANGE,BEGIN_AZIMUTH,BEGIN_LOCATION,END_RANGE,END_AZIMUTH,END_LOCATION,BEGIN_LAT,BEGIN_LON,END_LAT,END_LON,EPISODE_NARRATIVE,EVENT_NARRATIVE,DATA_SOURCE",
+    "200604,7,1515,200604,7,1515,1207534,5501658,\"INDIANA\",18,2006,\"April\",\"Thunderstorm Wind\",\"C\",51,\"GIBSON\",\"PAH\",\"07-APR-06 15:15:00\",\"CST\",\"07-APR-06 15:15:00\",\"0\",\"0\",\"0\",\"0\",\"60K\",,\"GENERAL PUBLIC\",\"61\",\"EG\",,,,,,,,,,\"4\",\"E\",\"PATOKA\",\"4\",\"E\",\"PATOKA\",\"38.41667\",\"-87.51667\",\"38.33333\",\"-87.35\",,\"At Wheeling, the windows were blown out of a church, and holes were in some vinyl siding. Between Wheeling and Patoka, a 50,000-bushel grain bin was blown over. The bin and three large propane tanks were blown about 75 feet, and some farm equipment was damaged. At Oakland City, there was damage to the metal roof of a golf course club house. About a half dozen trees were down in the same place.\",\"PDS\"",
+    "200601,1,0,200601,31,2359,1202408,5482463,\"COLORADO\",8,2006,\"January\",\"Drought\",\"Z\",2,\"CENTRAL YAMPA RIVER BASIN\",\"GJT\",\"01-JAN-06 00:00:00\",\"MST\",\"31-JAN-06 23:59:00\",\"0\",\"0\",\"0\",\"0\",,,\"GOVT OFFICIAL\",,,,,,,,,,,,,,,,,,,,,,\"The storm track favored northwest Colorado with respect to snowfall and increased snowpack. In contrast, cold season precipitation and the mountain snowpack remained well below normal across southwest Colorado. As a result, moderate drought conditions returned to a portion of southwest Colorado, while the moderate drought conditions which had persisted across extreme northwest Colorado diminished. Although much of western Colorado was no longer listed as having any abnormal dryness or drought, the water supply remained a concern following years of below normal precipitation and drought. For a continuation on this drought situation please see the February 2006 Storm Data publication.\",,\"PDS\""
+   ]
+  },
+  "StormEvents_details-ftp_v1.0_d2007_c20260323.csv.gz": {
+   "bytes": 9775676,
+   "rows": 59011,
+   "head": [
+    "BEGIN_YEARMONTH,BEGIN_DAY,BEGIN_TIME,END_YEARMONTH,END_DAY,END_TIME,EPISODE_ID,EVENT_ID,STATE,STATE_FIPS,YEAR,MONTH_NAME,EVENT_TYPE,CZ_TYPE,CZ_FIPS,CZ_NAME,WFO,BEGIN_DATE_TIME,CZ_TIMEZONE,END_DATE_TIME,INJURIES_DIRECT,INJURIES_INDIRECT,DEATHS_DIRECT,DEATHS_INDIRECT,DAMAGE_PROPERTY,DAMAGE_CROPS,SOURCE,MAGNITUDE,MAGNITUDE_TYPE,FLOOD_CAUSE,CATEGORY,TOR_F_SCALE,TOR_LENGTH,TOR_WIDTH,TOR_OTHER_WFO,TOR_OTHER_CZ_STATE,TOR_OTHER_CZ_FIPS,TOR_OTHER_CZ_NAME,BEGIN_RANGE,BEGIN_AZIMUTH,BEGIN_LOCATION,END_RANGE,END_AZIMUTH,END_LOCATION,BEGIN_LAT,BEGIN_LON,END_LAT,END_LON,EPISODE_NARRATIVE,EVENT_NARRATIVE,DATA_SOURCE",
+    "200701,15,527,200701,15,1930,1237,5396,\"NEW HAMPSHIRE\",33,2007,\"January\",\"Ice Storm\",\"Z\",12,\"HILLSBOROUGH\",\"BOX\",\"15-JAN-07 05:27:00\",\"EST-5\",\"15-JAN-07 19:30:00\",\"0\",\"0\",\"0\",\"0\",\"35.00K\",\"0.00K\",\"Amateur Radio\",,,,,,,,,,,,,,,,,,,,,,\"Low pressure tracked from the Ohio Valley through the Mass Turnpike region of southern New England, bringing a prolonged period of freezing rain and sleet to southwest New Hampshire. This resulted in as much as one quarter to one half inch of icing, which caused widespread damage throughout Cheshire and Hillsborough Counties. There were many reports of downed trees, large branches, and power lines from Keene to Manchester. At the peak of the storm, around 38,000 homes were left without power.\",\"Trees, large branches, and power lines were brought down by icing in Nashua, Hudson, and Manchester.\",\"CSV\"",
+    "200712,31,230,200712,31,1230,12488,68481,\"NEW HAMPSHIRE\",33,2007,\"December\",\"Heavy Snow\",\"Z\",12,\"EASTERN HILLSBOROUGH\",\"BOX\",\"31-DEC-07 02:30:00\",\"EST-5\",\"31-DEC-07 12:30:00\",\"0\",\"0\",\"0\",\"0\",\"0.00K\",\"0.00K\",\"NWS Employee\",,,,,,,,,,,,,,,,,,,,,,\"A low pressure center developed along the Mid-Atlantic coast and moved east of Nantucket, spreading snow across southwestern New Hampshire.  Storm snowfall totals ranged from six to eight inches.\",\"\",\"CSV\""
+   ]
+  },
+  "StormEvents_details-ftp_v1.0_d2010_c20260323.csv.gz": {
+   "bytes": 11729156,
+   "rows": 62809,
+   "head": [
+    "BEGIN_YEARMONTH,BEGIN_DAY,BEGIN_TIME,END_YEARMONTH,END_DAY,END_TIME,EPISODE_ID,EVENT_ID,STATE,STATE_FIPS,YEAR,MONTH_NAME,EVENT_TYPE,CZ_TYPE,CZ_FIPS,CZ_NAME,WFO,BEGIN_DATE_TIME,CZ_TIMEZONE,END_DATE_TIME,INJURIES_DIRECT,INJURIES_INDIRECT,DEATHS_DIRECT,DEATHS_INDIRECT,DAMAGE_PROPERTY,DAMAGE_CROPS,SOURCE,MAGNITUDE,MAGNITUDE_TYPE,FLOOD_CAUSE,CATEGORY,TOR_F_SCALE,TOR_LENGTH,TOR_WIDTH,TOR_OTHER_WFO,TOR_OTHER_CZ_STATE,TOR_OTHER_CZ_FIPS,TOR_OTHER_CZ_NAME,BEGIN_RANGE,BEGIN_AZIMUTH,BEGIN_LOCATION,END_RANGE,END_AZIMUTH,END_LOCATION,BEGIN_LAT,BEGIN_LON,END_LAT,END_LON,EPISODE_NARRATIVE,EVENT_NARRATIVE,DATA_SOURCE",
+    "201011,22,1531,201011,22,1532,46247,268262,\"ILLINOIS\",17,2010,\"November\",\"Tornado\",\"C\",111,\"MCHENRY\",\"LOT\",\"22-NOV-10 15:31:00\",\"CST-6\",\"22-NOV-10 15:32:00\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"NWS Storm Survey\",,,,,\"EF0\",\"0.14\",\"50\",\"MKX\",\"WI-C127.1\",,,\"1\",\"SE\",\"BIG FOOT PRAIRIE\",\"2\",\"ENE\",\"BIG FOOT\",\"42.4932\",\"-88.5704\",\"42.4951\",\"-88.5695\",\"Strong to severe thunderstorms moved across parts of northern Illinois during the afternoon hours of November 22nd. These storms produced two tornadoes, hail, heavy rain and some flooding.\",\"A tornado touched down in the extreme northern part of McHenry County and then quickly moved north into Walworth County in southern Wisconsin.\",\"CSV\"",
+    "201007,7,1251,201007,7,1630,43850,254780,\"NEW HAMPSHIRE\",33,2010,\"July\",\"Heat\",\"Z\",12,\"EASTERN HILLSBOROUGH\",\"BOX\",\"07-JUL-10 12:51:00\",\"EST-5\",\"07-JUL-10 16:30:00\",\"0\",\"0\",\"0\",\"0\",\"0.00K\",\"0.00K\",\"AWOS\",,,,,,,,,,,,,,,,,,,,,,\"A strong ridge built into Southern New England resulting in temperatures nearing 100 with high humidity. Heat index values ranged from 100 to 106 for most of Southern New England on the 6th and again on the 7th in a more limited area, generally the Connecticut River Valley.\",\"Heat index values at the Nashua Boire Field (KASH) Automated Weather Observing System were 100 to 104 degrees.\",\"CSV\""
+   ]
+  },
+  "StormEvents_details-ftp_v1.0_d2016_c20260323.csv.gz": {
+   "bytes": 9065715,
+   "rows": 56005,
+   "head": [
+    "BEGIN_YEARMONTH,BEGIN_DAY,BEGIN_TIME,END_YEARMONTH,END_DAY,END_TIME,EPISODE_ID,EVENT_ID,STATE,STATE_FIPS,YEAR,MONTH_NAME,EVENT_TYPE,CZ_TYPE,CZ_FIPS,CZ_NAME,WFO,BEGIN_DATE_TIME,CZ_TIMEZONE,END_DATE_TIME,INJURIES_DIRECT,INJURIES_INDIRECT,DEATHS_DIRECT,DEATHS_INDIRECT,DAMAGE_PROPERTY,DAMAGE_CROPS,SOURCE,MAGNITUDE,MAGNITUDE_TYPE,FLOOD_CAUSE,CATEGORY,TOR_F_SCALE,TOR_LENGTH,TOR_WIDTH,TOR_OTHER_WFO,TOR_OTHER_CZ_STATE,TOR_OTHER_CZ_FIPS,TOR_OTHER_CZ_NAME,BEGIN_RANGE,BEGIN_AZIMUTH,BEGIN_LOCATION,END_RANGE,END_AZIMUTH,END_LOCATION,BEGIN_LAT,BEGIN_LON,END_LAT,END_LON,EPISODE_NARRATIVE,EVENT_NARRATIVE,DATA_SOURCE",
+    "201606,22,2010,201606,22,2015,107879,647809,\"ILLINOIS\",17,2016,\"June\",\"Tornado\",\"C\",63,\"GRUNDY\",\"LOT\",\"22-JUN-16 20:10:00\",\"CST-6\",\"22-JUN-16 20:15:00\",\"0\",\"0\",\"0\",\"0\",,,\"NWS Storm Survey\",,,,,\"EF1\",\"1.61\",\"100\",,,,,\"4\",\"NW\",\"LANGHAM\",\"2\",\"NNW\",\"LANGHAM\",\"41.3406\",\"-88.592\",\"41.3303\",\"-88.5632\",\"The evening of Wednesday, June 22 brought a favorable setup for tornadoes across northern Illinois. There were approximately 3 supercells which brought numerous tornadoes to the NWS Chicago CWA. NWS ground survey data combined with aerial photography, radar and satellite imagery, and detailed reports from trained storm spotters have helped to determine that 15 tornadoes occurred across the NWS Chicago County Warning Area.\",\"This is a continuation of the tornado that began in LaSalle County. Approximately 2.3 miles to the north-northeast of Seneca, there was a major loss of roof panels off a farm outbuilding. As the tornado moved to the southeast, there was small limbs broken. (Tornado 10b of 15).\",\"CSV\"",
+    "201607,15,1715,201607,15,1715,108769,651823,\"SOUTH CAROLINA\",45,2016,\"July\",\"Heavy Rain\",\"C\",91,\"YORK\",\"GSP\",\"15-JUL-16 17:15:00\",\"EST-5\",\"15-JUL-16 17:15:00\",\"0\",\"0\",\"0\",\"0\",\"2.00K\",\"0.00K\",\"Social Media\",,,,,,,,,,,,\".69\",\"N\",\"BOYD HILL\",\".69\",\"N\",\"BOYD HILL\",\"34.94\",\"-81.03\",\"34.94\",\"-81.03\",\"Scattered thunderstorms developed across the Upstate during the late afternoon and evening. Some of the storms produced brief damaging winds and heavy rainfall.\",\"One to two feet of deep standing water developed on a street on the Winthrop University campus after more than an inch of rain fell in less than an hour. One vehicle was stalled in the water.\",\"CSV\""
+   ]
+  },
+  "StormEvents_details-ftp_v1.0_d2024_c20260728.csv.gz": {
+   "bytes": 12693243,
+   "rows": 69801,
+   "head": [
+    "BEGIN_YEARMONTH,BEGIN_DAY,BEGIN_TIME,END_YEARMONTH,END_DAY,END_TIME,EPISODE_ID,EVENT_ID,STATE,STATE_FIPS,YEAR,MONTH_NAME,EVENT_TYPE,CZ_TYPE,CZ_FIPS,CZ_NAME,WFO,BEGIN_DATE_TIME,CZ_TIMEZONE,END_DATE_TIME,INJURIES_DIRECT,INJURIES_INDIRECT,DEATHS_DIRECT,DEATHS_INDIRECT,DAMAGE_PROPERTY,DAMAGE_CROPS,SOURCE,MAGNITUDE,MAGNITUDE_TYPE,FLOOD_CAUSE,CATEGORY,TOR_F_SCALE,TOR_LENGTH,TOR_WIDTH,TOR_OTHER_WFO,TOR_OTHER_CZ_STATE,TOR_OTHER_CZ_FIPS,TOR_OTHER_CZ_NAME,BEGIN_RANGE,BEGIN_AZIMUTH,BEGIN_LOCATION,END_RANGE,END_AZIMUTH,END_LOCATION,BEGIN_LAT,BEGIN_LON,END_LAT,END_LON,EPISODE_NARRATIVE,EVENT_NARRATIVE,DATA_SOURCE",
+    "202404,30,2033,202404,30,2033,189851,1174463,\"OKLAHOMA\",40,2024,\"April\",\"Thunderstorm Wind\",\"C\",141,\"TILLMAN\",\"OUN\",\"30-APR-24 20:33:00\",\"CST-6\",\"30-APR-24 20:33:00\",\"0\",\"0\",\"0\",\"0\",,,\"ASOS\",\"55.00\",\"MG\",,,,,,,,,,\".42\",\"SSW\",\"FREDERICK ARPT\",\".42\",\"SSW\",\"FREDERICK ARPT\",\"34.3444\",\"-98.983\",\"34.3444\",\"-98.983\",\"A rather nebulous upper air pattern existed across the Southern Plains on the 30th, with 30-40 knots of quasi-zonal flow at 500 mb. However, plentiful solar insolation/surface heating in the vicinity of a dryline fostered widely scattered thunderstorm development by the late afternoon. Strong instability and sufficient organizing wind shear lead to a few of these storms displaying supercellular characteristics and producing reports of large hail initially, owing to steep lapse rates and weak low-level shear (among other factors already mentioned). By the mid-evening, as low-level shear and storm-scale interactions began to increase, a few tornadoes occurred across portions of south-central into southwest Oklahoma. The most significant of these was an EF-1 tornado near the community of Hollister (Tillman County).\",\"Frederick Municipal Airport (KFDR) observation.\",\"CSV\"",
+    "202407,1,0,202407,5,900,193486,1195301,\"LOUISIANA\",22,2024,\"July\",\"Excessive Heat\",\"Z\",18,\"NATCHITOCHES\",\"SHV\",\"01-JUL-24 00:00:00\",\"CST-6\",\"05-JUL-24 09:00:00\",\"0\",\"0\",\"0\",\"0\",\"0.00K\",\"0.00K\",\"ASOS\",,,,,,,,,,,,,,,,,,,,,,\"An upper ridge of high pressure built in across the Southern Plains during the first several days of July, before eventually sliding off to the east into the Mid-South and Lower Mississippi Valley. Meanwhile, a stationary front lingered from Southeast Oklahoma into extreme Southwest Arkansas and portions of North Louisiana, which aided in compressional heating and low level moisture pooling, with temperatures climbing into the upper 90s to in excess of 100 degrees. The moisture pooling resulted in minimal mixing of dewpoints, with attendant heat indices ranging from 110-115 degrees each afternoon on July 1st through the 4th. However, slightly cooler and drier air were able to mix into the area on the 5th, resulting in slightly lower heat indices.\",\"\",\"CSV\""
+   ]
+  },
+  "StormEvents_details-ftp_v1.0_d2025_c20260819.csv.gz": {
+   "bytes": 12585209,
+   "rows": 72360,
+   "head": [
+    "BEGIN_YEARMONTH,BEGIN_DAY,BEGIN_TIME,END_YEARMONTH,END_DAY,END_TIME,EPISODE_ID,EVENT_ID,STATE,STATE_FIPS,YEAR,MONTH_NAME,EVENT_TYPE,CZ_TYPE,CZ_FIPS,CZ_NAME,WFO,BEGIN_DATE_TIME,CZ_TIMEZONE,END_DATE_TIME,INJURIES_DIRECT,INJURIES_INDIRECT,DEATHS_DIRECT,DEATHS_INDIRECT,DAMAGE_PROPERTY,DAMAGE_CROPS,SOURCE,MAGNITUDE,MAGNITUDE_TYPE,FLOOD_CAUSE,CATEGORY,TOR_F_SCALE,TOR_LENGTH,TOR_WIDTH,TOR_OTHER_WFO,TOR_OTHER_CZ_STATE,TOR_OTHER_CZ_FIPS,TOR_OTHER_CZ_NAME,BEGIN_RANGE,BEGIN_AZIMUTH,BEGIN_LOCATION,END_RANGE,END_AZIMUTH,END_LOCATION,BEGIN_LAT,BEGIN_LON,END_LAT,END_LON,EPISODE_NARRATIVE,EVENT_NARRATIVE,DATA_SOURCE",
+    "202503,31,1104,202503,31,1106,201366,1252415,\"GEORGIA\",13,2025,\"March\",\"Thunderstorm Wind\",\"C\",45,\"CARROLL\",\"FFC\",\"31-MAR-25 11:04:00\",\"EST-5\",\"31-MAR-25 11:06:00\",\"0\",\"0\",\"0\",\"0\",\"1.00K\",,\"Emergency Manager\",\"52.00\",\"EG\",,,,,,,,,,\"2.22\",\"W\",\"TYUS\",\"2.22\",\"W\",\"TYUS\",\"33.4757\",\"-85.238\",\"33.4757\",\"-85.238\",\"A cold-front initiated a line of thunderstorms across north and central GA through the afternoon hours of the 31st. Storms brought damaging winds along the I20 corridor and south as well as six quick spin-up tornadoes. The strongest being an EF1 between McDonough and Stockbridge crossing Hwy 75. There were also a couple reports of quarter size hail southeast of Macon.\",\"Tree down at the intersection of highway 5 and old columbus road.\",\"CSV\"",
+    "202503,30,1552,202503,30,1555,200337,1241136,\"MICHIGAN\",26,2025,\"March\",\"Tornado\",\"C\",27,\"CASS\",\"IWX\",\"30-MAR-25 15:52:00\",\"EST-5\",\"30-MAR-25 15:55:00\",\"0\",\"0\",\"0\",\"0\",\"100.00K\",\"0.00K\",\"NWS Storm Survey\",,,,,\"EF1\",\"2.59\",\"100\",,,,,\"1.24\",\"SW\",\"EDWARDSBURG\",\"1.47\",\"NNE\",\"EDWARDSBURG\",\"41.79\",\"-86.1\",\"41.82\",\"-86.07\",\"A cold front pushed into the area during the afternoon and evening hours, interacting with  decent shear and MLCAPE to allow for numerous thunderstorm development. Pockets of damaging winds occurred along with a total of six confirmed tornadoes (three in far southern Lower Michigan and three in northern Indiana).\",\"A brief EF-1 tornado was confirmed in Edwardsburg, MI on March 30th, 2025. The tornado started in a field west of Conrad Rd, snapping and uprooting trees as it moved northeast towards the Edwardsburg Primary School, where EF-0 damage was noted. The tornado continued to the northeast and intensified, where several homes and businesses sustained damage on the east side of Pleasant Lake. The Starboard Choice Marina building sustained roof damage, a boat lift and dock were removed from the lake and flipped over, and a few boats were damaged as well, including one that was flipped and lifted over a fence. The most intense damage was seen along Dailey Road, where numerous large trees were snapped and uprooted, with estimated peak wind speeds of 90 mph. Overall, the tornado was on the ground for 3 minutes and had a peak intensity of EF-1. There were also areas of straight-line wind damage noted throughout Edwardsburg, indicative that the tornado was likely embedded within the line of storms that moved through.\",\"CSV\""
+   ]
+  },
+  "StormEvents_fatalities-ftp_v1.0_d1996_c20260323.csv.gz": {
+   "bytes": 6830,
+   "rows": 525,
+   "head": [
+    "FAT_YEARMONTH,FAT_DAY,FAT_TIME,FATALITY_ID,EVENT_ID,FATALITY_TYPE,FATALITY_DATE,FATALITY_AGE,FATALITY_SEX,FATALITY_LOCATION",
+    "199606,30,0,1001443,5559276,\"D\",\"06/30/1996 12:00:00\",81,\"F\",\"Permanent Home\"",
+    "199606,12,0,1001455,5567519,\"D\",\"06/12/1996 12:00:00\",13,\"F\",\"Permanent Home\""
+   ]
+  },
+  "StormEvents_fatalities-ftp_v1.0_d2000_c20260323.csv.gz": {
+   "bytes": 6539,
+   "rows": 476,
+   "head": [
+    "FAT_YEARMONTH,FAT_DAY,FAT_TIME,FATALITY_ID,EVENT_ID,FATALITY_TYPE,FATALITY_DATE,FATALITY_AGE,FATALITY_SEX,FATALITY_LOCATION",
+    "200007,13,0,18903,5163809,\"D\",\"07/13/2000 12:00:00\",83,\"F\",\"Other\"",
+    "200007,18,0,18904,5163811,\"D\",\"07/18/2000 12:00:00\",84,\"F\",\"Other\""
+   ]
+  },
+  "StormEvents_fatalities-ftp_v1.0_d2006_c20260323.csv.gz": {
+   "bytes": 7933,
+   "rows": 656,
+   "head": [
+    "FAT_YEARMONTH,FAT_DAY,FAT_TIME,FATALITY_ID,EVENT_ID,FATALITY_TYPE,FATALITY_DATE,FATALITY_AGE,FATALITY_SEX,FATALITY_LOCATION",
+    "200603,9,0,21548,5494283,\"D\",\"03/09/2006 12:00:00\",46,\"F\",\"Vehicle/Towed Trailer\"",
+    "200603,9,0,21549,5494285,\"D\",\"03/09/2006 12:00:00\",57,\"M\",\"Vehicle/Towed Trailer\""
+   ]
+  },
+  "StormEvents_fatalities-ftp_v1.0_d2007_c20260323.csv.gz": {
+   "bytes": 8853,
+   "rows": 713,
+   "head": [
+    "FAT_YEARMONTH,FAT_DAY,FAT_TIME,FATALITY_ID,EVENT_ID,FATALITY_TYPE,FATALITY_DATE,FATALITY_AGE,FATALITY_SEX,FATALITY_LOCATION",
+    "200703,11,0,949,22331,\"D\",\"03/11/2007 00:00:00\",52,\"F\",\"Vehicle/Towed Trailer\"",
+    "200703,12,0,952,22340,\"D\",\"03/12/2007 00:00:00\",24,\"F\",\"Vehicle/Towed Trailer\""
+   ]
+  },
+  "StormEvents_fatalities-ftp_v1.0_d2010_c20260323.csv.gz": {
+   "bytes": 8925,
+   "rows": 677,
+   "head": [
+    "FAT_YEARMONTH,FAT_DAY,FAT_TIME,FATALITY_ID,EVENT_ID,FATALITY_TYPE,FATALITY_DATE,FATALITY_AGE,FATALITY_SEX,FATALITY_LOCATION",
+    "201005,25,0,7037,232488,\"D\",\"05/25/2010 00:00:00\",67,\"M\",\"Permanent Home\"",
+    "201005,26,0,7038,232488,\"D\",\"05/26/2010 00:00:00\",73,\"M\",\"Permanent Home\""
+   ]
+  },
+  "StormEvents_fatalities-ftp_v1.0_d2016_c20260323.csv.gz": {
+   "bytes": 8818,
+   "rows": 670,
+   "head": [
+    "FAT_YEARMONTH,FAT_DAY,FAT_TIME,FATALITY_ID,EVENT_ID,FATALITY_TYPE,FATALITY_DATE,FATALITY_AGE,FATALITY_SEX,FATALITY_LOCATION",
+    "201601,24,0,29746,609334,\"I\",\"01/24/2016 00:00:00\",,\"M\",\"Outside/Open Areas\"",
+    "201601,24,0,29747,609340,\"I\",\"01/24/2016 00:00:00\",70,\"M\",\"Permanent Home\""
+   ]
+  },
+  "StormEvents_fatalities-ftp_v1.0_d2024_c20260728.csv.gz": {
+   "bytes": 13057,
+   "rows": 1141,
+   "head": [
+    "FAT_YEARMONTH,FAT_DAY,FAT_TIME,FATALITY_ID,EVENT_ID,FATALITY_TYPE,FATALITY_DATE,FATALITY_AGE,FATALITY_SEX,FATALITY_LOCATION",
+    "202408,11,0,53724,1207220,\"D\",\"08/11/2024 00:00:00\",83,\"M\",\"In Water\"",
+    "202408,5,0,53725,1207865,\"I\",\"08/05/2024 00:00:00\",93,\"M\",\"Unknown\""
+   ]
+  },
+  "StormEvents_fatalities-ftp_v1.0_d2025_c20260819.csv.gz": {
+   "bytes": 10164,
+   "rows": 895,
+   "head": [
+    "FAT_YEARMONTH,FAT_DAY,FAT_TIME,FATALITY_ID,EVENT_ID,FATALITY_TYPE,FATALITY_DATE,FATALITY_AGE,FATALITY_SEX,FATALITY_LOCATION",
+    "202512,4,0,60389,1296292,\"I\",\"12/04/2025 00:00:00\",40,\"M\",\"Vehicle/Towed Trailer\"",
+    "202512,1,0,60391,1296789,\"I\",\"12/01/2025 00:00:00\",35,\"F\",\"Boating\""
+   ]
+  },
+  "StormEvents_locations-ftp_v1.0_d1996_c20260707.csv.gz": {
+   "bytes": 684339,
+   "rows": 48531,
+   "head": [
+    "YEARMONTH,EPISODE_ID,EVENT_ID,LOCATION_INDEX,RANGE,AZIMUTH,LOCATION,LATITUDE,LONGITUDE,LAT2,LON2",
+    "199605,1005969,5545800,1,10,\"NE\",\"BROOKFIELD\",39.88,-92.95,3953,9257",
+    "199601,2032604,5545959,1,,\"\",\"\",,,,"
+   ]
+  },
+  "StormEvents_locations-ftp_v1.0_d2000_c20260707.csv.gz": {
+   "bytes": 624833,
+   "rows": 53771,
+   "head": [
+    "YEARMONTH,EPISODE_ID,EVENT_ID,LOCATION_INDEX,RANGE,AZIMUTH,LOCATION,LATITUDE,LONGITUDE,LAT2,LON2",
+    "200008,1101543,5171170,1,6,\"NE\",\"EAGLE ROCK\",,,,",
+    "200008,1101543,5171171,1,,\"\",\"WEST PORTION\",,,,"
+   ]
+  },
+  "StormEvents_locations-ftp_v1.0_d2006_c20260707.csv.gz": {
+   "bytes": 3256957,
+   "rows": 159430,
+   "head": [
+    "YEARMONTH,EPISODE_ID,EVENT_ID,LOCATION_INDEX,RANGE,AZIMUTH,LOCATION,LATITUDE,LONGITUDE,LAT2,LON2",
+    "200610,168351,1020070,1,3.23,\"N\",\"GRAND GULF\",32.076,-91.06,324560,913600",
+    "200610,168351,1020070,2,1.82,\"NNW\",\"INSMORE\",32.043,-90.745,322580,9044700"
+   ]
+  },
+  "StormEvents_locations-ftp_v1.0_d2007_c20260707.csv.gz": {
+   "bytes": 925583,
+   "rows": 41896,
+   "head": [
+    "YEARMONTH,EPISODE_ID,EVENT_ID,LOCATION_INDEX,RANGE,AZIMUTH,LOCATION,LATITUDE,LONGITUDE,LAT2,LON2",
+    "200712,11228,61830,1,0,\"N\",\"CORRALES\",35.25,-106.6,3515000,10636000",
+    "200712,11228,61890,1,4,\"SW\",\"SANTA FE\",35.6391,-106.0003,3538346,10618"
+   ]
+  },
+  "StormEvents_locations-ftp_v1.0_d2010_c20260707.csv.gz": {
+   "bytes": 1562177,
+   "rows": 65469,
+   "head": [
+    "YEARMONTH,EPISODE_ID,EVENT_ID,LOCATION_INDEX,RANGE,AZIMUTH,LOCATION,LATITUDE,LONGITUDE,LAT2,LON2",
+    "201005,41989,244863,1,2.84,\"ESE\",\"SHARON\",37.24,-98.38,3714400,9822800",
+    "201005,41989,244864,1,3.22,\"NNE\",\"SHARON\",37.29,-98.4,3717400,9824000"
+   ]
+  },
+  "StormEvents_locations-ftp_v1.0_d2016_c20260707.csv.gz": {
+   "bytes": 1387086,
+   "rows": 57695,
+   "head": [
+    "YEARMONTH,EPISODE_ID,EVENT_ID,LOCATION_INDEX,RANGE,AZIMUTH,LOCATION,LATITUDE,LONGITUDE,LAT2,LON2",
+    "201601,102999,615391,1,.69,\"S\",\"LEESVILLE\",31.14,-93.27,318400,9316200",
+    "201601,102999,615392,1,1.5,\"SSW\",\"DE RIDDER\",30.83,-93.29,3049800,9317400"
+   ]
+  },
+  "StormEvents_locations-ftp_v1.0_d2024_c20260728.csv.gz": {
+   "bytes": 983723,
+   "rows": 41574,
+   "head": [
+    "YEARMONTH,EPISODE_ID,EVENT_ID,LOCATION_INDEX,RANGE,AZIMUTH,LOCATION,LATITUDE,LONGITUDE,LAT2,LON2",
+    "202407,194961,1205741,3,2.82,\"W\",\"TWENTY NINE PALMS\",34.1359,-116.0988,348154,1165928",
+    "202407,194961,1205741,4,2.8,\"W\",\"TWENTY NINE PALMS\",34.1338,-116.0987,348028,1165922"
+   ]
+  },
+  "StormEvents_locations-ftp_v1.0_d2025_c20260819.csv.gz": {
+   "bytes": 1206372,
+   "rows": 51504,
+   "head": [
+    "YEARMONTH,EPISODE_ID,EVENT_ID,LOCATION_INDEX,RANGE,AZIMUTH,LOCATION,LATITUDE,LONGITUDE,LAT2,LON2",
+    "202508,204641,1287936,2,3.54,\"SSE\",\"SINKING COVE\",35.0015,-85.9601,3590,8557606",
+    "202508,203789,1269348,1,2.9,\"E\",\"BLEASES XRDS\",34.044,-81.7699,342640,8146194"
+   ]
+  }
+ },
+ "stats19": {
+  "collision-2005": "<HTTPError 404: 'Not Found'>",
+  "vehicle-2005": "<HTTPError 404: 'Not Found'>",
+  "casualty-2005": "<HTTPError 404: 'Not Found'>",
+  "collision-2010": "<HTTPError 404: 'Not Found'>",
+  "vehicle-2010": "<HTTPError 404: 'Not Found'>",
+  "casualty-2010": "<HTTPError 404: 'Not Found'>",
+  "collision-2015": "<HTTPError 404: 'Not Found'>",
+  "vehicle-2015": "<HTTPError 404: 'Not Found'>",
+  "casualty-2015": "<HTTPError 404: 'Not Found'>",
+  "collision-2016": "<HTTPError 404: 'Not Found'>",
+  "vehicle-2016": "<HTTPError 404: 'Not Found'>",
+  "casualty-2016": "<HTTPError 404: 'Not Found'>",
+  "collision-2019": "<HTTPError 404: 'Not Found'>",
+  "vehicle-2019": "<HTTPError 404: 'Not Found'>",
+  "casualty-2019": "<HTTPError 404: 'Not Found'>",
+  "collision-2020": "<HTTPError 404: 'Not Found'>",
+  "vehicle-2020": "<HTTPError 404: 'Not Found'>",
+  "casualty-2020": "<HTTPError 404: 'Not Found'>",
+  "collision-2021": [
+   "collision_index,collision_year,collision_ref_no,location_easting_osgr,location_northing_osgr,longitude,latitude,police_force,collision_severity,number_of_vehicles,number_of_casualties,date,day_of_week,time,local_authority_district,local_authority_ons_district,local_authority_highway,local_authority_highway_current,first_road_class,first_road_number,road_type,speed_limit,junction_detail_historic,junction_detail,junction_control,second_road_class,second_road_number,pedestrian_crossing_human_control_historic,pedestrian_crossing_physical_facilities_historic,pedestrian_crossing,light_conditions,weather_conditions,road_surface_conditions,special_conditions_at_site,carriageway_hazards_historic,carriageway_hazards,urban_or_rural_area,did_police_officer_attend_scene_of_accident,trunk_road_flag,lsoa_of_accident_location,enhanced_severity_collision,collision_injury_based,collision_adjusted_severity_serious,collision_adjusted_severity_slight",
+   "2021170M10151,2021,170M10151,449258,520038,-1.239576,54.57318,17,3,1,1,10/02/2021,4,14:44,243,E06000002,E06000002,E06000002,4,1272,6,30,0,0,-1,0,-1,0,4,14,1,1,3,0,0,0,1,1,2,E01033468,-1,0,0.11714,0.88286"
+  ],
+  "vehicle-2021": [
+   "collision_index,collision_year,collision_ref_no,vehicle_reference,vehicle_type,towing_and_articulation,vehicle_manoeuvre_historic,vehicle_manoeuvre,vehicle_direction_from,vehicle_direction_to,vehicle_location_restricted_lane_historic,vehicle_location_restricted_lane,junction_location,skidding_and_overturning,hit_object_in_carriageway,vehicle_leaving_carriageway,hit_object_off_carriageway,first_point_of_impact,vehicle_left_hand_drive,journey_purpose_of_driver_historic,journey_purpose_of_driver,sex_of_driver,age_of_driver,age_band_of_driver,engine_capacity_cc,propulsion_code,age_of_vehicle,generic_make_model,driver_imd_decile,lsoa_of_driver,escooter_flag,driver_distance_banding",
+   "2021501144586,2021,501144586,2,9,0,5,5,5,3,0,0,1,0,0,0,0,1,1,6,6,1,50,8,1970,1,18,-1,4,E01018972,0,-1"
+  ],
+  "casualty-2021": [
+   "collision_index,collision_year,collision_ref_no,vehicle_reference,casualty_reference,casualty_class,sex_of_casualty,age_of_casualty,age_band_of_casualty,casualty_severity,pedestrian_location,pedestrian_movement,car_passenger,bus_or_coach_passenger,pedestrian_road_maintenance_worker,casualty_type,casualty_imd_decile,lsoa_of_casualty,enhanced_casualty_severity,casualty_injury_based,casualty_adjusted_severity_serious,casualty_adjusted_severity_slight,casualty_distance_banding,escooter_flag",
+   "2021010287713,2021,010287713,1,2,3,1,38,7,3,5,3,0,0,0,0,4,E01004531,-1,0,0,1,-1,0"
+  ],
+  "collision-2023": [
+   "collision_index,collision_year,collision_ref_no,location_easting_osgr,location_northing_osgr,longitude,latitude,police_force,collision_severity,number_of_vehicles,number_of_casualties,date,day_of_week,time,local_authority_district,local_authority_ons_district,local_authority_highway,local_authority_highway_current,first_road_class,first_road_number,road_type,speed_limit,junction_detail_historic,junction_detail,junction_control,second_road_class,second_road_number,pedestrian_crossing_human_control_historic,pedestrian_crossing_physical_facilities_historic,pedestrian_crossing,light_conditions,weather_conditions,road_surface_conditions,special_conditions_at_site,carriageway_hazards_historic,carriageway_hazards,urban_or_rural_area,did_police_officer_attend_scene_of_accident,trunk_road_flag,lsoa_of_accident_location,enhanced_severity_collision,collision_injury_based,collision_adjusted_severity_serious,collision_adjusted_severity_slight",
+   "2023170M20483,2023,170M20483,451177,519211,-1.210024,54.565548,17,3,1,1,04/03/2023,7,12:10,-1,E06000002,E06000002,E06000002,6,0,6,30,6,16,4,6,0,0,0,0,1,1,1,0,0,0,1,2,2,E01012077,-1,0,0.03426,0.96574"
+  ],
+  "vehicle-2023": [
+   "collision_index,collision_year,collision_ref_no,vehicle_reference,vehicle_type,towing_and_articulation,vehicle_manoeuvre_historic,vehicle_manoeuvre,vehicle_direction_from,vehicle_direction_to,vehicle_location_restricted_lane_historic,vehicle_location_restricted_lane,junction_location,skidding_and_overturning,hit_object_in_carriageway,vehicle_leaving_carriageway,hit_object_off_carriageway,first_point_of_impact,vehicle_left_hand_drive,journey_purpose_of_driver_historic,journey_purpose_of_driver,sex_of_driver,age_of_driver,age_band_of_driver,engine_capacity_cc,propulsion_code,age_of_vehicle,generic_make_model,driver_imd_decile,lsoa_of_driver,escooter_flag,driver_distance_banding",
+   "2023481356437,2023,481356437,1,9,0,9,9,1,7,0,0,8,0,0,0,0,3,1,2,2,1,26,6,5935,1,9,-1,-1,-1,0,-1"
+  ],
+  "casualty-2023": [
+   "collision_index,collision_year,collision_ref_no,vehicle_reference,casualty_reference,casualty_class,sex_of_casualty,age_of_casualty,age_band_of_casualty,casualty_severity,pedestrian_location,pedestrian_movement,car_passenger,bus_or_coach_passenger,pedestrian_road_maintenance_worker,casualty_type,casualty_imd_decile,lsoa_of_casualty,enhanced_casualty_severity,casualty_injury_based,casualty_adjusted_severity_serious,casualty_adjusted_severity_slight,casualty_distance_banding,escooter_flag",
+   "2023010427324,2023,010427324,1,1,3,1,40,7,3,9,5,0,0,0,0,4,E01000498,-1,0,0,1,-1,0"
+  ],
+  "collision-2024": [
+   "collision_index,collision_year,collision_ref_no,location_easting_osgr,location_northing_osgr,longitude,latitude,police_force,collision_severity,number_of_vehicles,number_of_casualties,date,day_of_week,time,local_authority_district,local_authority_ons_district,local_authority_highway,local_authority_highway_current,first_road_class,first_road_number,road_type,speed_limit,junction_detail_historic,junction_detail,junction_control,second_road_class,second_road_number,pedestrian_crossing_human_control_historic,pedestrian_crossing_physical_facilities_historic,pedestrian_crossing,light_conditions,weather_conditions,road_surface_conditions,special_conditions_at_site,carriageway_hazards_historic,carriageway_hazards,urban_or_rural_area,did_police_officer_attend_scene_of_accident,trunk_road_flag,lsoa_of_accident_location,enhanced_severity_collision,collision_injury_based,collision_adjusted_severity_serious,collision_adjusted_severity_slight",
+   "202417H100324,2024,17H100324,449865,528767,-1.22869,54.65155,17,2,1,5,12/01/2024,6,19:30,-1,E06000001,E06000001,E06000001,3,689,3,50,0,0,-1,0,-1,0,0,0,4,1,2,0,0,0,2,1,2,E01011963,-1,0,1,0"
+  ],
+  "vehicle-2024": [
+   "collision_index,collision_year,collision_ref_no,vehicle_reference,vehicle_type,towing_and_articulation,vehicle_manoeuvre_historic,vehicle_manoeuvre,vehicle_direction_from,vehicle_direction_to,vehicle_location_restricted_lane_historic,vehicle_location_restricted_lane,junction_location,skidding_and_overturning,hit_object_in_carriageway,vehicle_leaving_carriageway,hit_object_off_carriageway,first_point_of_impact,vehicle_left_hand_drive,journey_purpose_of_driver_historic,journey_purpose_of_driver,sex_of_driver,age_of_driver,age_band_of_driver,engine_capacity_cc,propulsion_code,age_of_vehicle,generic_make_model,driver_imd_decile,lsoa_of_driver,escooter_flag,driver_distance_banding",
+   "2024010507996,2024,010507996,1,9,9,99,99,9,9,99,99,9,9,99,9,99,9,9,6,6,2,44,7,-1,3,1,BMW I4,8,E01000540,0,2"
+  ],
+  "casualty-2024": [
+   "collision_index,collision_year,collision_ref_no,vehicle_reference,casualty_reference,casualty_class,sex_of_casualty,age_of_casualty,age_band_of_casualty,casualty_severity,pedestrian_location,pedestrian_movement,car_passenger,bus_or_coach_passenger,pedestrian_road_maintenance_worker,casualty_type,casualty_imd_decile,lsoa_of_casualty,enhanced_casualty_severity,casualty_injury_based,casualty_adjusted_severity_serious,casualty_adjusted_severity_slight,casualty_distance_banding,escooter_flag",
+   "2024010487437,2024,010487437,1,1,3,1,21,5,3,1,3,0,0,0,0,2,E01015720,3,1,0,1,4,0"
+  ]
+ }
+}

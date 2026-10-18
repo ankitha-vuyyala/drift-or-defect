@@ -1,0 +1,1 @@
+{"text": "{\"action\":\"replay\",\"component\":\"fare_features\"}", "usage": {"in": 101, "out": 83, "cached_in": 2634, "reasoning": 60}, "usd": 0.0017248, "wall_s": 2.41, "provider": "openai", "model": "gpt-5.6-terra"}

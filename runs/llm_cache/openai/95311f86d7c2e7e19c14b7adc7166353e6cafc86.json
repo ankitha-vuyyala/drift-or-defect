@@ -1,0 +1,1 @@
+{"text": "{\"action\":\"replay\",\"component\":\"zone_join\"}", "usage": {"in": 70, "out": 228, "cached_in": 2339, "reasoning": 205}, "usd": 0.00033438, "wall_s": 3.45, "provider": "openai", "model": "gpt-5.6-luna"}

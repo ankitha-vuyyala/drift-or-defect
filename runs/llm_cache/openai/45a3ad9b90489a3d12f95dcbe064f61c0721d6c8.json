@@ -1,0 +1,1 @@
+{"text": "{\"action\":\"effect\",\"components\":[\"flight_adapter\"]}", "usage": {"in": 106, "out": 61, "cached_in": 1854, "reasoning": 38}, "usd": 0.00013148, "wall_s": 2.12, "provider": "openai", "model": "gpt-5.6-luna"}

@@ -1,0 +1,1094 @@
+{
+ "periods": {
+  "2014-Q1": {
+   "rows": 99952,
+   "label_rate": 0.8875,
+   "missing": {
+    "hour": 0.0,
+    "dow": 0.0,
+    "month": 0.0,
+    "duration_min": 0.0,
+    "distance_km": 0.0232,
+    "round_trip": 0.0,
+    "start_lat": 0.0013,
+    "start_lng": 0.0013,
+    "end_lat": 0.001,
+    "end_lng": 0.001,
+    "start_area": 0.0,
+    "end_area": 0.0,
+    "bike": 0.0
+   },
+   "secs": 5.5
+  },
+  "2014-Q2": {
+   "rows": 99927,
+   "label_rate": 0.747,
+   "missing": {
+    "hour": 0.0,
+    "dow": 0.0,
+    "month": 0.0,
+    "duration_min": 0.0,
+    "distance_km": 0.0415,
+    "round_trip": 0.0,
+    "start_lat": 0.0012,
+    "start_lng": 0.0012,
+    "end_lat": 0.0014,
+    "end_lng": 0.0014,
+    "start_area": 0.0,
+    "end_area": 0.0,
+    "bike": 0.0
+   },
+   "secs": 4.8
+  },
+  "2014-Q3": {
+   "rows": 99925,
+   "label_rate": 0.7342,
+   "missing": {
+    "hour": 0.0,
+    "dow": 0.0,
+    "month": 0.0,
+    "duration_min": 0.0,
+    "distance_km": 0.0384,
+    "round_trip": 0.0,
+    "start_lat": 0.0013,
+    "start_lng": 0.0013,
+    "end_lat": 0.0012,
+    "end_lng": 0.0012,
+    "start_area": 0.0,
+    "end_area": 0.0,
+    "bike": 0.0
+   },
+   "secs": 5.2
+  },
+  "2014-Q4": {
+   "rows": 99957,
+   "label_rate": 0.8536,
+   "missing": {
+    "hour": 0.0,
+    "dow": 0.0,
+    "month": 0.0,
+    "duration_min": 0.0,
+    "distance_km": 0.0253,
+    "round_trip": 0.0,
+    "start_lat": 0.0014,
+    "start_lng": 0.0014,
+    "end_lat": 0.0012,
+    "end_lng": 0.0012,
+    "start_area": 0.0,
+    "end_area": 0.0,
+    "bike": 0.0
+   },
+   "secs": 4.8
+  },
+  "2015-Q1": {
+   "rows": 99923,
+   "label_rate": 0.8896,
+   "missing": {
+    "hour": 0.0,
+    "dow": 0.0,
+    "month": 0.0,
+    "duration_min": 0.0,
+    "distance_km": 0.0243,
+    "round_trip": 0.0,
+    "start_lat": 0.0012,
+    "start_lng": 0.0012,
+    "end_lat": 0.001,
+    "end_lng": 0.001,
+    "start_area": 0.0,
+    "end_area": 0.0,
+    "bike": 0.0
+   },
+   "secs": 5.1
+  },
+  "2015-Q2": {
+   "rows": 99919,
+   "label_rate": 0.7386,
+   "missing": {
+    "hour": 0.0,
+    "dow": 0.0,
+    "month": 0.0,
+    "duration_min": 0.0,
+    "distance_km": 0.0437,
+    "round_trip": 0.0,
+    "start_lat": 0.0012,
+    "start_lng": 0.0012,
+    "end_lat": 0.0011,
+    "end_lng": 0.0011,
+    "start_area": 0.0,
+    "end_area": 0.0,
+    "bike": 0.0
+   },
+   "secs": 8.1
+  },
+  "2015-Q3": {
+   "rows": 99931,
+   "label_rate": 0.7514,
+   "missing": {
+    "hour": 0.0,
+    "dow": 0.0,
+    "month": 0.0,
+    "duration_min": 0.0,
+    "distance_km": 0.042,
+    "round_trip": 0.0,
+    "start_lat": 0.0016,
+    "start_lng": 0.0016,
+    "end_lat": 0.0015,
+    "end_lng": 0.0015,
+    "start_area": 0.0,
+    "end_area": 0.0,
+    "bike": 0.0
+   },
+   "secs": 4.7
+  },
+  "2015-Q4": {
+   "rows": 99925,
+   "label_rate": 0.8464,
+   "missing": {
+    "hour": 0.0,
+    "dow": 0.0,
+    "month": 0.0,
+    "duration_min": 0.0,
+    "distance_km": 0.0303,
+    "round_trip": 0.0,
+    "start_lat": 0.0017,
+    "start_lng": 0.0017,
+    "end_lat": 0.0015,
+    "end_lng": 0.0015,
+    "start_area": 0.0,
+    "end_area": 0.0,
+    "bike": 0.0
+   },
+   "secs": 3.9
+  },
+  "2016-Q1": {
+   "rows": 99885,
+   "label_rate": 0.8465,
+   "missing": {
+    "hour": 0.0,
+    "dow": 0.0,
+    "month": 0.0,
+    "duration_min": 0.0,
+    "distance_km": 0.0315,
+    "round_trip": 0.0,
+    "start_lat": 0.0012,
+    "start_lng": 0.0012,
+    "end_lat": 0.0014,
+    "end_lng": 0.0014,
+    "start_area": 0.0,
+    "end_area": 0.0,
+    "bike": 0.0
+   },
+   "secs": 3.8
+  },
+  "2016-Q2": {
+   "rows": 99781,
+   "label_rate": 0.7794,
+   "missing": {
+    "hour": 0.0,
+    "dow": 0.0,
+    "month": 0.0,
+    "duration_min": 0.0,
+    "distance_km": 0.0406,
+    "round_trip": 0.0,
+    "start_lat": 0.0015,
+    "start_lng": 0.0015,
+    "end_lat": 0.0016,
+    "end_lng": 0.0016,
+    "start_area": 0.0,
+    "end_area": 0.0,
+    "bike": 0.0
+   },
+   "secs": 3.7
+  },
+  "2016-Q3": {
+   "rows": 99809,
+   "label_rate": 0.7375,
+   "missing": {
+    "hour": 0.0,
+    "dow": 0.0,
+    "month": 0.0,
+    "duration_min": 0.0,
+    "distance_km": 0.0471,
+    "round_trip": 0.0,
+    "start_lat": 0.0017,
+    "start_lng": 0.0017,
+    "end_lat": 0.0017,
+    "end_lng": 0.0017,
+    "start_area": 0.0,
+    "end_area": 0.0,
+    "bike": 0.0
+   },
+   "acc_ref_2016-Q3": 0.8839,
+   "secs": 0.7
+  },
+  "2016-Q4": {
+   "rows": 99898,
+   "label_rate": 0.8011,
+   "missing": {
+    "hour": 0.0,
+    "dow": 0.0,
+    "month": 0.0,
+    "duration_min": 0.0,
+    "distance_km": 0.0348,
+    "round_trip": 0.0,
+    "start_lat": 0.0017,
+    "start_lng": 0.0017,
+    "end_lat": 0.0017,
+    "end_lng": 0.0017,
+    "start_area": 0.0009,
+    "end_area": 0.0009,
+    "bike": 0.0
+   },
+   "acc_ref_2016-Q3": 0.9,
+   "secs": 6.0
+  },
+  "2017-Q1": {
+   "rows": 99900,
+   "label_rate": 0.8198,
+   "missing": {
+    "hour": 0.0,
+    "dow": 0.0,
+    "month": 0.0,
+    "duration_min": 0.0,
+    "distance_km": 0.034,
+    "round_trip": 0.0,
+    "start_lat": 0.0017,
+    "start_lng": 0.0017,
+    "end_lat": 0.0016,
+    "end_lng": 0.0016,
+    "start_area": 0.0023,
+    "end_area": 0.0023,
+    "bike": 0.0
+   },
+   "secs": 5.9
+  },
+  "2017-Q2": {
+   "rows": 99883,
+   "label_rate": 0.6937,
+   "missing": {
+    "hour": 0.0,
+    "dow": 0.0,
+    "month": 0.0,
+    "duration_min": 0.0,
+    "distance_km": 0.0489,
+    "round_trip": 0.0,
+    "start_lat": 0.0019,
+    "start_lng": 0.0019,
+    "end_lat": 0.002,
+    "end_lng": 0.002,
+    "start_area": 0.0033,
+    "end_area": 0.0033,
+    "bike": 0.0
+   },
+   "secs": 4.6
+  },
+  "2017-Q3": {
+   "rows": 99889,
+   "label_rate": 0.6946,
+   "missing": {
+    "hour": 0.0,
+    "dow": 0.0,
+    "month": 0.0,
+    "duration_min": 0.0,
+    "distance_km": 0.0495,
+    "round_trip": 0.0,
+    "start_lat": 0.0021,
+    "start_lng": 0.0021,
+    "end_lat": 0.0022,
+    "end_lng": 0.0022,
+    "start_area": 0.0041,
+    "end_area": 0.004,
+    "bike": 0.0
+   },
+   "acc_ref_2016-Q3": 0.8541,
+   "secs": 4.5
+  },
+  "2017-Q4": {
+   "rows": 99914,
+   "label_rate": 0.8083,
+   "missing": {
+    "hour": 0.0,
+    "dow": 0.0,
+    "month": 0.0,
+    "duration_min": 0.0,
+    "distance_km": 0.0348,
+    "round_trip": 0.0,
+    "start_lat": 0.002,
+    "start_lng": 0.002,
+    "end_lat": 0.0019,
+    "end_lng": 0.0019,
+    "start_area": 0.0036,
+    "end_area": 0.0035,
+    "bike": 0.0
+   },
+   "secs": 6.3
+  },
+  "2018-Q1": {
+   "rows": 99910,
+   "label_rate": 0.8413,
+   "missing": {
+    "hour": 0.0,
+    "dow": 0.0,
+    "month": 0.0,
+    "duration_min": 0.0,
+    "distance_km": 0.0328,
+    "round_trip": 0.0,
+    "start_lat": 0.0014,
+    "start_lng": 0.0014,
+    "end_lat": 0.0015,
+    "end_lng": 0.0015,
+    "start_area": 0.0038,
+    "end_area": 0.0038,
+    "bike": 0.0
+   },
+   "secs": 4.3
+  },
+  "2018-Q2": {
+   "rows": 99842,
+   "label_rate": 0.7317,
+   "missing": {
+    "hour": 0.0,
+    "dow": 0.0,
+    "month": 0.0,
+    "duration_min": 0.0,
+    "distance_km": 0.0508,
+    "round_trip": 0.0,
+    "start_lat": 0.0017,
+    "start_lng": 0.0017,
+    "end_lat": 0.0017,
+    "end_lng": 0.0017,
+    "start_area": 0.0049,
+    "end_area": 0.0048,
+    "bike": 0.0
+   },
+   "secs": 4.4
+  },
+  "2018-Q3": {
+   "rows": 99827,
+   "label_rate": 0.7657,
+   "missing": {
+    "hour": 0.0,
+    "dow": 0.0,
+    "month": 0.0,
+    "duration_min": 0.0,
+    "distance_km": 0.0504,
+    "round_trip": 0.0,
+    "start_lat": 0.0018,
+    "start_lng": 0.0018,
+    "end_lat": 0.0017,
+    "end_lng": 0.0017,
+    "start_area": 0.0052,
+    "end_area": 0.005,
+    "bike": 0.0
+   },
+   "acc_ref_2016-Q3": 0.8338,
+   "secs": 4.3
+  },
+  "2018-Q4": {
+   "rows": 99870,
+   "label_rate": 0.871,
+   "missing": {
+    "hour": 0.0,
+    "dow": 0.0,
+    "month": 0.0,
+    "duration_min": 0.0,
+    "distance_km": 0.0331,
+    "round_trip": 0.0,
+    "start_lat": 0.0016,
+    "start_lng": 0.0016,
+    "end_lat": 0.0017,
+    "end_lng": 0.0017,
+    "start_area": 0.0065,
+    "end_area": 0.0065,
+    "bike": 0.0
+   },
+   "secs": 5.5
+  },
+  "2019-Q1": {
+   "rows": 99841,
+   "label_rate": 0.8919,
+   "missing": {
+    "hour": 0.0,
+    "dow": 0.0,
+    "month": 0.0,
+    "duration_min": 0.0,
+    "distance_km": 0.0302,
+    "round_trip": 0.0,
+    "start_lat": 0.0003,
+    "start_lng": 0.0003,
+    "end_lat": 0.0002,
+    "end_lng": 0.0002,
+    "start_area": 0.0049,
+    "end_area": 0.0051,
+    "bike": 0.0
+   },
+   "secs": 5.0
+  },
+  "2019-Q2": {
+   "rows": 99833,
+   "label_rate": 0.8384,
+   "missing": {
+    "hour": 0.0,
+    "dow": 0.0,
+    "month": 0.0,
+    "duration_min": 0.0,
+    "distance_km": 0.0465,
+    "round_trip": 0.0,
+    "start_lat": 0.0001,
+    "start_lng": 0.0001,
+    "end_lat": 0.0001,
+    "end_lng": 0.0001,
+    "start_area": 0.0076,
+    "end_area": 0.0077,
+    "bike": 0.0
+   },
+   "acc_ref_2019-Q2": 0.8642,
+   "secs": 0.8
+  },
+  "2019-Q3": {
+   "rows": 99866,
+   "label_rate": 0.8639,
+   "missing": {
+    "hour": 0.0,
+    "dow": 0.0,
+    "month": 0.0,
+    "duration_min": 0.0,
+    "distance_km": 0.0429,
+    "round_trip": 0.0,
+    "start_lat": 0.0001,
+    "start_lng": 0.0001,
+    "end_lat": 0.0001,
+    "end_lng": 0.0001,
+    "start_area": 0.0091,
+    "end_area": 0.0089,
+    "bike": 0.0
+   },
+   "acc_ref_2016-Q3": 0.8457,
+   "acc_ref_2019-Q2": 0.878,
+   "secs": 5.8
+  },
+  "2019-Q4": {
+   "rows": 99893,
+   "label_rate": 0.9144,
+   "missing": {
+    "hour": 0.0,
+    "dow": 0.0,
+    "month": 0.0,
+    "duration_min": 0.0,
+    "distance_km": 0.0285,
+    "round_trip": 0.0,
+    "start_lat": 0.0009,
+    "start_lng": 0.0009,
+    "end_lat": 0.0008,
+    "end_lng": 0.0008,
+    "start_area": 0.0074,
+    "end_area": 0.0073,
+    "bike": 0.0
+   },
+   "secs": 7.0
+  },
+  "2020-Q1": {
+   "rows": 99876,
+   "label_rate": 0.9297,
+   "missing": {
+    "hour": 0.0,
+    "dow": 0.0,
+    "month": 0.0,
+    "duration_min": 0.0,
+    "distance_km": 0.0379,
+    "round_trip": 0.0,
+    "start_lat": 0.0006,
+    "start_lng": 0.0006,
+    "end_lat": 0.0006,
+    "end_lng": 0.0006,
+    "start_area": 0.0075,
+    "end_area": 0.0075,
+    "bike": 0.0
+   },
+   "acc_ref_2019-Q2": 0.9327,
+   "secs": 10.0
+  },
+  "2020-Q2": {
+   "rows": 98125,
+   "label_rate": 0.4996,
+   "missing": {
+    "hour": 0.0,
+    "dow": 0.0,
+    "month": 0.0,
+    "duration_min": 0.0,
+    "distance_km": 0.161,
+    "round_trip": 0.0,
+    "start_lat": 0.0,
+    "start_lng": 0.0,
+    "end_lat": 0.0032,
+    "end_lng": 0.0032,
+    "start_area": 0.018,
+    "end_area": 0.0183,
+    "bike": 0.0001
+   },
+   "acc_ref_2016-Q3": 0.6665,
+   "acc_ref_2019-Q2": 0.6202,
+   "secs": 9.0
+  },
+  "2020-Q3": {
+   "rows": 97765,
+   "label_rate": 0.5045,
+   "missing": {
+    "hour": 0.0,
+    "dow": 0.0,
+    "month": 0.0,
+    "duration_min": 0.0,
+    "distance_km": 0.1012,
+    "round_trip": 0.0791,
+    "start_lat": 0.0,
+    "start_lng": 0.0,
+    "end_lat": 0.0027,
+    "end_lng": 0.0027,
+    "start_area": 0.0149,
+    "end_area": 0.0154,
+    "bike": 0.1652
+   },
+   "acc_ref_2016-Q3": 0.6407,
+   "acc_ref_2019-Q2": 0.5937,
+   "secs": 7.5
+  },
+  "2020-Q4": {
+   "rows": 97660,
+   "label_rate": 0.5899,
+   "missing": {
+    "hour": 0.0,
+    "dow": 0.0,
+    "month": 0.0,
+    "duration_min": 0.0,
+    "distance_km": 0.0706,
+    "round_trip": 0.1251,
+    "start_lat": 0.0,
+    "start_lng": 0.0,
+    "end_lat": 0.0026,
+    "end_lng": 0.0026,
+    "start_area": 0.0116,
+    "end_area": 0.0122,
+    "bike": 0.2291
+   },
+   "acc_ref_2016-Q3": 0.6909,
+   "secs": 5.0
+  },
+  "2021-Q1": {
+   "rows": 98242,
+   "label_rate": 0.6252,
+   "missing": {
+    "hour": 0.0,
+    "dow": 0.0,
+    "month": 0.0,
+    "duration_min": 0.0,
+    "distance_km": 0.067,
+    "round_trip": 0.1399,
+    "start_lat": 0.0,
+    "start_lng": 0.0,
+    "end_lat": 0.0008,
+    "end_lng": 0.0008,
+    "start_area": 0.0108,
+    "end_area": 0.0111,
+    "bike": 0.2533
+   },
+   "secs": 6.8
+  },
+  "2021-Q2": {
+   "rows": 98193,
+   "label_rate": 0.5482,
+   "missing": {
+    "hour": 0.0,
+    "dow": 0.0,
+    "month": 0.0,
+    "duration_min": 0.0,
+    "distance_km": 0.0699,
+    "round_trip": 0.1325,
+    "start_lat": 0.0,
+    "start_lng": 0.0,
+    "end_lat": 0.0006,
+    "end_lng": 0.0006,
+    "start_area": 0.0132,
+    "end_area": 0.0133,
+    "bike": 0.225
+   },
+   "acc_ref_2019-Q2": 0.6352,
+   "secs": 6.0
+  },
+  "2021-Q3": {
+   "rows": 98441,
+   "label_rate": 0.5663,
+   "missing": {
+    "hour": 0.0,
+    "dow": 0.0,
+    "month": 0.0,
+    "duration_min": 0.0,
+    "distance_km": 0.0575,
+    "round_trip": 0.0931,
+    "start_lat": 0.0,
+    "start_lng": 0.0,
+    "end_lat": 0.0008,
+    "end_lng": 0.0008,
+    "start_area": 0.0141,
+    "end_area": 0.0143,
+    "bike": 0.1525
+   },
+   "acc_ref_2016-Q3": 0.703,
+   "secs": 7.5
+  },
+  "2021-Q4": {
+   "rows": 98390,
+   "label_rate": 0.6557,
+   "missing": {
+    "hour": 0.0,
+    "dow": 0.0,
+    "month": 0.0,
+    "duration_min": 0.0,
+    "distance_km": 0.0417,
+    "round_trip": 0.0746,
+    "start_lat": 0.0,
+    "start_lng": 0.0,
+    "end_lat": 0.0006,
+    "end_lng": 0.0006,
+    "start_area": 0.0104,
+    "end_area": 0.0109,
+    "bike": 0.1686
+   },
+   "secs": 7.2
+  },
+  "2022-Q1": {
+   "rows": 98407,
+   "label_rate": 0.6492,
+   "missing": {
+    "hour": 0.0,
+    "dow": 0.0,
+    "month": 0.0,
+    "duration_min": 0.0,
+    "distance_km": 0.04,
+    "round_trip": 0.0704,
+    "start_lat": 0.0,
+    "start_lng": 0.0,
+    "end_lat": 0.0004,
+    "end_lng": 0.0004,
+    "start_area": 0.009,
+    "end_area": 0.0094,
+    "bike": 0.1924
+   },
+   "secs": 6.5
+  },
+  "2022-Q2": {
+   "rows": 98182,
+   "label_rate": 0.5469,
+   "missing": {
+    "hour": 0.0,
+    "dow": 0.0,
+    "month": 0.0,
+    "duration_min": 0.0,
+    "distance_km": 0.0506,
+    "round_trip": 0.0653,
+    "start_lat": 0.0,
+    "start_lng": 0.0,
+    "end_lat": 0.0005,
+    "end_lng": 0.0005,
+    "start_area": 0.0104,
+    "end_area": 0.0111,
+    "bike": 0.1627
+   },
+   "acc_ref_2019-Q2": 0.6241,
+   "secs": 6.7
+  },
+  "2022-Q3": {
+   "rows": 98212,
+   "label_rate": 0.5579,
+   "missing": {
+    "hour": 0.0,
+    "dow": 0.0,
+    "month": 0.0,
+    "duration_min": 0.0,
+    "distance_km": 0.0483,
+    "round_trip": 0.0531,
+    "start_lat": 0.0,
+    "start_lng": 0.0,
+    "end_lat": 0.0004,
+    "end_lng": 0.0004,
+    "start_area": 0.0116,
+    "end_area": 0.0122,
+    "bike": 0.1222
+   },
+   "acc_ref_2016-Q3": 0.6806,
+   "secs": 5.1
+  },
+  "2022-Q4": {
+   "rows": 98241,
+   "label_rate": 0.6429,
+   "missing": {
+    "hour": 0.0,
+    "dow": 0.0,
+    "month": 0.0,
+    "duration_min": 0.0,
+    "distance_km": 0.0335,
+    "round_trip": 0.0599,
+    "start_lat": 0.0,
+    "start_lng": 0.0,
+    "end_lat": 0.0002,
+    "end_lng": 0.0002,
+    "start_area": 0.0107,
+    "end_area": 0.0106,
+    "bike": 0.1352
+   },
+   "secs": 5.4
+  },
+  "2023-Q1": {
+   "rows": 98377,
+   "label_rate": 0.6719,
+   "missing": {
+    "hour": 0.0,
+    "dow": 0.0,
+    "month": 0.0,
+    "duration_min": 0.0,
+    "distance_km": 0.0347,
+    "round_trip": 0.0693,
+    "start_lat": 0.0,
+    "start_lng": 0.0,
+    "end_lat": 0.0001,
+    "end_lng": 0.0001,
+    "start_area": 0.0101,
+    "end_area": 0.01,
+    "bike": 0.1561
+   },
+   "secs": 4.3
+  },
+  "2023-Q2": {
+   "rows": 97651,
+   "label_rate": 0.5927,
+   "missing": {
+    "hour": 0.0,
+    "dow": 0.0,
+    "month": 0.0,
+    "duration_min": 0.0,
+    "distance_km": 0.0421,
+    "round_trip": 0.1111,
+    "start_lat": 0.0,
+    "start_lng": 0.0,
+    "end_lat": 0.0002,
+    "end_lng": 0.0002,
+    "start_area": 0.0141,
+    "end_area": 0.0145,
+    "bike": 0.2874
+   },
+   "acc_ref_2019-Q2": 0.6488,
+   "secs": 6.8
+  },
+  "2023-Q3": {
+   "rows": 97709,
+   "label_rate": 0.6116,
+   "missing": {
+    "hour": 0.0,
+    "dow": 0.0,
+    "month": 0.0,
+    "duration_min": 0.0,
+    "distance_km": 0.0394,
+    "round_trip": 0.1276,
+    "start_lat": 0.0,
+    "start_lng": 0.0,
+    "end_lat": 0.0001,
+    "end_lng": 0.0001,
+    "start_area": 0.0163,
+    "end_area": 0.0162,
+    "bike": 0.3012
+   },
+   "acc_ref_2016-Q3": 0.6955,
+   "secs": 5.5
+  },
+  "2023-Q4": {
+   "rows": 97708,
+   "label_rate": 0.6645,
+   "missing": {
+    "hour": 0.0,
+    "dow": 0.0,
+    "month": 0.0,
+    "duration_min": 0.0,
+    "distance_km": 0.0278,
+    "round_trip": 0.1879,
+    "start_lat": 0.0,
+    "start_lng": 0.0,
+    "end_lat": 0.0,
+    "end_lng": 0.0,
+    "start_area": 0.0156,
+    "end_area": 0.016,
+    "bike": 0.4377
+   },
+   "secs": 5.1
+  },
+  "2024-Q1": {
+   "rows": 97811,
+   "label_rate": 0.6882,
+   "missing": {
+    "hour": 0.0,
+    "dow": 0.0,
+    "month": 0.0,
+    "duration_min": 0.0,
+    "distance_km": 0.0253,
+    "round_trip": 0.2204,
+    "start_lat": 0.0,
+    "start_lng": 0.0,
+    "end_lat": 0.0,
+    "end_lng": 0.0,
+    "start_area": 0.0167,
+    "end_area": 0.0171,
+    "bike": 0.5034
+   },
+   "acc_ref_2019-Q2": 0.7123,
+   "secs": 5.3
+  },
+  "2024-Q2": {
+   "rows": 97949,
+   "label_rate": 0.6426,
+   "missing": {
+    "hour": 0.0,
+    "dow": 0.0,
+    "month": 0.0,
+    "duration_min": 0.0,
+    "distance_km": 0.0309,
+    "round_trip": 0.2234,
+    "start_lat": 0.0,
+    "start_lng": 0.0,
+    "end_lat": 0.0,
+    "end_lng": 0.0,
+    "start_area": 0.0227,
+    "end_area": 0.0226,
+    "bike": 0.4731
+   },
+   "acc_ref_2016-Q3": 0.7044,
+   "acc_ref_2019-Q2": 0.6775,
+   "secs": 6.4
+  },
+  "2024-Q3": {
+   "rows": 98124,
+   "label_rate": 0.6421,
+   "missing": {
+    "hour": 0.0,
+    "dow": 0.0,
+    "month": 0.0,
+    "duration_min": 0.0,
+    "distance_km": 0.0289,
+    "round_trip": 0.2716,
+    "start_lat": 0.0,
+    "start_lng": 0.0,
+    "end_lat": 0.0,
+    "end_lng": 0.0,
+    "start_area": 0.0255,
+    "end_area": 0.0256,
+    "bike": 0.5647
+   },
+   "acc_ref_2016-Q3": 0.6959,
+   "acc_ref_2019-Q2": 0.6689,
+   "secs": 6.6
+  },
+  "2024-Q4": {
+   "rows": 97781,
+   "label_rate": 0.7025,
+   "missing": {
+    "hour": 0.0,
+    "dow": 0.0,
+    "month": 0.0,
+    "duration_min": 0.0,
+    "distance_km": 0.0206,
+    "round_trip": 0.348,
+    "start_lat": 0.0,
+    "start_lng": 0.0,
+    "end_lat": 0.0,
+    "end_lng": 0.0,
+    "start_area": 0.0278,
+    "end_area": 0.0282,
+    "bike": 0.6432
+   },
+   "secs": 5.2
+  },
+  "2025-Q1": {
+   "rows": 97513,
+   "label_rate": 0.7439,
+   "missing": {
+    "hour": 0.0,
+    "dow": 0.0,
+    "month": 0.0,
+    "duration_min": 0.0,
+    "distance_km": 0.0183,
+    "round_trip": 0.3691,
+    "start_lat": 0.0,
+    "start_lng": 0.0,
+    "end_lat": 0.0,
+    "end_lng": 0.0,
+    "start_area": 0.0263,
+    "end_area": 0.0266,
+    "bike": 0.6587
+   },
+   "secs": 5.3
+  },
+  "2025-Q2": {
+   "rows": 97399,
+   "label_rate": 0.6961,
+   "missing": {
+    "hour": 0.0,
+    "dow": 0.0,
+    "month": 0.0,
+    "duration_min": 0.0,
+    "distance_km": 0.0259,
+    "round_trip": 0.3636,
+    "start_lat": 0.0,
+    "start_lng": 0.0,
+    "end_lat": 0.0,
+    "end_lng": 0.0,
+    "start_area": 0.0314,
+    "end_area": 0.0324,
+    "bike": 0.5969
+   },
+   "acc_ref_2019-Q2": 0.718,
+   "secs": 5.6
+  },
+  "2025-Q3": {
+   "rows": 97738,
+   "label_rate": 0.6871,
+   "missing": {
+    "hour": 0.0,
+    "dow": 0.0,
+    "month": 0.0,
+    "duration_min": 0.0,
+    "distance_km": 0.0269,
+    "round_trip": 0.2703,
+    "start_lat": 0.0,
+    "start_lng": 0.0,
+    "end_lat": 0.0,
+    "end_lng": 0.0,
+    "start_area": 0.0269,
+    "end_area": 0.0274,
+    "bike": 0.6182
+   },
+   "acc_ref_2016-Q3": 0.7265,
+   "secs": 7.2
+  },
+  "2025-Q4": {
+   "rows": 98029,
+   "label_rate": 0.7403,
+   "missing": {
+    "hour": 0.0,
+    "dow": 0.0,
+    "month": 0.0,
+    "duration_min": 0.0,
+    "distance_km": 0.0211,
+    "round_trip": 0.2175,
+    "start_lat": 0.0,
+    "start_lng": 0.0,
+    "end_lat": 0.0,
+    "end_lng": 0.0,
+    "start_area": 0.0188,
+    "end_area": 0.019,
+    "bike": 0.6736
+   },
+   "secs": 25.3
+  },
+  "2026-Q1": {
+   "rows": 97606,
+   "label_rate": 0.7706,
+   "missing": {
+    "hour": 0.0,
+    "dow": 0.0,
+    "month": 0.0,
+    "duration_min": 0.0,
+    "distance_km": 0.0204,
+    "round_trip": 0.2463,
+    "start_lat": 0.0,
+    "start_lng": 0.0,
+    "end_lat": 0.0,
+    "end_lng": 0.0,
+    "start_area": 0.0138,
+    "end_area": 0.0148,
+    "bike": 0.7142
+   },
+   "secs": 7.4
+  },
+  "2026-Q2": {
+   "rows": 97287,
+   "label_rate": 0.7004,
+   "missing": {
+    "hour": 0.0,
+    "dow": 0.0,
+    "month": 0.0,
+    "duration_min": 0.0,
+    "distance_km": 0.0267,
+    "round_trip": 0.2268,
+    "start_lat": 0.0,
+    "start_lng": 0.0,
+    "end_lat": 0.0,
+    "end_lng": 0.0,
+    "start_area": 0.0183,
+    "end_area": 0.0189,
+    "bike": 0.667
+   },
+   "acc_ref_2019-Q2": 0.721,
+   "secs": 9.4
+  },
+  "2026-Q3": {
+   "rows": 97640,
+   "label_rate": 0.704,
+   "missing": {
+    "hour": 0.0,
+    "dow": 0.0,
+    "month": 0.0,
+    "duration_min": 0.0,
+    "distance_km": 0.0246,
+    "round_trip": 0.2256,
+    "start_lat": 0.0,
+    "start_lng": 0.0,
+    "end_lat": 0.0,
+    "end_lng": 0.0,
+    "start_area": 0.0207,
+    "end_area": 0.0209,
+    "bike": 0.7002
+   },
+   "acc_ref_2016-Q3": 0.7356,
+   "secs": 9.5
+  }
+ },
+ "references": {
+  "2016-Q3": {
+   "holdout_acc": 0.8838642682477473,
+   "secs": 20.3,
+   "by_period": {
+    "2016-Q3": 0.8839,
+    "2016-Q4": 0.9,
+    "2017-Q3": 0.8541,
+    "2018-Q3": 0.8338,
+    "2019-Q3": 0.8457,
+    "2020-Q2": 0.6665,
+    "2020-Q3": 0.6407,
+    "2020-Q4": 0.6909,
+    "2021-Q3": 0.703,
+    "2022-Q3": 0.6806,
+    "2023-Q3": 0.6955,
+    "2024-Q2": 0.7044,
+    "2024-Q3": 0.6959,
+    "2025-Q3": 0.7265,
+    "2026-Q3": 0.7356
+   }
+  },
+  "2019-Q2": {
+   "holdout_acc": 0.8641570098466073,
+   "secs": 7.5,
+   "by_period": {
+    "2019-Q2": 0.8642,
+    "2019-Q3": 0.878,
+    "2020-Q1": 0.9327,
+    "2020-Q2": 0.6202,
+    "2020-Q3": 0.5937,
+    "2021-Q2": 0.6352,
+    "2022-Q2": 0.6241,
+    "2023-Q2": 0.6488,
+    "2024-Q1": 0.7123,
+    "2024-Q2": 0.6775,
+    "2024-Q3": 0.6689,
+    "2025-Q2": 0.718,
+    "2026-Q2": 0.721
+   }
+  }
+ }
+}

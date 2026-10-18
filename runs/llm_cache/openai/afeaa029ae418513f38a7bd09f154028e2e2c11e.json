@@ -1,0 +1,1 @@
+{"text": "{\"action\":\"effect\",\"components\":[\"road\"]}", "usage": {"in": 68, "out": 169, "cached_in": 3545, "reasoning": 147}, "usd": 0.002873, "wall_s": 5.19, "provider": "openai", "model": "gpt-5.6-terra"}

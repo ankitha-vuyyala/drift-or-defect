@@ -1,0 +1,1 @@
+{"text": "{\"action\":\"replay\",\"component\":\"occ_group\"}", "usage": {"in": 42, "out": 322, "cached_in": 2525, "reasoning": 299}, "usd": 0.00044529999999999993, "wall_s": 4.9, "provider": "openai", "model": "gpt-5.6-luna"}

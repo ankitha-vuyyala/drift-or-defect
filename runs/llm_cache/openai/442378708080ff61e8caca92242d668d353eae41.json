@@ -1,0 +1,1 @@
+{"text": "{\"action\":\"replay\",\"component\":\"loc_agg\"}", "usage": {"in": 41, "out": 159, "cached_in": 2990, "reasoning": 135}, "usd": 0.002588, "wall_s": 3.33, "provider": "openai", "model": "gpt-5.6-terra"}

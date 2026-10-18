@@ -1,0 +1,1 @@
+{"text": "{\"action\":\"rollback\",\"component\":\"person_adapter\"}", "usage": {"in": 2543, "out": 71, "cached_in": 0, "reasoning": 49}, "usd": 0.0005938000000000001, "wall_s": 1.92, "provider": "openai", "model": "gpt-5.6-luna"}

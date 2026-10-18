@@ -1,0 +1,1 @@
+{"text": "{\"action\":\"rollback\",\"component\":\"zone_join\"}", "usage": {"in": 101, "out": 63, "cached_in": 2816, "reasoning": 41}, "usd": 0.00015212, "wall_s": 1.69, "provider": "openai", "model": "gpt-5.6-luna"}

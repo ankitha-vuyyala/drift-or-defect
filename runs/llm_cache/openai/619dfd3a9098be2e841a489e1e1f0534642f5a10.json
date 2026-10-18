@@ -1,0 +1,1 @@
+{"text": "{\"action\":\"effect\",\"components\":[\"vectorize\"]}", "usage": {"in": 68, "out": 100, "cached_in": 1337, "reasoning": 77}, "usd": 0.0016034, "wall_s": 2.35, "provider": "openai", "model": "gpt-5.6-terra"}

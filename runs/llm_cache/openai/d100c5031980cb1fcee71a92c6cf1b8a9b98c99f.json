@@ -1,0 +1,1 @@
+{"text": "{\"action\":\"effect\",\"components\":[\"geo\"]}", "usage": {"in": 101, "out": 54, "cached_in": 1482, "reasoning": 32}, "usd": 0.00011464, "wall_s": 1.81, "provider": "openai", "model": "gpt-5.6-luna"}

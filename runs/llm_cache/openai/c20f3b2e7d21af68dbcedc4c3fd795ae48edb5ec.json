@@ -1,0 +1,1 @@
+{"text": "{\"action\":\"replay\",\"component\":\"vectorize\"}", "usage": {"in": 42, "out": 301, "cached_in": 1340, "reasoning": 278}, "usd": 0.003964, "wall_s": 4.44, "provider": "openai", "model": "gpt-5.6-terra"}

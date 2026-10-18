@@ -1,0 +1,1 @@
+{"text": "{\"action\":\"effect\",\"components\":[\"ingest\",\"text_norm\"]}", "usage": {"in": 101, "out": 160, "cached_in": 1026, "reasoning": 134}, "usd": 0.00023272, "wall_s": 3.3, "provider": "openai", "model": "gpt-5.6-luna"}

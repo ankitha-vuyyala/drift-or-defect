@@ -1,0 +1,1 @@
+{"text": "{\"action\":\"rollback\",\"component\":\"airport_join\"}", "usage": {"in": 101, "out": 302, "cached_in": 1817, "reasoning": 280}, "usd": 0.004189399999999999, "wall_s": 5.54, "provider": "openai", "model": "gpt-5.6-terra"}

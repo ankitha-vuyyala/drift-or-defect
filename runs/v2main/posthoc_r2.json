@@ -1,0 +1,26 @@
+{
+ "divvy": {
+  "n": 396,
+  "false_blame": 0.9141414141414141,
+  "false_blame_latest_only": 0.648989898989899,
+  "n_spanning": 369,
+  "false_blame_spanning": 0.981029810298103,
+  "false_blame_latest_only_spanning": 0.6964769647696477
+ },
+ "hmda": {
+  "n": 280,
+  "false_blame": 0.6464285714285715,
+  "false_blame_latest_only": 0.41785714285714287,
+  "n_spanning": 248,
+  "false_blame_spanning": 0.7298387096774194,
+  "false_blame_latest_only_spanning": 0.4717741935483871
+ },
+ "bts": {
+  "n": 324,
+  "false_blame": 0.0,
+  "false_blame_latest_only": 0.0,
+  "n_spanning": 0,
+  "false_blame_spanning": null,
+  "false_blame_latest_only_spanning": null
+ }
+}

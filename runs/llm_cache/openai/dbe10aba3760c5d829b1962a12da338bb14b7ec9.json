@@ -1,0 +1,1 @@
+{"text": "{\"action\":\"replay\",\"component\":\"trip_adapter\"}", "usage": {"in": 101, "out": 201, "cached_in": 2827, "reasoning": 178}, "usd": 0.00031794, "wall_s": 4.07, "provider": "openai", "model": "gpt-5.6-luna"}

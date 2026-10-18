@@ -1,0 +1,1 @@
+{"text": "{\"action\":\"boundary\",\"component\":\"occ_group\",\"period\":2018}", "usage": {"in": 591, "out": 130, "cached_in": 2597, "reasoning": 103}, "usd": 0.00032614, "wall_s": 2.79, "provider": "openai", "model": "gpt-5.6-luna"}

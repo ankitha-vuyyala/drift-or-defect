@@ -1,0 +1,1 @@
+{"text": "{\"action\":\"rollback\",\"component\":\"vehicle_adapter\"}", "usage": {"in": 3558, "out": 163, "cached_in": 0, "reasoning": 141}, "usd": 0.0009072, "wall_s": 3.19, "provider": "openai", "model": "gpt-5.6-luna"}

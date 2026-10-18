@@ -1,0 +1,1 @@
+{"text": "{\"action\":\"effect\",\"components\":[\"occ_group\"]}", "usage": {"in": 71, "out": 177, "cached_in": 3108, "reasoning": 154}, "usd": 0.00028876, "wall_s": 2.62, "provider": "openai", "model": "gpt-5.6-luna"}

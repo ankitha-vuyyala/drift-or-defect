@@ -1,0 +1,340 @@
+{
+ "periods": {
+  "2008": {
+   "rows": 150000,
+   "label_rate": 0.1172,
+   "missing": {
+    "log_price": 0.0,
+    "month": 0.0,
+    "dow": 0.0,
+    "day_of_year": 0.0,
+    "ptype": 0.0,
+    "tenure": 0.0,
+    "county": 0.0281,
+    "area": 0.0
+   },
+   "secs": 12.4
+  },
+  "2009": {
+   "rows": 150000,
+   "label_rate": 0.1062,
+   "missing": {
+    "log_price": 0.0,
+    "month": 0.0,
+    "dow": 0.0,
+    "day_of_year": 0.0,
+    "ptype": 0.0,
+    "tenure": 0.0,
+    "county": 0.003,
+    "area": 0.0
+   },
+   "secs": 32.4
+  },
+  "2010": {
+   "rows": 150000,
+   "label_rate": 0.0895,
+   "missing": {
+    "log_price": 0.0,
+    "month": 0.0,
+    "dow": 0.0,
+    "day_of_year": 0.0,
+    "ptype": 0.0,
+    "tenure": 0.0,
+    "county": 0.0,
+    "area": 0.0
+   },
+   "acc_ref_2010": 0.9121,
+   "secs": 2.0
+  },
+  "2011": {
+   "rows": 150000,
+   "label_rate": 0.0909,
+   "missing": {
+    "log_price": 0.0,
+    "month": 0.0,
+    "dow": 0.0,
+    "day_of_year": 0.0,
+    "ptype": 0.0,
+    "tenure": 0.0,
+    "county": 0.0,
+    "area": 0.0
+   },
+   "acc_ref_2010": 0.9082,
+   "secs": 18.2
+  },
+  "2012": {
+   "rows": 150000,
+   "label_rate": 0.0965,
+   "missing": {
+    "log_price": 0.0,
+    "month": 0.0,
+    "dow": 0.0,
+    "day_of_year": 0.0,
+    "ptype": 0.0,
+    "tenure": 0.0,
+    "county": 0.0,
+    "area": 0.0
+   },
+   "acc_ref_2010": 0.9025,
+   "secs": 20.3
+  },
+  "2013": {
+   "rows": 146341,
+   "label_rate": 0.0964,
+   "missing": {
+    "log_price": 0.0,
+    "month": 0.0,
+    "dow": 0.0,
+    "day_of_year": 0.0,
+    "ptype": 0.0,
+    "tenure": 0.0,
+    "county": 0.0,
+    "area": 0.0
+   },
+   "acc_ref_2010": 0.9015,
+   "secs": 11.7
+  },
+  "2014": {
+   "rows": 140066,
+   "label_rate": 0.0946,
+   "missing": {
+    "log_price": 0.0,
+    "month": 0.0,
+    "dow": 0.0,
+    "day_of_year": 0.0,
+    "ptype": 0.0,
+    "tenure": 0.0,
+    "county": 0.0,
+    "area": 0.0
+   },
+   "acc_ref_2010": 0.9025,
+   "secs": 36.0
+  },
+  "2015": {
+   "rows": 136218,
+   "label_rate": 0.107,
+   "missing": {
+    "log_price": 0.0,
+    "month": 0.0,
+    "dow": 0.0,
+    "day_of_year": 0.0,
+    "ptype": 0.0,
+    "tenure": 0.0,
+    "county": 0.0001,
+    "area": 0.0
+   },
+   "acc_ref_2010": 0.889,
+   "secs": 20.5
+  },
+  "2016": {
+   "rows": 132383,
+   "label_rate": 0.1165,
+   "missing": {
+    "log_price": 0.0,
+    "month": 0.0,
+    "dow": 0.0,
+    "day_of_year": 0.0,
+    "ptype": 0.0,
+    "tenure": 0.0,
+    "county": 0.0,
+    "area": 0.0
+   },
+   "acc_ref_2010": 0.8783,
+   "acc_ref_2016": 0.889,
+   "secs": 1.2
+  },
+  "2017": {
+   "rows": 127227,
+   "label_rate": 0.1192,
+   "missing": {
+    "log_price": 0.0,
+    "month": 0.0,
+    "dow": 0.0,
+    "day_of_year": 0.0,
+    "ptype": 0.0,
+    "tenure": 0.0,
+    "county": 0.0,
+    "area": 0.0
+   },
+   "acc_ref_2010": 0.8737,
+   "acc_ref_2016": 0.8803,
+   "secs": 20.8
+  },
+  "2018": {
+   "rows": 126471,
+   "label_rate": 0.1297,
+   "missing": {
+    "log_price": 0.0,
+    "month": 0.0,
+    "dow": 0.0,
+    "day_of_year": 0.0,
+    "ptype": 0.0,
+    "tenure": 0.0,
+    "county": 0.0,
+    "area": 0.0
+   },
+   "acc_ref_2010": 0.8631,
+   "acc_ref_2016": 0.8677,
+   "secs": 27.8
+  },
+  "2019": {
+   "rows": 124846,
+   "label_rate": 0.137,
+   "missing": {
+    "log_price": 0.0,
+    "month": 0.0,
+    "dow": 0.0,
+    "day_of_year": 0.0,
+    "ptype": 0.0,
+    "tenure": 0.0,
+    "county": 0.0001,
+    "area": 0.0
+   },
+   "acc_ref_2010": 0.8543,
+   "acc_ref_2016": 0.8585,
+   "secs": 13.9
+  },
+  "2020": {
+   "rows": 125694,
+   "label_rate": 0.1308,
+   "missing": {
+    "log_price": 0.0,
+    "month": 0.0,
+    "dow": 0.0,
+    "day_of_year": 0.0,
+    "ptype": 0.0,
+    "tenure": 0.0,
+    "county": 0.0013,
+    "area": 0.0
+   },
+   "acc_ref_2010": 0.8603,
+   "acc_ref_2016": 0.8625,
+   "secs": 14.2
+  },
+  "2021": {
+   "rows": 127432,
+   "label_rate": 0.1107,
+   "missing": {
+    "log_price": 0.0,
+    "month": 0.0,
+    "dow": 0.0,
+    "day_of_year": 0.0,
+    "ptype": 0.0,
+    "tenure": 0.0,
+    "county": 0.0084,
+    "area": 0.0
+   },
+   "acc_ref_2010": 0.8791,
+   "acc_ref_2016": 0.8816,
+   "secs": 57.0
+  },
+  "2022": {
+   "rows": 126544,
+   "label_rate": 0.1277,
+   "missing": {
+    "log_price": 0.0,
+    "month": 0.0,
+    "dow": 0.0,
+    "day_of_year": 0.0,
+    "ptype": 0.0,
+    "tenure": 0.0,
+    "county": 0.0101,
+    "area": 0.0
+   },
+   "acc_ref_2010": 0.8608,
+   "acc_ref_2016": 0.865,
+   "secs": 18.9
+  },
+  "2023": {
+   "rows": 123398,
+   "label_rate": 0.1132,
+   "missing": {
+    "log_price": 0.0,
+    "month": 0.0,
+    "dow": 0.0,
+    "day_of_year": 0.0,
+    "ptype": 0.0,
+    "tenure": 0.0,
+    "county": 0.0179,
+    "area": 0.0
+   },
+   "acc_ref_2010": 0.8777,
+   "acc_ref_2016": 0.8797,
+   "secs": 19.2
+  },
+  "2024": {
+   "rows": 123391,
+   "label_rate": 0.0945,
+   "missing": {
+    "log_price": 0.0,
+    "month": 0.0,
+    "dow": 0.0,
+    "day_of_year": 0.0,
+    "ptype": 0.0,
+    "tenure": 0.0,
+    "county": 0.019,
+    "area": 0.0
+   },
+   "acc_ref_2010": 0.8955,
+   "acc_ref_2016": 0.8966,
+   "secs": 9.0
+  },
+  "2025": {
+   "rows": 124436,
+   "label_rate": 0.0615,
+   "missing": {
+    "log_price": 0.0,
+    "month": 0.0,
+    "dow": 0.0,
+    "day_of_year": 0.0,
+    "ptype": 0.0,
+    "tenure": 0.0,
+    "county": 0.0189,
+    "area": 0.0
+   },
+   "acc_ref_2010": 0.9274,
+   "acc_ref_2016": 0.9276,
+   "secs": 14.2
+  }
+ },
+ "references": {
+  "2010": {
+   "holdout_acc": 0.9121428095650437,
+   "secs": 25.4,
+   "by_period": {
+    "2010": 0.9121,
+    "2011": 0.9082,
+    "2012": 0.9025,
+    "2013": 0.9015,
+    "2014": 0.9025,
+    "2015": 0.889,
+    "2016": 0.8783,
+    "2017": 0.8737,
+    "2018": 0.8631,
+    "2019": 0.8543,
+    "2020": 0.8603,
+    "2021": 0.8791,
+    "2022": 0.8608,
+    "2023": 0.8777,
+    "2024": 0.8955,
+    "2025": 0.9274
+   }
+  },
+  "2016": {
+   "holdout_acc": 0.8890399234758093,
+   "secs": 21.7,
+   "by_period": {
+    "2016": 0.889,
+    "2017": 0.8803,
+    "2018": 0.8677,
+    "2019": 0.8585,
+    "2020": 0.8625,
+    "2021": 0.8816,
+    "2022": 0.865,
+    "2023": 0.8797,
+    "2024": 0.8966,
+    "2025": 0.9276
+   }
+  }
+ }
+}

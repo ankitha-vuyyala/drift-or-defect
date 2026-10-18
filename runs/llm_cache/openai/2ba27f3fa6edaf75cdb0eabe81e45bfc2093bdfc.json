@@ -1,0 +1,1 @@
+{"text": "{\"action\":\"rollback\",\"component\":\"label_map\"}", "usage": {"in": 409, "out": 58, "cached_in": 1110, "reasoning": 36}, "usd": 0.001736, "wall_s": 1.84, "provider": "openai", "model": "gpt-5.6-terra"}

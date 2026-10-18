@@ -1,0 +1,1 @@
+{"text": "{\"action\":\"rollback\",\"component\":\"airport_join\"}", "usage": {"in": 68, "out": 85, "cached_in": 1857, "reasoning": 63}, "usd": 0.00015274, "wall_s": 2.56, "provider": "openai", "model": "gpt-5.6-luna"}

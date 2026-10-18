@@ -1,0 +1,1 @@
+{"text": "{\"action\":\"replay\",\"component\":\"person_adapter\"}", "usage": {"in": 101, "out": 160, "cached_in": 3102, "reasoning": 137}, "usd": 0.00027424000000000003, "wall_s": 2.76, "provider": "openai", "model": "gpt-5.6-luna"}

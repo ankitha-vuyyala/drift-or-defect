@@ -1,0 +1,1 @@
+{"text": "{\"action\":\"effect\",\"components\":[\"features\"]}", "usage": {"in": 106, "out": 109, "cached_in": 2941, "reasoning": 87}, "usd": 0.00021082, "wall_s": 2.22, "provider": "openai", "model": "gpt-5.6-luna"}

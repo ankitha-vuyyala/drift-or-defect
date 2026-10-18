@@ -1,0 +1,1 @@
+{"text": "{\"action\":\"boundary\",\"component\":\"trip_adapter\",\"period\":\"2020-Q1\"}", "usage": {"in": 54, "out": 147, "cached_in": 2973, "reasoning": 118}, "usd": 0.00024666, "wall_s": 3.53, "provider": "openai", "model": "gpt-5.6-luna"}

@@ -1,0 +1,32 @@
+# secrets and local environments
+.env
+.venv/
+envs/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+*.tmp
+
+# raw and derived data (re-created by the download and build scripts)
+data/raw/
+data/raw_v2/
+data/raw_v3/
+data/raw_v4/
+data/bronze/
+data/cache/
+data/models/
+
+# execution state of the local job runner and per-job logs
+jobs/
+runs/jobs/
+runs/cache/
+runs/outcomes/
+runs/inventory/
+config/budget.json
+
+# local notes and files kept only on the author's machine
+NEEDS_YOU.md
+_to_delete/
+
+# superseded round-1 draft notes
+paper/draft/

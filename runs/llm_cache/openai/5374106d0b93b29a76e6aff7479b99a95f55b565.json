@@ -1,0 +1,1 @@
+{"text": "{\"action\":\"effect\",\"components\":[\"sources\"]}", "usage": {"in": 188, "out": 135, "cached_in": 4197, "reasoning": 113}, "usd": 0.0028354, "wall_s": 2.98, "provider": "openai", "model": "gpt-5.6-terra"}

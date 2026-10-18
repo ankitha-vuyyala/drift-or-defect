@@ -1,0 +1,1 @@
+{"text": "{\"ok\": true, \"model\": \"Assistant\"}", "usage": {"in": 30, "out": 12, "cached_in": 0}, "usd": 0.0, "wall_s": 72.31, "provider": "ollama", "model": "llama3.1:8b"}

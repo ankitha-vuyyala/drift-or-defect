@@ -1,0 +1,1 @@
+{"text": "{\"action\":\"boundary\",\"component\":\"vehicle_adapter\",\"period\":\"2020\"}", "usage": {"in": 3595, "out": 152, "cached_in": 0, "reasoning": 125}, "usd": 0.0009014, "wall_s": 2.82, "provider": "openai", "model": "gpt-5.6-luna"}

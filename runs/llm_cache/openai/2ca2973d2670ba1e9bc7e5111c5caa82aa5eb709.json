@@ -1,0 +1,1 @@
+{"text": "{\"action\":\"replay\",\"component\":\"label_map\"}", "usage": {"in": 103, "out": 113, "cached_in": 1137, "reasoning": 90}, "usd": 0.00017894, "wall_s": 2.51, "provider": "openai", "model": "gpt-5.6-luna"}

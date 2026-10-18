@@ -1,0 +1,2172 @@
+{
+ "cabi_2016-c": {
+  "bytes": 78230874,
+  "secs": 4.3,
+  "head": [
+   {
+    "member": "2016Q1-capitalbikeshare-tripdata.csv",
+    "size": 76378122,
+    "lines": [
+     "\"Duration\",\"Start date\",\"End date\",\"Start station number\",\"Start station\",\"End station number\",\"End station\",\"Bike number\",\"Member type\"",
+     "\"166\",\"2016-01-01 00:06:58\",\"2016-01-01 00:09:44\",\"31102\",\"11th & Kenyon St NW\",\"31105\",\"14th & Harvard St NW\",\"W01346\",\"Member\""
+    ]
+   },
+   {
+    "member": "2016Q2-capitalbikeshare-tripdata.csv",
+    "size": 130534361,
+    "lines": [
+     "\"Duration\",\"Start date\",\"End date\",\"Start station number\",\"Start station\",\"End station number\",\"End station\",\"Bike number\",\"Member type\"",
+     "\"149\",\"2016-04-01 00:00:30\",\"2016-04-01 00:03:00\",\"31267\",\"17th St & Massachusetts Ave NW\",\"31214\",\"17th & Corcoran St NW\",\"W00443\",\"Member\""
+    ]
+   },
+   {
+    "member": "2016Q3-capitalbikeshare-tripdata.csv",
+    "size": 148216279,
+    "lines": [
+     "\"Duration\",\"Start date\",\"End date\",\"Start station number\",\"Start station\",\"End station number\",\"End station\",\"Bike number\",\"Member type\"",
+     "\"623\",\"2016-07-01 00:00:11\",\"2016-07-01 00:10:34\",\"31105\",\"14th & Harvard St NW\",\"31105\",\"14th & Harvard St NW\",\"W20029\",\"Member\""
+    ]
+   },
+   {
+    "member": "2016Q4-capitalbikeshare-tripdata.csv",
+    "size": 106577182,
+    "lines": [
+     "\"Duration\",\"Start date\",\"End date\",\"Start station number\",\"Start station\",\"End station number\",\"End station\",\"Bike number\",\"Member type\"",
+     "\"653\",\"2016-10-01 00:00:25\",\"2016-10-01 00:11:18\",\"31246\",\"M St & Pennsylvania Ave NW\",\"31014\",\"Lynn & 19th St North\",\"W22460\",\"Member\""
+    ]
+   }
+  ]
+ },
+ "cabi_2017-c": {
+  "bytes": 89576218,
+  "secs": 3.6,
+  "head": [
+   {
+    "member": "2017Q1-capitalbikeshare-tripdata.csv",
+    "size": 89276248,
+    "lines": [
+     "\"Duration\",\"Start date\",\"End date\",\"Start station number\",\"Start station\",\"End station number\",\"End station\",\"Bike number\",\"Member type\"",
+     "\"221\",\"2017-01-01 00:00:41\",\"2017-01-01 00:04:23\",\"31634\",\"3rd & Tingey St SE\",\"31208\",\"M St & New Jersey Ave SE\",\"W00869\",\"Member\""
+    ]
+   },
+   {
+    "member": "2017Q2-capitalbikeshare-tripdata.csv",
+    "size": 153392619,
+    "lines": [
+     "\"Duration\",\"Start date\",\"End date\",\"Start station number\",\"Start station\",\"End station number\",\"End station\",\"Bike number\",\"Member type\"",
+     "\"381\",\"2017-04-01 00:00:22\",\"2017-04-01 00:06:43\",\"31238\",\"14th & G St NW\",\"31202\",\"14th & R St NW\",\"W22257\",\"Member\""
+    ]
+   },
+   {
+    "member": "2017Q3-capitalbikeshare-tripdata.csv",
+    "size": 165260132,
+    "lines": [
+     "\"Duration\",\"Start date\",\"End date\",\"Start station number\",\"Start station\",\"End station number\",\"End station\",\"Bike number\",\"Member type\"",
+     "\"2762\",\"2017-07-01 00:01:09\",\"2017-07-01 00:47:11\",\"31289\",\"Henry Bacon Dr & Lincoln Memorial Circle NW\",\"31289\",\"Henry Bacon Dr & Lincoln Memorial Circle NW\",\"W21474\",\"Casual\""
+    ]
+   },
+   {
+    "member": "2017Q4-capitalbikeshare-tripdata.csv",
+    "size": 112536025,
+    "lines": [
+     "\"Duration\",\"Start date\",\"End date\",\"Start station number\",\"Start station\",\"End station number\",\"End station\",\"Bike number\",\"Member type\"",
+     "\"197\",\"2017-10-01 00:00:02\",\"2017-10-01 00:03:19\",\"31214\",\"17th & Corcoran St NW\",\"31229\",\"New Hampshire Ave & T St NW\",\"W21022\",\"Member\""
+    ]
+   }
+  ]
+ },
+ "cabi_201801": {
+  "bytes": 3870111,
+  "secs": 0.7,
+  "head": [
+   {
+    "member": "201801_capitalbikeshare_tripdata.csv",
+    "size": 21945246,
+    "lines": [
+     "\"Duration\",\"Start date\",\"End date\",\"Start station number\",\"Start station\",\"End station number\",\"End station\",\"Bike number\",\"Member type\"",
+     "552,\"2018-01-01 00:05:06\",\"2018-01-01 00:14:18\",31104,\"Adams Mill & Columbia Rd NW\",31400,\"Georgia & New Hampshire Ave NW\",\"W00886\",\"Member\""
+    ]
+   }
+  ]
+ },
+ "cabi_201912": {
+  "bytes": 3786811,
+  "secs": 0.6,
+  "head": [
+   {
+    "member": "201912-capitalbikeshare-tripdata.csv",
+    "size": 21065301,
+    "lines": [
+     "\"Duration\",\"Start date\",\"End date\",\"Start station number\",\"Start station\",\"End station number\",\"End station\",\"Bike number\",\"Member type\"",
+     "163,\"2019-12-01 00:00:25\",\"2019-12-01 00:03:08\",31609,\"Maine Ave & 7th St SW\",31294,\"7th & E St SW\",\"W21186\",\"Member\""
+    ]
+   }
+  ]
+ },
+ "cabi_202003": {
+  "bytes": 3835293,
+  "secs": 0.7,
+  "head": [
+   {
+    "member": "202003-capitalbikeshare-tripdata.csv",
+    "size": 21321469,
+    "lines": [
+     "\"Duration\",\"Start date\",\"End date\",\"Start station number\",\"Start station\",\"End station number\",\"End station\",\"Bike number\",\"Member type\"",
+     "1596,\"2020-03-01 00:01:16\",\"2020-03-01 00:27:52\",31646,\"Maine Ave & 9th St SW\",31509,\"New Jersey Ave & R St NW\",\"W24217\",\"Member\""
+    ]
+   }
+  ]
+ },
+ "cabi_202004": {
+  "bytes": 3049266,
+  "secs": 0.5,
+  "head": [
+   {
+    "member": "202004-capitalbikeshare-tripdata.csv",
+    "size": 15407447,
+    "lines": [
+     "\"ride_id\",\"rideable_type\",\"started_at\",\"ended_at\",\"start_station_name\",\"start_station_id\",\"end_station_name\",\"end_station_id\",\"start_lat\",\"start_lng\",\"end_lat\",\"end_lng\",\"member_casual\"",
+     "\"7EA92E28B710137C\",\"docked_bike\",\"2020-04-24 18:38:00.501\",\"2020-04-24 19:00:59.677\",\"Maine Ave & 9th St SW\",\"31646\",\"Jefferson Memorial\",\"31249\",38.88044,-77.025236,38.879819,-77.037413,\"member\""
+    ]
+   }
+  ]
+ },
+ "cabi_202005": {
+  "bytes": 4651560,
+  "secs": 0.6,
+  "head": [
+   {
+    "member": "202005-capitalbikeshare-tripdata.csv",
+    "size": 26950444,
+    "lines": [
+     "ride_id,rideable_type,started_at,ended_at,start_station_name,start_station_id,end_station_name,end_station_id,start_lat,start_lng,end_lat,end_lng,member_casual",
+     "946D42AD89539210,docked_bike,2020-05-30 17:25:29,2020-05-31 18:25:22,Anacostia Library,31804,11th & H St NE,31614,38.865784,-76.9784,38.899983,-76.991383,casual"
+    ]
+   }
+  ]
+ },
+ "cabi_202012": {
+  "bytes": 3763111,
+  "secs": 0.6,
+  "head": [
+   {
+    "member": "202012-capitalbikeshare-tripdata.csv",
+    "size": 18681739,
+    "lines": [
+     "ride_id,rideable_type,started_at,ended_at,start_station_name,start_station_id,end_station_name,end_station_id,start_lat,start_lng,end_lat,end_lng,member_casual",
+     "C04E20007D039277,docked_bike,2020-12-02 09:10:36,2020-12-02 09:24:12,18th St & Wyoming Ave NW,31114,18th St & Pennsylvania Ave NW,31242,38.918809,-77.041571,38.89968,-77.041539,casual"
+    ]
+   }
+  ]
+ },
+ "cabi_202301": {
+  "bytes": 7513453,
+  "secs": 0.7,
+  "head": [
+   {
+    "member": "202301-capitalbikeshare-tripdata.csv",
+    "size": 40817886,
+    "lines": [
+     "\"ride_id\",\"rideable_type\",\"started_at\",\"ended_at\",\"start_station_name\",\"start_station_id\",\"end_station_name\",\"end_station_id\",\"start_lat\",\"start_lng\",\"end_lat\",\"end_lng\",\"member_casual\"",
+     "\"65F0ACD101BF0D49\",\"classic_bike\",\"2023-01-04 19:34:07\",\"2023-01-04 19:39:29\",\"East Falls Church Metro / Sycamore St & 19th St N\",\"31904\",\"W Columbia St & N Washington St\",\"32609\",38.88532071975074,-77.15642720460892,38.885621,-77.166917,\"member\""
+    ]
+   }
+  ]
+ },
+ "cabi_202406": {
+  "bytes": 24847557,
+  "secs": 1.9,
+  "head": [
+   {
+    "member": "202406-capitalbikeshare-tripdata.csv",
+    "size": 116658769,
+    "lines": [
+     "\"ride_id\",\"rideable_type\",\"started_at\",\"ended_at\",\"start_station_name\",\"start_station_id\",\"end_station_name\",\"end_station_id\",\"start_lat\",\"start_lng\",\"end_lat\",\"end_lng\",\"member_casual\"",
+     "\"3A75192373009DCA\",\"classic_bike\",\"2024-06-16 09:21:19.510\",\"2024-06-16 09:56:47.727\",\"Hains Point/Buckeye & Ohio Dr SW\",\"31273\",\"23rd & E St NW \",\"31260\",38.878433,-77.03023,38.896104,-77.049882,\"member\""
+    ]
+   }
+  ]
+ },
+ "cabi_202609": {
+  "bytes": 25848624,
+  "secs": 1.4,
+  "head": [
+   {
+    "member": "202609-capitalbikeshare-tripdata.csv",
+    "size": 134303251,
+    "lines": [
+     "\"ride_id\",\"rideable_type\",\"started_at\",\"ended_at\",\"start_station_name\",\"start_station_id\",\"end_station_name\",\"end_station_id\",\"start_lat\",\"start_lng\",\"end_lat\",\"end_lng\",\"member_casual\"",
+     "\"3FA776BA68AAC5F2\",\"classic_bike\",\"2026-09-13 13:29:42.674\",\"2026-09-13 13:40:33.637\",\"17th St & Potomac Ave SE / Congressional Cemetery \",\"31727\",\"17th St & Potomac Ave SE / Congressional Cemetery \",\"31727\",38.882458,-76.980715,38.882458,-76.980715,\"member\""
+    ]
+   }
+  ]
+ },
+ "fars_2009": {
+  "bytes": 12223408,
+  "secs": 1.0,
+  "head": [
+   {
+    "member": "FARS2009NationalCSV/ACCIDENT.CSV",
+    "size": 5577207,
+    "lines": [
+     "STATE,COUNTY,MONTH,DAY,HOUR,MINUTE,VE_TOTAL,PERSONS,PEDS,NHS,ROAD_FNC,ROUTE,SP_JUR,HARM_EV,MAN_COLL,REL_JUNC,REL_ROAD,TRAF_FLO,NO_LANES,SP_LIMIT,ALIGNMNT,PROFILE,PAVE_TYP,SUR_COND,TRA_CONT,T_CONT_F,LGT_COND,WEATHER1,WEATHER2,WRK_ZONE,NOT_HOUR,NOT_MIN,ARR_HOUR,ARR_MIN,HOSP_HR,HOSP_MN,SCH_BUS,CF1,CF2,CF3,FATALS,DAY_WEEK,DRUNK_DR,ST_CASE,CITY,YEAR,MILEPT,TWAY_ID,TWAY_ID2,RAIL,LATITUDE,LONGITUD,VE_FORMS,WEATHER",
+     "1,127,1,2,18,15,2,2,0,1,2,2,0,12,5,2,1,2,2,65,1,1,2,1,20,3,2,1,0,0,99,99,18,50,99,99,0,0,0,0,1,6,0,10001,0,2009,1626,US-SR 5,7797,0000000,33.80514722,-87.13351111,2,1"
+    ]
+   },
+   {
+    "member": "FARS2009NationalCSV/MIACC.CSV",
+    "size": 961904,
+    "lines": [
+     "ST_CASE,A1,A2,A3,A4,A5,A6,A7,A8,A9,A10",
+     "10001,26,16,0,0,0,0,0,0,0,0"
+    ]
+   },
+   {
+    "member": "FARS2009NationalCSV/MIDRVACC.CSV",
+    "size": 946328,
+    "lines": [
+     "ST_CASE,A1,A2,A3,A4,A5,A6,A7,A8,A9,A10",
+     "10001,26,16,0,0,0,0,0,0,0,0"
+    ]
+   },
+   {
+    "member": "FARS2009NationalCSV/MIPER.CSV",
+    "size": 1719341,
+    "lines": [
+     "VEH_NO,PER_NO,ST_CASE,P1,P2,P3,P4,P5,P6,P7,P8,P9,P10",
+     "1,1,10001,26,16,0,0,0,0,0,0,0,0"
+    ]
+   },
+   {
+    "member": "FARS2009NationalCSV/PERSON.CSV",
+    "size": 15843046,
+    "lines": [
+     "STATE,VEH_NO,PER_NO,N_MOT_NO,AGE,SEX,PER_TYP,SEAT_POS,REST_USE,AIR_BAG,EJECTION,EJ_PATH,EXTRICAT,LOCATION,DRINKING,ALC_DET,ATST_TYP,ALC_RES,ALC_STATUS,DRUGS,DSTATUS,DRUG_DET,DRUGTST1,DRUGRES1,DRUGTST2,DRUGRES2,DRUGTST3,DRUGRES3,INJ_SEV,HOSPITAL,DEATH_MO,DEATH_DA,DEATH_HR,DEATH_MN,LAG_HRS,LAG_MINS,RACE,HISPANIC,P_CF1,P_CF2,P_CF3,WORK_INJ,DOA,ST_CASE,DEATH_YR,DEATH_TM,CERT_NO,MAKE,BODY_TYP,ROLLOVER,TOW_VEH,SPEC_USE,EMER_USE,IMPACT1,IMPACT2,IMPACTS,FIRE_EXP,MAK_MOD,MOD_YEAR,VINA_MOD,SER_TR,VIN_BT,WHLBS_SH,WHLBS_LG,MCYCL_DS,VIN_WGT,WGTCD_TR,COUNTY,MONTH,DAY,HOUR,MINUTE,ROAD_FNC,HARM_EV,MAN_COLL,SCH_BUS,VE_FORMS",
+     "1,1,1,0,23,1,1,11,0,20,0,0,0,0,0,9,0,96,0,0,0,8,0,0,0,0,0,0,4,1,1,23,12,7,497,52,1,7,0,0,0,0,0,10001,2009,1207,************,52,4,0,0,0,0,3,3,2,0,52035,2001,MES,***,4D,984,0,,2437,,127,1,2,18,15,2,12,5,0,2"
+    ]
+   },
+   {
+    "member": "FARS2009NationalCSV/VEHICLE.CSV",
+    "size": 13750545,
+    "lines": [
+     "VIN,VIN_1,VIN_2,VIN_3,VIN_4,VIN_5,VIN_6,VIN_7,VIN_8,VIN_9,VIN_10,VIN_11,VIN_12,STATE,VEH_NO,NUMOCCS,MAKE,MODEL,BODY_TYP,REG_STAT,OWNER,ROLLOVER,J_KNIFE,TRAV_SP,HAZ_INV,HAZ_PLAC,HAZ_CNO,HAZ_REL,TOW_VEH,V_CONFIG,CARGO_BT,HIT_RUN,ROLINLOC,SPEC_USE,EMER_USE,IMPACT1,IMPACT2,UNDERIDE,DEFORMED,IMPACTS,TOWED,FIRE_EXP,VEH_CF1,VEH_CF2,VEH_MAN,AVOID,M_HARM,DEATHS,SEQ1,SEQ2,SEQ3,SEQ4,SEQ5,SEQ6,VIN_LNGT,BUS_USE,GVWR,UNITTYPE,MCARR_I1,ST_CASE,HAZ_ID,MAK_MOD,MOD_YEAR,VINA_MOD,SER_TR,VIN_BT,MCARR_I2,FLDCD_TR,MCARR_ID,WHLBS_SH,WHLBS_LG,MCYCL_DS,VIN_WGT,WGTCD_TR,DR_PRES,DR_DRINK,L_STATE,L_TYPE,L_STATUS,CDL_STAT,L_ENDORS,L_COMPL,L_RESTRI,VIOLCHG1,VIOLCHG2,VIOLCHG3,SPEEDREL,PREV_ACC,PREV_SUS,PREV_DWI,PREV_SPD,PREV_OTH,LAST_MO,FIRST_MO,DR_CF1,DR_CF2,DR_CF3,DR_CF4,DR_WGT,DR_HGT,D_VISION1,D_VISION2,D_VISION3,LAST_YR,FIRST_YR,DR_ZIP,MONTH,DAY,HOUR,MINUTE,HARM_EV,MAN_COLL,VE_FORMS",
+     "JA3AY26C51U0,J,A,3,A,Y,2,6,C,5,1,U,0,1,1,1,52,35,4,1,1,0,0,15,1,0,0,0,0,0,0,0,0,0,0,3,3,0,6,2,2,0,0,0,1,0,12,1,12,0,0,0,0,0,17,0,0,1,0,10001,0,52035,2001,MES,***,4D,000000000,*,00000000000,984,0,,2437,,1,0,1,1,6,0,0,3,0,0,0,0,0,1,1,0,0,0,5,4,38,0,0,0,155,74,0,0,0,2008,2007,35550,1,2,18,15,12,5,2"
+    ]
+   },
+   {
+    "member": "FARS2009NationalCSV/VEHNIT.CSV",
+    "size": 308918,
+    "lines": [
+     "VIN,VIN_1,VIN_2,VIN_3,VIN_4,VIN_5,VIN_6,VIN_7,VIN_8,VIN_9,VIN_10,VIN_11,VIN_12,STATE,VEH_NO,NUMOCCS,MAKE,MODEL,BODY_TYP,REG_STAT,OWNER,ROLLOVER,J_KNIFE,TRAV_SP,HAZ_INV,HAZ_PLAC,HAZ_CNO,HAZ_REL,TOW_VEH,V_CONFIG,CARGO_BT,HIT_RUN,ROLINLOC,SPEC_USE,EMER_USE,IMPACT1,IMPACT2,UNDERIDE,DEFORMED,IMPACTS,TOWED,FIRE_EXP,VEH_CF1,VEH_CF2,VEH_MAN,AVOID,M_HARM,DEATHS,SEQ1,SEQ2,SEQ3,SEQ4,SEQ5,SEQ6,VIN_LNGT,BUS_USE,GVWR,UNITTYPE,MCARR_I1,ST_CASE,HAZ_ID,MAK_MOD,MOD_YEAR,VINA_MOD,SER_TR,VIN_BT,MCARR_I2,FLDCD_TR,MCARR_ID,WHLBS_SH,WHLBS_LG,MCYCL_DS,VIN_WGT,WGTCD_TR,DR_PRES,DR_DRINK,L_STATE,L_TYPE,L_STATUS,CDL_STAT,L_ENDORS,L_COMPL,L_RESTRI,VIOLCHG1,VIOLCHG2,VIOLCHG3,SPEEDREL,PREV_ACC,PREV_SUS,PREV_DWI,PREV_SPD,PREV_OTH,LAST_MO,FIRST_MO,DR_CF1,DR_CF2,DR_CF3,DR_CF4,DR_WGT,DR_HGT,D_VISION1,D_VISION2,D_VISION3,LAST_YR,FIRST_YR,DR_ZIP,MONTH,DAY,HOUR,MINUTE,HARM_EV,MAN_COLL,VE_FORMS",
+     "1N4AL11D06C1,1,N,4,A,L,1,1,D,0,6,C,1,1,3,0,35,47,4,1,6,0,0,999,1,0,0,0,0,0,0,0,0,0,0,12,12,0,6,3,9,0,0,0,99,8,12,0,99,99,99,99,99,99,17,0,0,3,0,10071,0,35047,2006,ASL,***,4D,000000000,*,00000000000,1102,0,,2915,,0,0,,,,,,,,,,,9,,,,,,,,0,0,0,0,,,99,99,99,,,,1,9,20,27,12,1,2"
+    ]
+   },
+   {
+    "member": "FARS2009NationalCSV/vpicdecode.csv",
+    "size": 30451642,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,VehicleDescriptor,VINDecodedOn,VINDecodeError,VehicleTypeId,VehicleType,ManufacturerFullNameId,ManufacturerFullName,MakeId,Make,ModelId,Model,ModelYear,Series,Trim,Series2,Trim2,PlantCountryId,PlantCountry,PlantState,PlantCity,PlantCompanyName,DestinationMarketId,DestinationMarket,BasePrice,Note,BodyClassId,BodyClass,DoorsCount,Windows,WheelBaseTypeId,WheelBaseType,TrackWidthIN,GrossVehicleWeightRatingFromId,GrossVehicleWeightRatingFrom,GrossVehicleWeightRatingToId,GrossVehicleWeightRatingTo,GrossCombWeightRatingFromId,GrossCombWeightRatingFrom,GrossCombWeightRatingToId,GrossCombWeightRatingTo,CurbWeightLB,WheelBaseIN_from,WheelBaseIN_To,WheelsCount,WheelSizeFrontIN,WheelSizeRearIN,TruckBodyCabTypeId,TruckBodyCabType,TruckBedTypeId,TruckBedType,TruckBedLengthIN,BusTypeId,BusType,BusFloorConfigurationTypeId,BusFloorConfigurationType,BusLengthFT,OtherBusInfo,CustomMotorcycleTypeId,CustomMotorcycleType,MotorcycleSuspensionTypeId,MotorcycleSuspensionType,MotorcycleChassisTypeId,MotorcycleChassisType,OtherMotorcycleInfo,SteeringLocationId,SteeringLocation,EntertainmentSystemId,EntertainmentSystem,SeatsCount,SeatRowsCount,TransmissionSpeeds,TransmissionStyleId,TransmissionStyle,DriveTypeId,DriveType,AxlesCount,AxleConfigurationId,AxleConfiguration,BrakeSystemTypeId,BrakeSystemType,BrakeSystemDesc,EVDriveUnitId,EVDriveUnit,BatteryKWh_From,BatteryKWh_to,BatteryV_From,BatteryV_to,BatteryA_From,BatteryA_to,BatteryPacksPerVehicle,BatteryModulesPerPack,BatteryCellsPerModule,BatteryTypeId,BatteryType,OtherBatteryInfo,ChargerLevelId,ChargerLevel,ChargerPowerKW,EngineManufacturer,EngineModel,EngineConfigurationId,EngineConfiguration,EnginePowerKW,EngineStrokeCycles,EngineCylindersCount,EngineBrakeHP_From,EngineBrakeHP_To,EngineCoolingTypeId,EngineCoolingType,DisplacementCI,DisplacementCC,DisplacementL,FuelTypePrimaryId,FuelTypePrimary,FuelTypeSecondaryId,FuelTypeSecondary,FuelDeliveryInjectionTypeId,FuelDeliveryInjectionType,EngineValveTrainDesignId,EngineValveTrainDesign,EngineElectrificationLevelId,EngineElectrificationLevel,EngineTurboId,EngineTurbo,TopSpeedMPH,OtherEngineInfo,SeatBeltTypeId,SeatBeltType,PretensionerId,Pretensioner,AirBagLocFrontId,AirBagLocFront,AirBagLocKneeId,AirBagLocKnee,AirBagLocSideId,AirBagLocSide,AirBagLocCurtainId,AirBagLocCurtain,AirBagLocSeatCushionId,AirBagLocSeatCushion,OtherRestraintSystemInfo,ForwardCollisionWarningId,ForwardCollisionWarning,DynamicBrakeSupportId,DynamicBrakeSupport,CrashImminentBrakingID"
+    ]
+   }
+  ]
+ },
+ "fars_2010": {
+  "bytes": 14184978,
+  "secs": 1.0,
+  "head": [
+   {
+    "member": "FARS2010NationalCSV/ACCIDENT.CSV",
+    "size": 4632735,
+    "lines": [
+     "STATE,ST_CASE,VE_TOTAL,VE_FORMS,PEDS,PERSONS,COUNTY,CITY,DAY,MONTH,YEAR,DAY_WEEK,HOUR,MINUTE,NHS,ROAD_FNC,ROUTE,TWAY_ID,TWAY_ID2,MILEPT,LATITUDE,LONGITUD,SP_JUR,HARM_EV,MAN_COLL,RELJCT1,RELJCT2,TYP_INT,REL_ROAD,WRK_ZONE,LGT_COND,WEATHER1,WEATHER2,WEATHER,SCH_BUS,RAIL,NOT_HOUR,NOT_MIN,ARR_HOUR,ARR_MIN,HOSP_HR,HOSP_MN,CF1,CF2,CF3,FATALS,DRUNK_DR",
+     "1,10001,1,1,0,2,81,2340,15,1,2010,6,4,10,1,11,1,I-85,,621,32.64106389,-85.354691670,0,42,0,0,1,1,4,0,3,1,0,1,0,0000000,99,99,4,20,99,99,0,0,0,1,1"
+    ]
+   },
+   {
+    "member": "FARS2010NationalCSV/CEVENT.CSV",
+    "size": 2565614,
+    "lines": [
+     "STATE,ST_CASE,EVENTNUM,VNUMBER1,AOI1,SOE,VNUMBER2,AOI2",
+     "1,10001,1,1,55,63,9999,55"
+    ]
+   },
+   {
+    "member": "FARS2010NationalCSV/DISTRACT.CSV",
+    "size": 688688,
+    "lines": [
+     "STATE,ST_CASE,VEH_NO,MDRDSTRD",
+     "1,10001,1,0"
+    ]
+   },
+   {
+    "member": "FARS2010NationalCSV/DRIMPAIR.CSV",
+    "size": 683979,
+    "lines": [
+     "STATE,ST_CASE,VEH_NO,DRIMPAIR",
+     "1,10001,1,2"
+    ]
+   },
+   {
+    "member": "FARS2010NationalCSV/FACTOR.CSV",
+    "size": 676681,
+    "lines": [
+     "STATE,ST_CASE,VEH_NO,MFACTOR",
+     "1,10001,1,0"
+    ]
+   },
+   {
+    "member": "FARS2010NationalCSV/MANEUVER.CSV",
+    "size": 677696,
+    "lines": [
+     "STATE,ST_CASE,VEH_NO,MDRMANAV",
+     "1,10001,1,0"
+    ]
+   },
+   {
+    "member": "FARS2010NationalCSV/MIACC.CSV",
+    "size": 942119,
+    "lines": [
+     "ST_CASE,A1,A2,A3,A4,A5,A6,A7,A8,A9,A10",
+     "10001,11,11,11,11,11,11,11,11,11,11"
+    ]
+   },
+   {
+    "member": "FARS2010NationalCSV/MIDRVACC.CSV",
+    "size": 927133,
+    "lines": [
+     "ST_CASE,A1,A2,A3,A4,A5,A6,A7,A8,A9,A10",
+     "10001,11,11,11,11,11,11,11,11,11,11"
+    ]
+   },
+   {
+    "member": "FARS2010NationalCSV/MIPER.CSV",
+    "size": 1699060,
+    "lines": [
+     "ST_CASE,VEH_NO,PER_NO,P1,P2,P3,P4,P5,P6,P7,P8,P9,P10",
+     "10001,1,1,11,11,11,11,11,11,11,11,11,11"
+    ]
+   },
+   {
+    "member": "FARS2010NationalCSV/NMCRASH.CSV",
+    "size": 115606,
+    "lines": [
+     "STATE,ST_CASE,VEH_NO,PER_NO,MTM_CRSH",
+     "1,10022,0,1,1"
+    ]
+   },
+   {
+    "member": "FARS2010NationalCSV/NMIMPAIR.CSV",
+    "size": 92918,
+    "lines": [
+     "STATE,ST_CASE,VEH_NO,PER_NO,NMIMPAIR",
+     "1,10022,0,1,8"
+    ]
+   },
+   {
+    "member": "FARS2010NationalCSV/NMPRIOR.CSV",
+    "size": 95828,
+    "lines": [
+     "STATE,ST_CASE,VEH_NO,PER_NO,MPR_ACT",
+     "1,10022,0,1,8"
+    ]
+   },
+   {
+    "member": "FARS2010NationalCSV/PARKWORK.CSV",
+    "size": 217628,
+    "lines": [
+     "STATE,ST_CASE,VEH_NO,PVE_Forms,PNUMOCCS,PDAY,PMONTH,PHOUR,PMINUTE,PHARM_EV,PMAN_COLL,PTYPE,PHIT_RUN,PREG_STAT,POWNER,PMAKE,PMODEL,PMAK_MOD,PBODYTYP,PMODYEAR,PVIN,PVIN_1,PVIN_2,PVIN_3,PVIN_4,PVIN_5,PVIN_6,PVIN_7,PVIN_8,PVIN_9,PVIN_10,PVIN_11,PVIN_12,PVINTYPE,PVINMAKE,PVINA_MOD,PVIN_BT,PVINMODYR,PVIN_LNGT,PVIN_WGT,PWGTCD_TR,PWHLBS_LG,PWHLBS_SH,PSER_TR,PFUECODE,PMCYCL_DS,PTRAILER,PMCARR_I1,PMCARR_I2,PMCARR_ID,PGVWR,PV_CONFIG,PCARGTYP,PHAZ_INV,PHAZPLAC,PHAZ_ID,PHAZ_CNO,PHAZ_REL,PBUS_USE,PSP_USE,PEM_USE,PUNDERIDE,PIMPACT1,PIMPACT2,PVEH_SEV,PTOWED,PM_HARM,PVEH_SC1,PVEH_SC2,PFIRE,PDEATHS",
+     "1,10141,2,1,0,11,3,16,14,14,0,2,0,1,6,2,404,2404,14,1989,1J4FJ38L3KL5,1,J,4,F,J,3,8,L,3,K,L,5,T,JEEP,PNR,4W,89,17,,1,0,1014,CHK,G,,1,0,000000000,00000000000,0,0,0,1,0,0,0,0,0,0,0,0,6,5,4,3,8,0,0,0,0"
+    ]
+   },
+   {
+    "member": "FARS2010NationalCSV/PERSON.CSV",
+    "size": 16276945,
+    "lines": [
+     "STATE,ST_CASE,VE_FORMS,VEH_NO,PER_NO,N_MOT_NO,COUNTY,DAY,MONTH,HOUR,MINUTE,ROAD_FNC,HARM_EV,MAN_COLL,SCH_BUS,MAKE,MAK_MOD,BODY_TYP,MOD_YEAR,VINTYPE,VINMAKE,VINA_MOD,VIN_BT,VINMODYR,VIN_LNGT,VIN_WGT,WGTCD_TR,WHLBS_LG,WHLBS_SH,SER_TR,FUELCODE,MCYCL_DS,TOW_VEH,SPEC_USE,EMER_USE,ROLLOVER,IMPACT1,IMPACT2,FIRE_EXP,AGE,SEX,PER_TYP,INJ_SEV,SEAT_POS,REST_USE,REST_MIS,AIR_BAG,EJECTION,EJ_PATH,EXTRICAT,DRINKING,ALC_DET,ALC_STATUS,ATST_TYP,ALC_RES,DRUGS,DRUG_DET,DSTATUS,DRUGTST1,DRUGTST2,DRUGTST3,DRUGRES1,DRUGRES2,DRUGRES3,HOSPITAL,DOA,DEATH_DA,DEATH_MO,DEATH_YR,DEATH_HR,DEATH_MN,DEATH_TM,LAG_HRS,LAG_MINS,P_SF1,P_SF2,P_SF3,CERT_NO,WORK_INJ,HISPANIC,RACE,LOCATION",
+     "1,10001,1,1,1,0,81,15,1,4,10,11,42,0,0,12,12422,15,2000,P,FORD,EPT,UT,0,17,5401,,0,1191,,G,,0,0,0,9,99,98,1,51,2,1,4,11,7,0,99,0,0,0,9,9,2,1,11,9,8,2,1,0,0,1,0,0,0,7,15,1,2010,4,10,410,0,0,0,0,0,************,0,7,2,0"
+    ]
+   },
+   {
+    "member": "FARS2010NationalCSV/SAFETYEQ.CSV",
+    "size": 90993,
+    "lines": [
+     "STATE,ST_CASE,VEH_NO,PER_NO,MSAFEQMT",
+     "1,10022,0,1,1"
+    ]
+   },
+   {
+    "member": "FARS2010NationalCSV/VEHICLE.CSV",
+    "size": 13842126,
+    "lines": [
+     "STATE,ST_CASE,VEH_NO,VE_FORMS,NUMOCCS,DAY,MONTH,HOUR,MINUTE,HARM_EV,MAN_COLL,UNITTYPE,HIT_RUN,REG_STAT,OWNER,MAKE,MODEL,MAK_MOD,BODY_TYP,MOD_YEAR,VIN,VIN_1,VIN_2,VIN_3,VIN_4,VIN_5,VIN_6,VIN_7,VIN_8,VIN_9,VIN_10,VIN_11,VIN_12,TOW_VEH,VINTYPE,VINMAKE,VINA_MOD,VIN_BT,VINMODYR,VIN_LNGT,VIN_WGT,WGTCD_TR,WHLBS_LG,WHLBS_SH,SER_TR,FUELCODE,MCYCL_DS,J_KNIFE,MCARR_I1,MCARR_I2,MCARR_ID,GVWR,V_CONFIG,CARGO_BT,HAZ_INV,HAZ_PLAC,HAZ_ID,HAZ_CNO,HAZ_REL,BUS_USE,SPEC_USE,EMER_USE,TRAV_SP,UNDERIDE,ROLLOVER,ROLINLOC,IMPACT1,IMPACT2,DEFORMED,TOWED,M_HARM,VEH_SC1,VEH_SC2,FIRE_EXP,DR_PRES,L_STATE,DR_ZIP,L_STATUS,L_TYPE,CDL_STAT,L_ENDORS,L_COMPL,L_RESTRI,DR_HGT,DR_WGT,PREV_ACC,PREV_SUS,PREV_DWI,PREV_SPD,PREV_OTH,FIRST_MO,FIRST_YR,LAST_MO,LAST_YR,SPEEDREL,DR_SF1,DR_SF2,DR_SF3,DR_SF4,VTRAFWAY,VNUM_LAN,VSPD_LIM,VALIGN,VPROFILE,VPAVETYP,VSURCOND,VTRAFCON,VTCONT_F,P_CRASH1,P_CRASH2,P_CRASH3,PCRASH4,PCRASH5,ACC_TYPE,DEATHS,DR_DRINK",
+     "1,10001,1,1,2,15,1,4,10,42,0,1,0,13,2,12,422,12422,15,2000,1FMPU18L1YLC,1,F,M,P,U,1,8,L,1,Y,L,C,0,P,FORD,EPT,UT,0,17,5401,,0,1191,,G,,0,0,000000000,00000000000,0,0,0,1,0,0,0,0,0,0,0,999,0,9,5,99,98,6,2,2,0,0,1,1,13,30296,6,1,0,0,3,1,65,180,98,2,0,2,0,9,2008,11,2008,0,0,0,0,0,2,2,70,1,2,2,1,0,0,1,13,1,1,4,1,1,1"
+    ]
+   },
+   {
+    "member": "FARS2010NationalCSV/VEVENT.CSV",
+    "size": 3389612,
+    "lines": [
+     "STATE,ST_CASE,EVENTNUM,VEH_NO,VEVENTNUM,VNUMBER1,AOI1,SOE,VNUMBER2,AOI2",
+     "1,10001,1,1,1,1,55,63,9999,55"
+    ]
+   },
+   {
+    "member": "FARS2010NationalCSV/VIOLATN.CSV",
+    "size": 721464,
+    "lines": [
+     "STATE,ST_CASE,VEH_NO,MVIOLATN",
+     "1,10001,1,0"
+    ]
+   },
+   {
+    "member": "FARS2010NationalCSV/VISION.CSV",
+    "size": 676416,
+    "lines": [
+     "STATE,ST_CASE,VEH_NO,MVISOBSC",
+     "1,10001,1,0"
+    ]
+   },
+   {
+    "member": "FARS2010NationalCSV/vpicdecode.csv",
+    "size": 29914493,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,VehicleDescriptor,VINDecodedOn,VINDecodeError,VehicleTypeId,VehicleType,ManufacturerFullNameId,ManufacturerFullName,MakeId,Make,ModelId,Model,ModelYear,Series,Trim,Series2,Trim2,PlantCountryId,PlantCountry,PlantState,PlantCity,PlantCompanyName,DestinationMarketId,DestinationMarket,BasePrice,Note,BodyClassId,BodyClass,DoorsCount,Windows,WheelBaseTypeId,WheelBaseType,TrackWidthIN,GrossVehicleWeightRatingFromId,GrossVehicleWeightRatingFrom,GrossVehicleWeightRatingToId,GrossVehicleWeightRatingTo,GrossCombWeightRatingFromId,GrossCombWeightRatingFrom,GrossCombWeightRatingToId,GrossCombWeightRatingTo,CurbWeightLB,WheelBaseIN_from,WheelBaseIN_To,WheelsCount,WheelSizeFrontIN,WheelSizeRearIN,TruckBodyCabTypeId,TruckBodyCabType,TruckBedTypeId,TruckBedType,TruckBedLengthIN,BusTypeId,BusType,BusFloorConfigurationTypeId,BusFloorConfigurationType,BusLengthFT,OtherBusInfo,CustomMotorcycleTypeId,CustomMotorcycleType,MotorcycleSuspensionTypeId,MotorcycleSuspensionType,MotorcycleChassisTypeId,MotorcycleChassisType,OtherMotorcycleInfo,SteeringLocationId,SteeringLocation,EntertainmentSystemId,EntertainmentSystem,SeatsCount,SeatRowsCount,TransmissionSpeeds,TransmissionStyleId,TransmissionStyle,DriveTypeId,DriveType,AxlesCount,AxleConfigurationId,AxleConfiguration,BrakeSystemTypeId,BrakeSystemType,BrakeSystemDesc,EVDriveUnitId,EVDriveUnit,BatteryKWh_From,BatteryKWh_to,BatteryV_From,BatteryV_to,BatteryA_From,BatteryA_to,BatteryPacksPerVehicle,BatteryModulesPerPack,BatteryCellsPerModule,BatteryTypeId,BatteryType,OtherBatteryInfo,ChargerLevelId,ChargerLevel,ChargerPowerKW,EngineManufacturer,EngineModel,EngineConfigurationId,EngineConfiguration,EnginePowerKW,EngineStrokeCycles,EngineCylindersCount,EngineBrakeHP_From,EngineBrakeHP_To,EngineCoolingTypeId,EngineCoolingType,DisplacementCI,DisplacementCC,DisplacementL,FuelTypePrimaryId,FuelTypePrimary,FuelTypeSecondaryId,FuelTypeSecondary,FuelDeliveryInjectionTypeId,FuelDeliveryInjectionType,EngineValveTrainDesignId,EngineValveTrainDesign,EngineElectrificationLevelId,EngineElectrificationLevel,EngineTurboId,EngineTurbo,TopSpeedMPH,OtherEngineInfo,SeatBeltTypeId,SeatBeltType,PretensionerId,Pretensioner,AirBagLocFrontId,AirBagLocFront,AirBagLocKneeId,AirBagLocKnee,AirBagLocSideId,AirBagLocSide,AirBagLocCurtainId,AirBagLocCurtain,AirBagLocSeatCushionId,AirBagLocSeatCushion,OtherRestraintSystemInfo,ForwardCollisionWarningId,ForwardCollisionWarning,DynamicBrakeSupportId,DynamicBrakeSupport,CrashImminentBrakingID"
+    ]
+   },
+   {
+    "member": "FARS2010NationalCSV/VSOE.CSV",
+    "size": 2191010,
+    "lines": [
+     "STATE,ST_CASE,VEH_NO,VEVENTNUM,SOE,AOI",
+     "1,10001,1,1,63,55"
+    ]
+   }
+  ]
+ },
+ "fars_2015": {
+  "bytes": 29908134,
+  "secs": 1.9,
+  "head": [
+   {
+    "member": "FARS2015NationalCSV/accident.csv",
+    "size": 21500291,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VE_TOTAL,VE_FORMS,PVH_INVL,PEDS,PERSONS,PERMVIT,PERNOTMVIT,COUNTY,CITY,DAY,DAYNAME,MONTH,MONTHNAME,YEAR,DAY_WEEK,DAY_WEEKNAME,HOUR,HOURNAME,MINUTE,MINUTENAME,NHS,NHSNAME,ROUTE,ROUTENAME,TWAY_ID,TWAY_ID2,RUR_URB,RUR_URBNAME,FUNC_SYS,FUNC_SYSNAME,RD_OWNER,RD_OWNERNAME,MILEPT,MILEPTNAME,LATITUDE,LATITUDENAME,LONGITUD,LONGITUDNAME,SP_JUR,SP_JURNAME,HARM_EV,HARM_EVNAME,MAN_COLL,MAN_COLLNAME,RELJCT1,RELJCT1NAME,RELJCT2,RELJCT2NAME,TYP_INT,TYP_INTNAME,WRK_ZONE,WRK_ZONENAME,REL_ROAD,REL_ROADNAME,LGT_COND,LGT_CONDNAME,WEATHER1,WEATHER1NAME,WEATHER2,WEATHER2NAME,WEATHER,WEATHERNAME,SCH_BUS,SCH_BUSNAME,RAIL,RAILNAME,NOT_HOUR,NOT_HOURNAME,NOT_MIN,NOT_MINNAME,ARR_HOUR,ARR_HOURNAME,ARR_MIN,ARR_MINNAME,HOSP_HR,HOSP_HRNAME,HOSP_MN,HOSP_MNNAME,CF1,CF1NAME,CF2,CF2NAME,CF3,CF3NAME,FATALS,DRUNK_DR",
+     "1,Alabama,10001,1,1,0,0,1,1,0,127,0,1,1,1,January,2015,5,Thursday,2,2:00am-2:59am,40,40,0,This section IS NOT on the NHS,3,State Highway,SR-5,,1,Rural,3,Principal Arterial - Other,1,State Highway Agency,1754,1754,33.87865278,33.87865278,-87.32532778,-87.32532778,0,No Special Jurisdiction,35,Embankment,0,Not a Collision with Motor Vehicle In-Transport,0,No,1,Non-Junction,1,Not an Intersection,0,None,4,On Roadside,2,Dark - Not Lighted,1,Clear,0,No Additional Atmospheric Conditions,1,Clear,0,No,0000000,Not Applicable,99,Unknown,99,Unknown,2,2:00am-2:59am,58,58,88,Not Applicable (Not Transported),88,Not Applicable (Not Transported),0,None,0,None,0,None,1,1"
+    ]
+   },
+   {
+    "member": "FARS2015NationalCSV/cevent.csv",
+    "size": 10589645,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,EVENTNUM,VNUMBER1,AOI1,AOI1NAME,SOE,SOENAME,VNUMBER2,VNUMBER2NAME,AOI2,AOI2NAME",
+     "1,Alabama,10001,1,1,55,Non-Harmful Event,63,Ran Off Roadway - Right,5555,Non-Harmful Event,55,Non-Harmful Event"
+    ]
+   },
+   {
+    "member": "FARS2015NationalCSV/Damage.csv",
+    "size": 7406878,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,MDAREAS,MDAREASNAME",
+     "1,Alabama,10001,1,1,1 Clock Value"
+    ]
+   },
+   {
+    "member": "FARS2015NationalCSV/Distract.csv",
+    "size": 2065801,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,MDRDSTRD,MDRDSTRDNAME",
+     "1,Alabama,10001,1,99,Unknown if Distracted"
+    ]
+   },
+   {
+    "member": "FARS2015NationalCSV/DrImpair.csv",
+    "size": 2470107,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,DRIMPAIR,DRIMPAIRNAME",
+     "1,Alabama,10001,1,0,None/Apparently Normal"
+    ]
+   },
+   {
+    "member": "FARS2015NationalCSV/Factor.csv",
+    "size": 1451720,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,MFACTOR,MFACTORNAME",
+     "1,Alabama,10001,1,0,None"
+    ]
+   },
+   {
+    "member": "FARS2015NationalCSV/Maneuver.csv",
+    "size": 2315536,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,MDRMANAV,MDRMANAVNAME",
+     "1,Alabama,10001,1,98,Not Reported"
+    ]
+   },
+   {
+    "member": "FARS2015NationalCSV/miacc.csv",
+    "size": 1007875,
+    "lines": [
+     "ST_CASE,A1,A2,A3,A4,A5,A6,A7,A8,A9,A10",
+     "10001,18,18,18,18,18,18,18,18,18,18"
+    ]
+   },
+   {
+    "member": "FARS2015NationalCSV/midrvacc.csv",
+    "size": 988333,
+    "lines": [
+     "ST_CASE,A1,A2,A3,A4,A5,A6,A7,A8,A9,A10",
+     "10001,18,18,18,18,18,18,18,18,18,18"
+    ]
+   },
+   {
+    "member": "FARS2015NationalCSV/miper.csv",
+    "size": 1896496,
+    "lines": [
+     "ST_CASE,VEH_NO,PER_NO,P1,P2,P3,P4,P5,P6,P7,P8,P9,P10",
+     "10001,1,1,18,18,18,18,18,18,18,18,18,18"
+    ]
+   },
+   {
+    "member": "FARS2015NationalCSV/nmcrash.csv",
+    "size": 512879,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,PER_NO,MTM_CRSH,MTM_CRSHNAME",
+     "1,Alabama,10008,0,1,99,Unknown"
+    ]
+   },
+   {
+    "member": "FARS2015NationalCSV/NMImpair.csv",
+    "size": 352415,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,PER_NO,NMIMPAIR,NMIMPAIRNAME",
+     "1,Alabama,10008,0,1,99,Unknown if Impaired"
+    ]
+   },
+   {
+    "member": "FARS2015NationalCSV/NMPrior.csv",
+    "size": 434026,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,PER_NO,MPR_ACT,MPR_ACTNAME",
+     "1,Alabama,10008,0,1,3,Crossing Roadway"
+    ]
+   },
+   {
+    "member": "FARS2015NationalCSV/parkwork.csv",
+    "size": 983927,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,PVE_FORMS,PNUMOCCS,PNUMOCCSNAME,PDAY,PDAYNAME,PMONTH,PMONTHNAME,PHOUR,PHOURNAME,PMINUTE,PMINUTENAME,PHARM_EV,PHARM_EVNAME,PMAN_COLL,PMAN_COLLNAME,PTYPE,PTYPENAME,PHIT_RUN,PHIT_RUNNAME,PREG_STAT,PREG_STATNAME,POWNER,POWNERNAME,PMAKE,PMAKENAME,PMODEL,PMAK_MOD,PBODYTYP,PBODYTYPNAME,PMODYEAR,PMODYEARNAME,PVIN,PVINNAME,PVIN_1,PVIN_2,PVIN_3,PVIN_4,PVIN_5,PVIN_6,PVIN_7,PVIN_8,PVIN_9,PVIN_10,PVIN_11,PVIN_12,PTRAILER,PTRAILERNAME,PMCARR_I1,PMCARR_I1NAME,PMCARR_I2,PMCARR_I2NAME,PMCARR_ID,PMCARR_IDNAME,PGVWR,PGVWRNAME,PV_CONFIG,PV_CONFIGNAME,PCARGTYP,PCARGTYPNAME,PHAZ_INV,PHAZ_INVNAME,PHAZPLAC,PHAZPLACNAME,PHAZ_ID,PHAZ_IDNAME,PHAZ_CNO,PHAZ_CNONAME,PHAZ_REL,PHAZ_RELNAME,PBUS_USE,PBUS_USENAME,PSP_USE,PSP_USENAME,PEM_USE,PEM_USENAME,PUNDERIDE,PUNDERIDENAME,PIMPACT1,PIMPACT1NAME,PVEH_SEV,PVEH_SEVNAME,PTOWED,PTOWEDNAME,PM_HARM,PM_HARMNAME,PVEH_SC1,PVEH_SC1NAME,PVEH_SC2,PVEH_SC2NAME,PFIRE,PFIRENAME,PDEATHS",
+     "1,Alabama,10076,2,1,0,None,13,13,2,February,10,10:00am-10:59am,9,9,18,Other Object (not fixed),0,Not a Collision with Motor Vehicle In-Transport,4,\"Working Motor Vehicle (highway construction, maintenance, utility only)\",0,No,1,Alabama,3,Vehicle Registered as Business/Company/Government Vehicle,12,Ford,481,Ford F-Series pickup,31,\"Standard pickup (GVWR 4,500 to 10,00 lbs.)(Jeep Pickup, Comanche, Ram Pickup, D100-D350, ......)\",2012,2012,1FTEX1EM5CFB,1FTEX1EM5CFB,1,F,T,E,X,1,E,M,5,C,F,B,0,No Trailing Units,0,Not Applicable,000000000,Not Applicable,00000000000,Not Applicable,0,Not Applicable,0,Not Applicable,0,Not Applicable (N/A),1,No,0,Not Applicable,0,Not Applicable,0,Not Applicable,0,Not Applicable,0,Not a Bus,0,No Special Use,0,Not Applicable,0,No Underride or Override Noted,6,6 Clock Point,4,Functional Damage,3,Towed Not Due to Disabling Damage,12,Motor Vehicle In-Transport,0,None,0,None,0,No or Not Reported,0"
+    ]
+   },
+   {
+    "member": "FARS2015NationalCSV/PBType.csv",
+    "size": 2768926,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,PER_NO,PBPTYPE,PBPTYPENAME,PBAGE,PBAGENAME,PBSEX,PBSEXNAME,PBCWALK,PBCWALKNAME,PBSWALK,PBSWALKNAME,PBSZONE,PBSZONENAME,PEDCTYPE,PEDCTYPENAME,BIKECTYPE,BIKECTYPENAME,PEDLOC,PEDLOCNAME,BIKELOC,BIKELOCNAME,PEDPOS,PEDPOSNAME,BIKEPOS,BIKEPOSNAME,PEDDIR,PEDDIRNAME,BIKEDIR,BIKEDIRNAME,MOTDIR,MOTDIRNAME,MOTMAN,MOTMANNAME,PEDLEG,PEDLEGNAME,PEDSNR,PEDSNRNAME,PEDCGP,PEDCGPNAME,BIKECGP,BIKECGPNAME",
+     "1,Alabama,10008,0,1,5,Pedestrian,38,38 Years,1,Male,0,None Noted,0,None Noted,0,None Noted,680,Not At Intersection - Other / Unknown,0,Not a Cyclist,3,Not At Intersection,7,Not a Cyclist,3,Travel Lane,7,Not a Cyclist,8,Not Applicable,7,Not a Cyclist,8,Not Applicable,8,Not Applicable,8,Not Applicable,8,Not Applicable,990,Other / Unknown - Insufficient Details,0,Not a Cyclist"
+    ]
+   },
+   {
+    "member": "FARS2015NationalCSV/person.csv",
+    "size": 92200863,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VE_FORMS,VEH_NO,PER_NO,STR_VEH,COUNTY,DAY,DAYNAME,MONTH,MONTHNAME,HOUR,HOURNAME,MINUTE,MINUTENAME,RUR_URB,RUR_URBNAME,FUNC_SYS,FUNC_SYSNAME,HARM_EV,HARM_EVNAME,MAN_COLL,MAN_COLLNAME,SCH_BUS,SCH_BUSNAME,MAKE,MAKENAME,MAK_MOD,BODY_TYP,BODY_TYPNAME,MOD_YEAR,MOD_YEARNAME,TOW_VEH,TOW_VEHNAME,SPEC_USE,SPEC_USENAME,EMER_USE,EMER_USENAME,ROLLOVER,ROLLOVERNAME,IMPACT1,IMPACT1NAME,FIRE_EXP,FIRE_EXPNAME,AGE,AGENAME,SEX,SEXNAME,PER_TYP,PER_TYPNAME,INJ_SEV,INJ_SEVNAME,SEAT_POS,SEAT_POSNAME,REST_USE,REST_USENAME,REST_MIS,REST_MISNAME,AIR_BAG,AIR_BAGNAME,EJECTION,EJECTIONNAME,EJ_PATH,EJ_PATHNAME,EXTRICAT,EXTRICATNAME,DRINKING,DRINKINGNAME,ALC_DET,ALC_DETNAME,ALC_STATUS,ALC_STATUSNAME,ATST_TYP,ATST_TYPNAME,ALC_RES,ALC_RESNAME,DRUGS,DRUGSNAME,DRUG_DET,DRUG_DETNAME,DSTATUS,DSTATUSNAME,DRUGTST1,DRUGTST1NAME,DRUGTST2,DRUGTST2NAME,DRUGTST3,DRUGTST3NAME,DRUGRES1,DRUGRES1NAME,DRUGRES2,DRUGRES2NAME,DRUGRES3,DRUGRES3NAME,HOSPITAL,HOSPITALNAME,DOA,DOANAME,DEATH_DA,DEATH_DANAME,DEATH_MO,DEATH_MONAME,DEATH_YR,DEATH_YRNAME,DEATH_HR,DEATH_HRNAME,DEATH_MN,DEATH_MNNAME,DEATH_TM,DEATH_TMNAME,LAG_HRS,LAG_HRSNAME,LAG_MINS,LAG_MINSNAME,P_SF1,P_SF1NAME,P_SF2,P_SF2NAME,P_SF3,P_SF3NAME,WORK_INJ,WORK_INJNAME,HISPANIC,HISPANICNAME,RACE,RACENAME,LOCATION,LOCATIONNAME",
+     "1,Alabama,10001,1,1,1,0,127,1,1,1,January,2,2:00am-2:59am,40,40,1,Rural,3,Principal Arterial - Other,35,Embankment,0,Not a Collision with Motor Vehicle In-Transport,0,No,12,Ford,Ford F-Series pickup,31,\"Standard pickup (GVWR 4,500 to 10,00 lbs.)(Jeep Pickup, Comanche, Ram Pickup, D100-D350, ......)\",2003,2003,0,No Trailing Units,0,No Special Use,0,Not Applicable,0,No Rollover,12,12 Clock Point,0,No or Not Reported,68,68 Years,1,Male,1,Driver of a Motor Vehicle In-Transport,4,Fatal Injury (K),11,\"Front Seat, Left Side\",7,None Used,0,No,1,Deployed- Front,0,Not Ejected,0,Ejection Path Not Applicable,0,Not Extricated or Not Applicable,9,Unknown (Police Reported),9,Not Reported,2,Test Given,1,Blood,189,0.189 % BAC,9,Unknown,8,Not Reported,2,Test Given,1,Blood,0,Test Not Given,0,Test Not Given,1,\"Tested, No Drugs Found/Negative\",0,Test Not Given,0,Test Not Given,0,Not Transported,7,Died at Scene,1,1,1,January,2015,2015,2,2:00-2:59,40,40,240,240,0,0,0,0,0,None,0,None,0,None,0,No,7,Non-Hispanic,1,White,0,Occupant of a Motor Vehicle"
+    ]
+   },
+   {
+    "member": "FARS2015NationalCSV/SafetyEq.csv",
+    "size": 269109,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,PER_NO,MSAFEQMT,MSAFEQMTNAME",
+     "1,Alabama,10008,0,1,1,None Used"
+    ]
+   },
+   {
+    "member": "FARS2015NationalCSV/vehicle.csv",
+    "size": 80527322,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,VE_FORMS,NUMOCCS,NUMOCCSNAME,DAY,DAYNAME,MONTH,MONTHNAME,HOUR,HOURNAME,MINUTE,MINUTENAME,HARM_EV,HARM_EVNAME,MAN_COLL,MAN_COLLNAME,UNITTYPE,UNITTYPENAME,HIT_RUN,HIT_RUNNAME,REG_STAT,REG_STATNAME,OWNER,OWNERNAME,MAKE,MAKENAME,MODEL,MAK_MOD,MAK_MODNAME,BODY_TYP,BODY_TYPNAME,MOD_YEAR,MOD_YEARNAME,VIN,VINNAME,VIN_1,VIN_2,VIN_3,VIN_4,VIN_5,VIN_6,VIN_7,VIN_8,VIN_9,VIN_10,VIN_11,VIN_12,TOW_VEH,TOW_VEHNAME,J_KNIFE,J_KNIFENAME,MCARR_I1,MCARR_I1NAME,MCARR_I2,MCARR_I2NAME,MCARR_ID,MCARR_IDNAME,GVWR,GVWRNAME,V_CONFIG,V_CONFIGNAME,CARGO_BT,CARGO_BTNAME,HAZ_INV,HAZ_INVNAME,HAZ_PLAC,HAZ_PLACNAME,HAZ_ID,HAZ_IDNAME,HAZ_CNO,HAZ_CNONAME,HAZ_REL,HAZ_RELNAME,BUS_USE,BUS_USENAME,SPEC_USE,SPEC_USENAME,EMER_USE,EMER_USENAME,TRAV_SP,TRAV_SPNAME,UNDERIDE,UNDERIDENAME,ROLLOVER,ROLLOVERNAME,ROLINLOC,ROLINLOCNAME,IMPACT1,IMPACT1NAME,DEFORMED,DEFORMEDNAME,TOWED,TOWEDNAME,M_HARM,M_HARMNAME,VEH_SC1,VEH_SC1NAME,VEH_SC2,VEH_SC2NAME,FIRE_EXP,FIRE_EXPNAME,DR_PRES,DR_PRESNAME,L_STATE,L_STATENAME,DR_ZIP,DR_ZIPNAME,L_STATUS,L_STATUSNAME,L_TYPE,L_TYPENAME,CDL_STAT,CDL_STATNAME,L_ENDORS,L_ENDORSNAME,L_COMPL,L_COMPLNAME,L_RESTRI,L_RESTRINAME,DR_HGT,DR_HGTNAME,DR_WGT,DR_WGTNAME,PREV_ACC,PREV_ACCNAME,PREV_SUS,PREV_SUSNAME,PREV_DWI,PREV_DWINAME,PREV_SPD,PREV_SPDNAME,PREV_OTH,PREV_OTHNAME,FIRST_MO,FIRST_MONAME,FIRST_YR,FIRST_YRNAME,LAST_MO,LAST_MONAME,LAST_YR,LAST_YRNAME,SPEEDREL,SPEEDRELNAME,DR_SF1,DR_SF1NAME,DR_SF2,DR_SF2NAME,DR_SF3,DR_SF3NAME,DR_SF4,DR_SF4NAME,VTRAFWAY,VTRAFWAYNAME,VNUM_LAN,VNUM_LANNAME,VSPD_LIM,VSPD_LIMNAME,VALIGN,VALIGNNAME,VPROFILE,VPROFILENAME,VPAVETYP,VPAVETYPNAME,VSURCOND,VSURCONDNAME,VTRAFCON,VTRAFCONNAME,VTCONT_F,VTCONT_FNAME,P_CRASH1,P_CRASH1NAME,P_CRASH2,P_CRASH2NAME,P_CRASH3,P_CRASH3NAME,PCRASH4,PCRASH4NAME,PCRASH5,PCRASH5NAME,ACC_TYPE,ACC_TYPENAME,DEATHS,DR_DRINK,DR_DRINKNAME",
+     "1,Alabama,10001,1,1,1,01,1,1,1,January,2,2:00am-2:59am,40,40,35,Embankment,0,Not a Collision with Motor Vehicle In-Transport,1,Motor Vehicle In-Transport (Inside or Outside the Trafficway),0,No,1,Alabama,1,Driver (in this crash) was  Registered Owner,12,Ford,481,12481,Ford F-Series pickup,31,\"Standard pickup (GVWR 4,500 to 10,00 lbs.)(Jeep Pickup, Comanche, Ram Pickup, D100-D350, ......)\",2003,2003,1FTRX18L83NB,1FTRX18L83NB,1,F,T,R,X,1,8,L,8,3,N,B,0,No Trailing Units,0,Not an Articulated Vehicle,0,Not Applicable,000000000,Not Applicable,00000000000,Not Applicable,0,Not Applicable,0,Not Applicable,0,Not Applicable (N/A),1,No,0,Not Applicable,0,Not Applicable,0,Not App"
+    ]
+   },
+   {
+    "member": "FARS2015NationalCSV/VEvent.csv",
+    "size": 12792493,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,EVENTNUM,VEH_NO,VEVENTNUM,VNUMBER1,AOI1,AOI1NAME,SOE,SOENAME,VNUMBER2,VNUMBER2NAME,AOI2,AOI2NAME",
+     "1,Alabama,10001,1,1,1,1,55,Non-Harmful Event,63,Ran Off Roadway - Right,5555,Non-Harmful Event,55,Non-Harmful Event"
+    ]
+   },
+   {
+    "member": "FARS2015NationalCSV/VINDecode.csv",
+    "size": 22977512,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,NCICMAKE,VINYEAR,VEHTYPE,VEHTYPE_T,VINMAKE_T,VINMODEL_T,VINTRIM_T,VINTRIM1_T,VINTRIM2_T,VINTRIM3_T,VINTRIM4_T,BODYSTYL,BODYSTYL_T,DOORS,WHEELS,DRIVWHLS,MFG,MFG_T,DISPLCI,DISPLCC,CYLNDRS,CYCLES,FUEL,FUEL_T,FUELINJ,FUELINJ_T,CARBTYPE,CARBTYPE_T,CARBBRLS,GVWRANGE,GVWRANGE_T,WHLBSH,WHLBLG,TIREDESC_F,PSI_F,TIRESZ_F,TIRESZ_F_T,TIREDESC_R,PSI_R,REARSIZE,REARSIZE_T,TONRATING,SHIPWEIGHT,MSRP,DRIVETYP,DRIVETYP_T,SALECTRY,SALECTRY_T,ABS,ABS_T,SECURITY,SECURITY_T,DRL,DRL_T,RSTRNT,RSTRNT_T,TKCAB,TKCAB_T,TKAXLEF,TKAXLEF_T,TKAXLER,TKAXLER_T,TKBRAK,TKBRAK_T,ENGMFG,ENGMFG_T,ENGMODEL,TKDUTY,TKDUTY_T,TKBEDL,TKBEDL_T,SEGMNT,SEGMNT_T,PLANT,PLNTCTRY_T,PLNTCITY,PLNTCTRY,PLNTSTAT,PLNTSTAT_T,ORIGIN,ORIGIN_T,DISPCLMT,BLOCKTYPE,ENGHEAD,ENGHEAD_T,VLVCLNDR,VLVTOTAL,ENGVINCD,INCOMPLT,BATTYP,BATTYP_T,BATKWRTG,BATVOLT,SUPCHRGR,SUPCHRGR_T,TURBO,TURBO_T,ENGVVT,MCYUSAGE,MCYUSAGE_T",
+     "1,Alabama,10001,1,FORD,2003,T,Truck,FORD,F150,,,,,,PK,PICKUP,4,4,4,C134,Ford,330,0,8,,G,Gas,U,Unknown,F,Fuel Injection,NA,2,\"6,001 - 10,000#\",138.8,157.4,,0,,,,0,,,B,4640,25230,4RD,Rear Wheel Drive w/4x4,,,2,All Wheel Std,P,Pass Key,O,Optional,Z,Du Ar Bgs Frnt/Act Blts/Pass Deactivate/cutoff,EXT,Extended Cab,N,Standard Axle,S,Single,HYD,HYDRAULIC,070,FORD,5.4L,ME,Medium Duty,R,Regular,4,Non Luxury Full Size Half Ton Pickup,N,United States,NORFOLK,USA,VA,VIRGINIA,D,Domestic,5.4,V-type,SOHC,Single Overhead Camshaft,2,16,L,N,,,,,,,,,,,"
+    ]
+   },
+   {
+    "member": "FARS2015NationalCSV/Violatn.csv",
+    "size": 1853095,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,MVIOLATN,MVIOLATNNAME",
+     "1,Alabama,10001,1,0,None"
+    ]
+   },
+   {
+    "member": "FARS2015NationalCSV/Vision.csv",
+    "size": 2237027,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,MVISOBSC,MVISOBSCNAME",
+     "1,Alabama,10001,1,0,No Obstruction Noted"
+    ]
+   },
+   {
+    "member": "FARS2015NationalCSV/vpicdecode.csv",
+    "size": 33889096,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,VehicleDescriptor,VINDecodedOn,VINDecodeError,VehicleTypeId,VehicleType,ManufacturerFullNameId,ManufacturerFullName,MakeId,Make,ModelId,Model,ModelYear,Series,Trim,Series2,Trim2,PlantCountryId,PlantCountry,PlantState,PlantCity,PlantCompanyName,DestinationMarketId,DestinationMarket,BasePrice,Note,BodyClassId,BodyClass,DoorsCount,Windows,WheelBaseTypeId,WheelBaseType,TrackWidthIN,GrossVehicleWeightRatingFromId,GrossVehicleWeightRatingFrom,GrossVehicleWeightRatingToId,GrossVehicleWeightRatingTo,GrossCombWeightRatingFromId,GrossCombWeightRatingFrom,GrossCombWeightRatingToId,GrossCombWeightRatingTo,CurbWeightLB,WheelBaseIN_from,WheelBaseIN_To,WheelsCount,WheelSizeFrontIN,WheelSizeRearIN,TruckBodyCabTypeId,TruckBodyCabType,TruckBedTypeId,TruckBedType,TruckBedLengthIN,BusTypeId,BusType,BusFloorConfigurationTypeId,BusFloorConfigurationType,BusLengthFT,OtherBusInfo,CustomMotorcycleTypeId,CustomMotorcycleType,MotorcycleSuspensionTypeId,MotorcycleSuspensionType,MotorcycleChassisTypeId,MotorcycleChassisType,OtherMotorcycleInfo,SteeringLocationId,SteeringLocation,EntertainmentSystemId,EntertainmentSystem,SeatsCount,SeatRowsCount,TransmissionSpeeds,TransmissionStyleId,TransmissionStyle,DriveTypeId,DriveType,AxlesCount,AxleConfigurationId,AxleConfiguration,BrakeSystemTypeId,BrakeSystemType,BrakeSystemDesc,EVDriveUnitId,EVDriveUnit,BatteryKWh_From,BatteryKWh_to,BatteryV_From,BatteryV_to,BatteryA_From,BatteryA_to,BatteryPacksPerVehicle,BatteryModulesPerPack,BatteryCellsPerModule,BatteryTypeId,BatteryType,OtherBatteryInfo,ChargerLevelId,ChargerLevel,ChargerPowerKW,EngineManufacturer,EngineModel,EngineConfigurationId,EngineConfiguration,EnginePowerKW,EngineStrokeCycles,EngineCylindersCount,EngineBrakeHP_From,EngineBrakeHP_To,EngineCoolingTypeId,EngineCoolingType,DisplacementCI,DisplacementCC,DisplacementL,FuelTypePrimaryId,FuelTypePrimary,FuelTypeSecondaryId,FuelTypeSecondary,FuelDeliveryInjectionTypeId,FuelDeliveryInjectionType,EngineValveTrainDesignId,EngineValveTrainDesign,EngineElectrificationLevelId,EngineElectrificationLevel,EngineTurboId,EngineTurbo,TopSpeedMPH,OtherEngineInfo,SeatBeltTypeId,SeatBeltType,PretensionerId,Pretensioner,AirBagLocFrontId,AirBagLocFront,AirBagLocKneeId,AirBagLocKnee,AirBagLocSideId,AirBagLocSide,AirBagLocCurtainId,AirBagLocCurtain,AirBagLocSeatCushionId,AirBagLocSeatCushion,OtherRestraintSystemInfo,ForwardCollisionWarningId,ForwardCollisionWarning,DynamicBrakeSupportId,DynamicBrakeSupport,CrashImminentBrakingID"
+    ]
+   },
+   {
+    "member": "FARS2015NationalCSV/VSOE.csv",
+    "size": 7846599,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,VEVENTNUM,SOE,SOENAME,AOI,AOINAME",
+     "1,Alabama,10001,1,1,63,Ran Off Roadway - Right,55,Non-Harmful Event"
+    ]
+   }
+  ]
+ },
+ "fars_2019": {
+  "bytes": 26974033,
+  "secs": 1.4,
+  "head": [
+   {
+    "member": "accident.CSV",
+    "size": 23764896,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VE_TOTAL,VE_FORMS,PVH_INVL,PEDS,PERSONS,PERMVIT,PERNOTMVIT,COUNTY,COUNTYNAME,CITY,CITYNAME,DAY,DAYNAME,MONTH,MONTHNAME,YEAR,DAY_WEEK,DAY_WEEKNAME,HOUR,HOURNAME,MINUTE,MINUTENAME,NHS,NHSNAME,ROUTE,ROUTENAME,TWAY_ID,TWAY_ID2,RUR_URB,RUR_URBNAME,FUNC_SYS,FUNC_SYSNAME,RD_OWNER,RD_OWNERNAME,MILEPT,MILEPTNAME,LATITUDE,LATITUDENAME,LONGITUD,LONGITUDNAME,SP_JUR,SP_JURNAME,HARM_EV,HARM_EVNAME,MAN_COLL,MAN_COLLNAME,RELJCT1,RELJCT1NAME,RELJCT2,RELJCT2NAME,TYP_INT,TYP_INTNAME,WRK_ZONE,WRK_ZONENAME,REL_ROAD,REL_ROADNAME,LGT_COND,LGT_CONDNAME,WEATHER1,WEATHER1NAME,WEATHER2,WEATHER2NAME,WEATHER,WEATHERNAME,SCH_BUS,SCH_BUSNAME,RAIL,RAILNAME,NOT_HOUR,NOT_HOURNAME,NOT_MIN,NOT_MINNAME,ARR_HOUR,ARR_HOURNAME,ARR_MIN,ARR_MINNAME,HOSP_HR,HOSP_HRNAME,HOSP_MN,HOSP_MNNAME,CF1,CF1NAME,CF2,CF2NAME,CF3,CF3NAME,FATALS,DRUNK_DR",
+     "1,Alabama,10001,2,2,0,0,3,3,0,81,LEE (81),2340,OPELIKA,7,7,2,February,2019,5,Thursday,12,12:00pm-12:59pm,54,54,1,This section IS ON the NHS,1,Interstate,I-85,,2,Urban,1,Interstate,1,State Highway Agency,641,641,32.66622222,32.66622222,-85.33665833,-85.33665833,0,No Special Jurisdiction,12,Motor Vehicle In-Transport,1,Front-to-Rear,0,No,1,Non-Junction,1,Not an Intersection,0,None,1,On Roadway,1,Daylight,1,Clear,0,No Additional Atmospheric Conditions,1,Clear,0,No,0000000,Not Applicable,12,12:00pm-12:59pm,59,59,13,1:00pm-1:59pm,9,9,13,1:00pm-1:59pm,27,27,0,None,0,None,0,None,1,1"
+    ]
+   },
+   {
+    "member": "CEvent.CSV",
+    "size": 10099932,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,EVENTNUM,VNUMBER1,AOI1,AOI1NAME,SOE,SOENAME,VNUMBER2,VNUMBER2NAME,AOI2,AOI2NAME",
+     "1,Alabama,10001,1,1,12,12 Clock Point,12,Motor Vehicle In-Transport,2,2,6,6 Clock Point"
+    ]
+   },
+   {
+    "member": "Damage.CSV",
+    "size": 7871387,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,MDAREAS,MDAREASNAME",
+     "1,Alabama,10001,1,12,12 Clock Value"
+    ]
+   },
+   {
+    "member": "Distract.CSV",
+    "size": 2212292,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,MDRDSTRD,MDRDSTRDNAME",
+     "1,Alabama,10001,1,99,Reported as Unknown if Distracted"
+    ]
+   },
+   {
+    "member": "DrImpair.CSV",
+    "size": 2604413,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,DRIMPAIR,DRIMPAIRNAME",
+     "1,Alabama,10001,1,0,None/Apparently Normal"
+    ]
+   },
+   {
+    "member": "Drugs.CSV",
+    "size": 5979966,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,PER_NO,DRUGSPEC,DRUGSPECNAME,DRUGRES,DRUGRESNAME",
+     "1,Alabama,10001,1,1,0,Test Not Given,0,Test Not Given"
+    ]
+   },
+   {
+    "member": "Factor.CSV",
+    "size": 1572676,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,MFACTOR,MFACTORNAME",
+     "1,Alabama,10001,1,0,None"
+    ]
+   },
+   {
+    "member": "Maneuver.CSV",
+    "size": 2232368,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,MDRMANAV,MDRMANAVNAME",
+     "1,Alabama,10001,1,0,Driver Did Not Maneuver to Avoid"
+    ]
+   },
+   {
+    "member": "MIACC.CSV",
+    "size": 1035176,
+    "lines": [
+     "ST_CASE,A1,A2,A3,A4,A5,A6,A7,A8,A9,A10",
+     "10001,0,0,0,0,0,0,0,0,0,0"
+    ]
+   },
+   {
+    "member": "MIDRVACC.CSV",
+    "size": 1015176,
+    "lines": [
+     "ST_CASE,A1,A2,A3,A4,A5,A6,A7,A8,A9,A10",
+     "10001,0,0,0,0,0,0,0,0,0,0"
+    ]
+   },
+   {
+    "member": "MIPER.CSV",
+    "size": 1990098,
+    "lines": [
+     "ST_CASE,VEH_NO,PER_NO,P1,P2,P3,P4,P5,P6,P7,P8,P9,P10",
+     "10001,1,1,0,0,0,0,0,0,0,0,0,0"
+    ]
+   },
+   {
+    "member": "NMCrash.CSV",
+    "size": 707414,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,PER_NO,MTM_CRSH,MTM_CRSHNAME",
+     "1,Alabama,10004,0,1,9,Wrong-Way Riding or Walking"
+    ]
+   },
+   {
+    "member": "NMDistract.CSV",
+    "size": 334518,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,PER_NO,MNMDSTRD,MNMDSTRDNAME",
+     "1,Alabama,10004,0,1,96,Not Reported"
+    ]
+   },
+   {
+    "member": "NMImpair.CSV",
+    "size": 400785,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,PER_NO,NMIMPAIR,NMIMPAIRNAME",
+     "1,Alabama,10004,0,1,0,None/Apparently Normal"
+    ]
+   },
+   {
+    "member": "NMPrior.CSV",
+    "size": 477171,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,PER_NO,MPR_ACT,MPR_ACTNAME",
+     "1,Alabama,10004,0,1,5,Movement Along Roadway with Traffic (In or Adjacent to Travel Lane)"
+    ]
+   },
+   {
+    "member": "Parkwork.CSV",
+    "size": 1307970,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,PVE_FORMS,PNUMOCCS,PNUMOCCSNAME,PDAY,PDAYNAME,PMONTH,PMONTHNAME,PHOUR,PHOURNAME,PMINUTE,PMINUTENAME,PHARM_EV,PHARM_EVNAME,PMAN_COLL,PMAN_COLLNAME,PTYPE,PTYPENAME,PHIT_RUN,PHIT_RUNNAME,PREG_STAT,PREG_STATNAME,POWNER,POWNERNAME,PMAKE,PMAKENAME,PMODEL,PMAK_MOD,PBODYTYP,PBODYTYPNAME,PMODYEAR,PMODYEARNAME,PVIN,PVINNAME,PVIN_1,PVIN_2,PVIN_3,PVIN_4,PVIN_5,PVIN_6,PVIN_7,PVIN_8,PVIN_9,PVIN_10,PVIN_11,PVIN_12,PTRAILER,PTRAILERNAME,PMCARR_I1,PMCARR_I1NAME,PMCARR_I2,PMCARR_I2NAME,PMCARR_ID,PMCARR_IDNAME,PGVWR,PGVWRNAME,PV_CONFIG,PV_CONFIGNAME,PCARGTYP,PCARGTYPNAME,PHAZ_INV,PHAZ_INVNAME,PHAZPLAC,PHAZPLACNAME,PHAZ_ID,PHAZ_IDNAME,PHAZ_CNO,PHAZ_CNONAME,PHAZ_REL,PHAZ_RELNAME,PBUS_USE,PBUS_USENAME,PSP_USE,PSP_USENAME,PEM_USE,PEM_USENAME,PUNDERIDE,PUNDERIDENAME,PIMPACT1,PIMPACT1NAME,PVEH_SEV,PVEH_SEVNAME,PTOWED,PTOWEDNAME,PM_HARM,PM_HARMNAME,PVEH_SC1,PVEH_SC1NAME,PVEH_SC2,PVEH_SC2NAME,PFIRE,PFIRENAME,PDEATHS,PTRLR1VIN,PTRLR1VINNAME,PTRLR2VIN,PTRLR2VINNAME,PTRLR3VIN,PTRLR3VINNAME",
+     "1,Alabama,10072,2,1,1,01,1,1,3,March,13,1:00pm-1:59pm,5,5,14,Parked Motor Vehicle,0,The First Harmful Event was Not a Collision with a Motor Vehicle in Transport,2,Motor Vehicle Not In-Transport Within the Trafficway,0,No,1,Alabama,6,Driverless/Motor Vehicle Parked/Stopped Off Roadway,7,Dodge,881,Dodge Medium/Heavy - CBE,61,\"Single-unit straight truck or Cab-Chassis (GVWR range 10,001 to 19,500 lbs.)\",2015,2015,3C7WRTAL4FG5,3C7WRTAL4FG5,3,C,7,W,R,T,A,L,4,F,G,5,1,One Trailing Unit,88,None,888888888,None,88888888888,None,2,\"10,001 lbs - 26,000 lbs\",4,Truck Pulling Trailer(s),98,Unknown Cargo Body Type,1,No,0,Not Applicable,0,Not Applicable,0,Not Applicable,0,Not Applicable,0,Not a Bus,0,No Special Use,0,Not Applicable,0,No Underride or Override Noted,6,6 Clock Point,4,Functional Damage,3,Towed Not Due to Disabling Damage,12,Motor Vehicle In-Transport,0,None,0,None,0,No or Not Reported,0,888888888888,Not Reported,777777777777,No Trailing Units,777777777777,No Trailing Units"
+    ]
+   },
+   {
+    "member": "PBType.CSV",
+    "size": 3102462,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,PER_NO,PBPTYPE,PBPTYPENAME,PBAGE,PBAGENAME,PBSEX,PBSEXNAME,PBCWALK,PBCWALKNAME,PBSWALK,PBSWALKNAME,PBSZONE,PBSZONENAME,PEDCTYPE,PEDCTYPENAME,BIKECTYPE,BIKECTYPENAME,PEDLOC,PEDLOCNAME,BIKELOC,BIKELOCNAME,PEDPOS,PEDPOSNAME,BIKEPOS,BIKEPOSNAME,PEDDIR,PEDDIRNAME,BIKEDIR,BIKEDIRNAME,MOTDIR,MOTDIRNAME,MOTMAN,MOTMANNAME,PEDLEG,PEDLEGNAME,PEDSNR,PEDSNRNAME,PEDCGP,PEDCGPNAME,BIKECGP,BIKECGPNAME",
+     "1,Alabama,10004,0,1,5,Pedestrian,28,28 Years,1,Male,0,None Noted,0,None Noted,0,None Noted,410,Walking/Running Along Roadway With Traffic - From Behind,0,Not a Cyclist,3,Not At Intersection,7,Not a Cyclist,3,Travel Lane,7,Not a Cyclist,8,Not Applicable,7,Not a Cyclist,8,Not Applicable,8,Not Applicable,8,Not Applicable,8,Not Applicable,400,Walking/Running Along Roadway,0,Not a Cyclist"
+    ]
+   },
+   {
+    "member": "Person.CSV",
+    "size": 90995642,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VE_FORMS,VEH_NO,PER_NO,STR_VEH,COUNTY,DAY,DAYNAME,MONTH,MONTHNAME,HOUR,HOURNAME,MINUTE,MINUTENAME,RUR_URB,RUR_URBNAME,FUNC_SYS,FUNC_SYSNAME,HARM_EV,HARM_EVNAME,MAN_COLL,MAN_COLLNAME,SCH_BUS,SCH_BUSNAME,MAKE,MAKENAME,MAK_MOD,BODY_TYP,BODY_TYPNAME,MOD_YEAR,MOD_YEARNAME,TOW_VEH,TOW_VEHNAME,SPEC_USE,SPEC_USENAME,EMER_USE,EMER_USENAME,ROLLOVER,ROLLOVERNAME,IMPACT1,IMPACT1NAME,FIRE_EXP,FIRE_EXPNAME,AGE,AGENAME,SEX,SEXNAME,PER_TYP,PER_TYPNAME,INJ_SEV,INJ_SEVNAME,SEAT_POS,SEAT_POSNAME,REST_USE,REST_USENAME,REST_MIS,REST_MISNAME,AIR_BAG,AIR_BAGNAME,EJECTION,EJECTIONNAME,EJ_PATH,EJ_PATHNAME,EXTRICAT,EXTRICATNAME,DRINKING,DRINKINGNAME,ALC_DET,ALC_DETNAME,ALC_STATUS,ALC_STATUSNAME,ATST_TYP,ATST_TYPNAME,ALC_RES,ALC_RESNAME,DRUGS,DRUGSNAME,DRUG_DET,DRUG_DETNAME,DSTATUS,DSTATUSNAME,HOSPITAL,HOSPITALNAME,DOA,DOANAME,DEATH_DA,DEATH_DANAME,DEATH_MO,DEATH_MONAME,DEATH_YR,DEATH_YRNAME,DEATH_HR,DEATH_HRNAME,DEATH_MN,DEATH_MNNAME,DEATH_TM,DEATH_TMNAME,LAG_HRS,LAG_HRSNAME,LAG_MINS,LAG_MINSNAME,P_SF1,P_SF1NAME,P_SF2,P_SF2NAME,P_SF3,P_SF3NAME,WORK_INJ,WORK_INJNAME,HISPANIC,HISPANICNAME,LOCATION,LOCATIONNAME,HELM_USE,HELM_USENAME,HELM_MIS,HELM_MISNAME",
+     "1,Alabama,10001,2,1,1,0,81,7,7,2,February,12,12:00pm-12:59pm,54,54,2,Urban,1,Interstate,12,Motor Vehicle In-Transport,1,Front-to-Rear,0,No,49,Toyota,Toyota Camry,4,\"4-door sedan, hardtop\",2009,2009,0,No Trailing Units,0,No Special Use,0,Not Applicable,0,No Rollover,12,12 Clock Point,0,No or Not Reported,34,34 Years,2,Female,1,Driver of a Motor Vehicle In-Transport,3,Suspected Serious Injury (A),11,\"Front Seat, Left Side\",3,Shoulder and Lap Belt Used,0,No Indication of Mis-Use,1,Deployed- Front,0,Not Ejected,0,Ejection Path Not Applicable,0,Not Extricated or Not Applicable,0,No (Alcohol Not Involved),9,Not Reported,0,Test Not Given,0,Test Not Given,996,Test Not Given,0,No (drugs not involved),8,Not Reported,0,Test Not Given,1,EMS Air,0,Not Applicable,88,Not Applicable (Non-Fatal),88,Not Applicable (Non-Fatal),8888,Not Applicable (Non-fatal),88,Not Applicable (Non-fatal),88,Not Applicable (Non-fatal),8888,Not Applicable (Non-fatal),999,Unknown,99,Unknown,0,None,0,None,0,None,8,Not Applicable (not a fatality),0,Not A Fatality (not Applicable),0,Occupant of a Motor Vehicle,20,Not Applicable,7,None Used/Not Applicable"
+    ]
+   },
+   {
+    "member": "Race.CSV",
+    "size": 4349924,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,PER_NO,RACE,RACENAME,ORDER,MULTRACE",
+     "1,Alabama,10001,1,1,0,Not a Fatality (not Applicable),1,0"
+    ]
+   },
+   {
+    "member": "SafetyEq.CSV",
+    "size": 726499,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,PER_NO,NMHELMET,NMHELMETNAME,NMPROPAD,NMPROPADNAME,NMOTHPRO,NMOTHPRONAME,NMREFCLO,NMREFCLONAME,NMLIGHT,NMLIGHTNAME,NMOTHPRE,NMOTHPRENAME",
+     "1,Alabama,10004,0,1,1,No,1,No,1,No,1,No,1,No,1,No"
+    ]
+   },
+   {
+    "member": "vehicle.csv",
+    "size": 90255420,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,VE_FORMS,NUMOCCS,NUMOCCSNAME,DAY,DAYNAME,MONTH,MONTHNAME,HOUR,HOURNAME,MINUTE,MINUTENAME,HARM_EV,HARM_EVNAME,MAN_COLL,MAN_COLLNAME,UNITTYPE,UNITTYPENAME,HIT_RUN,HIT_RUNNAME,REG_STAT,REG_STATNAME,OWNER,OWNERNAME,MAKE,MAKENAME,MODEL,MAK_MOD,MAK_MODNAME,BODY_TYP,BODY_TYPNAME,MOD_YEAR,MOD_YEARNAME,VIN,VINNAME,VIN_1,VIN_2,VIN_3,VIN_4,VIN_5,VIN_6,VIN_7,VIN_8,VIN_9,VIN_10,VIN_11,VIN_12,TOW_VEH,TOW_VEHNAME,J_KNIFE,J_KNIFENAME,MCARR_I1,MCARR_I1NAME,MCARR_I2,MCARR_I2NAME,MCARR_ID,MCARR_IDNAME,GVWR,GVWRNAME,V_CONFIG,V_CONFIGNAME,CARGO_BT,CARGO_BTNAME,HAZ_INV,HAZ_INVNAME,HAZ_PLAC,HAZ_PLACNAME,HAZ_ID,HAZ_IDNAME,HAZ_CNO,HAZ_CNONAME,HAZ_REL,HAZ_RELNAME,BUS_USE,BUS_USENAME,SPEC_USE,SPEC_USENAME,EMER_USE,EMER_USENAME,TRAV_SP,TRAV_SPNAME,UNDERIDE,UNDERIDENAME,ROLLOVER,ROLLOVERNAME,ROLINLOC,ROLINLOCNAME,IMPACT1,IMPACT1NAME,DEFORMED,DEFORMEDNAME,TOWED,TOWEDNAME,M_HARM,M_HARMNAME,VEH_SC1,VEH_SC1NAME,VEH_SC2,VEH_SC2NAME,FIRE_EXP,FIRE_EXPNAME,DR_PRES,DR_PRESNAME,L_STATE,L_STATENAME,DR_ZIP,DR_ZIPNAME,L_STATUS,L_STATUSNAME,L_TYPE,L_TYPENAME,CDL_STAT,CDL_STATNAME,L_ENDORS,L_ENDORSNAME,L_COMPL,L_COMPLNAME,L_RESTRI,L_RESTRINAME,DR_HGT,DR_HGTNAME,DR_WGT,DR_WGTNAME,PREV_ACC,PREV_ACCNAME,PREV_SUS1,PREV_SUS1NAME,PREV_SUS2,PREV_SUS2NAME,PREV_SUS3,PREV_SUS3NAME,PREV_DWI,PREV_DWINAME,PREV_SPD,PREV_SPDNAME,PREV_OTH,PREV_OTHNAME,FIRST_MO,FIRST_MONAME,FIRST_YR,FIRST_YRNAME,LAST_MO,LAST_MONAME,LAST_YR,LAST_YRNAME,SPEEDREL,SPEEDRELNAME,DR_SF1,DR_SF1NAME,DR_SF2,DR_SF2NAME,DR_SF3,DR_SF3NAME,DR_SF4,DR_SF4NAME,VTRAFWAY,VTRAFWAYNAME,VNUM_LAN,VNUM_LANNAME,VSPD_LIM,VSPD_LIMNAME,VALIGN,VALIGNNAME,VPROFILE,VPROFILENAME,VPAVETYP,VPAVETYPNAME,VSURCOND,VSURCONDNAME,VTRAFCON,VTRAFCONNAME,VTCONT_F,VTCONT_FNAME,P_CRASH1,P_CRASH1NAME,P_CRASH2,P_CRASH2NAME,P_CRASH3,P_CRASH3NAME,PCRASH4,PCRASH4NAME,PCRASH5,PCRASH5NAME,ACC_TYPE,ACC_TYPENAME,DEATHS,DR_DRINK,DR_DRINKNAME,TRLR1VIN,TRLR1VINNAME,TRLR2VIN,TRLR2VINNAME,TRLR3VIN,TRLR3VINNAME",
+     "1,Alabama,10001,1,2,2,02,7,7,2,February,12,12:00pm-12:59pm,54,54,12,Motor Vehicle In-Transport,1,Front-to-Rear,1,Motor Vehicle In-Transport (Inside or Outside the Trafficway),0,No,13,Georgia,3,Vehicle Registered as Business/Company/Government Vehicle,49,Toyota,40,49040,Toyota Camry,4,\"4-door sedan, hardtop\",2009,2009,4T1BE46K59U2,4T1BE46K59U2,4,T,1,B,E,4,6,K,5,9,U,2,0,No Trailing Units,0,Not an Articulated Vehicle,0,Not Applicable,000000000,Not Applicable,00000000000,Not Applicable,0,Not Applicable,0,Not Applicable,0,Not Applicable (N/A),1,No,0,Not Appl"
+    ]
+   },
+   {
+    "member": "VEvent.CSV",
+    "size": 12402372,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,EVENTNUM,VEH_NO,VEVENTNUM,VNUMBER1,AOI1,AOI1NAME,SOE,SOENAME,VNUMBER2,VNUMBER2NAME,AOI2,AOI2NAME",
+     "1,Alabama,10001,1,1,1,1,12,12 Clock Point,12,Motor Vehicle In-Transport,2,2,6,6 Clock Point"
+    ]
+   },
+   {
+    "member": "Violatn.CSV",
+    "size": 1950150,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,MVIOLATN,MVIOLATNNAME",
+     "1,Alabama,10001,1,0,None"
+    ]
+   },
+   {
+    "member": "Vision.CSV",
+    "size": 2354137,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,MVISOBSC,MVISOBSCNAME",
+     "1,Alabama,10001,1,0,No Obstruction Noted"
+    ]
+   },
+   {
+    "member": "VPICdecode.CSV",
+    "size": 37403936,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,VehicleDescriptor,VINDecodedOn,VINDecodeError,VehicleTypeId,VehicleType,ManufacturerFullNameId,ManufacturerFullName,MakeId,Make,ModelId,Model,ModelYear,Series,Trim,Series2,Trim2,PlantCountryId,PlantCountry,PlantState,PlantCity,PlantCompanyName,DestinationMarketId,DestinationMarket,BasePrice,Note,BodyClassId,BodyClass,DoorsCount,Windows,WheelBaseTypeId,WheelBaseType,TrackWidthIN,GrossVehicleWeightRatingFromId,GrossVehicleWeightRatingFrom,GrossVehicleWeightRatingToId,GrossVehicleWeightRatingTo,GrossCombWeightRatingFromId,GrossCombWeightRatingFrom,GrossCombWeightRatingToId,GrossCombWeightRatingTo,CurbWeightLB,WheelBaseIN_from,WheelBaseIN_To,WheelsCount,WheelSizeFrontIN,WheelSizeRearIN,TruckBodyCabTypeId,TruckBodyCabType,TruckBedTypeId,TruckBedType,TruckBedLengthIN,BusTypeId,BusType,BusFloorConfigurationTypeId,BusFloorConfigurationType,BusLengthFT,OtherBusInfo,CustomMotorcycleTypeId,CustomMotorcycleType,MotorcycleSuspensionTypeId,MotorcycleSuspensionType,MotorcycleChassisTypeId,MotorcycleChassisType,OtherMotorcycleInfo,SteeringLocationId,SteeringLocation,EntertainmentSystemId,EntertainmentSystem,SeatsCount,SeatRowsCount,TransmissionSpeeds,TransmissionStyleId,TransmissionStyle,DriveTypeId,DriveType,AxlesCount,AxleConfigurationId,AxleConfiguration,BrakeSystemTypeId,BrakeSystemType,BrakeSystemDesc,EVDriveUnitId,EVDriveUnit,BatteryKWh_From,BatteryKWh_to,BatteryV_From,BatteryV_to,BatteryA_From,BatteryA_to,BatteryPacksPerVehicle,BatteryModulesPerPack,BatteryCellsPerModule,BatteryTypeId,BatteryType,OtherBatteryInfo,ChargerLevelId,ChargerLevel,ChargerPowerKW,EngineManufacturer,EngineModel,EngineConfigurationId,EngineConfiguration,EnginePowerKW,EngineStrokeCycles,EngineCylindersCount,EngineBrakeHP_From,EngineBrakeHP_To,EngineCoolingTypeId,EngineCoolingType,DisplacementCI,DisplacementCC,DisplacementL,FuelTypePrimaryId,FuelTypePrimary,FuelTypeSecondaryId,FuelTypeSecondary,FuelDeliveryInjectionTypeId,FuelDeliveryInjectionType,EngineValveTrainDesignId,EngineValveTrainDesign,EngineElectrificationLevelId,EngineElectrificationLevel,EngineTurboId,EngineTurbo,TopSpeedMPH,OtherEngineInfo,SeatBeltTypeId,SeatBeltType,PretensionerId,Pretensioner,AirBagLocFrontId,AirBagLocFront,AirBagLocKneeId,AirBagLocKnee,AirBagLocSideId,AirBagLocSide,AirBagLocCurtainId,AirBagLocCurtain,AirBagLocSeatCushionId,AirBagLocSeatCushion,OtherRestraintSystemInfo,ForwardCollisionWarningId,ForwardCollisionWarning,DynamicBrakeSupportId,DynamicBrakeSupport,CrashImminentBrakingID"
+    ]
+   },
+   {
+    "member": "VPICTrailerdecode.CSV",
+    "size": 396944,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,TRAILER_NO,VehicleDescriptor,VINDecodedOn,VINDecodeError,VehicleTypeId,VehicleType,ManufacturerFullNameId,ManufacturerFullName,MakeId,Make,ModelId,Model,ModelYear,Series,Trim,PlantCountryId,PlantCountry,PlantState,PlantCity,PlantCompanyName,Note,BodyClassId,BodyClass,GrossVehicleWeightRatingFromId,GrossVehicleWeightRatingFrom,GrossVehicleWeightRatingToId,GrossVehicleWeightRatingTo,TrailerBodyTypeId,TrailerBodyType,TrailerTypeConnectionId,TrailerTypeConnection,TrailerLengthFT,OtherTrailerInfo,AxlesCount,AxleConfigurationId,AxleConfiguration",
+     "2,Alaska,20002,1,1,1GRAA062*GW******,2021-09-08 14:50:59,0,6,TRAILER,1073,GREAT DANE TRAILERS,520,GREAT DANE TRAILERS,13436,Great Dane Trailers,2016,,,6,UNITED STATES (USA),NEBRASKA,WAYNE,,,61,Trailer,,,,,,,4,Straight Semi/Semi Trailer,53.000,Dry Freight Van / Reefer Van / Insulated Van,2,,"
+    ]
+   },
+   {
+    "member": "VSOE.CSV",
+    "size": 7655706,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,VEVENTNUM,SOE,SOENAME,AOI,AOINAME",
+     "1,Alabama,10001,1,1,12,Motor Vehicle In-Transport,12,12 Clock Point"
+    ]
+   }
+  ]
+ },
+ "fars_2020": {
+  "bytes": 31016385,
+  "secs": 1.7,
+  "head": [
+   {
+    "member": "FARS2020NationalCSV/accident.csv",
+    "size": 23081227,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VE_TOTAL,VE_FORMS,PVH_INVL,PEDS,PERNOTMVIT,PERMVIT,PERSONS,COUNTY,COUNTYNAME,CITY,CITYNAME,DAY,DAYNAME,MONTH,MONTHNAME,YEAR,DAY_WEEK,DAY_WEEKNAME,HOUR,HOURNAME,MINUTE,MINUTENAME,NHS,NHSNAME,ROUTE,ROUTENAME,TWAY_ID,TWAY_ID2,RUR_URB,RUR_URBNAME,FUNC_SYS,FUNC_SYSNAME,RD_OWNER,RD_OWNERNAME,MILEPT,MILEPTNAME,LATITUDE,LATITUDENAME,LONGITUD,LONGITUDNAME,SP_JUR,SP_JURNAME,HARM_EV,HARM_EVNAME,MAN_COLL,MAN_COLLNAME,RELJCT1,RELJCT1NAME,RELJCT2,RELJCT2NAME,TYP_INT,TYP_INTNAME,WRK_ZONE,WRK_ZONENAME,REL_ROAD,REL_ROADNAME,LGT_COND,LGT_CONDNAME,WEATHER,WEATHERNAME,SCH_BUS,SCH_BUSNAME,RAIL,RAILNAME,NOT_HOUR,NOT_HOURNAME,NOT_MIN,NOT_MINNAME,ARR_HOUR,ARR_HOURNAME,ARR_MIN,ARR_MINNAME,HOSP_HR,HOSP_HRNAME,HOSP_MN,HOSP_MNNAME,FATALS,DRUNK_DR",
+     "1,Alabama,10001,1,1,0,0,0,4,4,51,ELMORE (51),0,NOT APPLICABLE,1,1,1,January,2020,4,Wednesday,2,2:00am-2:59am,58,58,0,This section IS NOT on the NHS,4,County Road,cr-4,,1,Rural,5,Major Collector,2,County Highway Agency,0,None,32.43313333,32.43313333,-86.094850000,-86.094850000,0,No Special Jurisdiction,42,Tree (Standing Only),0,The First Harmful Event was Not a Collision with a Motor Vehicle in Transport,0,No,1,Non-Junction,1,Not an Intersection,0,None,4,On Roadside,2,Dark - Not Lighted,1,Clear,0,No,0000000,Not Applicable,99,Unknown,99,Unknown,3,3:00am-3:59am,10,10,99,Unknown,99,Unknown EMS Hospital Arrival Time,3,1"
+    ]
+   },
+   {
+    "member": "FARS2020NationalCSV/cevent.csv",
+    "size": 11176477,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,EVENTNUM,VNUMBER1,AOI1,AOI1NAME,SOE,SOENAME,VNUMBER2,VNUMBER2NAME,AOI2,AOI2NAME",
+     "1,Alabama,10001,1,1,55,Non-Harmful Event,63,Ran Off Roadway - Right,5555,Non-Harmful Event,55,Non-Harmful Event"
+    ]
+   },
+   {
+    "member": "FARS2020NationalCSV/crashrf.csv",
+    "size": 1148110,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,CRASHRF,CRASHRFNAME",
+     "1,Alabama,10001,0,None"
+    ]
+   },
+   {
+    "member": "FARS2020NationalCSV/damage.csv",
+    "size": 9028517,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,DAMAGE,DAMAGENAME",
+     "1,Alabama,10001,1,12,12 Clock Value"
+    ]
+   },
+   {
+    "member": "FARS2020NationalCSV/distract.csv",
+    "size": 2335955,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,DRDISTRACT,DRDISTRACTNAME",
+     "1,Alabama,10001,1,96,Not Reported"
+    ]
+   },
+   {
+    "member": "FARS2020NationalCSV/drimpair.csv",
+    "size": 2781450,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,DRIMPAIR,DRIMPAIRNAME",
+     "1,Alabama,10001,1,99,Reported as Unknown if Impaired"
+    ]
+   },
+   {
+    "member": "FARS2020NationalCSV/driverrf.csv",
+    "size": 3142601,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,DRIVERRF,DRIVERRFNAME",
+     "1,Alabama,10001,1,0,None"
+    ]
+   },
+   {
+    "member": "FARS2020NationalCSV/drugs.csv",
+    "size": 6419602,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,PER_NO,DRUGSPEC,DRUGSPECNAME,DRUGRES,DRUGRESNAME",
+     "1,Alabama,10001,1,1,1,Whole Blood,1,\"Tested, No Drugs Found/Negative\""
+    ]
+   },
+   {
+    "member": "FARS2020NationalCSV/factor.csv",
+    "size": 1935508,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,VEHICLECC,VEHICLECCNAME",
+     "1,Alabama,10001,1,0,None Noted"
+    ]
+   },
+   {
+    "member": "FARS2020NationalCSV/maneuver.csv",
+    "size": 2455039,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,MANEUVER,MANEUVERNAME",
+     "1,Alabama,10001,1,99,Reported as Unknown"
+    ]
+   },
+   {
+    "member": "FARS2020NationalCSV/MIACC.CSV",
+    "size": 1115048,
+    "lines": [
+     "ST_CASE,A1,A2,A3,A4,A5,A6,A7,A8,A9,A10",
+     "10001,29,29,29,29,29,29,29,29,29,29"
+    ]
+   },
+   {
+    "member": "FARS2020NationalCSV/MIDRVACC.CSV",
+    "size": 1095501,
+    "lines": [
+     "ST_CASE,A1,A2,A3,A4,A5,A6,A7,A8,A9,A10",
+     "10001,29,29,29,29,29,29,29,29,29,29"
+    ]
+   },
+   {
+    "member": "FARS2020NationalCSV/MIPER.CSV",
+    "size": 2107451,
+    "lines": [
+     "ST_CASE,VEH_NO,PER_NO,P1,P2,P3,P4,P5,P6,P7,P8,P9,P10",
+     "10001,1,1,29,29,29,29,29,29,29,29,29,29"
+    ]
+   },
+   {
+    "member": "FARS2020NationalCSV/nmcrash.csv",
+    "size": 689945,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,PER_NO,NMCC,NMCCNAME",
+     "1,Alabama,10007,0,1,2,Failure to Yield Right-Of-Way"
+    ]
+   },
+   {
+    "member": "FARS2020NationalCSV/nmdistract.csv",
+    "size": 342304,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,PER_NO,NMDISTRACT,NMDISTRACTNAME",
+     "1,Alabama,10007,0,1,96,Not Reported"
+    ]
+   },
+   {
+    "member": "FARS2020NationalCSV/nmimpair.csv",
+    "size": 422802,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,PER_NO,NMIMPAIR,NMIMPAIRNAME",
+     "1,Alabama,10007,0,1,0,None/Apparently Normal"
+    ]
+   },
+   {
+    "member": "FARS2020NationalCSV/nmprior.csv",
+    "size": 512988,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,PER_NO,NMACTION,NMACTIONNAME",
+     "1,Alabama,10007,0,1,3,Crossing Roadway"
+    ]
+   },
+   {
+    "member": "FARS2020NationalCSV/parkwork.csv",
+    "size": 1804346,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,PVE_FORMS,PNUMOCCS,PNUMOCCSNAME,PDAY,PDAYNAME,PMONTH,PMONTHNAME,PHOUR,PHOURNAME,PMINUTE,PMINUTENAME,PHARM_EV,PHARM_EVNAME,PMAN_COLL,PMAN_COLLNAME,PTYPE,PTYPENAME,PHIT_RUN,PHIT_RUNNAME,PREG_STAT,PREG_STATNAME,POWNER,POWNERNAME,PMAKE,PMAKENAME,PMODEL,PMAK_MOD,PMAK_MODNAME,PBODYTYP,PBODYTYPNAME,PMODYEAR,PMODYEARNAME,PVIN,PVINNAME,PVIN_1,PVIN_2,PVIN_3,PVIN_4,PVIN_5,PVIN_6,PVIN_7,PVIN_8,PVIN_9,PVIN_10,PVIN_11,PVIN_12,PTRAILER,PTRAILERNAME,PMCARR_I1,PMCARR_I1NAME,PMCARR_I2,PMCARR_I2NAME,PMCARR_ID,PMCARR_IDNAME,PV_CONFIG,PV_CONFIGNAME,PCARGTYP,PCARGTYPNAME,PHAZ_INV,PHAZ_INVNAME,PHAZPLAC,PHAZPLACNAME,PHAZ_ID,PHAZ_IDNAME,PHAZ_CNO,PHAZ_CNONAME,PHAZ_REL,PHAZ_RELNAME,PBUS_USE,PBUS_USENAME,PSP_USE,PSP_USENAME,PEM_USE,PEM_USENAME,PUNDERIDE,PUNDERIDENAME,PIMPACT1,PIMPACT1NAME,PVEH_SEV,PVEH_SEVNAME,PTOWED,PTOWEDNAME,PM_HARM,PM_HARMNAME,PFIRE,PFIRENAME,PDEATHS,PTRLR1VIN,PTRLR1VINNAME,PTRLR2VIN,PTRLR2VINNAME,PTRLR3VIN,PTRLR3VINNAME,PVPICMAKE,PVPICMAKENAME,PVPICMODEL,PVPICMODELNAME,PVPICBODYCLASS,PVPICBODYCLASSNAME,PGVWR_FROM,PGVWR_FROMNAME,PGVWR_TO,PGVWR_TONAME,PICFINALBODY,PICFINALBODYNAME,PTRLR1GVWR,PTRLR1GVWRNAME,PTRLR2GVWR,PTRLR2GVWRNAME,PTRLR3GVWR,PTRLR3GVWRNAME",
+     "1,Alabama,10032,2,1,1,01,17,17,2,February,10,10:00am-10:59am,40,40,14,Parked Motor Vehicle,0,The First Harmful Event was Not a Collision with a Motor Vehicle in Transport,2,Motor Vehicle Not In-Transport Within the Trafficway,0,No,18,Indiana,6,Driverless/Motor Vehicle Parked/Stopped Off Roadway,82,Freightliner,881,82881,Freightliner Medium/Heavy - CBE,66,\"Truck-tractor (Cab only, or with any number of trailing unit; any weight)\",2019,2019,3AKJHHDRXKSK,3AKJHHDRXKSK,3,A,K,J,H,H,D,R,X,K,S,K,1,One Trailing Unit,57,US DOT,054283,054283,57054283,57054283,6,Truck Tractor/Semi-Trailer,1,Van/Enclosed Box,1,No,0,Not Applicable,0,Not Applicable,0,Not Applicable,0,Not Applicable,0,Not a Bus,0,No Special Use,0,Not Applicable,0,No Underride or Override Noted,6,6 Clock Point,6,Disabling Damage,2,Towed Due to Disabling Damage,12,Motor Vehicle In-Transport,0,No or Not Reported,0,888888888888,Not Reported,777777777777,No Trailing Units,777777777777,No Trailing Units,450,Freightliner,13805,,66,Truck-Tractor,18,\"Class 8: 33,001 lbs. and above (14,969 kg and above)\",18,\"Class 8: 33,001 lbs. and above (14,969 kg and above)\",0,Not Applicable,98,Not Reported,77,No Trailing Units,77,No Trailing Units"
+    ]
+   },
+   {
+    "member": "FARS2020NationalCSV/pbtype.csv",
+    "size": 3301706,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,PER_NO,PBPTYPE,PBPTYPENAME,PBAGE,PBAGENAME,PBSEX,PBSEXNAME,PBCWALK,PBCWALKNAME,PBSWALK,PBSWALKNAME,PBSZONE,PBSZONENAME,PEDCTYPE,PEDCTYPENAME,BIKECTYPE,BIKECTYPENAME,PEDLOC,PEDLOCNAME,BIKELOC,BIKELOCNAME,PEDPOS,PEDPOSNAME,BIKEPOS,BIKEPOSNAME,PEDDIR,PEDDIRNAME,BIKEDIR,BIKEDIRNAME,MOTDIR,MOTDIRNAME,MOTMAN,MOTMANNAME,PEDLEG,PEDLEGNAME,PEDSNR,PEDSNRNAME,PEDCGP,PEDCGPNAME,BIKECGP,BIKECGPNAME",
+     "1,Alabama,10007,0,1,5,Pedestrian,62,62 Years,2,Female,0,None Noted,0,None Noted,0,None Noted,760,Pedestrian Failed to Yield,0,Not a Cyclist,1,At Intersection,7,Not a Cyclist,2,Crosswalk Area,7,Not a Cyclist,4,Westbound,7,Not a Cyclist,1,Northbound,3,Straight through,2,Farside,3b,\"Motorist traveling straight through - Crash Occurred on Far Side of Intersection / Pedestrian within crosswalk area, traveled from motorist\u0092s right.\",750,Crossing Roadway - Vehicle Not Turning,0,Not a Cyclist"
+    ]
+   },
+   {
+    "member": "FARS2020NationalCSV/person.csv",
+    "size": 107612299,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VE_FORMS,VEH_NO,PER_NO,STR_VEH,COUNTY,DAY,DAYNAME,MONTH,MONTHNAME,HOUR,HOURNAME,MINUTE,MINUTENAME,RUR_URB,RUR_URBNAME,FUNC_SYS,FUNC_SYSNAME,HARM_EV,HARM_EVNAME,MAN_COLL,MAN_COLLNAME,SCH_BUS,SCH_BUSNAME,MAKE,MAKENAME,MAK_MOD,MAK_MODNAME,BODY_TYP,BODY_TYPNAME,MOD_YEAR,MOD_YEARNAME,TOW_VEH,TOW_VEHNAME,SPEC_USE,SPEC_USENAME,EMER_USE,EMER_USENAME,ROLLOVER,ROLLOVERNAME,IMPACT1,IMPACT1NAME,FIRE_EXP,FIRE_EXPNAME,AGE,AGENAME,SEX,SEXNAME,PER_TYP,PER_TYPNAME,INJ_SEV,INJ_SEVNAME,SEAT_POS,SEAT_POSNAME,REST_USE,REST_USENAME,REST_MIS,REST_MISNAME,AIR_BAG,AIR_BAGNAME,EJECTION,EJECTIONNAME,EJ_PATH,EJ_PATHNAME,EXTRICAT,EXTRICATNAME,DRINKING,DRINKINGNAME,ALC_DET,ALC_DETNAME,ALC_STATUS,ALC_STATUSNAME,ATST_TYP,ATST_TYPNAME,ALC_RES,ALC_RESNAME,DRUGS,DRUGSNAME,DRUG_DET,DRUG_DETNAME,DSTATUS,DSTATUSNAME,HOSPITAL,HOSPITALNAME,DOA,DOANAME,DEATH_DA,DEATH_DANAME,DEATH_MO,DEATH_MONAME,DEATH_YR,DEATH_YRNAME,DEATH_HR,DEATH_HRNAME,DEATH_MN,DEATH_MNNAME,DEATH_TM,DEATH_TMNAME,LAG_HRS,LAG_HRSNAME,LAG_MINS,LAG_MINSNAME,WORK_INJ,WORK_INJNAME,HISPANIC,HISPANICNAME,LOCATION,LOCATIONNAME,HELM_USE,HELM_USENAME,HELM_MIS,HELM_MISNAME,VPICMAKE,VPICMAKENAME,VPICMODEL,VPICMODELNAME,VPICBODYCLASS,VPICBODYCLASSNAME,ICFINALBODY,ICFINALBODYNAME,GVWR_FROM,GVWR_FROMNAME,GVWR_TO,GVWR_TONAME",
+     "1,Alabama,10001,1,1,1,0,51,1,1,1,January,2,2:00am-2:59am,58,58,1,Rural,5,Major Collector,42,Tree (Standing Only),0,The First Harmful Event was Not a Collision with a Motor Vehicle in Transport,0,No,59,Lexus,59031,Lexus ES-250/300/300h/330/ 350,4,\"4-door sedan, hardtop\",1997,1997,0,No Trailing Units,0,No Special Use,0,Not Applicable,1,\"Rollover, Tripped by Object/Vehicle\",12,12 Clock Point,0,No or Not Reported,24,24 Years,1,Male,1,Driver of a Motor Vehicle In-Transport,4,Fatal Injury (K),11,\"Front Seat, Left Side\",20,None Used/Not Applicable,7,None Used/Not Applicable,1,Deployed- Front,0,Not Ejected,0,Ejection Path Not Applicable,1,Extricated,9,Reported as Unknown,9,Not Reported,2,Test Given,1,Blood,294,0.294 % BAC,9,Reported as Unknown,8,Not Reported,2,Test Given,0,Not Transported for Treatment,7,Died at Scene,1,1,1,January,2020,2020,2,2:00-2:59,58,58,258,258,0,0,0,0,0,No,7,Non-Hispanic,0,Occupant of a Motor Vehicle,20,Not Applicable,7,None Used/Not Applicable,515,Lexus,2475,ES,13,Sedan/Saloon,0,Not Applicable,11,\"Class 1: 6,000 lbs. or less (2,722 kg or less)\",11,\"Class 1: 6,000 lbs. or less (2,722 kg or less)\""
+    ]
+   },
+   {
+    "member": "FARS2020NationalCSV/personrf.csv",
+    "size": 2690172,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,PER_NO,PERSONRF,PERSONRFNAME",
+     "1,Alabama,10001,1,1,0,None"
+    ]
+   },
+   {
+    "member": "FARS2020NationalCSV/pvehiclesf.csv",
+    "size": 47155,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,PVEHICLESF,PVEHICLESFNAME",
+     "1,Alabama,10032,2,0,None"
+    ]
+   },
+   {
+    "member": "FARS2020NationalCSV/race.csv",
+    "size": 4971179,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,PER_NO,RACE,RACENAME,ORDER,ORDERNAME,MULTRACE,MULTRACENAME",
+     "1,Alabama,10001,1,1,2,Black or African American,1,1,0,No"
+    ]
+   },
+   {
+    "member": "FARS2020NationalCSV/safetyeq.csv",
+    "size": 761742,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,PER_NO,NMHELMET,NMHELMETNAME,NMPROPAD,NMPROPADNAME,NMOTHPRO,NMOTHPRONAME,NMREFCLO,NMREFCLONAME,NMLIGHT,NMLIGHTNAME,NMOTHPRE,NMOTHPRENAME",
+     "1,Alabama,10007,0,1,1,No,1,No,1,No,1,No,1,No,1,No"
+    ]
+   },
+   {
+    "member": "FARS2020NationalCSV/vehicle.csv",
+    "size": 103751724,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,VE_FORMS,NUMOCCS,NUMOCCSNAME,DAY,DAYNAME,MONTH,MONTHNAME,HOUR,HOURNAME,MINUTE,MINUTENAME,HARM_EV,HARM_EVNAME,MAN_COLL,MAN_COLLNAME,UNITTYPE,UNITTYPENAME,HIT_RUN,HIT_RUNNAME,REG_STAT,REG_STATNAME,OWNER,OWNERNAME,MAKE,MAKENAME,MODEL,MAK_MOD,MAK_MODNAME,BODY_TYP,BODY_TYPNAME,MOD_YEAR,MOD_YEARNAME,VIN,VINNAME,VIN_1,VIN_2,VIN_3,VIN_4,VIN_5,VIN_6,VIN_7,VIN_8,VIN_9,VIN_10,VIN_11,VIN_12,TOW_VEH,TOW_VEHNAME,J_KNIFE,J_KNIFENAME,MCARR_I1,MCARR_I1NAME,MCARR_I2,MCARR_I2NAME,MCARR_ID,MCARR_IDNAME,V_CONFIG,V_CONFIGNAME,CARGO_BT,CARGO_BTNAME,HAZ_INV,HAZ_INVNAME,HAZ_PLAC,HAZ_PLACNAME,HAZ_ID,HAZ_IDNAME,HAZ_CNO,HAZ_CNONAME,HAZ_REL,HAZ_RELNAME,BUS_USE,BUS_USENAME,SPEC_USE,SPEC_USENAME,EMER_USE,EMER_USENAME,TRAV_SP,TRAV_SPNAME,UNDERIDE,UNDERIDENAME,ROLLOVER,ROLLOVERNAME,ROLINLOC,ROLINLOCNAME,IMPACT1,IMPACT1NAME,DEFORMED,DEFORMEDNAME,TOWED,TOWEDNAME,M_HARM,M_HARMNAME,FIRE_EXP,FIRE_EXPNAME,DR_PRES,DR_PRESNAME,L_STATE,L_STATENAME,DR_ZIP,DR_ZIPNAME,L_STATUS,L_STATUSNAME,L_TYPE,L_TYPENAME,CDL_STAT,CDL_STATNAME,L_ENDORS,L_ENDORSNAME,L_COMPL,L_COMPLNAME,L_RESTRI,L_RESTRINAME,DR_HGT,DR_HGTNAME,DR_WGT,DR_WGTNAME,PREV_ACC,PREV_ACCNAME,PREV_SUS1,PREV_SUS1NAME,PREV_SUS2,PREV_SUS2NAME,PREV_SUS3,PREV_SUS3NAME,PREV_DWI,PREV_DWINAME,PREV_SPD,PREV_SPDNAME,PREV_OTH,PREV_OTHNAME,FIRST_MO,FIRST_MONAME,FIRST_YR,FIRST_YRNAME,LAST_MO,LAST_MONAME,LAST_YR,LAST_YRNAME,SPEEDREL,SPEEDRELNAME,VTRAFWAY,VTRAFWAYNAME,VNUM_LAN,VNUM_LANNAME,VSPD_LIM,VSPD_LIMNAME,VALIGN,VALIGNNAME,VPROFILE,VPROFILENAME,VPAVETYP,VPAVETYPNAME,VSURCOND,VSURCONDNAME,VTRAFCON,VTRAFCONNAME,VTCONT_F,VTCONT_FNAME,P_CRASH1,P_CRASH1NAME,P_CRASH2,P_CRASH2NAME,P_CRASH3,P_CRASH3NAME,PCRASH4,PCRASH4NAME,PCRASH5,PCRASH5NAME,ACC_TYPE,ACC_TYPENAME,TRLR1VIN,TRLR1VINNAME,TRLR2VIN,TRLR2VINNAME,TRLR3VIN,TRLR3VINNAME,DEATHS,DR_DRINK,DR_DRINKNAME,VPICMAKE,VPICMAKENAME,VPICMODEL,VPICMODELNAME,VPICBODYCLASS,VPICBODYCLASSNAME,ICFINALBODY,ICFINALBODYNAME,GVWR_FROM,GVWR_FROMNAME,GVWR_TO,GVWR_TONAME,TRLR1GVWR,TRLR1GVWRNAME,TRLR2GVWR,TRLR2GVWRNAME,TRLR3GVWR,TRLR3GVWRNAME",
+     "1,Alabama,10001,1,1,4,04,1,1,1,January,2,2:00am-2:59am,58,58,42,Tree (Standing Only),0,The First Harmful Event was Not a Collision with a Motor Vehicle in Transport,1,Motor Vehicle In-Transport (Inside or Outside the Trafficway),0,No,1,Alabama,2,Driver (in this crash) Not Registered Owner (Other Private Owner Listed),59,Lexus,31,59031,Lexus ES-250/300/300h/330/ 350,4,\"4-door sedan, hardtop\",1997,1997,JT8BF22G4V00,JT8BF22G4V00,J,T,8,B,F,2,2,G,4,V,0,0,0,No Trail"
+    ]
+   },
+   {
+    "member": "FARS2020NationalCSV/vehiclesf.csv",
+    "size": 1597859,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,VEHICLESF,VEHICLESFNAME",
+     "1,Alabama,10001,1,0,None"
+    ]
+   },
+   {
+    "member": "FARS2020NationalCSV/vevent.csv",
+    "size": 13583487,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,EVENTNUM,VEH_NO,VEVENTNUM,VNUMBER1,AOI1,AOI1NAME,SOE,SOENAME,VNUMBER2,VNUMBER2NAME,AOI2,AOI2NAME",
+     "1,Alabama,10001,1,1,1,1,55,Non-Harmful Event,63,Ran Off Roadway - Right,5555,Non-Harmful Event,55,Non-Harmful Event"
+    ]
+   },
+   {
+    "member": "FARS2020NationalCSV/violatn.csv",
+    "size": 2098680,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,VIOLATION,VIOLATIONNAME",
+     "1,Alabama,10001,1,0,None"
+    ]
+   },
+   {
+    "member": "FARS2020NationalCSV/vision.csv",
+    "size": 2486860,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,VISION,VISIONNAME",
+     "1,Alabama,10001,1,0,No Obstruction Noted"
+    ]
+   },
+   {
+    "member": "FARS2020NationalCSV/vpicdecode.csv",
+    "size": 39905391,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,VehicleDescriptor,VINDecodedOn,VINDecodeError,VehicleTypeId,VehicleType,ManufacturerFullNameId,ManufacturerFullName,MakeId,Make,ModelId,Model,ModelYear,Series,Trim,Series2,Trim2,PlantCountryId,PlantCountry,PlantState,PlantCity,PlantCompanyName,DestinationMarketId,DestinationMarket,BasePrice,Note,BodyClassId,BodyClass,DoorsCount,Windows,WheelBaseTypeId,WheelBaseType,TrackWidthIN,GrossVehicleWeightRatingFromId,GrossVehicleWeightRatingFrom,GrossVehicleWeightRatingToId,GrossVehicleWeightRatingTo,GrossCombWeightRatingFromId,GrossCombWeightRatingFrom,GrossCombWeightRatingToId,GrossCombWeightRatingTo,CurbWeightLB,WheelBaseIN_from,WheelBaseIN_To,WheelsCount,WheelSizeFrontIN,WheelSizeRearIN,TruckBodyCabTypeId,TruckBodyCabType,TruckBedTypeId,TruckBedType,TruckBedLengthIN,BusTypeId,BusType,BusFloorConfigurationTypeId,BusFloorConfigurationType,BusLengthFT,OtherBusInfo,CustomMotorcycleTypeId,CustomMotorcycleType,MotorcycleSuspensionTypeId,MotorcycleSuspensionType,MotorcycleChassisTypeId,MotorcycleChassisType,OtherMotorcycleInfo,SteeringLocationId,SteeringLocation,EntertainmentSystemId,EntertainmentSystem,SeatsCount,SeatRowsCount,TransmissionSpeeds,TransmissionStyleId,TransmissionStyle,DriveTypeId,DriveType,AxlesCount,AxleConfigurationId,AxleConfiguration,BrakeSystemTypeId,BrakeSystemType,BrakeSystemDesc,EVDriveUnitId,EVDriveUnit,BatteryKWh_From,BatteryKWh_to,BatteryV_From,BatteryV_to,BatteryA_From,BatteryA_to,BatteryPacksPerVehicle,BatteryModulesPerPack,BatteryCellsPerModule,BatteryTypeId,BatteryType,OtherBatteryInfo,ChargerLevelId,ChargerLevel,ChargerPowerKW,EngineManufacturer,EngineModel,EngineConfigurationId,EngineConfiguration,EnginePowerKW,EngineStrokeCycles,EngineCylindersCount,EngineBrakeHP_From,EngineBrakeHP_To,EngineCoolingTypeId,EngineCoolingType,DisplacementCI,DisplacementCC,DisplacementL,FuelTypePrimaryId,FuelTypePrimary,FuelTypeSecondaryId,FuelTypeSecondary,FuelDeliveryInjectionTypeId,FuelDeliveryInjectionType,EngineValveTrainDesignId,EngineValveTrainDesign,EngineElectrificationLevelId,EngineElectrificationLevel,EngineTurboId,EngineTurbo,TopSpeedMPH,OtherEngineInfo,SeatBeltTypeId,SeatBeltType,PretensionerId,Pretensioner,AirBagLocFrontId,AirBagLocFront,AirBagLocKneeId,AirBagLocKnee,AirBagLocSideId,AirBagLocSide,AirBagLocCurtainId,AirBagLocCurtain,AirBagLocSeatCushionId,AirBagLocSeatCushion,OtherRestraintSystemInfo,ForwardCollisionWarningId,ForwardCollisionWarning,DynamicBrakeSupportId,DynamicBrakeSupport,CrashImminentBrakingID"
+    ]
+   },
+   {
+    "member": "FARS2020NationalCSV/vpictrailerdecode.csv",
+    "size": 393796,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,TRAILER_NO,VehicleDescriptor,VINDecodedOn,VINDecodeError,VehicleTypeId,VehicleType,ManufacturerFullNameId,ManufacturerFullName,MakeId,Make,ModelId,Model,ModelYear,Series,Trim,PlantCountryId,PlantCountry,PlantState,PlantCity,PlantCompanyName,Note,BodyClassId,BodyClass,GrossVehicleWeightRatingFromId,GrossVehicleWeightRatingFrom,GrossVehicleWeightRatingToId,GrossVehicleWeightRatingTo,TrailerBodyTypeId,TrailerBodyType,TrailerTypeConnectionId,TrailerTypeConnection,TrailerLengthFT,OtherTrailerInfo,AxlesCount,AxleConfigurationId,AxleConfiguration",
+     "4,Arizona,40075,1,1,1S12E953*TE******,2022-03-18 02:04:17,1,6,TRAILER,14956,\"STRICK TRAILERS, LLC\",4977,STRICK COMMERCIAL TRAILER,12176,Strick Commercial Trailer,1996,Smooth Side,,6,UNITED STATES (USA),,MONROE,,,61,Trailer,,,,,,,4,Straight Semi/Semi Trailer,53.000,Dry Freight Van,2,3,Tandem"
+    ]
+   },
+   {
+    "member": "FARS2020NationalCSV/vsoe.csv",
+    "size": 8336513,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,VEVENTNUM,SOE,SOENAME,AOI,AOINAME",
+     "1,Alabama,10001,1,1,63,Ran Off Roadway - Right,55,Non-Harmful Event"
+    ]
+   },
+   {
+    "member": "FARS2020NationalCSV/weather.csv",
+    "size": 1049872,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,WEATHER,WEATHERNAME",
+     "1,Alabama,10001,1,Clear"
+    ]
+   }
+  ]
+ },
+ "fars_2022": {
+  "bytes": 34689724,
+  "secs": 1.8,
+  "head": [
+   {
+    "member": "FARS2022NationalCSV/accident.csv",
+    "size": 25207224,
+    "lines": [
+     "\u00ef\u00bb\u00bfSTATE,STATENAME,ST_CASE,PEDS,PERNOTMVIT,VE_TOTAL,VE_FORMS,PVH_INVL,PERSONS,PERMVIT,COUNTY,COUNTYNAME,CITY,CITYNAME,MONTH,MONTHNAME,DAY,DAYNAME,DAY_WEEK,DAY_WEEKNAME,YEAR,HOUR,HOURNAME,MINUTE,MINUTENAME,TWAY_ID,TWAY_ID2,ROUTE,ROUTENAME,RUR_URB,RUR_URBNAME,FUNC_SYS,FUNC_SYSNAME,RD_OWNER,RD_OWNERNAME,NHS,NHSNAME,SP_JUR,SP_JURNAME,MILEPT,MILEPTNAME,LATITUDE,LATITUDENAME,LONGITUD,LONGITUDNAME,HARM_EV,HARM_EVNAME,MAN_COLL,MAN_COLLNAME,RELJCT1,RELJCT1NAME,RELJCT2,RELJCT2NAME,TYP_INT,TYP_INTNAME,REL_ROAD,REL_ROADNAME,WRK_ZONE,WRK_ZONENAME,LGT_COND,LGT_CONDNAME,WEATHER,WEATHERNAME,SCH_BUS,SCH_BUSNAME,RAIL,RAILNAME,NOT_HOUR,NOT_HOURNAME,NOT_MIN,NOT_MINNAME,ARR_HOUR,ARR_HOURNAME,ARR_MIN,ARR_MINNAME,HOSP_HR,HOSP_HRNAME,HOSP_MN,HOSP_MNNAME,FATALS",
+     "1,Alabama,10001,0,0,2,2,0,3,3,107,PICKENS (107),0,NOT APPLICABLE,1,January,1,1,7,Saturday,2022,12,12:00pm-12:59pm,30,30,US-82 SR-6,,2,US Highway,1,Rural,3,Principal Arterial - Other,1,State Highway Agency,1,This section IS ON the NHS,0,No Special Jurisdiction,4,4,33.49096667,33.49096667,-88.274083330,-88.27408333,12,Motor Vehicle In-Transport,7,Sideswipe - Same Direction,0,No,1,Non-Junction,1,Not an Intersection,1,On Roadway,0,None,1,Daylight,1,Clear,0,No,0000000,Not Applicable,12,12:00pm-12:59pm,47,47,13,1:00pm-1:59pm,4,4,13,1:00pm-1:59pm,47,47,1"
+    ]
+   },
+   {
+    "member": "FARS2022NationalCSV/cevent.csv",
+    "size": 11843381,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,EVENTNUM,VNUMBER1,AOI1,AOI1NAME,SOE,SOENAME,VNUMBER2,VNUMBER2NAME,AOI2,AOI2NAME",
+     "1,Alabama,10001,1,1,55,Non-Harmful Event,61,\"Equipment Failure (blown tire, brake failure, etc)\",5555,Non-Harmful Event,55,Non-Harmful Event"
+    ]
+   },
+   {
+    "member": "FARS2022NationalCSV/crashrf.csv",
+    "size": 1449559,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,CRASHRF,CRASHRFNAME",
+     "1,Alabama,10001,0,None Noted"
+    ]
+   },
+   {
+    "member": "FARS2022NationalCSV/damage.csv",
+    "size": 9711142,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,DAMAGE,DAMAGENAME",
+     "1,Alabama,10001,1,1,1 Clock Value"
+    ]
+   },
+   {
+    "member": "FARS2022NationalCSV/distract.csv",
+    "size": 2550564,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,DRDISTRACT,DRDISTRACTNAME",
+     "1,Alabama,10001,1,96,Not Reported"
+    ]
+   },
+   {
+    "member": "FARS2022NationalCSV/drimpair.csv",
+    "size": 2992010,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,DRIMPAIR,DRIMPAIRNAME",
+     "1,Alabama,10001,1,0,None/Apparently Normal"
+    ]
+   },
+   {
+    "member": "FARS2022NationalCSV/driverrf.csv",
+    "size": 3601469,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,DRIVERRF,DRIVERRFNAME",
+     "1,Alabama,10001,1,0,None Noted"
+    ]
+   },
+   {
+    "member": "FARS2022NationalCSV/drugs.csv",
+    "size": 7781009,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,PER_NO,DRUGSPEC,DRUGSPECNAME,DRUGRES,DRUGRESNAME",
+     "1,Alabama,10001,1,1,96,Not Reported,9995,Not Reported"
+    ]
+   },
+   {
+    "member": "FARS2022NationalCSV/factor.csv",
+    "size": 2087746,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,VEHICLECC,VEHICLECCNAME",
+     "1,Alabama,10001,1,1,Tires"
+    ]
+   },
+   {
+    "member": "FARS2022NationalCSV/maneuver.csv",
+    "size": 2659981,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,MANEUVER,MANEUVERNAME",
+     "1,Alabama,10001,1,98,Not Reported"
+    ]
+   },
+   {
+    "member": "FARS2022NationalCSV/MIACC.CSV",
+    "size": 1188017,
+    "lines": [
+     "ST_CASE,A1,A2,A3,A4,A5,A6,A7,A8,A9,A10",
+     "10001,0,40,0,0,0,0,0,0,0,16"
+    ]
+   },
+   {
+    "member": "FARS2022NationalCSV/MIDRVACC.CSV",
+    "size": 1167243,
+    "lines": [
+     "ST_CASE,A1,A2,A3,A4,A5,A6,A7,A8,A9,A10",
+     "10001,0,40,0,0,0,0,0,0,0,16"
+    ]
+   },
+   {
+    "member": "FARS2022NationalCSV/MIPER.CSV",
+    "size": 2293343,
+    "lines": [
+     "ST_CASE,VEH_NO,PER_NO,P1,P2,P3,P4,P5,P6,P7,P8,P9,P10",
+     "10001,1,1,0,40,0,0,0,0,0,0,0,16"
+    ]
+   },
+   {
+    "member": "FARS2022NationalCSV/nmcrash.csv",
+    "size": 822617,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,PER_NO,NMCC,NMCCNAME",
+     "1,Alabama,10005,0,1,9,Wrong-Way Riding or Walking"
+    ]
+   },
+   {
+    "member": "FARS2022NationalCSV/nmdistract.csv",
+    "size": 403597,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,PER_NO,NMDISTRACT,NMDISTRACTNAME",
+     "1,Alabama,10005,0,1,96,Not Reported"
+    ]
+   },
+   {
+    "member": "FARS2022NationalCSV/nmimpair.csv",
+    "size": 481811,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,PER_NO,NMIMPAIR,NMIMPAIRNAME",
+     "1,Alabama,10005,0,1,0,None/Apparently Normal"
+    ]
+   },
+   {
+    "member": "FARS2022NationalCSV/nmprior.csv",
+    "size": 597479,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,PER_NO,NMACTION,NMACTIONNAME",
+     "1,Alabama,10005,0,1,5,Movement Along Roadway with Traffic (In or Adjacent to Travel Lane)"
+    ]
+   },
+   {
+    "member": "FARS2022NationalCSV/parkwork.csv",
+    "size": 1841204,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,PVE_FORMS,PMONTH,PMONTHNAME,PDAY,PDAYNAME,PHOUR,PHOURNAME,PMINUTE,PMINUTENAME,PHARM_EV,PHARM_EVNAME,PMAN_COLL,PMAN_COLLNAME,PNUMOCCS,PNUMOCCSNAME,PTYPE,PTYPENAME,PHIT_RUN,PHIT_RUNNAME,PREG_STAT,PREG_STATNAME,POWNER,POWNERNAME,PVIN,PVINNAME,PMODYEAR,PMODYEARNAME,PVPICMAKE,PVPICMAKENAME,PVPICMODEL,PVPICMODELNAME,PVPICBODYCLASS,PVPICBODYCLASSNAME,PMAKE,PMAKENAME,PMODEL,PBODYTYP,PBODYTYPNAME,PICFINALBODY,PICFINALBODYNAME,PGVWR_FROM,PGVWR_FROMNAME,PGVWR_TO,PGVWR_TONAME,PTRAILER,PTRAILERNAME,PTRLR1VIN,PTRLR1VINNAME,PTRLR2VIN,PTRLR2VINNAME,PTRLR3VIN,PTRLR3VINNAME,PTRLR1GVWR,PTRLR1GVWRNAME,PTRLR2GVWR,PTRLR2GVWRNAME,PTRLR3GVWR,PTRLR3GVWRNAME,PMCARR_ID,PMCARR_IDNAME,PMCARR_I1,PMCARR_I1NAME,PMCARR_I2,PMCARR_I2NAME,PV_CONFIG,PV_CONFIGNAME,PCARGTYP,PCARGTYPNAME,PHAZ_INV,PHAZ_INVNAME,PHAZPLAC,PHAZPLACNAME,PHAZ_ID,PHAZ_IDNAME,PHAZ_CNO,PHAZ_CNONAME,PHAZ_REL,PHAZ_RELNAME,PBUS_USE,PBUS_USENAME,PSP_USE,PSP_USENAME,PEM_USE,PEM_USENAME,PUNDEROVERRIDE,PUNDEROVERRIDENAME,PIMPACT1,PIMPACT1NAME,PVEH_SEV,PVEH_SEVNAME,PTOWED,PTOWEDNAME,PM_HARM,PM_HARMNAME,PFIRE,PFIRENAME,PMAK_MOD,PMAK_MODNAME,PVIN_1,PVIN_2,PVIN_3,PVIN_4,PVIN_5,PVIN_6,PVIN_7,PVIN_8,PVIN_9,PVIN_10,PVIN_11,PVIN_12,PDEATHS",
+     "1,Alabama,10060,2,1,2,February,4,4,11,11:00am-11:59am,41,41,33,Curb,0,The First Harmful Event was Not a Collision with a Motor Vehicle in Transport,0,None,3,Motor Vehicle Not In-Transport Outside the Trafficway,0,No,1,Alabama,6,Driverless/Motor Vehicle Parked/Stopped Off Roadway,1N4BA41E98C8,1N4BA41E98C8,2008,2008,478,Nissan,2302,Maxima,13,Sedan/Saloon,35,Nissan/Datsun,39,4,\"4-door sedan, hardtop\",0,Not Applicable,11,\"Class 1: 6,000 lbs. or less (2,722 kg or less)\",11,\"Class 1: 6,000 lbs. or less (2,722 kg or less)\",0,No Trailers,777777777777,No Trailing Units,777777777777,No Trailing Units,777777777777,No Trailing Units,77,No Trailing Units,77,No Trailing Units,77,No Trailing Units,00000000000,Not Applicable,0,Not Applicable,000000000,Not Applicable,0,Not Applicable,0,Not Applicable (N/A),1,No,0,Not Applicable,0,Not Applicable,0,Not Applicable,0,Not Applicable,0,Not a Bus,0,No Special Use Noted,0,Not Applicable,0,No Underride or Override,98,Not Reported,4,Functional Damage,8,Not Reported,12,Motor Vehicle In-Transport,0,No or Not Reported,35039,Nissan/Datsun 810/Maxima,1,N,4,B,A,4,1,E,9,8,C,8,0"
+    ]
+   },
+   {
+    "member": "FARS2022NationalCSV/pbtype.csv",
+    "size": 3837426,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,PER_NO,PBAGE,PBAGENAME,PBSEX,PBSEXNAME,PBPTYPE,PBPTYPENAME,PBCWALK,PBCWALKNAME,PBSWALK,PBSWALKNAME,PBSZONE,PBSZONENAME,PEDCTYPE,PEDCTYPENAME,BIKECTYPE,BIKECTYPENAME,PEDLOC,PEDLOCNAME,BIKELOC,BIKELOCNAME,PEDPOS,PEDPOSNAME,BIKEPOS,BIKEPOSNAME,PEDDIR,PEDDIRNAME,BIKEDIR,BIKEDIRNAME,MOTDIR,MOTDIRNAME,MOTMAN,MOTMANNAME,PEDLEG,PEDLEGNAME,PEDSNR,PEDSNRNAME,PEDCGP,PEDCGPNAME,BIKECGP,BIKECGPNAME",
+     "1,Alabama,10005,0,1,27,27 Years,2,Female,5,Pedestrian,0,None Noted,0,None Noted,0,None Noted,410,Walking/Running Along Roadway With Traffic - From Behind,0,Not a Cyclist,3,Not At Intersection,7,Not a Cyclist,4,Paved Shoulder / Bicycle Lane / Parking Lane,7,Not a Cyclist,8,Not Applicable,7,Not a Cyclist,8,Not Applicable,8,Not Applicable,8,Not Applicable,8,Not Applicable,400,Walking/Running Along Roadway,0,Not a Cyclist"
+    ]
+   },
+   {
+    "member": "FARS2022NationalCSV/person.csv",
+    "size": 116735382,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,PER_NO,VE_FORMS,COUNTY,MONTH,MONTHNAME,DAY,DAYNAME,HOUR,HOURNAME,MINUTE,MINUTENAME,HARM_EV,HARM_EVNAME,MAN_COLL,MAN_COLLNAME,SCH_BUS,SCH_BUSNAME,MOD_YEAR,MOD_YEARNAME,VPICMAKE,VPICMAKENAME,VPICMODEL,VPICMODELNAME,VPICBODYCLASS,VPICBODYCLASSNAME,MAKE,MAKENAME,BODY_TYP,BODY_TYPNAME,ICFINALBODY,ICFINALBODYNAME,GVWR_FROM,GVWR_FROMNAME,GVWR_TO,GVWR_TONAME,TOW_VEH,TOW_VEHNAME,AGE,AGENAME,SEX,SEXNAME,PER_TYP,PER_TYPNAME,INJ_SEV,INJ_SEVNAME,SEAT_POS,SEAT_POSNAME,REST_USE,REST_USENAME,REST_MIS,REST_MISNAME,HELM_USE,HELM_USENAME,HELM_MIS,HELM_MISNAME,AIR_BAG,AIR_BAGNAME,EJECTION,EJECTIONNAME,EJ_PATH,EJ_PATHNAME,EXTRICAT,EXTRICATNAME,DRINKING,DRINKINGNAME,ALC_STATUS,ALC_STATUSNAME,ATST_TYP,ATST_TYPNAME,ALC_RES,ALC_RESNAME,DRUGS,DRUGSNAME,DSTATUS,DSTATUSNAME,HOSPITAL,HOSPITALNAME,DOA,DOANAME,DEATH_DA,DEATH_DANAME,DEATH_MO,DEATH_MONAME,DEATH_YR,DEATH_YRNAME,DEATH_HR,DEATH_HRNAME,DEATH_MN,DEATH_MNNAME,DEATH_TM,DEATH_TMNAME,LAG_HRS,LAG_HRSNAME,LAG_MINS,LAG_MINSNAME,STR_VEH,LOCATION,LOCATIONNAME,WORK_INJ,WORK_INJNAME,HISPANIC,HISPANICNAME,RUR_URB,RUR_URBNAME,FUNC_SYS,FUNC_SYSNAME,SPEC_USE,SPEC_USENAME,EMER_USE,EMER_USENAME,ROLLOVER,ROLLOVERNAME,IMPACT1,IMPACT1NAME,FIRE_EXP,FIRE_EXPNAME,MAK_MOD,MAK_MODNAME,DEVTYPENAME,DEVMOTORNAME,DEVTYPE,DEVMOTOR",
+     "1,Alabama,10001,1,1,2,107,1,January,1,1,12,12:00pm-12:59pm,30,30,12,Motor Vehicle In-Transport,7,Sideswipe - Same Direction,0,No,2016,2016,483,Jeep,1943,Wrangler,7,Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV),2,Jeep / Kaiser-Jeep / Willys- Jeep,14,\"Compact Utility (Utility Vehicle Categories \"\"Small\"\" and \"\"Midsize\"\")\",0,Not Applicable,11,\"Class 1: 6,000 lbs. or less (2,722 kg or less)\",11,\"Class 1: 6,000 lbs. or less (2,722 kg or less)\",0,No Trailers,37,37 Years,1,Male,1,Driver of a Motor Vehicle In-Transport,4,Fatal Injury (K),11,\"Front Seat, Left Side\",20,None Used/Not Applicable,7,None Used/Not Applicable,20,Not Applicable,7,None Used/Not Applicable,1,Deployed- Front,1,Totally Ejected,9,Ejection Path Unknown,0,Not Extricated or Not Applicable,0,No (Alcohol Not Involved),0,Test Not Given,0,Test Not Given,996,Test Not Given,0,No (drugs not involved),8,Not Reported,5,EMS Ground,0,Not Applicable,1,1,1,January,2022,2022,13,13:00-13:59,53,53,1353,1353,1,1,23,23,0,0,Occupant of a Motor Vehicle,0,No,7,Non-Hispanic,1,Rural,3,Principal Arterial - Other,0,No Special Use Noted,0,Not Applicable,3,Rollover,81,Right,0,No or Not Reported,2403,Jeep / Kaiser-Jeep / Willys- Jeep YJ series/Wrangler,,,,"
+    ]
+   },
+   {
+    "member": "FARS2022NationalCSV/personrf.csv",
+    "size": 3469226,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,PER_NO,PERSONRF,PERSONRFNAME",
+     "1,Alabama,10001,1,1,0,None Noted"
+    ]
+   },
+   {
+    "member": "FARS2022NationalCSV/pvehiclesf.csv",
+    "size": 57077,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,PVEHICLESF,PVEHICLESFNAME",
+     "1,Alabama,10060,2,0,None Noted"
+    ]
+   },
+   {
+    "member": "FARS2022NationalCSV/race.csv",
+    "size": 5449171,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,PER_NO,RACE,RACENAME,ORDER,ORDERNAME,MULTRACE,MULTRACENAME",
+     "1,Alabama,10001,1,1,1,White,1,1,0,No"
+    ]
+   },
+   {
+    "member": "FARS2022NationalCSV/safetyeq.csv",
+    "size": 889152,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,PER_NO,NMHELMET,NMHELMETNAME,NMPROPAD,NMPROPADNAME,NMOTHPRO,NMOTHPRONAME,NMREFCLO,NMREFCLONAME,NMLIGHT,NMLIGHTNAME,NMOTHPRE,NMOTHPRENAME",
+     "1,Alabama,10005,0,1,1,No,1,No,1,No,1,No,1,No,1,No"
+    ]
+   },
+   {
+    "member": "FARS2022NationalCSV/vehicle.csv",
+    "size": 113419851,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,VE_FORMS,NUMOCCS,NUMOCCSNAME,DAY,DAYNAME,MONTH,MONTHNAME,HOUR,HOURNAME,MINUTE,MINUTENAME,HARM_EV,HARM_EVNAME,MAN_COLL,MAN_COLLNAME,UNITTYPE,UNITTYPENAME,HIT_RUN,HIT_RUNNAME,REG_STAT,REG_STATNAME,OWNER,OWNERNAME,MAKE,MAKENAME,MODEL,MAK_MOD,MAK_MODNAME,BODY_TYP,BODY_TYPNAME,MOD_YEAR,MOD_YEARNAME,VIN,VINNAME,VIN_1,VIN_2,VIN_3,VIN_4,VIN_5,VIN_6,VIN_7,VIN_8,VIN_9,VIN_10,VIN_11,VIN_12,TOW_VEH,TOW_VEHNAME,J_KNIFE,J_KNIFENAME,MCARR_I1,MCARR_I1NAME,MCARR_I2,MCARR_I2NAME,MCARR_ID,MCARR_IDNAME,V_CONFIG,V_CONFIGNAME,CARGO_BT,CARGO_BTNAME,HAZ_INV,HAZ_INVNAME,HAZ_PLAC,HAZ_PLACNAME,HAZ_ID,HAZ_IDNAME,HAZ_CNO,HAZ_CNONAME,HAZ_REL,HAZ_RELNAME,BUS_USE,BUS_USENAME,SPEC_USE,SPEC_USENAME,EMER_USE,EMER_USENAME,TRAV_SP,TRAV_SPNAME,UNDEROVERRIDE,UNDEROVERRIDENAME,ROLLOVER,ROLLOVERNAME,ROLINLOC,ROLINLOCNAME,IMPACT1,IMPACT1NAME,DEFORMED,DEFORMEDNAME,TOWED,TOWEDNAME,M_HARM,M_HARMNAME,FIRE_EXP,FIRE_EXPNAME,DR_PRES,DR_PRESNAME,L_STATE,L_STATENAME,DR_ZIP,DR_ZIPNAME,L_STATUS,L_STATUSNAME,L_TYPE,L_TYPENAME,CDL_STAT,CDL_STATNAME,L_ENDORS,L_ENDORSNAME,L_COMPL,L_COMPLNAME,L_RESTRI,L_RESTRINAME,DR_HGT,DR_HGTNAME,DR_WGT,DR_WGTNAME,PREV_ACC,PREV_ACCNAME,PREV_SUS1,PREV_SUS1NAME,PREV_SUS2,PREV_SUS2NAME,PREV_SUS3,PREV_SUS3NAME,PREV_DWI,PREV_DWINAME,PREV_SPD,PREV_SPDNAME,PREV_OTH,PREV_OTHNAME,FIRST_MO,FIRST_MONAME,FIRST_YR,FIRST_YRNAME,LAST_MO,LAST_MONAME,LAST_YR,LAST_YRNAME,SPEEDREL,SPEEDRELNAME,VTRAFWAY,VTRAFWAYNAME,VNUM_LAN,VNUM_LANNAME,VSPD_LIM,VSPD_LIMNAME,VALIGN,VALIGNNAME,VPROFILE,VPROFILENAME,VPAVETYP,VPAVETYPNAME,VSURCOND,VSURCONDNAME,VTRAFCON,VTRAFCONNAME,VTCONT_F,VTCONT_FNAME,P_CRASH1,P_CRASH1NAME,P_CRASH2,P_CRASH2NAME,P_CRASH3,P_CRASH3NAME,PCRASH4,PCRASH4NAME,PCRASH5,PCRASH5NAME,ACC_TYPE,ACC_TYPENAME,TRLR1VIN,TRLR1VINNAME,TRLR2VIN,TRLR2VINNAME,TRLR3VIN,TRLR3VINNAME,DEATHS,DR_DRINK,DR_DRINKNAME,VPICMAKE,VPICMAKENAME,VPICMODEL,VPICMODELNAME,VPICBODYCLASS,VPICBODYCLASSNAME,ICFINALBODY,ICFINALBODYNAME,GVWR_FROM,GVWR_FROMNAME,GVWR_TO,GVWR_TONAME,TRLR1GVWR,TRLR1GVWRNAME,TRLR2GVWR,TRLR2GVWRNAME,TRLR3GVWR,TRLR3GVWRNAME",
+     "1,Alabama,10001,1,2,1,01,1,1,1,January,12,12:00pm-12:59pm,30,30,12,Motor Vehicle In-Transport,7,Sideswipe - Same Direction,1,Motor Vehicle In-Transport (Inside or Outside the Trafficway),0,No,1,Alabama,2,Driver (in this crash) Not Registered Owner (Other Private Owner Listed),2,Jeep / Kaiser-Jeep / Willys- Jeep,403,2403,Jeep / Kaiser Jeep / Willys Jeep YJ series/Wrangler,14,\"Compact Utility (Utility Vehicle Categories \"\"Small\"\" and \"\"Midsize\"\")\",2016"
+    ]
+   },
+   {
+    "member": "FARS2022NationalCSV/vehiclesf.csv",
+    "size": 2077845,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,VEHICLESF,VEHICLESFNAME",
+     "1,Alabama,10001,1,0,None Noted"
+    ]
+   },
+   {
+    "member": "FARS2022NationalCSV/vevent.csv",
+    "size": 14548801,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,EVENTNUM,VEH_NO,VEVENTNUM,VNUMBER1,AOI1,AOI1NAME,SOE,SOENAME,VNUMBER2,VNUMBER2NAME,AOI2,AOI2NAME",
+     "1,Alabama,10001,1,1,1,1,55,Non-Harmful Event,61,\"Equipment Failure (blown tire, brake failure, etc)\",5555,Non-Harmful Event,55,Non-Harmful Event"
+    ]
+   },
+   {
+    "member": "FARS2022NationalCSV/violatn.csv",
+    "size": 2267197,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,VIOLATION,VIOLATIONNAME",
+     "1,Alabama,10001,1,0,None"
+    ]
+   },
+   {
+    "member": "FARS2022NationalCSV/vision.csv",
+    "size": 2705133,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,VISION,VISIONNAME",
+     "1,Alabama,10001,1,0,No Obstruction Noted"
+    ]
+   },
+   {
+    "member": "FARS2022NationalCSV/vpicdecode.csv",
+    "size": 47814038,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,VEHICLEDESCRIPTOR,VINDECODEDON,VINDECODEERROR,VEHICLETYPEID,VEHICLETYPE,MANUFACTURERFULLNAMEID,MANUFACTURERFULLNAME,MAKEID,MAKE,MODELID,MODEL,MODELYEAR,SERIES,TRIM,SERIES2,TRIM2,PLANTCOUNTRYID,PLANTCOUNTRY,PLANTSTATE,PLANTCITY,PLANTCOMPANYNAME,DESTINATIONMARKETID,DESTINATIONMARKET,BASEPRICE,NONLANDUSEID,NONLANDUSE,NOTE,BODYCLASSID,BODYCLASS,DOORSCOUNT,WINDOWS,WHEELBASETYPEID,WHEELBASETYPE,TRACKWIDTHIN,GROSSVEHICLEWEIGHTRATINGFROMID,GROSSVEHICLEWEIGHTRATINGFROM,GROSSVEHICLEWEIGHTRATINGTOID,GROSSVEHICLEWEIGHTRATINGTO,GROSSCOMBWEIGHTRATINGFROMID,GROSSCOMBWEIGHTRATINGFROM,GROSSCOMBWEIGHTRATINGTOID,GROSSCOMBWEIGHTRATINGTO,CURBWEIGHTLB,WHEELBASEIN_FROM,WHEELBASEIN_TO,WHEELSCOUNT,WHEELSIZEFRONTIN,WHEELSIZEREARIN,TRUCKBODYCABTYPEID,TRUCKBODYCABTYPE,TRUCKBEDTYPEID,TRUCKBEDTYPE,TRUCKBEDLENGTHIN,BUSTYPEID,BUSTYPE,BUSFLOORCONFIGURATIONTYPEID,BUSFLOORCONFIGURATIONTYPE,BUSLENGTHFT,OTHERBUSINFO,CUSTOMMOTORCYCLETYPEID,CUSTOMMOTORCYCLETYPE,MOTORCYCLESUSPENSIONTYPEID,MOTORCYCLESUSPENSIONTYPE,MOTORCYCLECHASSISTYPEID,MOTORCYCLECHASSISTYPE,OTHERMOTORCYCLEINFO,STEERINGLOCATIONID,STEERINGLOCATION,ENTERTAINMENTSYSTEMID,ENTERTAINMENTSYSTEM,SEATSCOUNT,SEATROWSCOUNT,TRANSMISSIONSPEEDS,TRANSMISSIONSTYLEID,TRANSMISSIONSTYLE,DRIVETYPEID,DRIVETYPE,AXLESCOUNT,AXLECONFIGURATIONID,AXLECONFIGURATION,BRAKESYSTEMTYPEID,BRAKESYSTEMTYPE,BRAKESYSTEMDESC,EVDRIVEUNITID,EVDRIVEUNIT,BATTERYKWH_FROM,BATTERYKWH_TO,BATTERYV_FROM,BATTERYV_TO,BATTERYA_FROM,BATTERYA_TO,BATTERYPACKSPERVEHICLE,BATTERYMODULESPERPACK,BATTERYCELLSPERMODULE,BATTERYTYPEID,BATTERYTYPE,OTHERBATTERYINFO,CHARGERLEVELID,CHARGERLEVEL,CHARGERPOWERKW,ENGINEMANUFACTURER,ENGINEMODEL,ENGINECONFIGURATIONID,ENGINECONFIGURATION,ENGINEPOWERKW,ENGINESTROKECYCLES,ENGINECYLINDERSCOUNT,ENGINEBRAKEHP_FROM,ENGINEBRAKEHP_TO,ENGINECOOLINGTYPEID,ENGINECOOLINGTYPE,DISPLACEMENTCI,DISPLACEMENTCC,DISPLACEMENTL,FUELTYPEPRIMARYID,FUELTYPEPRIMARY,FUELTYPESECONDARYID,FUELTYPESECONDARY,FUELDELIVERYINJECTIONTYPEID,FUELDELIVERYINJECTIONTYPE,ENGINEVALVETRAINDESIGNID,ENGINEVALVETRAINDESIGN,ENGINEELECTRIFICATIONLEVELID,ENGINEELECTRIFICATIONLEVEL,ENGINETURBOID,ENGINETURBO,TOPSPEEDMPH,OTHERENGINEINFO,SEATBELTTYPEID,SEATBELTTYPE,PRETENSIONERID,PRETENSIONER,AIRBAGLOCFRONTID,AIRBAGLOCFRONT,AIRBAGLOCKNEEID,AIRBAGLOCKNEE,AIRBAGLOCSIDEID,AIRBAGLOCSIDE,AIRBAGLOCCURTAINID,AIRBAGLOCCURTAIN,AIRBAGLOCSEATCUSHIONID,AIRBAGLOCSEATCUSHION,OTHERRESTRAINTSYSTEMINFO,FORWARDCOLLISIONWARNINGID,FORWARDCOLLISIONWARNING,DYNAMICBRAKESUPPORTID,DYNAMICBRAKESUPPOR"
+    ]
+   },
+   {
+    "member": "FARS2022NationalCSV/vpictrailerdecode.csv",
+    "size": 509388,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,TRAILER_NO,VEHICLEDESCRIPTOR,VINDECODEDON,VINDECODEERROR,VEHICLETYPEID,VEHICLETYPE,MANUFACTURERFULLNAMEID,MANUFACTURERFULLNAME,MAKEID,MAKE,MODELID,MODEL,MODELYEAR,SERIES,TRIM,PLANTCOUNTRYID,PLANTCOUNTRY,PLANTSTATE,PLANTCITY,PLANTCOMPANYNAME,NONLANDUSEID,NONLANDUSE,NOTE,BODYCLASSID,BODYCLASS,GROSSVEHICLEWEIGHTRATINGFROMID,GROSSVEHICLEWEIGHTRATINGFROM,GROSSVEHICLEWEIGHTRATINGTOID,GROSSVEHICLEWEIGHTRATINGTO,TRAILERBODYTYPEID,TRAILERBODYTYPE,TRAILERTYPECONNECTIONID,TRAILERTYPECONNECTION,TRAILERLENGTHFT,OTHERTRAILERINFO,AXLESCOUNT,AXLECONFIGURATIONID,AXLECONFIGURATION",
+     "4,Arizona,40011,2,1,1UYVS248*AM******,2024-03-15 02:12:38,0,6,TRAILER,10289,UTILITY TRAILER MANUFACTURING COMPANY,10138,UTILITY TRAILER MANUFACTURER,26222,Utility Trailer Manufacturer,2010,,,6,UNITED STATES (USA),VIRGINIA,MARION,,,,,61,Trailer,,,,,36,Van Trailer,4,Straight Semi/Semi Trailer,48.000,,2,,"
+    ]
+   },
+   {
+    "member": "FARS2022NationalCSV/vsoe.csv",
+    "size": 8926141,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,VEVENTNUM,SOE,SOENAME,AOI,AOINAME",
+     "1,Alabama,10001,1,1,61,\"Equipment Failure (blown tire, brake failure, etc)\",55,Non-Harmful Event"
+    ]
+   },
+   {
+    "member": "FARS2022NationalCSV/weather.csv",
+    "size": 1101942,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,WEATHER,WEATHERNAME",
+     "1,Alabama,10001,1,Clear"
+    ]
+   }
+  ]
+ },
+ "fars_2023": {
+  "bytes": 34174899,
+  "secs": 1.6,
+  "head": [
+   {
+    "member": "FARS2023NationalCSV/accident.csv",
+    "size": 23978377,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,PEDS,PERNOTMVIT,VE_TOTAL,VE_FORMS,PVH_INVL,PERSONS,PERMVIT,COUNTY,COUNTYNAME,CITY,CITYNAME,MONTH,MONTHNAME,DAY,DAYNAME,DAY_WEEK,DAY_WEEKNAME,YEAR,HOUR,HOURNAME,MINUTE,MINUTENAME,TWAY_ID,TWAY_ID2,ROUTE,ROUTENAME,RUR_URB,RUR_URBNAME,FUNC_SYS,FUNC_SYSNAME,RD_OWNER,RD_OWNERNAME,NHS,NHSNAME,SP_JUR,SP_JURNAME,MILEPT,MILEPTNAME,LATITUDE,LATITUDENAME,LONGITUD,LONGITUDNAME,HARM_EV,HARM_EVNAME,MAN_COLL,MAN_COLLNAME,RELJCT1,RELJCT1NAME,RELJCT2,RELJCT2NAME,TYP_INT,TYP_INTNAME,REL_ROAD,REL_ROADNAME,WRK_ZONE,WRK_ZONENAME,LGT_COND,LGT_CONDNAME,WEATHER,WEATHERNAME,SCH_BUS,SCH_BUSNAME,RAIL,RAILNAME,NOT_HOUR,NOT_HOURNAME,NOT_MIN,NOT_MINNAME,ARR_HOUR,ARR_HOURNAME,ARR_MIN,ARR_MINNAME,HOSP_HR,HOSP_HRNAME,HOSP_MN,HOSP_MNNAME,FATALS",
+     "1,Alabama,10001,0,0,1,1,0,1,1,13,BUTLER (13),0,NOT APPLICABLE,1,January,4,4,4,Wednesday,2023,22,10:00pm-10:59pm,20,20,US-31 SR-3,,2,U.S. Highway,1,Rural,5,Major Collector,1,State Highway Agency,0,This Section IS NOT on the NHS,0,No Special Jurisdiction,1463,1463,31.92797500,31.92797500,-86.538833330,-86.53883333,1,Rollover/Overturn,0,The First Harmful Event was Not a Collision with a Motor Vehicle in Transport,0,No,1,Non-Junction,1,Not an Intersection,4,On Roadside,0,None,2,Dark - Not Lighted,1,Clear,0,No,0000000,Not Applicable,22,10:00pm-10:59pm,20,20,22,10:00pm-10:59pm,45,45,88,Not Applicable (Not Transported),88,Not Applicable (Not Transported),1"
+    ]
+   },
+   {
+    "member": "FARS2023NationalCSV/cevent.csv",
+    "size": 11033465,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,EVENTNUM,VNUMBER1,AOI1,AOI1NAME,SOE,SOENAME,VNUMBER2,VNUMBER2NAME,AOI2,AOI2NAME",
+     "1,Alabama,10001,1,1,55,Non-Harmful Event,63,Ran Off Roadway - Right,5555,Non-Harmful Event,55,Non-Harmful Event"
+    ]
+   },
+   {
+    "member": "FARS2023NationalCSV/crashrf.csv",
+    "size": 1387926,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,CRASHRF,CRASHRFNAME",
+     "1,Alabama,10001,0,None Noted"
+    ]
+   },
+   {
+    "member": "FARS2023NationalCSV/damage.csv",
+    "size": 9360293,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,DAMAGE,DAMAGENAME",
+     "1,Alabama,10001,1,10,10 Clock Value"
+    ]
+   },
+   {
+    "member": "FARS2023NationalCSV/distract.csv",
+    "size": 2459659,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,DRDISTRACT,DRDISTRACTNAME",
+     "1,Alabama,10001,1,96,Not Reported"
+    ]
+   },
+   {
+    "member": "FARS2023NationalCSV/drimpair.csv",
+    "size": 2838029,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,DRIMPAIR,DRIMPAIRNAME",
+     "1,Alabama,10001,1,2,Asleep or Fatigued"
+    ]
+   },
+   {
+    "member": "FARS2023NationalCSV/driverrf.csv",
+    "size": 3454729,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,DRIVERRF,DRIVERRFNAME",
+     "1,Alabama,10001,1,58,Overcorrecting"
+    ]
+   },
+   {
+    "member": "FARS2023NationalCSV/drugs.csv",
+    "size": 21097855,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,PER_NO,DRUGSPEC,DRUGSPECNAME,DRUGMETHOD,DRUGMETHODNAME,DRUGRES,DRUGRESNAME,DRUGQTY,DRUGQTYNAME,DRUGACTQTY,DRUGACTQTYNAME,DRUGUOM,DRUGUOMNAME",
+     "1,Alabama,10001,1,1,0,Test Not Given,0,Test Not Given,0,Test Not Given,0,Test Not Given,-99.000,Not Applicable,-9,Not Applicable"
+    ]
+   },
+   {
+    "member": "FARS2023NationalCSV/factor.csv",
+    "size": 2012587,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,VEHICLECC,VEHICLECCNAME",
+     "1,Alabama,10001,1,0,None Noted"
+    ]
+   },
+   {
+    "member": "FARS2023NationalCSV/maneuver.csv",
+    "size": 2563664,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,MANEUVER,MANEUVERNAME",
+     "1,Alabama,10001,1,98,Not Reported"
+    ]
+   },
+   {
+    "member": "FARS2023NationalCSV/MIACC.CSV",
+    "size": 1134351,
+    "lines": [
+     "ST_CASE,A1,A2,A3,A4,A5,A6,A7,A8,A9,A10",
+     "10001,0,13,7,7,0,0,0,0,0,0"
+    ]
+   },
+   {
+    "member": "FARS2023NationalCSV/MIDRVACC.CSV",
+    "size": 1113524,
+    "lines": [
+     "ST_CASE,A1,A2,A3,A4,A5,A6,A7,A8,A9,A10",
+     "10001,0,13,7,7,0,0,0,0,0,0"
+    ]
+   },
+   {
+    "member": "FARS2023NationalCSV/MIPER.CSV",
+    "size": 2207249,
+    "lines": [
+     "ST_CASE,VEH_NO,PER_NO,P1,P2,P3,P4,P5,P6,P7,P8,P9,P10",
+     "10001,1,1,0,13,7,7,0,0,0,0,0,0"
+    ]
+   },
+   {
+    "member": "FARS2023NationalCSV/nmcrash.csv",
+    "size": 820270,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,PER_NO,NMCC,NMCCNAME",
+     "1,Alabama,10014,0,1,2,Failure to Yield Right-Of-Way"
+    ]
+   },
+   {
+    "member": "FARS2023NationalCSV/nmdistract.csv",
+    "size": 393286,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,PER_NO,NMDISTRACT,NMDISTRACTNAME",
+     "1,Alabama,10014,0,1,96,Not Reported"
+    ]
+   },
+   {
+    "member": "FARS2023NationalCSV/nmimpair.csv",
+    "size": 459075,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,PER_NO,NMIMPAIR,NMIMPAIRNAME",
+     "1,Alabama,10014,0,1,98,Not Reported"
+    ]
+   },
+   {
+    "member": "FARS2023NationalCSV/nmprior.csv",
+    "size": 576237,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,PER_NO,NMACTION,NMACTIONNAME",
+     "1,Alabama,10014,0,1,6,Movement Along Roadway Against Traffic (In or Adjacent to Travel Lane)"
+    ]
+   },
+   {
+    "member": "FARS2023NationalCSV/parkwork.csv",
+    "size": 1753789,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,PVE_FORMS,PMONTH,PMONTHNAME,PDAY,PDAYNAME,PHOUR,PHOURNAME,PMINUTE,PMINUTENAME,PHARM_EV,PHARM_EVNAME,PMAN_COLL,PMAN_COLLNAME,PNUMOCCS,PNUMOCCSNAME,PTYPE,PTYPENAME,PHIT_RUN,PHIT_RUNNAME,PREG_STAT,PREG_STATNAME,POWNER,POWNERNAME,PVIN,PVINNAME,PMODYEAR,PMODYEARNAME,PVPICMAKE,PVPICMAKENAME,PVPICMODEL,PVPICMODELNAME,PVPICBODYCLASS,PVPICBODYCLASSNAME,PMAKE,PMAKENAME,PMODEL,PBODYTYP,PBODYTYPNAME,PICFINALBODY,PICFINALBODYNAME,PGVWR_FROM,PGVWR_FROMNAME,PGVWR_TO,PGVWR_TONAME,PTRAILER,PTRAILERNAME,PTRLR1VIN,PTRLR1VINNAME,PTRLR2VIN,PTRLR2VINNAME,PTRLR3VIN,PTRLR3VINNAME,PTRLR1GVWR,PTRLR1GVWRNAME,PTRLR2GVWR,PTRLR2GVWRNAME,PTRLR3GVWR,PTRLR3GVWRNAME,PMCARR_ID,PMCARR_IDNAME,PMCARR_I1,PMCARR_I1NAME,PMCARR_I2,PMCARR_I2NAME,PV_CONFIG,PV_CONFIGNAME,PCARGTYP,PCARGTYPNAME,PHAZ_INV,PHAZ_INVNAME,PHAZPLAC,PHAZPLACNAME,PHAZ_ID,PHAZ_IDNAME,PHAZ_CNO,PHAZ_CNONAME,PHAZ_REL,PHAZ_RELNAME,PBUS_USE,PBUS_USENAME,PSP_USE,PSP_USENAME,PEM_USE,PEM_USENAME,PUNDEROVERRIDE,PUNDEROVERRIDENAME,PIMPACT1,PIMPACT1NAME,PVEH_SEV,PVEH_SEVNAME,PTOWED,PTOWEDNAME,PM_HARM,PM_HARMNAME,PFIRE,PFIRENAME,PMAK_MOD,PMAK_MODNAME,PVIN_1,PVIN_2,PVIN_3,PVIN_4,PVIN_5,PVIN_6,PVIN_7,PVIN_8,PVIN_9,PVIN_10,PVIN_11,PVIN_12,PDEATHS",
+     "1,Alabama,10039,2,1,1,January,14,14,15,3:00pm-3:59pm,45,45,14,Parked Motor Vehicle,0,The First Harmful Event was Not a Collision with a Motor Vehicle in Transport,99,Unknown,2,Motor Vehicle Not In-Transport Within the Trafficway,0,No,99,Reported as Unknown,6,Driverless/Motor Vehicle Parked/Stopped Off Roadway,999999999999,Reported as Unknown,2001,2001,474,Honda,1869,Odyssey,2,Minivan,37,Honda,441,20,\"Minivan (Chrysler Town and Country, Caravan, Grand Caravan, Voyager, Voyager, Honda-Odyssey, ...)\",0,Not Applicable,12,\"Class 2: 6,001 - 10,000 lbs. (2,722 - 4,536 kg)\",12,\"Class 2: 6,001 - 10,000 lbs. (2,722 - 4,536 kg)\",6,Vehicle Towing Another Motor Vehicle - Non-Fixed Linkage,777777777777,No Trailing Units,777777777777,No Trailing Units,777777777777,No Trailing Units,77,No Trailing Units,77,No Trailing Units,77,No Trailing Units,00000000000,Not Applicable,0,Not Applicable,000000000,Not Applicable,0,Not Applicable,0,Not Applicable (N/A),1,No,0,Not Applicable,0,Not Applicable,0,Not Applicable,0,Not Applicable,0,Not a Bus,0,No Special Use Noted,0,Not Applicable,0,No Underride or Override,6,6 Clock Point,6,Disabling Damage,6,Towed,12,Motor Vehicle In-Transport,0,No or Not Reported,37441,Honda Odyssey,9,9,9,9,9,9,9,9,9,9,9,9,0"
+    ]
+   },
+   {
+    "member": "FARS2023NationalCSV/pbtype.csv",
+    "size": 3745168,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,PER_NO,PBAGE,PBAGENAME,PBSEX,PBSEXNAME,PBPTYPE,PBPTYPENAME,PBCWALK,PBCWALKNAME,PBSWALK,PBSWALKNAME,PBSZONE,PBSZONENAME,PEDCTYPE,PEDCTYPENAME,BIKECTYPE,BIKECTYPENAME,PEDLOC,PEDLOCNAME,BIKELOC,BIKELOCNAME,PEDPOS,PEDPOSNAME,BIKEPOS,BIKEPOSNAME,PEDDIR,PEDDIRNAME,BIKEDIR,BIKEDIRNAME,MOTDIR,MOTDIRNAME,MOTMAN,MOTMANNAME,PEDLEG,PEDLEGNAME,PEDSNR,PEDSNRNAME,PEDCGP,PEDCGPNAME,BIKECGP,BIKECGPNAME",
+     "1,Alabama,10014,0,1,63,63 Years,1,Male,5,Pedestrian,0,None Noted,0,None Noted,0,None Noted,440,Walking/Running Along Roadway Against Traffic - From Front,0,Not a Cyclist,3,Not At Intersection,7,Not a Cyclist,3,Travel Lane,7,Not a Cyclist,8,Not Applicable,7,Not a Cyclist,8,Not Applicable,8,Not Applicable,8,Not Applicable,8,Not Applicable,400,Walking/Running Along Roadway,0,Not a Cyclist"
+    ]
+   },
+   {
+    "member": "FARS2023NationalCSV/person.csv",
+    "size": 112575097,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,PER_NO,VE_FORMS,COUNTY,MONTH,MONTHNAME,DAY,DAYNAME,HOUR,HOURNAME,MINUTE,MINUTENAME,HARM_EV,HARM_EVNAME,MAN_COLL,MAN_COLLNAME,SCH_BUS,SCH_BUSNAME,RUR_URB,RUR_URBNAME,FUNC_SYS,FUNC_SYSNAME,MOD_YEAR,MOD_YEARNAME,VPICMAKE,VPICMAKENAME,VPICMODEL,VPICMODELNAME,VPICBODYCLASS,VPICBODYCLASSNAME,MAKE,MAKENAME,BODY_TYP,BODY_TYPNAME,ICFINALBODY,ICFINALBODYNAME,GVWR_FROM,GVWR_FROMNAME,GVWR_TO,GVWR_TONAME,TOW_VEH,TOW_VEHNAME,SPEC_USE,SPEC_USENAME,EMER_USE,EMER_USENAME,ROLLOVER,ROLLOVERNAME,IMPACT1,IMPACT1NAME,FIRE_EXP,FIRE_EXPNAME,MAK_MOD,MAK_MODNAME,AGE,AGENAME,SEX,SEXNAME,PER_TYP,PER_TYPNAME,INJ_SEV,INJ_SEVNAME,SEAT_POS,SEAT_POSNAME,REST_USE,REST_USENAME,REST_MIS,REST_MISNAME,HELM_USE,HELM_USENAME,HELM_MIS,HELM_MISNAME,AIR_BAG,AIR_BAGNAME,EJECTION,EJECTIONNAME,EJ_PATH,EJ_PATHNAME,EXTRICAT,EXTRICATNAME,DRINKING,DRINKINGNAME,ALC_STATUS,ALC_STATUSNAME,ATST_TYP,ATST_TYPNAME,ALC_RES,ALC_RESNAME,DRUGS,DRUGSNAME,DSTATUS,DSTATUSNAME,HOSPITAL,HOSPITALNAME,DOA,DOANAME,DEATH_MO,DEATH_MONAME,DEATH_DA,DEATH_DANAME,DEATH_YR,DEATH_YRNAME,DEATH_TM,DEATH_TMNAME,DEATH_HR,DEATH_HRNAME,DEATH_MN,DEATH_MNNAME,LAG_HRS,LAG_HRSNAME,LAG_MINS,LAG_MINSNAME,STR_VEH,DEVTYPE,DEVTYPENAME,DEVMOTOR,DEVMOTORNAME,LOCATION,LOCATIONNAME,WORK_INJ,WORK_INJNAME,HISPANIC,HISPANICNAME",
+     "1,Alabama,10001,1,1,1,13,1,January,4,4,22,10:00pm-10:59pm,20,20,1,Rollover/Overturn,0,The First Harmful Event was Not a Collision with a Motor Vehicle in Transport,0,No,1,Rural,5,Major Collector,1996,1996,460,Ford,1800,Explorer,7,Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle (MPV),12,Ford,14,\"Compact Utility (Utility Vehicle Categories \"\"Small\"\" and \"\"Midsize\"\")\",0,Not Applicable,11,\"Class 1: 6,000 lbs. or less (2,722 kg or less)\",11,\"Class 1: 6,000 lbs. or less (2,722 kg or less)\",0,No Trailers,0,No Special Use\u00c2\u00a0Noted,0,Not Applicable,3,Rollover,0,Non-Collision,0,No or Not Reported,12401,\"Ford Bronco (thru 1977)/Bronco II/Explorer/Explorer Sport (Explorer for 1990-2018 only.  For model years 2019 on, see 12-425.)\",33,33 Years,1,Male,1,Driver of a Motor Vehicle In-Transport,4,Fatal Injury (K),11,\"Front Seat, Left Side\",3,Shoulder and Lap Belt Used,0,No Indication of Misuse,20,Not Applicable,7,None Used/Not Applicable,1,Deployed- Front,0,Not Ejected,0,Ejection Path Not Applicable,0,Not Extricated or Not Applicable,0,No (Alcohol Not Involved),0,Test Not Given,0,Test Not Given,996,Test Not Given,0,No (drugs not involved),0,Test Not Given,0,Not Transported for Treatment,7,Died at Scene,1,January,4,4"
+    ]
+   },
+   {
+    "member": "FARS2023NationalCSV/personrf.csv",
+    "size": 3347468,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,PER_NO,PERSONRF,PERSONRFNAME",
+     "1,Alabama,10001,1,1,0,None Noted"
+    ]
+   },
+   {
+    "member": "FARS2023NationalCSV/pvehiclesf.csv",
+    "size": 54133,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,PVEHICLESF,PVEHICLESFNAME",
+     "1,Alabama,10039,2,0,None Noted"
+    ]
+   },
+   {
+    "member": "FARS2023NationalCSV/race.csv",
+    "size": 5257526,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,PER_NO,RACE,RACENAME,ORDER,ORDERNAME,MULTRACE,MULTRACENAME",
+     "1,Alabama,10001,1,1,2,Black or African American,1,1,0,No"
+    ]
+   },
+   {
+    "member": "FARS2023NationalCSV/safetyeq.csv",
+    "size": 847267,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,PER_NO,NMHELMET,NMHELMETNAME,NMPROPAD,NMPROPADNAME,NMOTHPRO,NMOTHPRONAME,NMREFCLO,NMREFCLONAME,NMLIGHT,NMLIGHTNAME,NMOTHPRE,NMOTHPRENAME",
+     "1,Alabama,10014,0,1,1,No,1,No,1,No,1,No,1,No,1,No"
+    ]
+   },
+   {
+    "member": "FARS2023NationalCSV/vehicle.csv",
+    "size": 113055296,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,VE_FORMS,MONTH,MONTHNAME,DAY,DAYNAME,HOUR,HOURNAME,MINUTE,MINUTENAME,HARM_EV,HARM_EVNAME,MAN_COLL,MAN_COLLNAME,NUMOCCS,NUMOCCSNAME,UNITTYPE,UNITTYPENAME,HIT_RUN,HIT_RUNNAME,REG_STAT,REG_STATNAME,OWNER,OWNERNAME,VIN,VINNAME,MOD_YEAR,MOD_YEARNAME,VPICMAKE,VPICMAKENAME,VPICMODEL,VPICMODELNAME,VPICBODYCLASS,VPICBODYCLASSNAME,MAKE,MAKENAME,MODEL,BODY_TYP,BODY_TYPNAME,ICFINALBODY,ICFINALBODYNAME,GVWR_FROM,GVWR_FROMNAME,GVWR_TO,GVWR_TONAME,TOW_VEH,TOW_VEHNAME,TRLR1VIN,TRLR1VINNAME,TRLR2VIN,TRLR2VINNAME,TRLR3VIN,TRLR3VINNAME,TRLR1GVWR,TRLR1GVWRNAME,TRLR2GVWR,TRLR2GVWRNAME,TRLR3GVWR,TRLR3GVWRNAME,J_KNIFE,J_KNIFENAME,MCARR_ID,MCARR_IDNAME,MCARR_I1,MCARR_I1NAME,MCARR_I2,MCARR_I2NAME,V_CONFIG,V_CONFIGNAME,CARGO_BT,CARGO_BTNAME,HAZ_INV,HAZ_INVNAME,HAZ_PLAC,HAZ_PLACNAME,HAZ_ID,HAZ_IDNAME,HAZ_CNO,HAZ_CNONAME,HAZ_REL,HAZ_RELNAME,BUS_USE,BUS_USENAME,SPEC_USE,SPEC_USENAME,EMER_USE,EMER_USENAME,TRAV_SP,TRAV_SPNAME,UNDEROVERRIDE,UNDEROVERRIDENAME,ROLLOVER,ROLLOVERNAME,ROLINLOC,ROLINLOCNAME,IMPACT1,IMPACT1NAME,DEFORMED,DEFORMEDNAME,TOWED,TOWEDNAME,M_HARM,M_HARMNAME,FIRE_EXP,FIRE_EXPNAME,MAK_MOD,MAK_MODNAME,VIN_1,VIN_2,VIN_3,VIN_4,VIN_5,VIN_6,VIN_7,VIN_8,VIN_9,VIN_10,VIN_11,VIN_12,DEATHS,DR_DRINK,DR_DRINKNAME,DR_PRES,DR_PRESNAME,L_STATE,L_STATENAME,DR_ZIP,DR_ZIPNAME,L_TYPE,L_TYPENAME,L_STATUS,L_STATUSNAME,CDL_STAT,CDL_STATNAME,L_ENDORS,L_ENDORSNAME,L_COMPL,L_COMPLNAME,L_RESTRI,L_RESTRINAME,DR_HGT,DR_HGTNAME,DR_WGT,DR_WGTNAME,PREV_ACC,PREV_ACCNAME,PREV_SUS1,PREV_SUS1NAME,PREV_SUS2,PREV_SUS2NAME,PREV_SUS3,PREV_SUS3NAME,PREV_DWI,PREV_DWINAME,PREV_SPD,PREV_SPDNAME,PREV_OTH,PREV_OTHNAME,FIRST_MO,FIRST_MONAME,FIRST_YR,FIRST_YRNAME,LAST_MO,LAST_MONAME,LAST_YR,LAST_YRNAME,SPEEDREL,SPEEDRELNAME,VTRAFWAY,VTRAFWAYNAME,VNUM_LAN,VNUM_LANNAME,VSPD_LIM,VSPD_LIMNAME,VALIGN,VALIGNNAME,VPROFILE,VPROFILENAME,VPAVETYP,VPAVETYPNAME,VSURCOND,VSURCONDNAME,VTRAFCON,VTRAFCONNAME,VTCONT_F,VTCONT_FNAME,P_CRASH1,P_CRASH1NAME,P_CRASH2,P_CRASH2NAME,P_CRASH3,P_CRASH3NAME,PCRASH4,PCRASH4NAME,PCRASH5,PCRASH5NAME,ACC_TYPE,ACC_TYPENAME,ACC_CONFIG,ACC_CONFIGNAME",
+     "1,Alabama,10001,1,1,1,January,4,4,22,10:00pm-10:59pm,20,20,1,Rollover/Overturn,0,The First Harmful Event was Not a Collision with a Motor Vehicle in Transport,1,01,1,Motor Vehicle In-Transport (Inside or Outside the Trafficway),0,No,1,Alabama,2,Driver (in this crash) Not Registered Owner (Other Private Owner Listed),1FMDU32X8TUD,1FMDU32X8TUD,1996,1996,460,Ford,1800,Explorer,7,Sport Utility Vehicle (SUV)/Multi-Purpose Vehicle"
+    ]
+   },
+   {
+    "member": "FARS2023NationalCSV/vehiclesf.csv",
+    "size": 1996334,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,VEHICLESF,VEHICLESFNAME",
+     "1,Alabama,10001,1,0,None Noted"
+    ]
+   },
+   {
+    "member": "FARS2023NationalCSV/vevent.csv",
+    "size": 13638296,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,EVENTNUM,VEH_NO,VEVENTNUM,VNUMBER1,AOI1,AOI1NAME,SOE,SOENAME,VNUMBER2,VNUMBER2NAME,AOI2,AOI2NAME",
+     "1,Alabama,10001,1,1,1,1,55,Non-Harmful Event,63,Ran Off Roadway - Right,5555,Non-Harmful Event,55,Non-Harmful Event"
+    ]
+   },
+   {
+    "member": "FARS2023NationalCSV/violatn.csv",
+    "size": 2133555,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,VIOLATION,VIOLATIONNAME",
+     "1,Alabama,10001,1,0,None"
+    ]
+   },
+   {
+    "member": "FARS2023NationalCSV/vision.csv",
+    "size": 2605063,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,VISION,VISIONNAME",
+     "1,Alabama,10001,1,0,No Obstruction Noted"
+    ]
+   },
+   {
+    "member": "FARS2023NationalCSV/vpicdecode.csv",
+    "size": 46677568,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,VEHICLEDESCRIPTOR,VINDECODEDON,VINDECODEERROR,VEHICLETYPEID,VEHICLETYPE,MANUFACTURERFULLNAMEID,MANUFACTURERFULLNAME,MAKEID,MAKE,MODELID,MODEL,MODELYEAR,SERIES,TRIM,SERIES2,TRIM2,PLANTCOUNTRYID,PLANTCOUNTRY,PLANTSTATE,PLANTCITY,PLANTCOMPANYNAME,DESTINATIONMARKETID,DESTINATIONMARKET,BASEPRICE,NONLANDUSEID,NONLANDUSE,NOTE,BODYCLASSID,BODYCLASS,DOORSCOUNT,WINDOWS,WHEELBASETYPEID,WHEELBASETYPE,TRACKWIDTHIN,GROSSVEHICLEWEIGHTRATINGFROMID,GROSSVEHICLEWEIGHTRATINGFROM,GROSSVEHICLEWEIGHTRATINGTOID,GROSSVEHICLEWEIGHTRATINGTO,GROSSCOMBWEIGHTRATINGFROMID,GROSSCOMBWEIGHTRATINGFROM,GROSSCOMBWEIGHTRATINGTOID,GROSSCOMBWEIGHTRATINGTO,CURBWEIGHTLB,WHEELBASEIN_FROM,WHEELBASEIN_TO,WHEELSCOUNT,WHEELSIZEFRONTIN,WHEELSIZEREARIN,TRUCKBODYCABTYPEID,TRUCKBODYCABTYPE,TRUCKBEDTYPEID,TRUCKBEDTYPE,TRUCKBEDLENGTHIN,BUSTYPEID,BUSTYPE,BUSFLOORCONFIGURATIONTYPEID,BUSFLOORCONFIGURATIONTYPE,BUSLENGTHFT,OTHERBUSINFO,CUSTOMMOTORCYCLETYPEID,CUSTOMMOTORCYCLETYPE,MOTORCYCLESUSPENSIONTYPEID,MOTORCYCLESUSPENSIONTYPE,MOTORCYCLECHASSISTYPEID,MOTORCYCLECHASSISTYPE,OTHERMOTORCYCLEINFO,STEERINGLOCATIONID,STEERINGLOCATION,ENTERTAINMENTSYSTEMID,ENTERTAINMENTSYSTEM,SEATSCOUNT,SEATROWSCOUNT,TRANSMISSIONSPEEDS,TRANSMISSIONSTYLEID,TRANSMISSIONSTYLE,DRIVETYPEID,DRIVETYPE,AXLESCOUNT,AXLECONFIGURATIONID,AXLECONFIGURATION,BRAKESYSTEMTYPEID,BRAKESYSTEMTYPE,BRAKESYSTEMDESC,EVDRIVEUNITID,EVDRIVEUNIT,BATTERYKWH_FROM,BATTERYKWH_TO,BATTERYV_FROM,BATTERYV_TO,BATTERYA_FROM,BATTERYA_TO,BATTERYPACKSPERVEHICLE,BATTERYMODULESPERPACK,BATTERYCELLSPERMODULE,BATTERYTYPEID,BATTERYTYPE,OTHERBATTERYINFO,CHARGERLEVELID,CHARGERLEVEL,CHARGERPOWERKW,ENGINEMANUFACTURER,ENGINEMODEL,ENGINECONFIGURATIONID,ENGINECONFIGURATION,ENGINEPOWERKW,ENGINESTROKECYCLES,ENGINECYLINDERSCOUNT,ENGINEBRAKEHP_FROM,ENGINEBRAKEHP_TO,ENGINECOOLINGTYPEID,ENGINECOOLINGTYPE,DISPLACEMENTCI,DISPLACEMENTCC,DISPLACEMENTL,FUELTYPEPRIMARYID,FUELTYPEPRIMARY,FUELTYPESECONDARYID,FUELTYPESECONDARY,FUELDELIVERYINJECTIONTYPEID,FUELDELIVERYINJECTIONTYPE,ENGINEVALVETRAINDESIGNID,ENGINEVALVETRAINDESIGN,ENGINEELECTRIFICATIONLEVELID,ENGINEELECTRIFICATIONLEVEL,ENGINETURBOID,ENGINETURBO,TOPSPEEDMPH,OTHERENGINEINFO,SEATBELTTYPEID,SEATBELTTYPE,PRETENSIONERID,PRETENSIONER,AIRBAGLOCFRONTID,AIRBAGLOCFRONT,AIRBAGLOCKNEEID,AIRBAGLOCKNEE,AIRBAGLOCSIDEID,AIRBAGLOCSIDE,AIRBAGLOCCURTAINID,AIRBAGLOCCURTAIN,AIRBAGLOCSEATCUSHIONID,AIRBAGLOCSEATCUSHION,OTHERRESTRAINTSYSTEMINFO,FORWARDCOLLISIONWARNINGID,FORWARDCOLLISIONWARNING,DYNAMICBRAKESUPPORTID,DYNAMICBRAKESUPPOR"
+    ]
+   },
+   {
+    "member": "FARS2023NationalCSV/vpictrailerdecode.csv",
+    "size": 552174,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,TRAILER_NO,VEHICLEDESCRIPTOR,VINDECODEDON,VINDECODEERROR,VEHICLETYPEID,VEHICLETYPE,MANUFACTURERFULLNAMEID,MANUFACTURERFULLNAME,MAKEID,MAKE,MODELID,MODEL,MODELYEAR,SERIES,TRIM,PLANTCOUNTRYID,PLANTCOUNTRY,PLANTSTATE,PLANTCITY,PLANTCOMPANYNAME,NONLANDUSEID,NONLANDUSE,NOTE,BODYCLASSID,BODYCLASS,GROSSVEHICLEWEIGHTRATINGFROMID,GROSSVEHICLEWEIGHTRATINGFROM,GROSSVEHICLEWEIGHTRATINGTOID,GROSSVEHICLEWEIGHTRATINGTO,TRAILERBODYTYPEID,TRAILERBODYTYPE,TRAILERTYPECONNECTIONID,TRAILERTYPECONNECTION,TRAILERLENGTHFT,OTHERTRAILERINFO,AXLESCOUNT,AXLECONFIGURATIONID,AXLECONFIGURATION",
+     "4,Arizona,40005,1,1,527SR532*FL******,2025-02-28 02:43:34,0,6,TRAILER,6703,CIMC REEFER TRAILER INC.,1561,\"CIMC REEFER TRAILER,INC\",4978,\"CIMC REEFER TRAILER,INC.\",2015,,,6,UNITED STATES (USA),CALIFORNIA,LOS ANGELES,\"CIMC Reefer Trailer,Inc\",,,,61,Trailer,,,,,5,Box or Van Enclosed Trailer,4,Straight Semi/Semi Trailer,53.000,Reefer Van Trailer,2,,"
+    ]
+   },
+   {
+    "member": "FARS2023NationalCSV/vsoe.csv",
+    "size": 8396324,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,VEVENTNUM,SOE,SOENAME,AOI,AOINAME",
+     "1,Alabama,10001,1,1,63,Ran Off Roadway - Right,55,Non-Harmful Event"
+    ]
+   },
+   {
+    "member": "FARS2023NationalCSV/weather.csv",
+    "size": 1054722,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,WEATHER,WEATHERNAME",
+     "1,Alabama,10001,1,Clear"
+    ]
+   }
+  ]
+ },
+ "fars_2024": {
+  "bytes": 32672161,
+  "secs": 1.7,
+  "head": [
+   {
+    "member": "FARS2024NationalCSV/accident.csv",
+    "size": 23176370,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,PEDS,PERNOTMVIT,VE_TOTAL,VE_FORMS,PVH_INVL,PERSONS,PERMVIT,COUNTY,COUNTYNAME,CITY,CITYNAME,MONTH,MONTHNAME,DAY,DAYNAME,DAY_WEEK,DAY_WEEKNAME,YEAR,HOUR,HOURNAME,MINUTE,MINUTENAME,TWAY_ID,TWAY_ID2,ROUTE,ROUTENAME,RUR_URB,RUR_URBNAME,FUNC_SYS,FUNC_SYSNAME,RD_OWNER,RD_OWNERNAME,NHS,NHSNAME,SP_JUR,SP_JURNAME,MILEPT,MILEPTNAME,LATITUDE,LATITUDENAME,LONGITUD,LONGITUDNAME,HARM_EV,HARM_EVNAME,MAN_COLL,MAN_COLLNAME,RELJCT1,RELJCT1NAME,RELJCT2,RELJCT2NAME,TYP_INT,TYP_INTNAME,REL_ROAD,REL_ROADNAME,WRK_ZONE,WRK_ZONENAME,LGT_COND,LGT_CONDNAME,WEATHER,WEATHERNAME,SCH_BUS,SCH_BUSNAME,RAIL,RAILNAME,NOT_HOUR,NOT_HOURNAME,NOT_MIN,NOT_MINNAME,ARR_HOUR,ARR_HOURNAME,ARR_MIN,ARR_MINNAME,HOSP_HR,HOSP_HRNAME,HOSP_MN,HOSP_MNNAME,FATALS",
+     "1,Alabama,10001,0,0,1,1,0,1,1,125,TUSCALOOSA (125),0,NOT APPLICABLE,1,January,1,1,2,Monday,2024,10,10:00am-10:59am,30,30,SR-69,,3,State Highway,1,Rural,4,Minor Arterial,1,State Highway Agency,0,This Section IS NOT on the NHS,0,No Special Jurisdiction,1666,1666,33.47131111,33.47131111,-87.496702780,-87.49670278,42,Tree (Standing Only),0,The First Harmful Event was Not a Collision with a Motor Vehicle in Transport,0,No,1,Non-Junction,1,Not an Intersection,4,On Roadside,0,None,1,Daylight,1,Clear,0,No,0000000,Not Applicable,10,10:00am-10:59am,53,53,10,10:00am-10:59am,55,55,88,Not Applicable (Not Transported),88,Not Applicable (Not Transported),1"
+    ]
+   },
+   {
+    "member": "FARS2024NationalCSV/cevent.csv",
+    "size": 10551085,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,EVENTNUM,VNUMBER1,AOI1,AOI1NAME,SOE,SOENAME,VNUMBER2,VNUMBER2NAME,AOI2,AOI2NAME",
+     "1,Alabama,10001,1,1,55,Non-Harmful Event,63,Ran Off Roadway - Right,5555,Non-Harmful Event,55,Non-Harmful Event"
+    ]
+   },
+   {
+    "member": "FARS2024NationalCSV/crashrf.csv",
+    "size": 1334590,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,CRASHRF,CRASHRFNAME",
+     "1,Alabama,10001,0,None Noted"
+    ]
+   },
+   {
+    "member": "FARS2024NationalCSV/damage.csv",
+    "size": 8943081,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,DAMAGE,DAMAGENAME",
+     "1,Alabama,10001,1,12,12 Clock Value"
+    ]
+   },
+   {
+    "member": "FARS2024NationalCSV/distract.csv",
+    "size": 2355637,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,DRDISTRACT,DRDISTRACTNAME",
+     "1,Alabama,10001,1,96,Not Reported"
+    ]
+   },
+   {
+    "member": "FARS2024NationalCSV/drimpair.csv",
+    "size": 2715061,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,DRIMPAIR,DRIMPAIRNAME",
+     "1,Alabama,10001,1,9,\"Under the Influence of Alcohol, Drugs or Medication\""
+    ]
+   },
+   {
+    "member": "FARS2024NationalCSV/driverrf.csv",
+    "size": 3328946,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,DRIVERRF,DRIVERRFNAME",
+     "1,Alabama,10001,1,58,Overcorrecting"
+    ]
+   },
+   {
+    "member": "FARS2024NationalCSV/drugs.csv",
+    "size": 20580753,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,PER_NO,DRUGSPEC,DRUGSPECNAME,DRUGMETHOD,DRUGMETHODNAME,DRUGRES,DRUGRESNAME,DRUGQTY,DRUGQTYNAME,DRUGACTQTY,DRUGACTQTYNAME,DRUGUOM,DRUGUOMNAME",
+     "1,Alabama,10001,1,1,1,Whole Blood,19,Unknown Confirmatory Test Method,5060,Delta 9-tetrahydrocannabinol [THC],98,\"Tested for Drugs, Drugs Detected, Unknown Quantity\",-99.000,Not Applicable,-9,Not Applicable"
+    ]
+   },
+   {
+    "member": "FARS2024NationalCSV/factor.csv",
+    "size": 1925708,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,VEHICLECC,VEHICLECCNAME",
+     "1,Alabama,10001,1,0,None Noted"
+    ]
+   },
+   {
+    "member": "FARS2024NationalCSV/maneuver.csv",
+    "size": 2474177,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,MANEUVER,MANEUVERNAME",
+     "1,Alabama,10001,1,98,Not Reported"
+    ]
+   },
+   {
+    "member": "FARS2024NationalCSV/MIACC.CSV",
+    "size": 1090480,
+    "lines": [
+     "ST_CASE,A1,A2,A3,A4,A5,A6,A7,A8,A9,A10",
+     "10001,33,33,33,33,33,33,33,33,33,33"
+    ]
+   },
+   {
+    "member": "FARS2024NationalCSV/MIDRVACC.CSV",
+    "size": 1071532,
+    "lines": [
+     "ST_CASE,A1,A2,A3,A4,A5,A6,A7,A8,A9,A10",
+     "10001,33,33,33,33,33,33,33,33,33,33"
+    ]
+   },
+   {
+    "member": "FARS2024NationalCSV/MIPER.CSV",
+    "size": 2115732,
+    "lines": [
+     "ST_CASE,VEH_NO,PER_NO,P1,P2,P3,P4,P5,P6,P7,P8,P9,P10",
+     "10001,1,1,33,33,33,33,33,33,33,33,33,33"
+    ]
+   },
+   {
+    "member": "FARS2024NationalCSV/nmcrash.csv",
+    "size": 793769,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,PER_NO,NMCC,NMCCNAME",
+     "1,Alabama,10003,0,1,6,\"Inattentive (Talking, Eating, Etc.)\""
+    ]
+   },
+   {
+    "member": "FARS2024NationalCSV/nmdistract.csv",
+    "size": 383071,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,PER_NO,NMDISTRACT,NMDISTRACTNAME",
+     "1,Alabama,10003,0,1,12,\"Distracted by Animal, Other Object, Event, or Activity\""
+    ]
+   },
+   {
+    "member": "FARS2024NationalCSV/nmimpair.csv",
+    "size": 446188,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,PER_NO,NMIMPAIR,NMIMPAIRNAME",
+     "1,Alabama,10003,0,1,99,Reported as Unknown if Impaired"
+    ]
+   },
+   {
+    "member": "FARS2024NationalCSV/nmprior.csv",
+    "size": 549706,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,PER_NO,NMACTION,NMACTIONNAME",
+     "1,Alabama,10003,0,1,8,\"In Roadway - Other [Working, Playing, Etc.]\""
+    ]
+   },
+   {
+    "member": "FARS2024NationalCSV/parkwork.csv",
+    "size": 1750557,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,PVE_FORMS,PMONTH,PMONTHNAME,PDAY,PDAYNAME,PHOUR,PHOURNAME,PMINUTE,PMINUTENAME,PHARM_EV,PHARM_EVNAME,PMAN_COLL,PMAN_COLLNAME,PNUMOCCS,PNUMOCCSNAME,PTYPE,PTYPENAME,PHIT_RUN,PHIT_RUNNAME,PREG_STAT,PREG_STATNAME,POWNER,POWNERNAME,PVIN,PVINNAME,PMODYEAR,PMODYEARNAME,PVPICMAKE,PVPICMAKENAME,PVPICMODEL,PVPICMODELNAME,PVPICBODYCLASS,PVPICBODYCLASSNAME,PMAKE,PMAKENAME,PMODEL,PBODYTYP,PBODYTYPNAME,PICFINALBODY,PICFINALBODYNAME,PGVWR_FROM,PGVWR_FROMNAME,PGVWR_TO,PGVWR_TONAME,PTRAILER,PTRAILERNAME,PTRLR1VIN,PTRLR1VINNAME,PTRLR2VIN,PTRLR2VINNAME,PTRLR3VIN,PTRLR3VINNAME,PTRLR1GVWR,PTRLR1GVWRNAME,PTRLR2GVWR,PTRLR2GVWRNAME,PTRLR3GVWR,PTRLR3GVWRNAME,PMCARR_ID,PMCARR_IDNAME,PMCARR_I1,PMCARR_I1NAME,PMCARR_I2,PMCARR_I2NAME,PV_CONFIG,PV_CONFIGNAME,PCARGTYP,PCARGTYPNAME,PHAZ_INV,PHAZ_INVNAME,PHAZPLAC,PHAZPLACNAME,PHAZ_ID,PHAZ_IDNAME,PHAZ_CNO,PHAZ_CNONAME,PHAZ_REL,PHAZ_RELNAME,PBUS_USE,PBUS_USENAME,PSP_USE,PSP_USENAME,PEM_USE,PEM_USENAME,PUNDEROVERRIDE,PUNDEROVERRIDENAME,PIMPACT1,PIMPACT1NAME,PVEH_SEV,PVEH_SEVNAME,PTOWED,PTOWEDNAME,PM_HARM,PM_HARMNAME,PFIRE,PFIRENAME,PMAK_MOD,PMAK_MODNAME,PVIN_1,PVIN_2,PVIN_3,PVIN_4,PVIN_5,PVIN_6,PVIN_7,PVIN_8,PVIN_9,PVIN_10,PVIN_11,PVIN_12,PDEATHS",
+     "1,Alabama,10005,2,1,1,January,3,3,23,11:00pm-11:59pm,40,40,8,Pedestrian,0,The First Harmful Event was Not a Collision with a Motor Vehicle in Transport,0,None,3,Motor Vehicle Not In-Transport Outside the Trafficway,0,No,13,Georgia,6,Driverless/Motor Vehicle Parked/Stopped Off Roadway,2C3CDXGJ1HH6,2C3CDXGJ1HH6,2017,2017,476,Dodge,1895,Charger,13,Sedan/Saloon,7,Dodge,24,4,\"4-door sedan, hardtop\",0,Not Applicable,11,\"Class 1: 6,000 lbs. or less (2,722 kg or less)\",11,\"Class 1: 6,000 lbs. or less (2,722 kg or less)\",0,No Trailers,777777777777,No Trailing Units,777777777777,No Trailing Units,777777777777,No Trailing Units,77,No Trailing Units,77,No Trailing Units,77,No Trailing Units,00000000000,Not Applicable,0,Not Applicable,000000000,Not Applicable,0,Not Applicable,0,Not Applicable (N/A),1,No,0,Not Applicable,0,Not Applicable,0,Not Applicable,0,Not Applicable,0,Not a Bus,5,Police,5,\"Emergency Operation, Emergency Warning Equipment in Use\",0,No Underride or Override,10,10 Clock Point,2,Minor Damage,6,Towed,12,Motor Vehicle In-Transport,0,No or Not Reported,7024,Dodge Charger,2,C,3,C,D,X,G,J,1,H,H,6,0"
+    ]
+   },
+   {
+    "member": "FARS2024NationalCSV/pbtype.csv",
+    "size": 3626324,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,PER_NO,PBAGE,PBAGENAME,PBSEX,PBSEXNAME,PBPTYPE,PBPTYPENAME,PBCWALK,PBCWALKNAME,PBSWALK,PBSWALKNAME,PBSZONE,PBSZONENAME,PEDCTYPE,PEDCTYPENAME,BIKECTYPE,BIKECTYPENAME,PEDLOC,PEDLOCNAME,BIKELOC,BIKELOCNAME,PEDPOS,PEDPOSNAME,BIKEPOS,BIKEPOSNAME,PEDDIR,PEDDIRNAME,BIKEDIR,BIKEDIRNAME,MOTDIR,MOTDIRNAME,MOTMAN,MOTMANNAME,PEDLEG,PEDLEGNAME,PEDSNR,PEDSNRNAME,PEDCGP,PEDCGPNAME,BIKECGP,BIKECGPNAME",
+     "1,Alabama,10003,0,1,47,47 Years,2,Female,5,Pedestrian,0,None Noted,0,None Noted,0,None Noted,741,\"Dash - Run, No Visual Obstruction Noted\",0,Not a Cyclist,3,Not At Intersection,7,Not a Cyclist,3,Travel Lane,7,Not a Cyclist,8,Not Applicable,7,Not a Cyclist,8,Not Applicable,8,Not Applicable,8,Not Applicable,8,Not Applicable,740,\"Dash - Run, No Visual Obstruction Noted / Dart-Out - Visual Obstruction Noted\",0,Not a Cyclist"
+    ]
+   },
+   {
+    "member": "FARS2024NationalCSV/person.csv",
+    "size": 111561449,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,PER_NO,VE_FORMS,COUNTY,MONTH,MONTHNAME,DAY,DAYNAME,HOUR,HOURNAME,MINUTE,MINUTENAME,HARM_EV,HARM_EVNAME,MAN_COLL,MAN_COLLNAME,SCH_BUS,SCH_BUSNAME,RUR_URB,RUR_URBNAME,FUNC_SYS,FUNC_SYSNAME,MOD_YEAR,MOD_YEARNAME,VPICMAKE,VPICMAKENAME,VPICMODEL,VPICMODELNAME,VPICBODYCLASS,VPICBODYCLASSNAME,MAKE,MAKENAME,BODY_TYP,BODY_TYPNAME,ICFINALBODY,ICFINALBODYNAME,GVWR_FROM,GVWR_FROMNAME,GVWR_TO,GVWR_TONAME,TOW_VEH,TOW_VEHNAME,SPEC_USE,SPEC_USENAME,EMER_USE,EMER_USENAME,ROLLOVER,ROLLOVERNAME,IMPACT1,IMPACT1NAME,FIRE_EXP,FIRE_EXPNAME,MAK_MOD,MAK_MODNAME,AGE,AGENAME,SEX,SEXNAME,PER_TYP,PER_TYPNAME,INJ_SEV,INJ_SEVNAME,SEAT_POS,SEAT_POSNAME,REST_USE,REST_USENAME,REST_MIS,REST_MISNAME,HELM_USE,HELM_USENAME,HELM_MIS,HELM_MISNAME,AIR_BAG,AIR_BAGNAME,EJECTION,EJECTIONNAME,EJ_PATH,EJ_PATHNAME,EXTRICAT,EXTRICATNAME,DRINKING,DRINKINGNAME,ALC_STATUS,ALC_STATUSNAME,ATST_TYP,ATST_TYPNAME,ALC_RES,ALC_RESNAME,DRUGS,DRUGSNAME,DSTATUS,DSTATUSNAME,HOSPITAL,HOSPITALNAME,DOA,DOANAME,DEATH_MO,DEATH_MONAME,DEATH_DA,DEATH_DANAME,DEATH_YR,DEATH_YRNAME,DEATH_TM,DEATH_TMNAME,DEATH_HR,DEATH_HRNAME,DEATH_MN,DEATH_MNNAME,LAG_HRS,LAG_HRSNAME,LAG_MINS,LAG_MINSNAME,STR_VEH,DEVTYPE,DEVTYPENAME,DEVMOTOR,DEVMOTORNAME,LOCATION,LOCATIONNAME,WORK_INJ,WORK_INJNAME,HISPANIC,HISPANICNAME",
+     "1,Alabama,10001,1,1,1,125,1,January,1,1,10,10:00am-10:59am,30,30,42,Tree (Standing Only),0,The First Harmful Event was Not a Collision with a Motor Vehicle in Transport,0,No,1,Rural,4,Minor Arterial,2009,2009,536,Pontiac,4263,G6,13,Sedan/Saloon,22,Pontiac,4,\"4-door sedan, hardtop\",0,Not Applicable,11,\"Class 1: 6,000 lbs. or less (2,722 kg or less)\",11,\"Class 1: 6,000 lbs. or less (2,722 kg or less)\",0,No Trailers,0,No Special Use Noted,0,Not Applicable,3,Rollover,12,12 Clock Point,0,No or Not Reported,22022,Pontiac G6,50,50 Years,1,Male,1,Driver of a Motor Vehicle In-Transport,4,Fatal Injury (K),11,\"Front Seat, Left Side\",3,Shoulder and Lap Belt Used,0,No Indication of Misuse,20,Not Applicable,7,None Used/Not Applicable,1,Deployed- Front,0,Not Ejected,0,Ejection Path Not Applicable,9,Unknown,1,Yes (Alcohol Involved),2,Test Given,1,Blood,330,0.330 % BAC,1,Yes (drugs involved),2,Test Given,0,Not Transported for Treatment,7,Died at Scene,1,January,1,1,2024,2024,1030,1030,10,10:00-10:59,30,30,0,0,0,0,0,96,Occupant of a Motor Vehicle,8,Occupant of a Motor Vehicle,0,Occupant of a Motor Vehicle,0,No,7,Non-Hispanic"
+    ]
+   },
+   {
+    "member": "FARS2024NationalCSV/personrf.csv",
+    "size": 3192098,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,PER_NO,PERSONRF,PERSONRFNAME",
+     "1,Alabama,10001,1,1,0,None Noted"
+    ]
+   },
+   {
+    "member": "FARS2024NationalCSV/pvehiclesf.csv",
+    "size": 54563,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,PVEHICLESF,PVEHICLESFNAME",
+     "1,Alabama,10005,2,41,\"Police, Fire, or EMS Vehicle Working at the Scene of an Emergency or Performing Other Traffic Control Activities\""
+    ]
+   },
+   {
+    "member": "FARS2024NationalCSV/race.csv",
+    "size": 4997822,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,PER_NO,RACE,RACENAME,ORDER,ORDERNAME,MULTRACE,MULTRACENAME",
+     "1,Alabama,10001,1,1,1,White,1,1,0,No"
+    ]
+   },
+   {
+    "member": "FARS2024NationalCSV/safetyeq.csv",
+    "size": 815353,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,PER_NO,NMHELMET,NMHELMETNAME,NMPROPAD,NMPROPADNAME,NMOTHPRO,NMOTHPRONAME,NMREFCLO,NMREFCLONAME,NMLIGHT,NMLIGHTNAME,NMOTHPRE,NMOTHPRENAME",
+     "1,Alabama,10003,0,1,1,No,1,No,1,No,1,No,1,No,1,No"
+    ]
+   },
+   {
+    "member": "FARS2024NationalCSV/vehicle.csv",
+    "size": 104794390,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,VE_FORMS,MONTH,MONTHNAME,DAY,DAYNAME,HOUR,HOURNAME,MINUTE,MINUTENAME,HARM_EV,HARM_EVNAME,MAN_COLL,MAN_COLLNAME,NUMOCCS,NUMOCCSNAME,UNITTYPE,UNITTYPENAME,HIT_RUN,HIT_RUNNAME,REG_STAT,REG_STATNAME,OWNER,OWNERNAME,VIN,VINNAME,MOD_YEAR,MOD_YEARNAME,VPICMAKE,VPICMAKENAME,VPICMODEL,VPICMODELNAME,VPICBODYCLASS,VPICBODYCLASSNAME,MAKE,MAKENAME,MODEL,BODY_TYP,BODY_TYPNAME,ICFINALBODY,ICFINALBODYNAME,GVWR_FROM,GVWR_FROMNAME,GVWR_TO,GVWR_TONAME,TOW_VEH,TOW_VEHNAME,TRLR1VIN,TRLR1VINNAME,TRLR2VIN,TRLR2VINNAME,TRLR3VIN,TRLR3VINNAME,TRLR1GVWR,TRLR1GVWRNAME,TRLR2GVWR,TRLR2GVWRNAME,TRLR3GVWR,TRLR3GVWRNAME,J_KNIFE,J_KNIFENAME,MCARR_ID,MCARR_IDNAME,MCARR_I1,MCARR_I1NAME,MCARR_I2,MCARR_I2NAME,V_CONFIG,V_CONFIGNAME,CARGO_BT,CARGO_BTNAME,HAZ_INV,HAZ_INVNAME,HAZ_PLAC,HAZ_PLACNAME,HAZ_ID,HAZ_IDNAME,HAZ_CNO,HAZ_CNONAME,HAZ_REL,HAZ_RELNAME,BUS_USE,BUS_USENAME,SPEC_USE,SPEC_USENAME,EMER_USE,EMER_USENAME,TRAV_SP,TRAV_SPNAME,UNDEROVERRIDE,UNDEROVERRIDENAME,ROLLOVER,ROLLOVERNAME,ROLINLOC,ROLINLOCNAME,IMPACT1,IMPACT1NAME,DEFORMED,DEFORMEDNAME,TOWED,TOWEDNAME,M_HARM,M_HARMNAME,FIRE_EXP,FIRE_EXPNAME,MAK_MOD,MAK_MODNAME,VIN_1,VIN_2,VIN_3,VIN_4,VIN_5,VIN_6,VIN_7,VIN_8,VIN_9,VIN_10,VIN_11,VIN_12,DEATHS,DR_DRINK,DR_DRINKNAME,DR_PRES,DR_PRESNAME,L_STATE,L_STATENAME,DR_ZIP,DR_ZIPNAME,L_TYPE,L_TYPENAME,L_STATUS,L_STATUSNAME,CDL_STAT,CDL_STATNAME,L_ENDORS,L_ENDORSNAME,L_COMPL,L_COMPLNAME,L_RESTRI,L_RESTRINAME,DR_HGT,DR_HGTNAME,DR_WGT,DR_WGTNAME,PREV_ACC,PREV_ACCNAME,PREV_SUS1,PREV_SUS1NAME,PREV_SUS2,PREV_SUS2NAME,PREV_SUS3,PREV_SUS3NAME,PREV_DWI,PREV_DWINAME,PREV_SPD,PREV_SPDNAME,PREV_OTH,PREV_OTHNAME,FIRST_MO,FIRST_MONAME,FIRST_YR,FIRST_YRNAME,LAST_MO,LAST_MONAME,LAST_YR,LAST_YRNAME,SPEEDREL,SPEEDRELNAME,VTRAFWAY,VTRAFWAYNAME,VNUM_LAN,VNUM_LANNAME,VSPD_LIM,VSPD_LIMNAME,VALIGN,VALIGNNAME,VPROFILE,VPROFILENAME,VPAVETYP,VPAVETYPNAME,VSURCOND,VSURCONDNAME,VTRAFCON,VTRAFCONNAME,VTCONT_F,VTCONT_FNAME,P_CRASH1,P_CRASH1NAME,P_CRASH2,P_CRASH2NAME,P_CRASH3,P_CRASH3NAME,PCRASH4,PCRASH4NAME,PCRASH5,PCRASH5NAME,ACC_TYPE,ACC_TYPENAME",
+     "1,Alabama,10001,1,1,1,January,1,1,10,10:00am-10:59am,30,30,42,Tree (Standing Only),0,The First Harmful Event was Not a Collision with a Motor Vehicle in Transport,1,01,1,Motor Vehicle In-Transport (Inside or Outside the Trafficway),0,No,1,Alabama,1,Driver (in this crash) was Registered Owner,1G2ZG57BX941,1G2ZG57BX941,2009,2009,536,Pontiac,4263,G6,13,Sedan/Saloon,22,Pontiac,22,4,\"4-door sedan, hardtop\",0,Not Applicable,11,\"Class 1: 6,000 lbs. or less "
+    ]
+   },
+   {
+    "member": "FARS2024NationalCSV/vehiclesf.csv",
+    "size": 1916531,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,VEHICLESF,VEHICLESFNAME",
+     "1,Alabama,10001,1,0,None Noted"
+    ]
+   },
+   {
+    "member": "FARS2024NationalCSV/vevent.csv",
+    "size": 13041482,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,EVENTNUM,VEH_NO,VEVENTNUM,VNUMBER1,AOI1,AOI1NAME,SOE,SOENAME,VNUMBER2,VNUMBER2NAME,AOI2,AOI2NAME",
+     "1,Alabama,10001,1,1,1,1,55,Non-Harmful Event,63,Ran Off Roadway - Right,5555,Non-Harmful Event,55,Non-Harmful Event"
+    ]
+   },
+   {
+    "member": "FARS2024NationalCSV/violatn.csv",
+    "size": 2037725,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,VIOLATION,VIOLATIONNAME",
+     "1,Alabama,10001,1,0,None"
+    ]
+   },
+   {
+    "member": "FARS2024NationalCSV/vision.csv",
+    "size": 2495069,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,VISION,VISIONNAME",
+     "1,Alabama,10001,1,0,No Obstruction Noted"
+    ]
+   },
+   {
+    "member": "FARS2024NationalCSV/vpicdecode.csv",
+    "size": 45378776,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,VEHICLEDESCRIPTOR,VINDECODEDON,VINDECODEERROR,VEHICLETYPEID,VEHICLETYPE,MANUFACTURERFULLNAMEID,MANUFACTURERFULLNAME,MAKEID,MAKE,MODELID,MODEL,MODELYEAR,SERIES,TRIM,SERIES2,TRIM2,PLANTCOUNTRYID,PLANTCOUNTRY,PLANTSTATE,PLANTCITY,PLANTCOMPANYNAME,DESTINATIONMARKETID,DESTINATIONMARKET,BASEPRICE,NONLANDUSEID,NONLANDUSE,NOTE,BODYCLASSID,BODYCLASS,DOORSCOUNT,WINDOWS,WHEELBASETYPEID,WHEELBASETYPE,TRACKWIDTHIN,GROSSVEHICLEWEIGHTRATINGFROMID,GROSSVEHICLEWEIGHTRATINGFROM,GROSSVEHICLEWEIGHTRATINGTOID,GROSSVEHICLEWEIGHTRATINGTO,GROSSCOMBWEIGHTRATINGFROMID,GROSSCOMBWEIGHTRATINGFROM,GROSSCOMBWEIGHTRATINGTOID,GROSSCOMBWEIGHTRATINGTO,CURBWEIGHTLB,WHEELBASEIN_FROM,WHEELBASEIN_TO,WHEELSCOUNT,WHEELSIZEFRONTIN,WHEELSIZEREARIN,TRUCKBODYCABTYPEID,TRUCKBODYCABTYPE,TRUCKBEDTYPEID,TRUCKBEDTYPE,TRUCKBEDLENGTHIN,BUSTYPEID,BUSTYPE,BUSFLOORCONFIGURATIONTYPEID,BUSFLOORCONFIGURATIONTYPE,BUSLENGTHFT,OTHERBUSINFO,CUSTOMMOTORCYCLETYPEID,CUSTOMMOTORCYCLETYPE,MOTORCYCLESUSPENSIONTYPEID,MOTORCYCLESUSPENSIONTYPE,MOTORCYCLECHASSISTYPEID,MOTORCYCLECHASSISTYPE,OTHERMOTORCYCLEINFO,STEERINGLOCATIONID,STEERINGLOCATION,ENTERTAINMENTSYSTEMID,ENTERTAINMENTSYSTEM,SEATSCOUNT,SEATROWSCOUNT,TRANSMISSIONSPEEDS,TRANSMISSIONSTYLEID,TRANSMISSIONSTYLE,DRIVETYPEID,DRIVETYPE,AXLESCOUNT,AXLECONFIGURATIONID,AXLECONFIGURATION,BRAKESYSTEMTYPEID,BRAKESYSTEMTYPE,BRAKESYSTEMDESC,EVDRIVEUNITID,EVDRIVEUNIT,BATTERYKWH_FROM,BATTERYKWH_TO,BATTERYV_FROM,BATTERYV_TO,BATTERYA_FROM,BATTERYA_TO,BATTERYPACKSPERVEHICLE,BATTERYMODULESPERPACK,BATTERYCELLSPERMODULE,BATTERYTYPEID,BATTERYTYPE,OTHERBATTERYINFO,CHARGERLEVELID,CHARGERLEVEL,CHARGERPOWERKW,ENGINEMANUFACTURER,ENGINEMODEL,ENGINECONFIGURATIONID,ENGINECONFIGURATION,ENGINEPOWERKW,ENGINESTROKECYCLES,ENGINECYLINDERSCOUNT,ENGINEBRAKEHP_FROM,ENGINEBRAKEHP_TO,ENGINECOOLINGTYPEID,ENGINECOOLINGTYPE,DISPLACEMENTCI,DISPLACEMENTCC,DISPLACEMENTL,FUELTYPEPRIMARYID,FUELTYPEPRIMARY,FUELTYPESECONDARYID,FUELTYPESECONDARY,FUELDELIVERYINJECTIONTYPEID,FUELDELIVERYINJECTIONTYPE,ENGINEVALVETRAINDESIGNID,ENGINEVALVETRAINDESIGN,ENGINEELECTRIFICATIONLEVELID,ENGINEELECTRIFICATIONLEVEL,ENGINETURBOID,ENGINETURBO,TOPSPEEDMPH,OTHERENGINEINFO,SEATBELTTYPEID,SEATBELTTYPE,PRETENSIONERID,PRETENSIONER,AIRBAGLOCFRONTID,AIRBAGLOCFRONT,AIRBAGLOCKNEEID,AIRBAGLOCKNEE,AIRBAGLOCSIDEID,AIRBAGLOCSIDE,AIRBAGLOCCURTAINID,AIRBAGLOCCURTAIN,AIRBAGLOCSEATCUSHIONID,AIRBAGLOCSEATCUSHION,OTHERRESTRAINTSYSTEMINFO,FORWARDCOLLISIONWARNINGID,FORWARDCOLLISIONWARNING,DYNAMICBRAKESUPPORTID,DYNAMICBRAKESUPPOR"
+    ]
+   },
+   {
+    "member": "FARS2024NationalCSV/vpictrailerdecode.csv",
+    "size": 507850,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,TRAILER_NO,VEHICLEDESCRIPTOR,VINDECODEDON,VINDECODEERROR,VEHICLETYPEID,VEHICLETYPE,MANUFACTURERFULLNAMEID,MANUFACTURERFULLNAME,MAKEID,MAKE,MODELID,MODEL,MODELYEAR,SERIES,TRIM,PLANTCOUNTRYID,PLANTCOUNTRY,PLANTSTATE,PLANTCITY,PLANTCOMPANYNAME,NONLANDUSEID,NONLANDUSE,NOTE,BODYCLASSID,BODYCLASS,GROSSVEHICLEWEIGHTRATINGFROMID,GROSSVEHICLEWEIGHTRATINGFROM,GROSSVEHICLEWEIGHTRATINGTOID,GROSSVEHICLEWEIGHTRATINGTO,TRAILERBODYTYPEID,TRAILERBODYTYPE,TRAILERTYPECONNECTIONID,TRAILERTYPECONNECTION,TRAILERLENGTHFT,OTHERTRAILERINFO,AXLESCOUNT,AXLECONFIGURATIONID,AXLECONFIGURATION",
+     "1,Alabama,10593,3,1,1GRAP962*GK******,2025-06-27 04:48:03,0,6,TRAILER,1073,GREAT DANE TRAILERS,520,GREAT DANE TRAILERS,13436,Great Dane Trailers,2016,,,6,UNITED STATES (USA),ILLINOIS,KEWANEE,,,,,61,Trailer,,,,,5,Box or Van Enclosed Trailer,4,Straight Semi/Semi Trailer,48.000,Dry Freight Van / Reefer Van / Insulated Van,2,,"
+    ]
+   },
+   {
+    "member": "FARS2024NationalCSV/vsoe.csv",
+    "size": 8030417,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,VEH_NO,VEVENTNUM,SOE,SOENAME,AOI,AOINAME",
+     "1,Alabama,10001,1,1,63,Ran Off Roadway - Right,55,Non-Harmful Event"
+    ]
+   },
+   {
+    "member": "FARS2024NationalCSV/weather.csv",
+    "size": 1014442,
+    "lines": [
+     "STATE,STATENAME,ST_CASE,WEATHER,WEATHERNAME",
+     "1,Alabama,10001,1,Clear"
+    ]
+   }
+  ]
+ },
+ "chi_wrvz-psew": {
+  "error": "TimeoutError('The read operation timed out')"
+ },
+ "chi_wrvz-psew_count": {
+  "bytes": 24,
+  "secs": 93.0,
+  "head": [
+   {
+    "lines": [
+     "[{\"count\":\"211670894\"}]"
+    ]
+   }
+  ]
+ },
+ "chi_ajtu-isnz": {
+  "bytes": 1752,
+  "secs": 9.2,
+  "head": [
+   {
+    "lines": [
+     "\"trip_id\",\"taxi_id\",\"trip_start_timestamp\",\"trip_end_timestamp\",\"trip_seconds\",\"trip_miles\",\"pickup_census_tract\",\"dropoff_census_tract\",\"pickup_community_area\",\"dropoff_community_area\",\"fare\",\"tips\",\"tolls\",\"extras\",\"trip_total\",\"payment_type\",\"company\",\"pickup_centroid_latitude\",\"pickup_centroid_longitude\",\"pickup_centroid_location\",\"dropoff_centroid_latitude\",\"dropoff_centroid_longitude\",\"dropoff_centroid_location\"",
+     "\"29b5cbb9c55cc5a648027d3dd5520f1d48b0d01b\",\"30edf2adde06c5b5d365eced7cf4b5020255da2bc604f133d3d1fd02d720d8a410ecd999b4346b6e4984cd472d0c17a460628833b9d80a6c51b6671f56100512\",\"2026-09-01T00:00:00.000\",\"2026-09-01T00:15:00.000\",\"1620\",\"17\",\"17031980000\",\"17031320100\",\"76\",\"32\",\"52.54\",\"14.5\",\"0\",\"5\",\"72.04\",\"Credit Card\",\"Chicago City Taxi Association\",\"41.97907082\",\"-87.903039661\",\"POINT (-87.9030396611 41.9790708201)\",\"41.884987192\",\"-87.620992913\",\"POINT (-87.6209929134 41.8849871918)\"",
+     "\"3df85a733053413f28a2ee0638da02b19cefca0e\",\"a8107c5481ea5eed4d6fa93cd1648f3f69c6822a6fff49ffd923bb75143c36a7f99d7a4af12ec68d9a85591a64671de48d14ba70d22501698b01747effc01cb1\",\"2026-09-01T00:00:00.000\",\"2026-09-01T00:30:00.000\",\"2154\",\"13.91\",,,\"76\",\"3\",\"42\",\"9.5\",\"0\",\"5\",\"57\",\"Credit Card\",\"Chicago Independents\",\"41.980264315\",\"-87.913624596\",\"POINT (-87.913624596 41.9802643146)\",\"41.96581197\",\"-87.655878786\",\"POINT (-87.6558787862 41.96581197)\""
+    ]
+   }
+  ]
+ },
+ "chi_ajtu-isnz_count": {
+  "bytes": 23,
+  "secs": 185.5,
+  "head": [
+   {
+    "lines": [
+     "[{\"count\":\"18061493\"}]"
+    ]
+   }
+  ]
+ },
+ "chi_m6dm-c72p": {
+  "bytes": 1296,
+  "secs": 0.5,
+  "head": [
+   {
+    "lines": [
+     "\"trip_id\",\"trip_start_timestamp\",\"trip_end_timestamp\",\"trip_seconds\",\"trip_miles\",\"pickup_census_tract\",\"dropoff_census_tract\",\"pickup_community_area\",\"dropoff_community_area\",\"fare\",\"tip\",\"additional_charges\",\"trip_total\",\"shared_trip_authorized\",\"trips_pooled\",\"pickup_centroid_latitude\",\"pickup_centroid_longitude\",\"pickup_centroid_location\",\"dropoff_centroid_latitude\",\"dropoff_centroid_longitude\",\"dropoff_centroid_location\"",
+     "\"5815db4a25c8994709353c70994b072e48385464\",\"2018-11-23T17:15:00.000\",\"2018-11-23T17:45:00.000\",\"1950\",\"14.3738297400963\",,\"17031839100\",,\"32\",\"22.5\",\"0\",\"2.92\",\"25.42\",\"false\",\"1\",,,,\"41.8809944707\",\"-87.6327464887\",\"POINT (-87.6327464887 41.8809944707)\"",
+     "\"001090ebd41e0c99703d6bda1d59b6ff73a6e799\",\"2019-08-30T14:00:00.000\",\"2019-08-30T14:15:00.000\",\"429\",\"2.448727\",,,\"60\",\"61\",\"5\",\"0\",\"2.55\",\"7.55\",\"false\",\"1\",\"41.8361501547\",\"-87.6487879519\",\"POINT (-87.6487879519 41.8361501547)\",\"41.8090182499\",\"-87.6591665992\",\"POINT (-87.6591665992 41.8090182499)\""
+    ]
+   }
+  ]
+ },
+ "chi_m6dm-c72p_count": {
+  "bytes": 24,
+  "secs": 98.7,
+  "head": [
+   {
+    "lines": [
+     "[{\"count\":\"299602996\"}]"
+    ]
+   }
+  ]
+ },
+ "chi_n26f-ihde": {
+  "error": "TimeoutError('The read operation timed out')"
+ },
+ "chi_n26f-ihde_count": {
+  "bytes": 24,
+  "secs": 202.1,
+  "head": [
+   {
+    "lines": [
+     "[{\"count\":\"174369516\"}]"
+    ]
+   }
+  ]
+ },
+ "landreg_1995_head": {
+  "len": "139427399",
+  "head": [
+   {
+    "lines": [
+     "\"{A42E2F04-2538-4A25-94C5-49E29C6C8FA8}\",\"18500\",\"1995-01-31 00:00\",\"TQ1 1RY\",\"F\",\"N\",\"L\",\"VILLA PARADISO\",\"FLAT 10\",\"HIGHER WARBERRY ROAD\",\"TORQUAY\",\"TORQUAY\",\"TORBAY\",\"TORBAY\",\"A\",\"A\"",
+     "\"{1BA349E3-2579-40D6-999E-49E2A25D2284}\",\"73450\",\"1995-10-09 00:00\",\"L26 7XJ\",\"D\",\"Y\",\"F\",\"6\",\"\",\"CATKIN ROAD\",\"LIVERPOOL\",\"LIVERPOOL\",\"KNOWSLEY\",\"MERSEYSIDE\",\"A\",\"A\"",
+     "\"{E5B50DCB-BC7A-4E54-B167-49E2A6B4148B}\",\"59000\",\"1995-03-31 00:00\",\"BH12 2AE\",\"D\",\"N\",\"F\",\"28\",\"\",\"ALDER ROAD\",\"POOLE\",\"POOLE\",\"POOLE\",\"POOLE\",\"A\",\"A\""
+    ]
+   }
+  ]
+ },
+ "landreg_2005_head": {
+  "len": "187585989",
+  "head": [
+   {
+    "lines": [
+     "\"{CA8331C6-CD99-4CF8-97CD-2E7D9F5F17F2}\",\"244000\",\"2005-07-20 00:00\",\"GL12 7RF\",\"T\",\"N\",\"F\",\"1\",\"\",\"REEDS ROW\",\"HILLESLEY\",\"WOTTON-UNDER-EDGE\",\"STROUD\",\"GLOUCESTERSHIRE\",\"A\",\"A\"",
+     "\"{B5294943-43DA-45EE-972E-2E7DB9D38723}\",\"178000\",\"2005-12-02 00:00\",\"BH10 5DG\",\"D\",\"N\",\"F\",\"119\",\"\",\"KINGSWELL ROAD\",\"BOURNEMOUTH\",\"BOURNEMOUTH\",\"BOURNEMOUTH\",\"BOURNEMOUTH\",\"A\",\"A\"",
+     "\"{BC73CCD7-7273-4035-8D48-2E7DC2879AA2}\",\"175000\",\"2005-08-12 00:00\",\"S35 3XZ\",\"D\",\"N\",\"L\",\"11A\",\"\",\"IRONSTONE DRIVE\",\"CHAPELTOWN\",\"SHEFFIELD\",\"SHEFFIELD\",\"SOUTH YORKSHIRE\",\"A\",\"A\""
+    ]
+   }
+  ]
+ },
+ "landreg_2013_head": {
+  "len": "140174843",
+  "head": [
+   {
+    "lines": [
+     "\"{CB9D3BED-296F-4DCD-867F-39FDF0B64803}\",\"637500\",\"2013-05-10 00:00\",\"SW20 9EW\",\"D\",\"N\",\"F\",\"12\",\"\",\"CLEVELAND AVENUE\",\"\",\"LONDON\",\"MERTON\",\"GREATER LONDON\",\"A\",\"A\"",
+     "\"{27B2FDA2-C215-4B95-9F40-39FDF4EEF2FD}\",\"62000\",\"2013-10-18 00:00\",\"RG26 5FY\",\"F\",\"N\",\"L\",\"46\",\"\",\"HILLS WAY\",\"BRAMLEY\",\"TADLEY\",\"BASINGSTOKE AND DEANE\",\"HAMPSHIRE\",\"A\",\"A\"",
+     "\"{AA8429E2-A580-4D4C-A7B6-39FE1BE02398}\",\"430000\",\"2013-08-23 00:00\",\"N13 4DX\",\"T\",\"N\",\"F\",\"35\",\"\",\"AVONDALE ROAD\",\"\",\"LONDON\",\"ENFIELD\",\"GREATER LONDON\",\"A\",\"A\""
+    ]
+   }
+  ]
+ },
+ "landreg_2014_head": {
+  "len": "170482701",
+  "head": [
+   {
+    "lines": [
+     "\"{91C4309B-C4CA-45F8-ACAB-496D2CCEA0C2}\",\"307500\",\"2014-02-10 00:00\",\"BN1 3LP\",\"T\",\"N\",\"F\",\"48\",\"\",\"ST NICHOLAS ROAD\",\"\",\"BRIGHTON\",\"BRIGHTON AND HOVE\",\"BRIGHTON AND HOVE\",\"A\",\"A\"",
+     "\"{271CC77B-DB05-4380-AF95-496D3DCCC053}\",\"225000\",\"2014-09-18 00:00\",\"NP4 0BX\",\"D\",\"N\",\"F\",\"9\",\"\",\"COED Y FELIN\",\"NEW INN\",\"PONTYPOOL\",\"TORFAEN\",\"TORFAEN\",\"A\",\"A\"",
+     "\"{CF2F0A9D-7E72-4C17-8C15-496D42A4388F}\",\"245000\",\"2014-11-03 00:00\",\"SE27 9QS\",\"F\",\"N\",\"L\",\"119\",\"FLAT C\",\"GIPSY ROAD\",\"\",\"LONDON\",\"LAMBETH\",\"GREATER LONDON\",\"A\",\"A\""
+    ]
+   }
+  ]
+ },
+ "landreg_2020_head": {
+  "len": "156338463",
+  "head": [
+   {
+    "lines": [
+     "\"{9FF0D96A-435D-11ED-E053-6C04A8C06383}\",\"36000\",\"2020-01-31 00:00\",\"CF43 4NW\",\"T\",\"N\",\"F\",\"10\",\"\",\"ALBERT STREET\",\"BLAENLLECHAU\",\"FERNDALE\",\"RHONDDA CYNON TAFF\",\"RHONDDA CYNON TAFF\",\"A\",\"A\"",
+     "\"{9FF0D96A-435E-11ED-E053-6C04A8C06383}\",\"333500\",\"2020-01-31 00:00\",\"CF61 1RR\",\"T\",\"N\",\"F\",\"22\",\"\",\"ST DAVIDS AVENUE\",\"\",\"LLANTWIT MAJOR\",\"THE VALE OF GLAMORGAN\",\"THE VALE OF GLAMORGAN\",\"A\",\"A\"",
+     "\"{9FF0D96A-435F-11ED-E053-6C04A8C06383}\",\"85000\",\"2020-01-31 00:00\",\"NP11 7AL\",\"F\",\"N\",\"L\",\"1\",\"\",\"WAUNFAWR GARDENS\",\"CROSS KEYS\",\"NEWPORT\",\"CAERPHILLY\",\"CAERPHILLY\",\"A\",\"A\""
+    ]
+   }
+  ]
+ },
+ "landreg_2025_head": {
+  "len": "169648191",
+  "head": [
+   {
+    "lines": [
+     "\"{402A3A66-B9C5-A7DF-E063-4804A8C0B80D}\",\"115000\",\"2025-08-29 00:00\",\"S42 5JL\",\"T\",\"N\",\"F\",\"4\",\"\",\"NORTH STREET\",\"NORTH WINGFIELD\",\"CHESTERFIELD\",\"NORTH EAST DERBYSHIRE\",\"DERBYSHIRE\",\"B\",\"A\"",
+     "\"{402A3A66-B9C6-A7DF-E063-4804A8C0B80D}\",\"105000\",\"2025-08-20 00:00\",\"DE23 6SS\",\"T\",\"N\",\"F\",\"36\",\"\",\"BELGRAVE STREET\",\"\",\"DERBY\",\"CITY OF DERBY\",\"CITY OF DERBY\",\"B\",\"A\"",
+     "\"{402A3A66-B9C7-A7DF-E063-4804A8C0B80D}\",\"120000\",\"2025-07-15 00:00\",\"DE75 7RN\",\"S\",\"N\",\"F\",\"59\",\"\",\"FLAMSTEAD AVENUE\",\"LOSCOE\",\"HEANOR\",\"AMBER VALLEY\",\"DERBYSHIRE\",\"B\",\"A\""
+    ]
+   }
+  ]
+ },
+ "citi_JC-201509": {
+  "bytes": 127657,
+  "secs": 0.5,
+  "head": [
+   {
+    "member": "JC-201509-citibike-tripdata.csv",
+    "size": 1063347,
+    "lines": [
+     "Trip Duration,Start Time,Stop Time,Start Station ID,Start Station Name,Start Station Latitude,Start Station Longitude,End Station ID,End Station Name,End Station Latitude,End Station Longitude,Bike ID,User Type,Birth Year,Gender",
+     "61,2015-09-21 14:53:16,2015-09-21 14:54:17,3185,City Hall,40.7177325,-74.043845,3185,City Hall,40.7177325,-74.043845,24722,Subscriber,1975,1"
+    ]
+   }
+  ]
+ },
+ "citi_JC-201701": {
+  "bytes": 260769,
+  "secs": 0.3,
+  "head": [
+   {
+    "member": "JC-201701-citibike-tripdata.csv",
+    "size": 2164466,
+    "lines": [
+     "Trip Duration,Start Time,Stop Time,Start Station ID,Start Station Name,Start Station Latitude,Start Station Longitude,End Station ID,End Station Name,End Station Latitude,End Station Longitude,Bike ID,User Type,Birth Year,Gender",
+     "148,2017-01-01 00:21:32,2017-01-01 00:24:01,3276,Marin Light Rail,40.71458403535893,-74.04281705617905,3185,City Hall,40.7177325,-74.043845,24575,Subscriber,1983,1"
+    ]
+   }
+  ]
+ },
+ "citi_JC-201801": {
+  "bytes": 335740,
+  "secs": 0.5,
+  "head": [
+   {
+    "member": "JC-201801-citibike-tripdata.csv",
+    "size": 2353955,
+    "lines": [
+     "\"tripduration\",\"starttime\",\"stoptime\",\"start station id\",\"start station name\",\"start station latitude\",\"start station longitude\",\"end station id\",\"end station name\",\"end station latitude\",\"end station longitude\",\"bikeid\",\"usertype\",\"birth year\",\"gender\"",
+     "932,\"2018-01-01 02:06:17.5410\",\"2018-01-01 02:21:50.0270\",3183,\"Exchange Place\",40.7162469,-74.0334588,3199,\"Newport Pkwy\",40.7287448,-74.0321082,31929,\"Subscriber\",1992,1"
+    ]
+   }
+  ]
+ },
+ "citi_JC-202012": {
+  "bytes": 315012,
+  "secs": 0.5,
+  "head": [
+   {
+    "member": "JC-202012-citibike-tripdata.csv",
+    "size": 2170579,
+    "lines": [
+     "\"tripduration\",\"starttime\",\"stoptime\",\"start station id\",\"start station name\",\"start station latitude\",\"start station longitude\",\"end station id\",\"end station name\",\"end station latitude\",\"end station longitude\",\"bikeid\",\"usertype\",\"birth year\",\"gender\"",
+     "146,\"2020-12-01 00:02:50.1450\",\"2020-12-01 00:05:16.1940\",3202,\"Newport PATH\",40.7272235,-74.0337589,3199,\"Newport Pkwy\",40.7287448,-74.0321082,42308,\"Subscriber\",1989,2"
+    ]
+   }
+  ]
+ },
+ "citi_JC-202102": {
+  "bytes": 145668,
+  "secs": 0.3,
+  "head": [
+   {
+    "member": "JC-202102-citibike-tripdata.csv",
+    "size": 804177,
+    "lines": [
+     "ride_id,rideable_type,started_at,ended_at,start_station_name,start_station_id,end_station_name,end_station_id,start_lat,start_lng,end_lat,end_lng,member_casual",
+     "121DD7DD23CB1335,docked_bike,2021-02-03 23:11:28,2021-02-03 23:18:28,Hoboken Ave at Monmouth St,JC105,Christ Hospital,JC034,40.735208,-74.046964,40.734786,-74.050444,member"
+    ]
+   }
+  ]
+ },
+ "citi_JC-202406": {
+  "bytes": 4413867,
+  "secs": 0.6,
+  "head": [
+   {
+    "member": "JC-202406-citibike-tripdata.csv",
+    "size": 24037611,
+    "lines": [
+     "\"ride_id\",\"rideable_type\",\"started_at\",\"ended_at\",\"start_station_name\",\"start_station_id\",\"end_station_name\",\"end_station_id\",\"start_lat\",\"start_lng\",\"end_lat\",\"end_lng\",\"member_casual\"",
+     "\"A17A516F45135535\",\"classic_bike\",\"2024-06-01 21:57:43.956\",\"2024-06-01 22:02:11.705\",\"4 St & Grand St\",\"HB301\",\"Columbus Park - Clinton St & 9 St\",\"HB501\",40.7422579775645,-74.03511106967926,40.74816121065146,-74.0324530005455,\"casual\""
+    ]
+   }
+  ]
+ }
+}

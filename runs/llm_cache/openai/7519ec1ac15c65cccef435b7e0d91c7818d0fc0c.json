@@ -1,0 +1,1 @@
+{"text": "{\"action\":\"boundary\",\"component\":\"times\",\"period\":\"2006\"}", "usage": {"in": 100, "out": 89, "cached_in": 3963, "reasoning": 63}, "usd": 0.00020606, "wall_s": 2.63, "provider": "openai", "model": "gpt-5.6-luna"}

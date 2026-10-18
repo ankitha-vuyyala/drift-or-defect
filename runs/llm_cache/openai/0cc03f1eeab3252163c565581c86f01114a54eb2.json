@@ -1,0 +1,1 @@
+{"text": "{\"action\":\"rollback\",\"component\":\"trip_adapter\"}", "usage": {"in": 54, "out": 160, "cached_in": 2777, "reasoning": 138}, "usd": 0.00025834, "wall_s": 3.19, "provider": "openai", "model": "gpt-5.6-luna"}

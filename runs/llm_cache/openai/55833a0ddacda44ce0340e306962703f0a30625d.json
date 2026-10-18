@@ -1,0 +1,1 @@
+{"text": "{\"action\":\"replay\",\"component\":\"airport_join\"}", "usage": {"in": 101, "out": 103, "cached_in": 1877, "reasoning": 80}, "usd": 0.00018134, "wall_s": 2.83, "provider": "openai", "model": "gpt-5.6-luna"}

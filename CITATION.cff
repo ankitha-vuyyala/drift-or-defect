@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this benchmark or code, please cite the paper."
+title: "Is It Model Drift or a Broken Pipeline? What Re-Execution Can and Cannot Identify in Production ML"
+authors:
+  - family-names: "[Author]"
+    given-names: "[Name]"
+date-released: 2026-10-09
+version: "2.0"
+license: MIT

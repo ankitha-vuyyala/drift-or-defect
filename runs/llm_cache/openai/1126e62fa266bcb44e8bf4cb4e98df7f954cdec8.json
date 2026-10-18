@@ -1,0 +1,1 @@
+{"text": "{\"action\":\"replay\",\"component\":\"vehicle_agg\"}", "usage": {"in": 102, "out": 126, "cached_in": 3634, "reasoning": 102}, "usd": 0.00024428, "wall_s": 7.1, "provider": "openai", "model": "gpt-5.6-luna"}

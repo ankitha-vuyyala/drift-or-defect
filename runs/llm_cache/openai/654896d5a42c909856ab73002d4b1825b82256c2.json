@@ -1,0 +1,1 @@
+{"text": "{\"action\":\"replay\",\"component\":\"label_map\"}", "usage": {"in": 188, "out": 160, "cached_in": 1246, "reasoning": 137}, "usd": 0.0025451999999999996, "wall_s": 2.66, "provider": "openai", "model": "gpt-5.6-terra"}

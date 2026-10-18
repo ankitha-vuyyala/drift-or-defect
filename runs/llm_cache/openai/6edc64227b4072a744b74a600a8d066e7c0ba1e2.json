@@ -1,0 +1,1 @@
+{"text": "{\"action\":\"replay\",\"component\":\"geo\"}", "usage": {"in": 41, "out": 174, "cached_in": 1712, "reasoning": 152}, "usd": 0.00025123999999999996, "wall_s": 3.01, "provider": "openai", "model": "gpt-5.6-luna"}

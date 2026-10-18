@@ -1,0 +1,1 @@
+{"text": "{\"action\":\"effect\",\"components\":[\"station_join\",\"clean\"]}", "usage": {"in": 1862, "out": 83, "cached_in": 0, "reasoning": 58}, "usd": 0.000472, "wall_s": 2.09, "provider": "openai", "model": "gpt-5.6-luna"}

@@ -1,0 +1,1 @@
+{"text": "{\"ok\": true, \"model\": \"Qwen\"}", "usage": {"in": 49, "out": 13, "cached_in": 0}, "usd": 0.0, "wall_s": 65.39, "provider": "ollama", "model": "qwen2.5:3b"}

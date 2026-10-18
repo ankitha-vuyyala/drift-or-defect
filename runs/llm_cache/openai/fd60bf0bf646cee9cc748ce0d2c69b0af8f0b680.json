@@ -1,0 +1,1 @@
+{"text": "{\"action\":\"rollback\",\"component\":\"join_household\"}", "usage": {"in": 100, "out": 180, "cached_in": 2838, "reasoning": 157}, "usd": 0.00029276, "wall_s": 3.43, "provider": "openai", "model": "gpt-5.6-luna"}

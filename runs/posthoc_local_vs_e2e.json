@@ -1,0 +1,41 @@
+{
+ "round1": {
+  "forced / differ / effective": 25,
+  "forced / differ / not effective": 168,
+  "forced / equal / not effective": 4,
+  "unforced / differ / effective": 215,
+  "unforced / equal / not effective": 257
+ },
+ "round2": {
+  "forced / differ / effective": 67,
+  "forced / differ / not effective": 388,
+  "forced / equal / effective": 12,
+  "forced / equal / not effective": 18,
+  "unforced / differ / effective": 625,
+  "unforced / equal / not effective": 766
+ },
+ "round3": {
+  "forced / differ / effective": 170,
+  "forced / differ / not effective": 698,
+  "forced / equal / not effective": 14,
+  "unforced / differ / effective": 472,
+  "unforced / differ / not effective": 1,
+  "unforced / equal / not effective": 618
+ },
+ "round4": {
+  "forced / differ / effective": 94,
+  "forced / differ / not effective": 764,
+  "unforced / differ / effective": 263,
+  "unforced / equal / not effective": 360
+ },
+ "round4_propagation": {
+  "unforced / propagate differ / effective": 218
+ },
+ "exceptions": [
+  {
+   "round": "round3",
+   "case": "cabi-2019-Q2-2023-Q2-two-1d92837d",
+   "component": "time_features"
+  }
+ ]
+}

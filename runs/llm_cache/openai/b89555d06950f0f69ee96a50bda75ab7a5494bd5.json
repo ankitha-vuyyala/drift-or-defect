@@ -1,0 +1,1 @@
+{"text": "{\"action\":\"rollback\",\"component\":\"station_join\"}", "usage": {"in": 572, "out": 163, "cached_in": 2153, "reasoning": 141}, "usd": 0.0035306, "wall_s": 3.29, "provider": "openai", "model": "gpt-5.6-terra"}

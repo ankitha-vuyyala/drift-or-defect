@@ -1,0 +1,1 @@
+{"text": "{\"action\":\"effect\",\"components\":[\"label_map\",\"vectorize\"]}", "usage": {"in": 68, "out": 222, "cached_in": 1810, "reasoning": 196}, "usd": 0.003162, "wall_s": 4.08, "provider": "openai", "model": "gpt-5.6-terra"}

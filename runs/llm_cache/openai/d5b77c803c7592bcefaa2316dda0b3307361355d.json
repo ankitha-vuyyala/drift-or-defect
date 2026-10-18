@@ -1,0 +1,1 @@
+{"text": "{\"action\":\"rollback\",\"component\":\"housing_adapter\"}", "usage": {"in": 2465, "out": 99, "cached_in": 0, "reasoning": 77}, "usd": 0.0006117999999999999, "wall_s": 2.11, "provider": "openai", "model": "gpt-5.6-luna"}

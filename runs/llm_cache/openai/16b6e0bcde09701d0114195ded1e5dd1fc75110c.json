@@ -1,0 +1,1 @@
+{"text": "{\"action\":\"rollback\",\"component\":\"sources\"}", "usage": {"in": 41, "out": 148, "cached_in": 3190, "reasoning": 127}, "usd": 0.002496, "wall_s": 3.02, "provider": "openai", "model": "gpt-5.6-terra"}

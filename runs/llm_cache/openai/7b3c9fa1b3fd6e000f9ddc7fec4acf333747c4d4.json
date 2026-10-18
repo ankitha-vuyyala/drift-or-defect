@@ -1,0 +1,1 @@
+{"text": "{\"action\":\"effect\",\"components\":[\"trip_adapter\",\"station_join\"]}", "usage": {"in": 493, "out": 120, "cached_in": 2513, "reasoning": 94}, "usd": 0.00029286000000000004, "wall_s": 2.71, "provider": "openai", "model": "gpt-5.6-luna"}

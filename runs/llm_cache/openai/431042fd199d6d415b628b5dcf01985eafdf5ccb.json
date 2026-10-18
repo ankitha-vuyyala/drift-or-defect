@@ -1,0 +1,1 @@
+{"text": "{\"action\":\"effect\",\"components\":[\"times\",\"road\",\"person_agg\",\"join\"]}", "usage": {"in": 3451, "out": 161, "cached_in": 0, "reasoning": 131}, "usd": 0.0008834000000000001, "wall_s": 3.36, "provider": "openai", "model": "gpt-5.6-luna"}

@@ -1,0 +1,1 @@
+{"text": "{\"action\":\"effect\",\"components\":[\"station_join\",\"clean\"]}", "usage": {"in": 70, "out": 138, "cached_in": 2606, "reasoning": 113}, "usd": 0.0023171999999999997, "wall_s": 3.73, "provider": "openai", "model": "gpt-5.6-terra"}

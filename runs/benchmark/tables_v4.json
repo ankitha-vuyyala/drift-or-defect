@@ -1,0 +1,3849 @@
+{
+ "domains": {
+  "acs": {
+   "round": 1,
+   "periods": 11,
+   "first": "2014",
+   "last": "2024",
+   "bronze_files": 22,
+   "bronze_rows": 3995334,
+   "rows_by_file": {
+    "2014_housing.parquet": 108729,
+    "2014_person.parquet": 247393,
+    "2015_housing.parquet": 109325,
+    "2015_person.parquet": 250149,
+    "2016_housing.parquet": 110433,
+    "2016_person.parquet": 250342,
+    "2017_housing.parquet": 111435,
+    "2017_person.parquet": 251253,
+    "2018_housing.parquet": 113338,
+    "2018_person.parquet": 254677,
+    "2019_housing.parquet": 113376,
+    "2019_person.parquet": 254719,
+    "2020_housing.parquet": 88915,
+    "2020_person.parquet": 193489,
+    "2021_housing.parquet": 113949,
+    "2021_person.parquet": 254014,
+    "2022_housing.parquet": 120385,
+    "2022_person.parquet": 267740,
+    "2023_housing.parquet": 120803,
+    "2023_person.parquet": 269903,
+    "2024_housing.parquet": 121504,
+    "2024_person.parquet": 269463
+   },
+   "task": "binary",
+   "features": 16,
+   "label": "y",
+   "references": [
+    "2014",
+    "2016"
+   ],
+   "components": [
+    {
+     "name": "person_adapter",
+     "inputs": [
+      "raw:person"
+     ],
+     "doc": "map published person columns to the canonical schema",
+     "variants": [
+      "v2014",
+      "v2019",
+      "v2019_refactor"
+     ]
+    },
+    {
+     "name": "housing_adapter",
+     "inputs": [
+      "raw:housing"
+     ],
+     "doc": "household attributes",
+     "variants": [
+      "v2014"
+     ]
+    },
+    {
+     "name": "person_clean",
+     "inputs": [
+      "person_adapter"
+     ],
+     "doc": "folktables-style universe filter and missing codes",
+     "variants": [
+      "v2014",
+      "v2024_loc"
+     ]
+    },
+    {
+     "name": "join_household",
+     "inputs": [
+      "person_clean",
+      "housing_adapter"
+     ],
+     "doc": "left join persons to households",
+     "variants": [
+      "v2014"
+     ]
+    },
+    {
+     "name": "occ_group",
+     "inputs": [
+      "join_household"
+     ],
+     "doc": "occupation code -> SOC major group via crosswalk artifact",
+     "variants": [
+      "v2014"
+     ]
+    },
+    {
+     "name": "features",
+     "inputs": [
+      "occ_group"
+     ],
+     "doc": "model features and label",
+     "variants": [
+      "v2014"
+     ]
+    },
+    {
+     "name": "encode",
+     "inputs": [
+      "features"
+     ],
+     "doc": "categorical codes from the fitted encoder artifact",
+     "variants": [
+      "v2014"
+     ]
+    }
+   ]
+  },
+  "tlc": {
+   "round": 1,
+   "periods": 50,
+   "first": "2015-01",
+   "last": "2026-07",
+   "bronze_files": 50,
+   "bronze_rows": 7502536,
+   "rows_by_file": {
+    "2015-01.parquet": 150167,
+    "2015-04.parquet": 150609,
+    "2015-07.parquet": 150378,
+    "2015-10.parquet": 150522,
+    "2016-01.parquet": 150055,
+    "2016-04.parquet": 150218,
+    "2016-06.parquet": 150520,
+    "2016-07.parquet": 149789,
+    "2016-10.parquet": 150340,
+    "2017-01.parquet": 149599,
+    "2017-04.parquet": 150364,
+    "2017-07.parquet": 149749,
+    "2017-10.parquet": 149820,
+    "2018-01.parquet": 150042,
+    "2018-04.parquet": 149957,
+    "2018-07.parquet": 150560,
+    "2018-10.parquet": 149912,
+    "2019-01.parquet": 150365,
+    "2019-04.parquet": 150000,
+    "2019-07.parquet": 150035,
+    "2019-10.parquet": 150085,
+    "2020-01.parquet": 149526,
+    "2020-04.parquet": 150090,
+    "2020-07.parquet": 149775,
+    "2020-10.parquet": 149440,
+    "2021-01.parquet": 149342,
+    "2021-04.parquet": 150134,
+    "2021-07.parquet": 150041,
+    "2021-10.parquet": 149864,
+    "2022-01.parquet": 149906,
+    "2022-04.parquet": 150018,
+    "2022-07.parquet": 150244,
+    "2022-10.parquet": 149450,
+    "2023-01.parquet": 149810,
+    "2023-04.parquet": 150910,
+    "2023-07.parquet": 149909,
+    "2023-10.parquet": 149776,
+    "2024-01.parquet": 149976,
+    "2024-04.parquet": 149883,
+    "2024-07.parquet": 150020,
+    "2024-10.parquet": 150704,
+    "2024-12.parquet": 149563,
+    "2025-01.parquet": 150163,
+    "2025-02.parquet": 150615,
+    "2025-04.parquet": 150320,
+    "2025-07.parquet": 150059,
+    "2025-10.parquet": 149743,
+    "2026-01.parquet": 150016,
+    "2026-04.parquet": 150188,
+    "2026-07.parquet": 149965
+   },
+   "task": "binary",
+   "features": 18,
+   "label": "y",
+   "references": [
+    "2015-01",
+    "2022-01"
+   ],
+   "components": [
+    {
+     "name": "trip_adapter",
+     "inputs": [
+      "raw:trips"
+     ],
+     "doc": "published trip columns -> canonical schema",
+     "variants": [
+      "v2015"
+     ]
+    },
+    {
+     "name": "time_features",
+     "inputs": [
+      "trip_adapter"
+     ],
+     "doc": "hour, day of week, duration",
+     "variants": [
+      "v2015",
+      "v2024_td"
+     ]
+    },
+    {
+     "name": "clean",
+     "inputs": [
+      "time_features"
+     ],
+     "doc": "credit-card trips with plausible fare, distance and duration",
+     "variants": [
+      "v2015",
+      "v2024_loc"
+     ]
+    },
+    {
+     "name": "zone_join",
+     "inputs": [
+      "clean"
+     ],
+     "doc": "pickup/dropoff borough and service zone from the zone lookup",
+     "variants": [
+      "v2015"
+     ]
+    },
+    {
+     "name": "fare_features",
+     "inputs": [
+      "zone_join"
+     ],
+     "doc": "fare components, speed, and label",
+     "variants": [
+      "v2015"
+     ]
+    },
+    {
+     "name": "encode",
+     "inputs": [
+      "fare_features"
+     ],
+     "doc": "model matrix with categorical codes from the encoder artifact",
+     "variants": [
+      "v2015"
+     ]
+    }
+   ]
+  },
+  "news": {
+   "round": 1,
+   "periods": 11,
+   "first": "2012",
+   "last": "2022",
+   "bronze_files": 11,
+   "bronze_rows": 209527,
+   "rows_by_file": {
+    "2012.parquet": 31355,
+    "2013.parquet": 34583,
+    "2014.parquet": 32339,
+    "2015.parquet": 32006,
+    "2016.parquet": 32098,
+    "2017.parquet": 29889,
+    "2018.parquet": 9734,
+    "2019.parquet": 2005,
+    "2020.parquet": 2054,
+    "2021.parquet": 2066,
+    "2022.parquet": 1398
+   },
+   "task": "multiclass",
+   "features": 1,
+   "label": "y",
+   "references": [
+    "2012",
+    "2013"
+   ],
+   "components": [
+    {
+     "name": "ingest",
+     "inputs": [
+      "raw:articles"
+     ],
+     "doc": "published article records",
+     "variants": [
+      "v2012"
+     ]
+    },
+    {
+     "name": "label_map",
+     "inputs": [
+      "ingest"
+     ],
+     "doc": "raw section name -> harmonised section via the harmonisation table",
+     "variants": [
+      "v2012"
+     ]
+    },
+    {
+     "name": "text_norm",
+     "inputs": [
+      "label_map"
+     ],
+     "doc": "text = headline + description, normalised",
+     "variants": [
+      "v2012"
+     ]
+    },
+    {
+     "name": "vectorize",
+     "inputs": [
+      "text_norm"
+     ],
+     "doc": "token ids from the fitted vocabulary artifact",
+     "variants": [
+      "v2012"
+     ]
+    }
+   ]
+  },
+  "divvy": {
+   "round": 2,
+   "periods": 51,
+   "first": "2014-Q1",
+   "last": "2026-Q3",
+   "bronze_files": 52,
+   "bronze_rows": 5103638,
+   "rows_by_file": {
+    "2014-Q1.parquet": 100000,
+    "2014-Q2.parquet": 100000,
+    "2014-Q3.parquet": 100000,
+    "2014-Q4.parquet": 100000,
+    "2015-Q1.parquet": 100000,
+    "2015-Q2.parquet": 100000,
+    "2015-Q3.parquet": 100000,
+    "2015-Q4.parquet": 100000,
+    "2016-Q1.parquet": 100000,
+    "2016-Q2.parquet": 100000,
+    "2016-Q3.parquet": 100000,
+    "2016-Q4.parquet": 100000,
+    "2017-Q1.parquet": 100000,
+    "2017-Q2.parquet": 100000,
+    "2017-Q3.parquet": 100000,
+    "2017-Q4.parquet": 100000,
+    "2018-Q1.parquet": 100000,
+    "2018-Q2.parquet": 100000,
+    "2018-Q3.parquet": 100000,
+    "2018-Q4.parquet": 100000,
+    "2019-Q1.parquet": 100000,
+    "2019-Q2.parquet": 100000,
+    "2019-Q3.parquet": 100000,
+    "2019-Q4.parquet": 100000,
+    "2020-Q1.parquet": 100000,
+    "2020-Q2.parquet": 100000,
+    "2020-Q3.parquet": 100000,
+    "2020-Q4.parquet": 100000,
+    "2021-Q1.parquet": 100000,
+    "2021-Q2.parquet": 100000,
+    "2021-Q3.parquet": 100000,
+    "2021-Q4.parquet": 100000,
+    "2022-Q1.parquet": 100000,
+    "2022-Q2.parquet": 100000,
+    "2022-Q3.parquet": 100000,
+    "2022-Q4.parquet": 100000,
+    "2023-Q1.parquet": 100000,
+    "2023-Q2.parquet": 100000,
+    "2023-Q3.parquet": 100000,
+    "2023-Q4.parquet": 100000,
+    "2024-Q1.parquet": 100000,
+    "2024-Q2.parquet": 100000,
+    "2024-Q3.parquet": 100000,
+    "2024-Q4.parquet": 100000,
+    "2025-Q1.parquet": 100000,
+    "2025-Q2.parquet": 100000,
+    "2025-Q3.parquet": 100000,
+    "2025-Q4.parquet": 100000,
+    "2026-Q1.parquet": 100000,
+    "2026-Q2.parquet": 100000,
+    "2026-Q3.parquet": 100000,
+    "_stations.parquet": 3638
+   },
+   "task": "binary",
+   "features": 13,
+   "label": "y",
+   "references": [
+    "2016-Q3",
+    "2019-Q1"
+   ],
+   "components": [
+    {
+     "name": "trip_adapter",
+     "inputs": [
+      "raw:trips"
+     ],
+     "doc": "published trip columns -> canonical schema",
+     "variants": [
+      "v2014"
+     ]
+    },
+    {
+     "name": "time_features",
+     "inputs": [
+      "trip_adapter"
+     ],
+     "doc": "hour, day of week, month, duration",
+     "variants": [
+      "v2014"
+     ]
+    },
+    {
+     "name": "station_join",
+     "inputs": [
+      "time_features"
+     ],
+     "doc": "station coordinates, distance, round trip",
+     "variants": [
+      "v2014"
+     ]
+    },
+    {
+     "name": "clean",
+     "inputs": [
+      "station_join"
+     ],
+     "doc": "plausible trips, area cells, label",
+     "variants": [
+      "v2014",
+      "v2024_loc"
+     ]
+    },
+    {
+     "name": "encode",
+     "inputs": [
+      "clean"
+     ],
+     "doc": "model matrix with categorical codes from the encoder artifact",
+     "variants": [
+      "v2014"
+     ]
+    }
+   ]
+  },
+  "hmda": {
+   "round": 2,
+   "periods": 14,
+   "first": "2012",
+   "last": "2025",
+   "bronze_files": 14,
+   "bronze_rows": 2100000,
+   "rows_by_file": {
+    "2012.parquet": 150000,
+    "2013.parquet": 150000,
+    "2014.parquet": 150000,
+    "2015.parquet": 150000,
+    "2016.parquet": 150000,
+    "2017.parquet": 150000,
+    "2018.parquet": 150000,
+    "2019.parquet": 150000,
+    "2020.parquet": 150000,
+    "2021.parquet": 150000,
+    "2022.parquet": 150000,
+    "2023.parquet": 150000,
+    "2024.parquet": 150000,
+    "2025.parquet": 150000
+   },
+   "task": "binary",
+   "features": 14,
+   "label": "y",
+   "references": [
+    "2012",
+    "2015"
+   ],
+   "components": [
+    {
+     "name": "lar_adapter",
+     "inputs": [
+      "raw:lar"
+     ],
+     "doc": "published application records -> canonical schema",
+     "variants": [
+      "v2012",
+      "v2018"
+     ]
+    },
+    {
+     "name": "clean",
+     "inputs": [
+      "lar_adapter"
+     ],
+     "doc": "applications in scope, label, missing income",
+     "variants": [
+      "v2012",
+      "v2024_loc",
+      "v2024_np"
+     ]
+    },
+    {
+     "name": "features",
+     "inputs": [
+      "clean"
+     ],
+     "doc": "loan-to-income ratio",
+     "variants": [
+      "v2012"
+     ]
+    },
+    {
+     "name": "encode",
+     "inputs": [
+      "features"
+     ],
+     "doc": "model matrix with categorical codes from the encoder artifact",
+     "variants": [
+      "v2012"
+     ]
+    }
+   ]
+  },
+  "bts": {
+   "round": 2,
+   "periods": 47,
+   "first": "2015-01",
+   "last": "2026-07",
+   "bronze_files": 47,
+   "bronze_rows": 7050000,
+   "rows_by_file": {
+    "2015-01.parquet": 150000,
+    "2015-04.parquet": 150000,
+    "2015-07.parquet": 150000,
+    "2015-10.parquet": 150000,
+    "2016-01.parquet": 150000,
+    "2016-04.parquet": 150000,
+    "2016-07.parquet": 150000,
+    "2016-10.parquet": 150000,
+    "2017-01.parquet": 150000,
+    "2017-04.parquet": 150000,
+    "2017-07.parquet": 150000,
+    "2017-10.parquet": 150000,
+    "2018-01.parquet": 150000,
+    "2018-04.parquet": 150000,
+    "2018-07.parquet": 150000,
+    "2018-10.parquet": 150000,
+    "2019-01.parquet": 150000,
+    "2019-04.parquet": 150000,
+    "2019-07.parquet": 150000,
+    "2019-10.parquet": 150000,
+    "2020-01.parquet": 150000,
+    "2020-04.parquet": 150000,
+    "2020-07.parquet": 150000,
+    "2020-10.parquet": 150000,
+    "2021-01.parquet": 150000,
+    "2021-04.parquet": 150000,
+    "2021-07.parquet": 150000,
+    "2021-10.parquet": 150000,
+    "2022-01.parquet": 150000,
+    "2022-04.parquet": 150000,
+    "2022-07.parquet": 150000,
+    "2022-10.parquet": 150000,
+    "2023-01.parquet": 150000,
+    "2023-04.parquet": 150000,
+    "2023-07.parquet": 150000,
+    "2023-10.parquet": 150000,
+    "2024-01.parquet": 150000,
+    "2024-04.parquet": 150000,
+    "2024-07.parquet": 150000,
+    "2024-10.parquet": 150000,
+    "2025-01.parquet": 150000,
+    "2025-04.parquet": 150000,
+    "2025-07.parquet": 150000,
+    "2025-10.parquet": 150000,
+    "2026-01.parquet": 150000,
+    "2026-04.parquet": 150000,
+    "2026-07.parquet": 150000
+   },
+   "task": "binary",
+   "features": 12,
+   "label": "y",
+   "references": [
+    "2015-01",
+    "2019-01"
+   ],
+   "components": [
+    {
+     "name": "flight_adapter",
+     "inputs": [
+      "raw:flights"
+     ],
+     "doc": "published flight records -> canonical schema",
+     "variants": [
+      "v2015"
+     ]
+    },
+    {
+     "name": "time_features",
+     "inputs": [
+      "flight_adapter"
+     ],
+     "doc": "calendar and scheduled clock times",
+     "variants": [
+      "v2015",
+      "v2024_dt"
+     ]
+    },
+    {
+     "name": "clean",
+     "inputs": [
+      "time_features"
+     ],
+     "doc": "operated flights, label",
+     "variants": [
+      "v2015",
+      "v2024_loc"
+     ]
+    },
+    {
+     "name": "airport_join",
+     "inputs": [
+      "clean"
+     ],
+     "doc": "origin/destination airport size class from the airport artifact",
+     "variants": [
+      "v2015"
+     ]
+    },
+    {
+     "name": "encode",
+     "inputs": [
+      "airport_join"
+     ],
+     "doc": "model matrix with categorical codes from the encoder artifact",
+     "variants": [
+      "v2015"
+     ]
+    }
+   ]
+  },
+  "cabi": {
+   "round": 3,
+   "periods": 51,
+   "first": "2014-Q1",
+   "last": "2026-Q3",
+   "bronze_files": 51,
+   "bronze_rows": 5100000,
+   "rows_by_file": {
+    "2014-Q1.parquet": 100000,
+    "2014-Q2.parquet": 100000,
+    "2014-Q3.parquet": 100000,
+    "2014-Q4.parquet": 100000,
+    "2015-Q1.parquet": 100000,
+    "2015-Q2.parquet": 100000,
+    "2015-Q3.parquet": 100000,
+    "2015-Q4.parquet": 100000,
+    "2016-Q1.parquet": 100000,
+    "2016-Q2.parquet": 100000,
+    "2016-Q3.parquet": 100000,
+    "2016-Q4.parquet": 100000,
+    "2017-Q1.parquet": 100000,
+    "2017-Q2.parquet": 100000,
+    "2017-Q3.parquet": 100000,
+    "2017-Q4.parquet": 100000,
+    "2018-Q1.parquet": 100000,
+    "2018-Q2.parquet": 100000,
+    "2018-Q3.parquet": 100000,
+    "2018-Q4.parquet": 100000,
+    "2019-Q1.parquet": 100000,
+    "2019-Q2.parquet": 100000,
+    "2019-Q3.parquet": 100000,
+    "2019-Q4.parquet": 100000,
+    "2020-Q1.parquet": 100000,
+    "2020-Q2.parquet": 100000,
+    "2020-Q3.parquet": 100000,
+    "2020-Q4.parquet": 100000,
+    "2021-Q1.parquet": 100000,
+    "2021-Q2.parquet": 100000,
+    "2021-Q3.parquet": 100000,
+    "2021-Q4.parquet": 100000,
+    "2022-Q1.parquet": 100000,
+    "2022-Q2.parquet": 100000,
+    "2022-Q3.parquet": 100000,
+    "2022-Q4.parquet": 100000,
+    "2023-Q1.parquet": 100000,
+    "2023-Q2.parquet": 100000,
+    "2023-Q3.parquet": 100000,
+    "2023-Q4.parquet": 100000,
+    "2024-Q1.parquet": 100000,
+    "2024-Q2.parquet": 100000,
+    "2024-Q3.parquet": 100000,
+    "2024-Q4.parquet": 100000,
+    "2025-Q1.parquet": 100000,
+    "2025-Q2.parquet": 100000,
+    "2025-Q3.parquet": 100000,
+    "2025-Q4.parquet": 100000,
+    "2026-Q1.parquet": 100000,
+    "2026-Q2.parquet": 100000,
+    "2026-Q3.parquet": 100000
+   },
+   "task": "binary",
+   "features": 13,
+   "label": "y",
+   "references": [
+    "2016-Q3",
+    "2019-Q2"
+   ],
+   "components": [
+    {
+     "name": "trip_adapter",
+     "inputs": [
+      "raw:trips"
+     ],
+     "doc": "published trip columns -> canonical schema",
+     "variants": [
+      "v2014"
+     ]
+    },
+    {
+     "name": "time_features",
+     "inputs": [
+      "trip_adapter"
+     ],
+     "doc": "hour, day of week, month, duration",
+     "variants": [
+      "v2014"
+     ]
+    },
+    {
+     "name": "station_join",
+     "inputs": [
+      "time_features"
+     ],
+     "doc": "station coordinates, distance, round trip",
+     "variants": [
+      "v2014"
+     ]
+    },
+    {
+     "name": "clean",
+     "inputs": [
+      "station_join"
+     ],
+     "doc": "plausible trips, area cells, label",
+     "variants": [
+      "v2014",
+      "v2024_loc"
+     ]
+    },
+    {
+     "name": "encode",
+     "inputs": [
+      "clean"
+     ],
+     "doc": "model matrix with categorical codes from the encoder artifact",
+     "variants": [
+      "v2014"
+     ]
+    }
+   ]
+  },
+  "fars": {
+   "round": 3,
+   "periods": 15,
+   "first": "2010",
+   "last": "2024",
+   "bronze_files": 15,
+   "bronze_rows": 509887,
+   "rows_by_file": {
+    "2010.parquet": 30296,
+    "2011.parquet": 29867,
+    "2012.parquet": 31006,
+    "2013.parquet": 30202,
+    "2014.parquet": 30056,
+    "2015.parquet": 32538,
+    "2016.parquet": 34748,
+    "2017.parquet": 34560,
+    "2018.parquet": 33919,
+    "2019.parquet": 33487,
+    "2020.parquet": 35935,
+    "2021.parquet": 39785,
+    "2022.parquet": 39422,
+    "2023.parquet": 37769,
+    "2024.parquet": 36297
+   },
+   "task": "binary",
+   "features": 15,
+   "label": "y",
+   "references": [
+    "2011",
+    "2016"
+   ],
+   "components": [
+    {
+     "name": "crash_adapter",
+     "inputs": [
+      "raw:accident"
+     ],
+     "doc": "published crash fields -> canonical schema",
+     "variants": [
+      "v2010"
+     ]
+    },
+    {
+     "name": "clean",
+     "inputs": [
+      "crash_adapter"
+     ],
+     "doc": "unknown codes, label",
+     "variants": [
+      "v2010",
+      "v2024_loc"
+     ]
+    },
+    {
+     "name": "features",
+     "inputs": [
+      "clean"
+     ],
+     "doc": "night and weekend indicators",
+     "variants": [
+      "v2010"
+     ]
+    },
+    {
+     "name": "encode",
+     "inputs": [
+      "features"
+     ],
+     "doc": "model matrix with categorical codes from the encoder artifact",
+     "variants": [
+      "v2010"
+     ]
+    }
+   ]
+  },
+  "landreg": {
+   "round": 3,
+   "periods": 18,
+   "first": "2008",
+   "last": "2025",
+   "bronze_files": 18,
+   "bronze_rows": 2700000,
+   "rows_by_file": {
+    "2008.parquet": 150000,
+    "2009.parquet": 150000,
+    "2010.parquet": 150000,
+    "2011.parquet": 150000,
+    "2012.parquet": 150000,
+    "2013.parquet": 150000,
+    "2014.parquet": 150000,
+    "2015.parquet": 150000,
+    "2016.parquet": 150000,
+    "2017.parquet": 150000,
+    "2018.parquet": 150000,
+    "2019.parquet": 150000,
+    "2020.parquet": 150000,
+    "2021.parquet": 150000,
+    "2022.parquet": 150000,
+    "2023.parquet": 150000,
+    "2024.parquet": 150000,
+    "2025.parquet": 150000
+   },
+   "task": "binary",
+   "features": 8,
+   "label": "y",
+   "references": [
+    "2010",
+    "2016"
+   ],
+   "components": [
+    {
+     "name": "sale_adapter",
+     "inputs": [
+      "raw:pp"
+     ],
+     "doc": "published price-paid columns (by position) -> canonical schema",
+     "variants": [
+      "v2008"
+     ]
+    },
+    {
+     "name": "time_features",
+     "inputs": [
+      "sale_adapter"
+     ],
+     "doc": "month, day of week, day of year",
+     "variants": [
+      "v2008"
+     ]
+    },
+    {
+     "name": "clean",
+     "inputs": [
+      "time_features"
+     ],
+     "doc": "scope, log price, label",
+     "variants": [
+      "v2008",
+      "v2024_loc"
+     ]
+    },
+    {
+     "name": "geo",
+     "inputs": [
+      "clean"
+     ],
+     "doc": "postcode area",
+     "variants": [
+      "v2008"
+     ]
+    },
+    {
+     "name": "encode",
+     "inputs": [
+      "geo"
+     ],
+     "doc": "model matrix with categorical codes from the encoder artifact",
+     "variants": [
+      "v2008"
+     ]
+    }
+   ]
+  },
+  "storm": {
+   "round": 4,
+   "periods": 30,
+   "first": "1996",
+   "last": "2025",
+   "bronze_files": 90,
+   "bronze_rows": 3604343,
+   "rows_by_file": {
+    "details/1996.parquet": 48534,
+    "details/1997.parquet": 41991,
+    "details/1998.parquet": 50973,
+    "details/1999.parquet": 46383,
+    "details/2000.parquet": 52007,
+    "details/2001.parquet": 48875,
+    "details/2002.parquet": 50936,
+    "details/2003.parquet": 52956,
+    "details/2004.parquet": 52409,
+    "details/2005.parquet": 53976,
+    "details/2006.parquet": 56400,
+    "details/2007.parquet": 59011,
+    "details/2008.parquet": 71190,
+    "details/2009.parquet": 57398,
+    "details/2010.parquet": 62809,
+    "details/2011.parquet": 79091,
+    "details/2012.parquet": 64503,
+    "details/2013.parquet": 59986,
+    "details/2014.parquet": 59475,
+    "details/2015.parquet": 57907,
+    "details/2016.parquet": 56005,
+    "details/2017.parquet": 57041,
+    "details/2018.parquet": 62699,
+    "details/2019.parquet": 67864,
+    "details/2020.parquet": 61281,
+    "details/2021.parquet": 61389,
+    "details/2022.parquet": 69887,
+    "details/2023.parquet": 75593,
+    "details/2024.parquet": 69801,
+    "details/2025.parquet": 72360,
+    "fatalities/1996.parquet": 525,
+    "fatalities/1997.parquet": 595,
+    "fatalities/1998.parquet": 686,
+    "fatalities/1999.parquet": 907,
+    "fatalities/2000.parquet": 476,
+    "fatalities/2001.parquet": 465,
+    "fatalities/2002.parquet": 466,
+    "fatalities/2003.parquet": 443,
+    "fatalities/2004.parquet": 369,
+    "fatalities/2005.parquet": 1454,
+    "fatalities/2006.parquet": 656,
+    "fatalities/2007.parquet": 713,
+    "fatalities/2008.parquet": 827,
+    "fatalities/2009.parquet": 559,
+    "fatalities/2010.parquet": 677,
+    "fatalities/2011.parquet": 1336,
+    "fatalities/2012.parquet": 706,
+    "fatalities/2013.parquet": 593,
+    "fatalities/2014.parquet": 558,
+    "fatalities/2015.parquet": 695,
+    "fatalities/2016.parquet": 670,
+    "fatalities/2017.parquet": 775,
+    "fatalities/2018.parquet": 1072,
+    "fatalities/2019.parquet": 733,
+    "fatalities/2020.parquet": 905,
+    "fatalities/2021.parquet": 1266,
+    "fatalities/2022.parquet": 1223,
+    "fatalities/2023.parquet": 1466,
+    "fatalities/2024.parquet": 1141,
+    "fatalities/2025.parquet": 895,
+    "locations/1996.parquet": 48531,
+    "locations/1997.parquet": 41991,
+    "locations/1998.parquet": 50973,
+    "locations/1999.parquet": 46383,
+    "locations/2000.parquet": 53771,
+    "locations/2001.parquet": 50614,
+    "locations/2002.parquet": 52867,
+    "locations/2003.parquet": 55165,
+    "locations/2004.parquet": 54559,
+    "locations/2005.parquet": 57267,
+    "locations/2006.parquet": 159430,
+    "locations/2007.parquet": 41896,
+    "locations/2008.parquet": 73109,
+    "locations/2009.parquet": 62343,
+    "locations/2010.parquet": 65469,
+    "locations/2011.parquet": 82199,
+    "locations/2012.parquet": 51871,
+    "locations/2013.parquet": 61317,
+    "locations/2014.parquet": 54418,
+    "locations/2015.parquet": 66310,
+    "locations/2016.parquet": 57695,
+    "locations/2017.parquet": 63329,
+    "locations/2018.parquet": 73123,
+    "locations/2019.parquet": 76338,
+    "locations/2020.parquet": 62421,
+    "locations/2021.parquet": 52192,
+    "locations/2022.parquet": 47530,
+    "locations/2023.parquet": 43572,
+    "locations/2024.parquet": 41574,
+    "locations/2025.parquet": 51504
+   },
+   "task": "binary",
+   "features": 20,
+   "label": "y",
+   "references": [
+    "2003",
+    "2012"
+   ],
+   "components": [
+    {
+     "name": "event_adapter",
+     "inputs": [
+      "raw:details"
+     ],
+     "doc": "published event fields -> canonical schema",
+     "variants": [
+      "v1996"
+     ]
+    },
+    {
+     "name": "fatality_adapter",
+     "inputs": [
+      "raw:fatalities"
+     ],
+     "doc": "published fatality records -> canonical schema",
+     "variants": [
+      "v1996"
+     ]
+    },
+    {
+     "name": "location_adapter",
+     "inputs": [
+      "raw:locations"
+     ],
+     "doc": "published location points -> canonical schema",
+     "variants": [
+      "v1996"
+     ]
+    },
+    {
+     "name": "times",
+     "inputs": [
+      "event_adapter"
+     ],
+     "doc": "hour, month, duration, UTC offset from the time-zone table",
+     "variants": [
+      "v1996"
+     ]
+    },
+    {
+     "name": "scale",
+     "inputs": [
+      "times"
+     ],
+     "doc": "tornado rating -> number",
+     "variants": [
+      "v1996"
+     ]
+    },
+    {
+     "name": "sources",
+     "inputs": [
+      "scale"
+     ],
+     "doc": "reporting source -> source group via the source crosswalk",
+     "variants": [
+      "v1996"
+     ]
+    },
+    {
+     "name": "fatal_agg",
+     "inputs": [
+      "fatality_adapter"
+     ],
+     "doc": "fatalities per event and share at home",
+     "variants": [
+      "v1996"
+     ]
+    },
+    {
+     "name": "loc_agg",
+     "inputs": [
+      "location_adapter"
+     ],
+     "doc": "location points per event and spatial extent",
+     "variants": [
+      "v1996"
+     ]
+    },
+    {
+     "name": "join",
+     "inputs": [
+      "sources",
+      "fatal_agg",
+      "loc_agg"
+     ],
+     "doc": "left join of the event branch and the per-event aggregates",
+     "variants": [
+      "v1996"
+     ]
+    },
+    {
+     "name": "geo",
+     "inputs": [
+      "join"
+     ],
+     "doc": "3-degree grid cell of the begin point",
+     "variants": [
+      "v1996"
+     ]
+    },
+    {
+     "name": "clean",
+     "inputs": [
+      "geo"
+     ],
+     "doc": "wind speed and hail size by event type, label from the damage amount",
+     "variants": [
+      "v1996",
+      "v2024_loc"
+     ]
+    },
+    {
+     "name": "encode",
+     "inputs": [
+      "clean"
+     ],
+     "doc": "model matrix with categorical codes from the encoder artifact",
+     "variants": [
+      "v1996"
+     ]
+    }
+   ]
+  },
+  "chicago": {
+   "round": 4,
+   "periods": 10,
+   "first": "2016",
+   "last": "2025",
+   "bronze_files": 30,
+   "bronze_rows": 3057640,
+   "rows_by_file": {
+    "crashes/2016.parquet": 44297,
+    "crashes/2017.parquet": 60000,
+    "crashes/2018.parquet": 60000,
+    "crashes/2019.parquet": 60000,
+    "crashes/2020.parquet": 60000,
+    "crashes/2021.parquet": 60000,
+    "crashes/2022.parquet": 60000,
+    "crashes/2023.parquet": 60000,
+    "crashes/2024.parquet": 60000,
+    "crashes/2025.parquet": 60000,
+    "people/2016.parquet": 96022,
+    "people/2017.parquet": 132761,
+    "people/2018.parquet": 133890,
+    "people/2019.parquet": 134377,
+    "people/2020.parquet": 130269,
+    "people/2021.parquet": 128991,
+    "people/2022.parquet": 129635,
+    "people/2023.parquet": 132941,
+    "people/2024.parquet": 132168,
+    "people/2025.parquet": 131002,
+    "vehicles/2016.parquet": 89146,
+    "vehicles/2017.parquet": 121883,
+    "vehicles/2018.parquet": 121951,
+    "vehicles/2019.parquet": 122357,
+    "vehicles/2020.parquet": 123508,
+    "vehicles/2021.parquet": 122856,
+    "vehicles/2022.parquet": 122208,
+    "vehicles/2023.parquet": 123190,
+    "vehicles/2024.parquet": 122273,
+    "vehicles/2025.parquet": 121915
+   },
+   "task": "binary",
+   "features": 26,
+   "label": "y",
+   "references": [
+    "2018",
+    "2019"
+   ],
+   "components": [
+    {
+     "name": "crash_adapter",
+     "inputs": [
+      "raw:crashes"
+     ],
+     "doc": "published crash fields -> canonical schema",
+     "variants": [
+      "v2016"
+     ]
+    },
+    {
+     "name": "person_adapter",
+     "inputs": [
+      "raw:people"
+     ],
+     "doc": "published person records -> canonical schema",
+     "variants": [
+      "v2016"
+     ]
+    },
+    {
+     "name": "vehicle_adapter",
+     "inputs": [
+      "raw:vehicles"
+     ],
+     "doc": "published vehicle records -> canonical schema",
+     "variants": [
+      "v2016"
+     ]
+    },
+    {
+     "name": "times",
+     "inputs": [
+      "crash_adapter"
+     ],
+     "doc": "delay between the crash and the police notification",
+     "variants": [
+      "v2016"
+     ]
+    },
+    {
+     "name": "road",
+     "inputs": [
+      "times"
+     ],
+     "doc": "trafficway type -> road group via the trafficway crosswalk",
+     "variants": [
+      "v2016"
+     ]
+    },
+    {
+     "name": "person_agg",
+     "inputs": [
+      "person_adapter"
+     ],
+     "doc": "people per crash, driver age, restraint use",
+     "variants": [
+      "v2016"
+     ]
+    },
+    {
+     "name": "vehicle_agg",
+     "inputs": [
+      "vehicle_adapter"
+     ],
+     "doc": "vehicles per crash, first-contact points, heavy vehicles",
+     "variants": [
+      "v2016"
+     ]
+    },
+    {
+     "name": "join",
+     "inputs": [
+      "road",
+      "person_agg",
+      "vehicle_agg"
+     ],
+     "doc": "left join of the crash branch and the aggregates",
+     "variants": [
+      "v2016"
+     ]
+    },
+    {
+     "name": "geo",
+     "inputs": [
+      "join"
+     ],
+     "doc": "0.05-degree grid cell of the crash location",
+     "variants": [
+      "v2016"
+     ]
+    },
+    {
+     "name": "clean",
+     "inputs": [
+      "geo"
+     ],
+     "doc": "indicator flags, speed limit, label",
+     "variants": [
+      "v2016",
+      "v2024_loc"
+     ]
+    },
+    {
+     "name": "encode",
+     "inputs": [
+      "clean"
+     ],
+     "doc": "model matrix with categorical codes from the encoder artifact",
+     "variants": [
+      "v2016"
+     ]
+    }
+   ]
+  }
+ },
+ "events": {
+  "acs": [
+   {
+    "period": "2017",
+    "table": "person",
+    "change": "SERIALNO format: 13-digit year-prefixed id",
+    "columns": [
+     "SERIALNO"
+    ]
+   },
+   {
+    "period": "2017",
+    "table": "housing",
+    "change": "SERIALNO format: 13-digit year-prefixed id",
+    "columns": [
+     "SERIALNO"
+    ]
+   },
+   {
+    "period": "2018",
+    "table": "person",
+    "change": "SERIALNO alphanumeric (GQ/HU); OCCP 2018 code list",
+    "columns": [
+     "SERIALNO",
+     "OCCP"
+    ]
+   },
+   {
+    "period": "2018",
+    "table": "housing",
+    "change": "SERIALNO alphanumeric (GQ/HU)",
+    "columns": [
+     "SERIALNO"
+    ]
+   },
+   {
+    "period": "2019",
+    "table": "person",
+    "change": "RELP->RELSHIPP, WKW->WKWN, JWTR->JWTRNS",
+    "columns": [
+     "RELP",
+     "RELSHIPP",
+     "WKW",
+     "WKWN",
+     "JWTR",
+     "JWTRNS"
+    ]
+   },
+   {
+    "period": "2023",
+    "table": "person",
+    "change": "ST->STATE",
+    "columns": [
+     "ST",
+     "STATE"
+    ]
+   }
+  ],
+  "tlc": [
+   {
+    "period": "2018-07",
+    "table": "trips",
+    "change": "passenger_count, RatecodeID published as double",
+    "columns": [
+     "passenger_count",
+     "RatecodeID"
+    ]
+   },
+   {
+    "period": "2019-01",
+    "table": "trips",
+    "change": "congestion_surcharge populated",
+    "columns": [
+     "congestion_surcharge"
+    ]
+   },
+   {
+    "period": "2021-01",
+    "table": "trips",
+    "change": "airport_fee populated",
+    "columns": [
+     "airport_fee"
+    ]
+   },
+   {
+    "period": "2023-04",
+    "table": "trips",
+    "change": "airport_fee renamed Airport_fee; VendorID/LocationIDs int32",
+    "columns": [
+     "airport_fee",
+     "Airport_fee",
+     "VendorID",
+     "PULocationID",
+     "DOLocationID"
+    ]
+   },
+   {
+    "period": "2025-01",
+    "table": "trips",
+    "change": "cbd_congestion_fee column added",
+    "columns": [
+     "cbd_congestion_fee"
+    ]
+   },
+   {
+    "period": "2026-07",
+    "table": "trips",
+    "change": "request_source column added",
+    "columns": [
+     "request_source"
+    ]
+   }
+  ],
+  "news": [
+   {
+    "period": "2014",
+    "table": "articles",
+    "change": "new category values: ['ARTS', 'COLLEGE', 'EDUCATION', 'FIFTY', 'GOOD NEWS', 'GREEN', 'HEALTHY LIVING', 'LATINO VOICES', 'MEDIA', 'PARENTS', 'POLITICS', 'RELIGION', 'STYLE', 'TASTE', 'WEIRD NEWS', 'WOMEN', 'WORLDPOST']",
+    "columns": [
+     "category"
+    ]
+   },
+   {
+    "period": "2015",
+    "table": "articles",
+    "change": "new category values: ['ARTS & CULTURE', 'THE WORLDPOST']",
+    "columns": [
+     "category"
+    ]
+   },
+   {
+    "period": "2017",
+    "table": "articles",
+    "change": "new category values: ['WORLD NEWS']",
+    "columns": [
+     "category"
+    ]
+   },
+   {
+    "period": "2018",
+    "table": "articles",
+    "change": "new category values: ['U.S. NEWS']",
+    "columns": [
+     "category"
+    ]
+   }
+  ],
+  "divvy": [
+   {
+    "period": "2017-Q1",
+    "table": "trips",
+    "change": "starttime/stoptime renamed start_time/end_time",
+    "columns": [
+     "starttime",
+     "stoptime",
+     "start_time",
+     "end_time"
+    ]
+   },
+   {
+    "period": "2017-Q4",
+    "table": "trips",
+    "change": "timestamps published without seconds again",
+    "columns": [
+     "start_time",
+     "end_time"
+    ]
+   },
+   {
+    "period": "2018-Q1",
+    "table": "trips",
+    "change": "long-form column headers; ISO timestamps; trip duration with thousands separators",
+    "columns": [
+     "01 - Rental Details Rental ID",
+     "01 - Rental Details Local Start Time",
+     "01 - Rental Details Local End Time",
+     "01 - Rental Details Bike ID",
+     "01 - Rental Details Duration In Seconds Uncapped",
+     "03 - Rental Start Station ID",
+     "03 - Rental Start Station Name",
+     "02 - Rental End Station ID",
+     "02 - Rental End Station Name",
+     "User Type",
+     "Member Gender",
+     "05 - Member Details Member Birthday Year",
+     "trip_id",
+     "start_time",
+     "end_time",
+     "bikeid",
+     "tripduration",
+     "from_station_id",
+     "from_station_name",
+     "to_station_id",
+     "to_station_name",
+     "usertype",
+     "gender",
+     "birthyear"
+    ]
+   },
+   {
+    "period": "2018-Q2",
+    "table": "trips",
+    "change": "short column headers again",
+    "columns": [
+     "01 - Rental Details Rental ID",
+     "01 - Rental Details Local Start Time",
+     "01 - Rental Details Local End Time",
+     "01 - Rental Details Bike ID",
+     "01 - Rental Details Duration In Seconds Uncapped",
+     "03 - Rental Start Station ID",
+     "03 - Rental Start Station Name",
+     "02 - Rental End Station ID",
+     "02 - Rental End Station Name",
+     "User Type",
+     "Member Gender",
+     "05 - Member Details Member Birthday Year",
+     "trip_id",
+     "start_time",
+     "end_time",
+     "bikeid",
+     "tripduration",
+     "from_station_id",
+     "from_station_name",
+     "to_station_id",
+     "to_station_name",
+     "usertype",
+     "gender",
+     "birthyear"
+    ]
+   },
+   {
+    "period": "2019-Q2",
+    "table": "trips",
+    "change": "long-form column headers again",
+    "columns": [
+     "01 - Rental Details Rental ID",
+     "01 - Rental Details Local Start Time",
+     "01 - Rental Details Local End Time",
+     "01 - Rental Details Bike ID",
+     "01 - Rental Details Duration In Seconds Uncapped",
+     "03 - Rental Start Station ID",
+     "03 - Rental Start Station Name",
+     "02 - Rental End Station ID",
+     "02 - Rental End Station Name",
+     "User Type",
+     "Member Gender",
+     "05 - Member Details Member Birthday Year",
+     "trip_id",
+     "start_time",
+     "end_time",
+     "bikeid",
+     "tripduration",
+     "from_station_id",
+     "from_station_name",
+     "to_station_id",
+     "to_station_name",
+     "usertype",
+     "gender",
+     "birthyear"
+    ]
+   },
+   {
+    "period": "2019-Q3",
+    "table": "trips",
+    "change": "short column headers again",
+    "columns": [
+     "01 - Rental Details Rental ID",
+     "01 - Rental Details Local Start Time",
+     "01 - Rental Details Local End Time",
+     "01 - Rental Details Bike ID",
+     "01 - Rental Details Duration In Seconds Uncapped",
+     "03 - Rental Start Station ID",
+     "03 - Rental Start Station Name",
+     "02 - Rental End Station ID",
+     "02 - Rental End Station Name",
+     "User Type",
+     "Member Gender",
+     "05 - Member Details Member Birthday Year",
+     "trip_id",
+     "start_time",
+     "end_time",
+     "bikeid",
+     "tripduration",
+     "from_station_id",
+     "from_station_name",
+     "to_station_id",
+     "to_station_name",
+     "usertype",
+     "gender",
+     "birthyear"
+    ]
+   },
+   {
+    "period": "2020-Q1",
+    "table": "trips",
+    "change": "new layout: ride_id, rideable_type, started_at/ended_at, member_casual, coordinates; trip duration, gender and birth year removed",
+    "columns": [
+     "trip_id",
+     "start_time",
+     "end_time",
+     "bikeid",
+     "tripduration",
+     "from_station_id",
+     "from_station_name",
+     "to_station_id",
+     "to_station_name",
+     "usertype",
+     "gender",
+     "birthyear",
+     "ride_id",
+     "rideable_type",
+     "started_at",
+     "ended_at",
+     "start_station_name",
+     "start_station_id",
+     "end_station_name",
+     "end_station_id",
+     "start_lat",
+     "start_lng",
+     "end_lat",
+     "end_lng",
+     "member_casual"
+    ]
+   },
+   {
+    "period": "2020-Q3",
+    "table": "trips",
+    "change": "blank station ids (dockless trips); electric bikes",
+    "columns": [
+     "start_station_id",
+     "end_station_id",
+     "rideable_type"
+    ]
+   },
+   {
+    "period": "2020-Q4",
+    "table": "trips",
+    "change": "alphanumeric station ids",
+    "columns": [
+     "start_station_id",
+     "end_station_id"
+    ]
+   },
+   {
+    "period": "2024-Q2",
+    "table": "trips",
+    "change": "timestamps with fractional seconds",
+    "columns": [
+     "started_at",
+     "ended_at"
+    ]
+   }
+  ],
+  "hmda": [
+   {
+    "period": "2014",
+    "table": "lar",
+    "change": "missing values published as blanks instead of 'NA'",
+    "columns": [
+     "applicant_income_000s",
+     "county_code",
+     "tract_to_msamd_income",
+     "minority_population",
+     "hud_median_family_income"
+    ]
+   },
+   {
+    "period": "2015",
+    "table": "lar",
+    "change": "missing values published as 'NA' again",
+    "columns": [
+     "applicant_income_000s",
+     "county_code",
+     "tract_to_msamd_income",
+     "minority_population",
+     "hud_median_family_income"
+    ]
+   },
+   {
+    "period": "2017",
+    "table": "lar",
+    "change": "numbers published without zero padding",
+    "columns": [
+     "loan_amount_000s",
+     "applicant_income_000s",
+     "hud_median_family_income",
+     "minority_population"
+    ]
+   },
+   {
+    "period": "2018",
+    "table": "lar",
+    "change": "record format rebuilt (Regulation C): loan amount in dollars; loan purpose, occupancy and property recoded; state as postal code, county as 5-digit FIPS; tract fields renamed; open-end, reverse-mortgage and business-purpose flags added",
+    "columns": [
+     "state_code",
+     "county_code",
+     "loan_type",
+     "loan_purpose",
+     "owner_occupancy",
+     "property_type",
+     "lien_status",
+     "preapproval",
+     "loan_amount_000s",
+     "applicant_income_000s",
+     "minority_population",
+     "tract_to_msamd_income",
+     "hud_median_family_income",
+     "action_taken",
+     "state_code",
+     "county_code",
+     "loan_type",
+     "loan_purpose",
+     "occupancy_type",
+     "total_units",
+     "construction_method",
+     "lien_status",
+     "preapproval",
+     "loan_amount",
+     "income",
+     "tract_minority_population_percent",
+     "tract_to_msa_income_percentage",
+     "ffiec_msa_md_median_family_income",
+     "action_taken",
+     "open-end_line_of_credit",
+     "reverse_mortgage",
+     "business_or_commercial_purpose"
+    ]
+   },
+   {
+    "period": "2020",
+    "table": "lar",
+    "change": "tract income percentage published with decimals",
+    "columns": [
+     "tract_to_msa_income_percentage"
+    ]
+   },
+   {
+    "period": "2024",
+    "table": "lar",
+    "change": "tract income percentage published as integers again",
+    "columns": [
+     "tract_to_msa_income_percentage"
+    ]
+   }
+  ],
+  "bts": [],
+  "cabi": [
+   {
+    "period": "2020-Q2",
+    "table": "trips",
+    "change": "new layout: ride_id, rideable_type, started_at/ended_at, member_casual, coordinates; duration and bike number removed; timestamps partly with fractional seconds",
+    "columns": [
+     "Duration",
+     "Start date",
+     "End date",
+     "Start station number",
+     "Start station",
+     "End station number",
+     "End station",
+     "Bike number",
+     "Member type",
+     "ride_id",
+     "rideable_type",
+     "started_at",
+     "ended_at",
+     "start_station_name",
+     "start_station_id",
+     "end_station_name",
+     "end_station_id",
+     "start_lat",
+     "start_lng",
+     "end_lat",
+     "end_lng",
+     "member_casual"
+    ]
+   },
+   {
+    "period": "2020-Q3",
+    "table": "trips",
+    "change": "blank station ids (dockless trips); whole-second timestamps",
+    "columns": [
+     "start_station_id",
+     "end_station_id",
+     "started_at",
+     "ended_at"
+    ]
+   },
+   {
+    "period": "2020-Q4",
+    "table": "trips",
+    "change": "rideable_type code 'classic_bike' introduced next to 'docked_bike'",
+    "columns": [
+     "rideable_type"
+    ]
+   },
+   {
+    "period": "2023-Q4",
+    "table": "trips",
+    "change": "rideable_type code 'docked_bike' retired",
+    "columns": [
+     "rideable_type"
+    ]
+   },
+   {
+    "period": "2024-Q2",
+    "table": "trips",
+    "change": "timestamps with fractional seconds",
+    "columns": [
+     "started_at",
+     "ended_at"
+    ]
+   }
+  ],
+  "fars": [
+   {
+    "period": "2015",
+    "table": "accident",
+    "change": "ROAD_FNC replaced by RUR_URB and FUNC_SYS (new code list); label columns added",
+    "columns": [
+     "ROAD_FNC",
+     "RUR_URB",
+     "FUNC_SYS"
+    ]
+   },
+   {
+    "period": "2016",
+    "table": "accident",
+    "change": "county and city name columns added",
+    "columns": [
+     "COUNTYNAME",
+     "CITYNAME"
+    ]
+   },
+   {
+    "period": "2018",
+    "table": "accident",
+    "change": "REL_ROAD code 12 (pedestrian refuge or traffic island) added",
+    "columns": [
+     "REL_ROAD"
+    ]
+   },
+   {
+    "period": "2020",
+    "table": "accident",
+    "change": "WEATHER1, WEATHER2 and CF1-CF3 removed",
+    "columns": [
+     "WEATHER1",
+     "WEATHER2",
+     "CF1",
+     "CF2",
+     "CF3"
+    ]
+   },
+   {
+    "period": "2020",
+    "table": "accident",
+    "change": "TYP_INT code 11 (other intersection type) added",
+    "columns": [
+     "TYP_INT"
+    ]
+   },
+   {
+    "period": "2021",
+    "table": "accident",
+    "change": "first header published with a byte-order mark (STATE)",
+    "columns": [
+     "STATE",
+     "\u00ef\u00bb\u00bfSTATE"
+    ]
+   },
+   {
+    "period": "2023",
+    "table": "accident",
+    "change": "byte-order mark removed",
+    "columns": [
+     "STATE",
+     "\u00ef\u00bb\u00bfSTATE"
+    ]
+   },
+   {
+    "period": "2023",
+    "table": "accident",
+    "change": "ROUTE (route signing) code list revised: new codes 0, 10-13, 95, 96, 99; frontage-road, 'other' and 'unknown' codes retired",
+    "columns": [
+     "ROUTE"
+    ]
+   }
+  ],
+  "landreg": [
+   {
+    "period": "2013",
+    "table": "pp",
+    "change": "category B transactions (non-standard sales) and property type 'Other' published",
+    "columns": [
+     "c4",
+     "c14"
+    ]
+   }
+  ],
+  "storm": [
+   {
+    "period": "2006",
+    "table": "details",
+    "change": "time-zone codes with UTC offset appended; source codes republished in title case with new names; damage amounts partly with two decimals",
+    "columns": [
+     "CZ_TIMEZONE",
+     "SOURCE",
+     "DAMAGE_PROPERTY"
+    ]
+   },
+   {
+    "period": "2006",
+    "table": "fatalities",
+    "change": "indirect fatalities published; fatality-location codes extended",
+    "columns": [
+     "FATALITY_TYPE",
+     "FATALITY_LOCATION"
+    ]
+   },
+   {
+    "period": "2006",
+    "table": "locations",
+    "change": "only events with coordinates listed; several points per event",
+    "columns": [
+     "EVENT_ID",
+     "LATITUDE",
+     "LONGITUDE"
+    ]
+   },
+   {
+    "period": "2007",
+    "table": "details",
+    "change": "old time-zone and source codes retired; tornado ratings on the Enhanced Fujita scale; '0.00K' for no damage; 'Volcanic Ash' renamed 'Volcanic Ashfall'; zone type 'M' retired",
+    "columns": [
+     "CZ_TIMEZONE",
+     "SOURCE",
+     "TOR_F_SCALE",
+     "DAMAGE_PROPERTY",
+     "EVENT_TYPE",
+     "CZ_TYPE"
+    ]
+   },
+   {
+    "period": "2008",
+    "table": "details",
+    "change": "reporting-source codes added",
+    "columns": [
+     "SOURCE"
+    ]
+   },
+   {
+    "period": "2012",
+    "table": "details",
+    "change": "reporting-source codes added",
+    "columns": [
+     "SOURCE"
+    ]
+   },
+   {
+    "period": "2014",
+    "table": "details",
+    "change": "reporting-source codes added",
+    "columns": [
+     "SOURCE"
+    ]
+   },
+   {
+    "period": "2015",
+    "table": "details",
+    "change": "reporting-source code added",
+    "columns": [
+     "SOURCE"
+    ]
+   },
+   {
+    "period": "2016",
+    "table": "details",
+    "change": "tornado rating 'EFU' (unrated) added",
+    "columns": [
+     "TOR_F_SCALE"
+    ]
+   },
+   {
+    "period": "2021",
+    "table": "details",
+    "change": "daylight-time zone codes added",
+    "columns": [
+     "CZ_TIMEZONE"
+    ]
+   }
+  ],
+  "chicago": [
+   {
+    "period": "2019",
+    "table": "crashes",
+    "change": "revised report codes: intersection types in trafficway_type; codes added to traffic_control_device, first_crash_type, weather_condition and contributory causes",
+    "columns": [
+     "trafficway_type",
+     "traffic_control_device",
+     "first_crash_type",
+     "weather_condition",
+     "prim_contributory_cause",
+     "sec_contributory_cause"
+    ]
+   },
+   {
+    "period": "2019",
+    "table": "people",
+    "change": "detailed restraint codes in safety_equipment; pedestrian location and physical condition codes added",
+    "columns": [
+     "safety_equipment",
+     "pedpedal_location",
+     "physical_condition"
+    ]
+   },
+   {
+    "period": "2019",
+    "table": "vehicles",
+    "change": "first_contact_point code distribution shifts; vehicle type, maneuver and unit type codes added",
+    "columns": [
+     "first_contact_point",
+     "vehicle_type",
+     "maneuver",
+     "unit_type"
+    ]
+   },
+   {
+    "period": "2020",
+    "table": "vehicles",
+    "change": "first_contact_point corner and side codes replace FRONT-LEFT, FRONT-RIGHT, REAR-LEFT, REAR-RIGHT and ROOF",
+    "columns": [
+     "first_contact_point"
+    ]
+   },
+   {
+    "period": "2020",
+    "table": "crashes",
+    "change": "speeding cause codes retired",
+    "columns": [
+     "prim_contributory_cause",
+     "sec_contributory_cause"
+    ]
+   },
+   {
+    "period": "2023",
+    "table": "people",
+    "change": "'CHILD RESTRAINT USED' and 'HELMET USED' retired",
+    "columns": [
+     "safety_equipment"
+    ]
+   }
+  ]
+ },
+ "catalog": {
+  "acs": {
+   "acs.adapter_early_upgrade": {
+    "component": "person_adapter",
+    "kind": "benign",
+    "tier": "B",
+    "note": "2019-ready adapter deployed early",
+    "source": "",
+    "first_period": "2014",
+    "n_periods": 5
+   },
+   "acs.join_nodedupe": {
+    "component": "join_household",
+    "kind": "benign",
+    "tier": "B",
+    "note": "dedupe of the household side removed (keys are unique)",
+    "source": "",
+    "first_period": "2014",
+    "n_periods": 11
+   },
+   "acs.clean_env_p30": {
+    "component": "person_clean",
+    "kind": "defect",
+    "tier": "T2",
+    "note": "pandas 3 upgrade: chained-assignment fill becomes a no-op",
+    "source": "",
+    "first_period": "2014",
+    "n_periods": 11
+   },
+   "acs.clean_modernised": {
+    "component": "person_clean",
+    "kind": "benign",
+    "tier": "B",
+    "note": "chained assignment -> .loc",
+    "source": "",
+    "first_period": "2014",
+    "n_periods": 11
+   },
+   "acs.clean_modernised_p30": {
+    "component": "person_clean",
+    "kind": "benign",
+    "tier": "T2b",
+    "note": "pandas 3 upgrade of the modernised cleaning step",
+    "source": "",
+    "first_period": "2014",
+    "n_periods": 11
+   },
+   "acs.occ_env_p30": {
+    "component": "occ_group",
+    "kind": "benign",
+    "tier": "T2b",
+    "note": "pandas 3 upgrade of the crosswalk step",
+    "source": "",
+    "first_period": "2014",
+    "n_periods": 11
+   },
+   "acs.housing_env_p30": {
+    "component": "housing_adapter",
+    "kind": "benign",
+    "tier": "T2b",
+    "note": "pandas 3 upgrade of the housing adapter",
+    "source": "",
+    "first_period": "2014",
+    "n_periods": 11
+   },
+   "acs.adjinc_ignored": {
+    "component": "features",
+    "kind": "defect",
+    "tier": "T3",
+    "note": "income adjustment factor dropped (stale reference)",
+    "source": "",
+    "first_period": "2014",
+    "n_periods": 11
+   },
+   "acs.wkhp_month": {
+    "component": "features",
+    "kind": "defect",
+    "tier": "T3",
+    "note": "hours per week reported per month (unit change)",
+    "source": "",
+    "first_period": "2014",
+    "n_periods": 11
+   },
+   "acs.veh_stuck_tx": {
+    "component": "features",
+    "kind": "defect",
+    "tier": "T3",
+    "note": "vehicles feature stuck at 0 for Texas (upstream default)",
+    "source": "",
+    "first_period": "2014",
+    "n_periods": 11
+   },
+   "acs.encoder_refit": {
+    "component": "encode",
+    "kind": "defect",
+    "tier": "T3",
+    "note": "categorical codes re-fitted at serving time (training/serving skew)",
+    "source": "",
+    "first_period": "2014",
+    "n_periods": 11
+   },
+   "acs.key_digits": {
+    "component": "join_household",
+    "kind": "defect",
+    "tier": "T1",
+    "note": "alphanumeric SERIALNO 'fixed' by stripping letters (GQ/HU ids collide)",
+    "source": "",
+    "first_period": "2018",
+    "n_periods": 7
+   },
+   "acs.key_numeric_stale": {
+    "component": "join_household",
+    "kind": "defect",
+    "tier": "T1",
+    "note": "join keys still parsed as numbers after the id format change",
+    "source": "",
+    "first_period": "2018",
+    "n_periods": 7
+   },
+   "acs.occ_xwalk_stale": {
+    "component": "occ_group",
+    "kind": "defect",
+    "tier": "T1",
+    "note": "occupation crosswalk not refreshed for 2018 codes",
+    "source": "",
+    "first_period": "2018",
+    "n_periods": 7
+   },
+   "acs.relp_minus20": {
+    "component": "person_adapter",
+    "kind": "defect",
+    "tier": "T1",
+    "note": "RELSHIPP codes shifted by -20 instead of the official crosswalk",
+    "source": "",
+    "first_period": "2019",
+    "n_periods": 6
+   },
+   "acs.wkw_reversed": {
+    "component": "person_adapter",
+    "kind": "defect",
+    "tier": "T1",
+    "note": "WKWN binned into WKW categories in reverse order",
+    "source": "",
+    "first_period": "2019",
+    "n_periods": 6
+   },
+   "acs.wkw_passthrough": {
+    "component": "person_adapter",
+    "kind": "defect",
+    "tier": "T1",
+    "note": "WKWN weeks passed through as WKW categories",
+    "source": "",
+    "first_period": "2019",
+    "n_periods": 6
+   },
+   "acs.jwtr_rename": {
+    "component": "person_adapter",
+    "kind": "defect",
+    "tier": "T1",
+    "note": "JWTRNS used as JWTR without recoding (subway/rail/streetcar codes permuted)",
+    "source": "",
+    "first_period": "2019",
+    "n_periods": 6
+   },
+   "acs.adapter_refactor": {
+    "component": "person_adapter",
+    "kind": "benign",
+    "tier": "B",
+    "note": "refactor of the 2019 adapter",
+    "source": "",
+    "first_period": "2019",
+    "n_periods": 6
+   },
+   "acs.state_fill": {
+    "component": "person_adapter",
+    "kind": "defect",
+    "tier": "T1",
+    "note": "missing ST column filled with the most common training state",
+    "source": "",
+    "first_period": "2023",
+    "n_periods": 2
+   }
+  },
+  "tlc": {
+   "tlc.adapter_ci_early": {
+    "component": "trip_adapter",
+    "kind": "benign",
+    "tier": "B",
+    "note": "case-insensitive column lookup deployed early",
+    "source": "",
+    "first_period": "2015-01",
+    "n_periods": 34
+   },
+   "tlc.time_env_main": {
+    "component": "time_features",
+    "kind": "defect",
+    "tier": "T2",
+    "note": "pandas 2.2 / pyarrow 25 upgrade: parquet timestamps keep microsecond unit; epoch math via astype(int64)",
+    "source": "",
+    "first_period": "2015-01",
+    "n_periods": 50
+   },
+   "tlc.time_env_p30": {
+    "component": "time_features",
+    "kind": "defect",
+    "tier": "T2",
+    "note": "pandas 3 upgrade: epoch via astype(int64) changes resolution",
+    "source": "",
+    "first_period": "2015-01",
+    "n_periods": 50
+   },
+   "tlc.time_modernised": {
+    "component": "time_features",
+    "kind": "benign",
+    "tier": "B",
+    "note": "timedelta arithmetic in the upgraded environment",
+    "source": "",
+    "first_period": "2015-01",
+    "n_periods": 50
+   },
+   "tlc.time_modernised_p30": {
+    "component": "time_features",
+    "kind": "benign",
+    "tier": "T2b",
+    "note": "pandas 3 upgrade of the modernised time step",
+    "source": "",
+    "first_period": "2015-01",
+    "n_periods": 50
+   },
+   "tlc.clean_env_p30": {
+    "component": "clean",
+    "kind": "defect",
+    "tier": "T2",
+    "note": "pandas 3 upgrade: chained-assignment cleaning becomes a no-op",
+    "source": "",
+    "first_period": "2015-01",
+    "n_periods": 50
+   },
+   "tlc.clean_modernised": {
+    "component": "clean",
+    "kind": "benign",
+    "tier": "B",
+    "note": "chained assignment -> .loc",
+    "source": "",
+    "first_period": "2015-01",
+    "n_periods": 50
+   },
+   "tlc.zone_env_p30": {
+    "component": "zone_join",
+    "kind": "benign",
+    "tier": "T2b",
+    "note": "pandas 3 upgrade of the zone join",
+    "source": "",
+    "first_period": "2015-01",
+    "n_periods": 50
+   },
+   "tlc.tz_utc": {
+    "component": "time_features",
+    "kind": "defect",
+    "tier": "T3",
+    "note": "timestamps shifted as if converted from UTC",
+    "source": "",
+    "first_period": "2015-01",
+    "n_periods": 50
+   },
+   "tlc.do_key_bug": {
+    "component": "zone_join",
+    "kind": "defect",
+    "tier": "T3",
+    "note": "dropoff zone joined on the pickup id (copy-paste key bug)",
+    "source": "",
+    "first_period": "2015-01",
+    "n_periods": 50
+   },
+   "tlc.distance_km": {
+    "component": "fare_features",
+    "kind": "defect",
+    "tier": "T3",
+    "note": "trip distance converted to km (unit change)",
+    "source": "",
+    "first_period": "2015-01",
+    "n_periods": 50
+   },
+   "tlc.encoder_refit": {
+    "component": "encode",
+    "kind": "defect",
+    "tier": "T3",
+    "note": "categorical codes re-fitted at serving time (training/serving skew)",
+    "source": "",
+    "first_period": "2015-01",
+    "n_periods": 50
+   },
+   "tlc.ratecode_stale": {
+    "component": "trip_adapter",
+    "kind": "defect",
+    "tier": "T1",
+    "note": "rate code key built from the published dtype ('1.0' after the double change)",
+    "source": "",
+    "first_period": "2018-07",
+    "n_periods": 35
+   },
+   "tlc.airport_case_stale": {
+    "component": "trip_adapter",
+    "kind": "defect",
+    "tier": "T1",
+    "note": "case-sensitive lookup misses the renamed Airport_fee column (filled with 0)",
+    "source": "",
+    "first_period": "2023-04",
+    "n_periods": 16
+   },
+   "tlc.cbd_stale": {
+    "component": "trip_adapter",
+    "kind": "defect",
+    "tier": "T1",
+    "note": "new congestion fee not separated; lands in other_charges",
+    "source": "",
+    "first_period": "2025-01",
+    "n_periods": 8
+   }
+  },
+  "news": {
+   "news.text_env_p30": {
+    "component": "text_norm",
+    "kind": "benign",
+    "tier": "T2b",
+    "note": "pandas 3 upgrade of text normalisation (astype(str) keeps missing values; none occur in this source)",
+    "source": "",
+    "first_period": "2012",
+    "n_periods": 11
+   },
+   "news.ingest_env_p30": {
+    "component": "ingest",
+    "kind": "benign",
+    "tier": "T2b",
+    "note": "pandas 3 upgrade of ingestion",
+    "source": "",
+    "first_period": "2012",
+    "n_periods": 11
+   },
+   "news.no_lower": {
+    "component": "text_norm",
+    "kind": "defect",
+    "tier": "T3",
+    "note": "lower-casing step dropped",
+    "source": "",
+    "first_period": "2012",
+    "n_periods": 11
+   },
+   "news.headline_only": {
+    "component": "text_norm",
+    "kind": "defect",
+    "tier": "T3",
+    "note": "description dropped by a field-mapping bug",
+    "source": "",
+    "first_period": "2012",
+    "n_periods": 11
+   },
+   "news.mojibake": {
+    "component": "text_norm",
+    "kind": "defect",
+    "tier": "T3",
+    "note": "UTF-8 text decoded as Latin-1 upstream",
+    "source": "",
+    "first_period": "2012",
+    "n_periods": 11
+   },
+   "news.vocab_refit": {
+    "component": "vectorize",
+    "kind": "defect",
+    "tier": "T3",
+    "note": "vocabulary re-fitted at serving time (training/serving skew)",
+    "source": "",
+    "first_period": "2012",
+    "n_periods": 11
+   },
+   "news.label_map_full_early": {
+    "component": "label_map",
+    "kind": "benign",
+    "tier": "B",
+    "note": "complete harmonisation table deployed early",
+    "source": "",
+    "first_period": "2012",
+    "n_periods": 11
+   },
+   "news.harmonise_stale": {
+    "component": "label_map",
+    "kind": "defect",
+    "tier": "T1",
+    "note": "section harmonisation table not refreshed for new section names",
+    "source": "",
+    "first_period": "2013",
+    "n_periods": 10
+   }
+  },
+  "divvy": {
+   "divvy.positional": {
+    "component": "trip_adapter",
+    "kind": "benign",
+    "tier": "B",
+    "note": "columns taken by position in the 2014 order",
+    "source": "nyc-taxi-data issue #8 (positional schema)",
+    "first_period": "2014-Q1",
+    "n_periods": 51
+   },
+   "divvy.dayfirst": {
+    "component": "time_features",
+    "kind": "defect",
+    "tier": "T3r",
+    "note": "month/day order swapped when parsing M/D/Y timestamps",
+    "source": "nyc-taxi-data issue #3",
+    "first_period": "2014-Q1",
+    "n_periods": 16
+   },
+   "divvy.time_env_p30": {
+    "component": "time_features",
+    "kind": "benign",
+    "tier": "T2b",
+    "note": "pandas 3 upgrade: duration from epoch nanoseconds via astype(int64) changes resolution",
+    "source": "pandas issue #65308",
+    "first_period": "2014-Q1",
+    "n_periods": 51
+   },
+   "divvy.adapter_env_p30": {
+    "component": "trip_adapter",
+    "kind": "benign",
+    "tier": "T2b",
+    "note": "pandas 3 upgrade of the adapter",
+    "source": "",
+    "first_period": "2014-Q1",
+    "n_periods": 51
+   },
+   "divvy.end_key_bug": {
+    "component": "station_join",
+    "kind": "defect",
+    "tier": "T3",
+    "note": "end coordinates looked up with the start station id (copy-paste key bug)",
+    "source": "",
+    "first_period": "2014-Q1",
+    "n_periods": 51
+   },
+   "divvy.clean_env_main": {
+    "component": "clean",
+    "kind": "benign",
+    "tier": "T2b",
+    "note": "pandas 2.2 upgrade of the cleaning step",
+    "source": "",
+    "first_period": "2014-Q1",
+    "n_periods": 51
+   },
+   "divvy.clean_env_p30": {
+    "component": "clean",
+    "kind": "defect",
+    "tier": "T2",
+    "note": "pandas 3 upgrade: chained assignment blanking round-trip distances becomes a no-op",
+    "source": "pandas 3.0 release notes (copy-on-write)",
+    "first_period": "2014-Q1",
+    "n_periods": 51
+   },
+   "divvy.clean_modernised": {
+    "component": "clean",
+    "kind": "benign",
+    "tier": "B",
+    "note": "chained assignment -> .loc",
+    "source": "",
+    "first_period": "2014-Q1",
+    "n_periods": 51
+   },
+   "divvy.encoder_refit": {
+    "component": "encode",
+    "kind": "defect",
+    "tier": "T3",
+    "note": "categorical codes re-fitted at serving time (training/serving skew)",
+    "source": "",
+    "first_period": "2014-Q1",
+    "n_periods": 51
+   },
+   "divvy.unknown_as_reference": {
+    "component": "encode",
+    "kind": "defect",
+    "tier": "T3r",
+    "note": "unseen categories encoded as the reference category",
+    "source": "scikit-learn issue #34549",
+    "first_period": "2014-Q1",
+    "n_periods": 51
+   },
+   "divvy.fmt_stale": {
+    "component": "time_features",
+    "kind": "defect",
+    "tier": "T1",
+    "note": "timestamps parsed with the previous published format",
+    "source": "",
+    "first_period": "2016-Q3",
+    "n_periods": 41
+   },
+   "divvy.commas_stale": {
+    "component": "time_features",
+    "kind": "defect",
+    "tier": "T1",
+    "note": "trip duration with thousands separators parsed without removing them",
+    "source": "",
+    "first_period": "2018-Q1",
+    "n_periods": 8
+   },
+   "divvy.user_recode_stale": {
+    "component": "trip_adapter",
+    "kind": "defect",
+    "tier": "T1",
+    "note": "user type mapped with the Subscriber/Customer rule: every member/casual value becomes casual",
+    "source": "",
+    "first_period": "2020-Q1",
+    "n_periods": 27
+   },
+   "divvy.coords_lookup_stale": {
+    "component": "station_join",
+    "kind": "defect",
+    "tier": "T1",
+    "note": "station coordinates still taken from the 2017 station table instead of the records",
+    "source": "",
+    "first_period": "2020-Q1",
+    "n_periods": 27
+   },
+   "divvy.blank_ids_stale": {
+    "component": "station_join",
+    "kind": "defect",
+    "tier": "T1",
+    "note": "blank station ids of dockless trips compared as equal: counted as round trips",
+    "source": "",
+    "first_period": "2020-Q3",
+    "n_periods": 25
+   }
+  },
+  "hmda": {
+   "hmda.adapter_env_p30": {
+    "component": "lar_adapter",
+    "kind": "benign",
+    "tier": "T2b",
+    "note": "pandas 3 upgrade of the adapter",
+    "source": "",
+    "first_period": "2012",
+    "n_periods": 6
+   },
+   "hmda.clean_env_main": {
+    "component": "clean",
+    "kind": "benign",
+    "tier": "T2b",
+    "note": "pandas 2.2 upgrade of the cleaning step (chained assignment still effective)",
+    "source": "",
+    "first_period": "2012",
+    "n_periods": 14
+   },
+   "hmda.clean_env_p30": {
+    "component": "clean",
+    "kind": "defect",
+    "tier": "T2",
+    "note": "pandas 3 upgrade: chained-assignment missing-income sentinel becomes a no-op",
+    "source": "pandas 3.0 release notes (copy-on-write)",
+    "first_period": "2012",
+    "n_periods": 14
+   },
+   "hmda.clean_modernised": {
+    "component": "clean",
+    "kind": "benign",
+    "tier": "B",
+    "note": "chained assignment -> .loc",
+    "source": "",
+    "first_period": "2012",
+    "n_periods": 14
+   },
+   "hmda.clean_numpy": {
+    "component": "clean",
+    "kind": "benign",
+    "tier": "B",
+    "note": "sentinel via np.nan_to_num(x, nan=-1)",
+    "source": "",
+    "first_period": "2012",
+    "n_periods": 14
+   },
+   "hmda.income_nan_zero": {
+    "component": "clean",
+    "kind": "defect",
+    "tier": "T3r",
+    "note": "np.nan_to_num(x, -1): missing income becomes 0 instead of -1",
+    "source": "folktables issue #39",
+    "first_period": "2012",
+    "n_periods": 14
+   },
+   "hmda.lti_inverted": {
+    "component": "features",
+    "kind": "defect",
+    "tier": "T3",
+    "note": "loan-to-income ratio computed upside down",
+    "source": "",
+    "first_period": "2012",
+    "n_periods": 14
+   },
+   "hmda.features_env_p30": {
+    "component": "features",
+    "kind": "benign",
+    "tier": "T2b",
+    "note": "pandas 3 upgrade of the feature step",
+    "source": "",
+    "first_period": "2012",
+    "n_periods": 14
+   },
+   "hmda.encoder_refit": {
+    "component": "encode",
+    "kind": "defect",
+    "tier": "T3",
+    "note": "categorical codes re-fitted at serving time (training/serving skew)",
+    "source": "",
+    "first_period": "2012",
+    "n_periods": 14
+   },
+   "hmda.unknown_as_reference": {
+    "component": "encode",
+    "kind": "defect",
+    "tier": "T3r",
+    "note": "unseen categories encoded as the reference category",
+    "source": "scikit-learn issue #34549",
+    "first_period": "2012",
+    "n_periods": 14
+   },
+   "hmda.amount_dollars": {
+    "component": "lar_adapter",
+    "kind": "defect",
+    "tier": "T1",
+    "note": "new adapter keeps the loan amount in dollars (was thousands)",
+    "source": "",
+    "first_period": "2018",
+    "n_periods": 8
+   },
+   "hmda.purpose_alias": {
+    "component": "lar_adapter",
+    "kind": "defect",
+    "tier": "T1",
+    "note": "new loan-purpose codes 31/32/5 passed through instead of recoded (rename without recode)",
+    "source": "folktables issue #22 (rename without recode)",
+    "first_period": "2018",
+    "n_periods": 8
+   },
+   "hmda.occupancy_alias": {
+    "component": "lar_adapter",
+    "kind": "defect",
+    "tier": "T1",
+    "note": "occupancy type read as the old owner-occupancy code (investment property becomes 'not applicable')",
+    "source": "",
+    "first_period": "2018",
+    "n_periods": 8
+   },
+   "hmda.county_concat": {
+    "component": "lar_adapter",
+    "kind": "defect",
+    "tier": "T1",
+    "note": "county key built the old way (state + county code) from the new 5-digit county code",
+    "source": "",
+    "first_period": "2018",
+    "n_periods": 8
+   },
+   "hmda.ignore_coverage": {
+    "component": "lar_adapter",
+    "kind": "defect",
+    "tier": "T1",
+    "note": "new open-end / reverse / business-purpose flags ignored: products outside the old scope enter the data",
+    "source": "",
+    "first_period": "2018",
+    "n_periods": 8
+   },
+   "hmda.adapter_2018_env_p30": {
+    "component": "lar_adapter",
+    "kind": "benign",
+    "tier": "T2b",
+    "note": "pandas 3 upgrade of the new adapter",
+    "source": "",
+    "first_period": "2018",
+    "n_periods": 8
+   }
+  },
+  "bts": {
+   "bts.adapter_env_p30": {
+    "component": "flight_adapter",
+    "kind": "benign",
+    "tier": "T2b",
+    "note": "pandas 3 upgrade of the adapter",
+    "source": "",
+    "first_period": "2015-01",
+    "n_periods": 47
+   },
+   "bts.time_env_main": {
+    "component": "time_features",
+    "kind": "benign",
+    "tier": "T2b",
+    "note": "pandas 2.2 upgrade of the time step (string dates still parse to nanoseconds)",
+    "source": "",
+    "first_period": "2015-01",
+    "n_periods": 47
+   },
+   "bts.time_env_p30": {
+    "component": "time_features",
+    "kind": "defect",
+    "tier": "T2",
+    "note": "pandas 3 upgrade: day of year via astype(int64) changes resolution",
+    "source": "pandas issue #65308; pandas 3.0 release notes (datetime resolution inference)",
+    "first_period": "2015-01",
+    "n_periods": 47
+   },
+   "bts.time_modernised": {
+    "component": "time_features",
+    "kind": "benign",
+    "tier": "B",
+    "note": "day of year via .dt accessor",
+    "source": "",
+    "first_period": "2015-01",
+    "n_periods": 47
+   },
+   "bts.hhmm_as_minutes": {
+    "component": "time_features",
+    "kind": "defect",
+    "tier": "T3",
+    "note": "scheduled hhmm clock times read as minutes",
+    "source": "",
+    "first_period": "2015-01",
+    "n_periods": 47
+   },
+   "bts.dow_from_date": {
+    "component": "time_features",
+    "kind": "benign",
+    "tier": "B",
+    "note": "day of week from the date instead of the published field (same values)",
+    "source": "",
+    "first_period": "2015-01",
+    "n_periods": 47
+   },
+   "bts.clean_env_main": {
+    "component": "clean",
+    "kind": "benign",
+    "tier": "T2b",
+    "note": "pandas 2.2 upgrade of the cleaning step",
+    "source": "",
+    "first_period": "2015-01",
+    "n_periods": 47
+   },
+   "bts.clean_env_p30": {
+    "component": "clean",
+    "kind": "defect",
+    "tier": "T2",
+    "note": "pandas 3 upgrade: chained-assignment overnight arrival fix becomes a no-op",
+    "source": "pandas 3.0 release notes (copy-on-write)",
+    "first_period": "2015-01",
+    "n_periods": 47
+   },
+   "bts.clean_modernised": {
+    "component": "clean",
+    "kind": "benign",
+    "tier": "B",
+    "note": "chained assignment -> .loc",
+    "source": "",
+    "first_period": "2015-01",
+    "n_periods": 47
+   },
+   "bts.label_from_delay": {
+    "component": "clean",
+    "kind": "defect",
+    "tier": "T3",
+    "note": "label recomputed as delay > 15 instead of the published >= 15 flag",
+    "source": "",
+    "first_period": "2015-01",
+    "n_periods": 47
+   },
+   "bts.keep_diverted": {
+    "component": "clean",
+    "kind": "defect",
+    "tier": "T3",
+    "note": "diverted flights kept (scope filter bug)",
+    "source": "",
+    "first_period": "2015-01",
+    "n_periods": 47
+   },
+   "bts.dest_key_bug": {
+    "component": "airport_join",
+    "kind": "defect",
+    "tier": "T3",
+    "note": "destination size joined on the origin airport id (copy-paste key bug)",
+    "source": "",
+    "first_period": "2015-01",
+    "n_periods": 47
+   },
+   "bts.distance_km": {
+    "component": "airport_join",
+    "kind": "defect",
+    "tier": "T3",
+    "note": "distance converted to km (unit change)",
+    "source": "",
+    "first_period": "2015-01",
+    "n_periods": 47
+   },
+   "bts.join_env_p30": {
+    "component": "airport_join",
+    "kind": "benign",
+    "tier": "T2b",
+    "note": "pandas 3 upgrade of the join",
+    "source": "",
+    "first_period": "2015-01",
+    "n_periods": 47
+   },
+   "bts.encoder_refit": {
+    "component": "encode",
+    "kind": "defect",
+    "tier": "T3",
+    "note": "categorical codes re-fitted at serving time (training/serving skew)",
+    "source": "",
+    "first_period": "2015-01",
+    "n_periods": 47
+   },
+   "bts.unknown_as_reference": {
+    "component": "encode",
+    "kind": "defect",
+    "tier": "T3r",
+    "note": "unseen categories encoded as the reference category",
+    "source": "scikit-learn issue #34549",
+    "first_period": "2015-01",
+    "n_periods": 47
+   }
+  },
+  "cabi": {
+   "cabi.positional": {
+    "component": "trip_adapter",
+    "kind": "benign",
+    "tier": "B",
+    "note": "columns taken by position in the original order",
+    "source": "nyc-taxi-data issue #8 (positional schema)",
+    "first_period": "2014-Q1",
+    "n_periods": 51
+   },
+   "cabi.dayfirst": {
+    "component": "time_features",
+    "kind": "defect",
+    "tier": "T3r",
+    "note": "day-first timestamp parsing",
+    "source": "nyc-taxi-data issue #3",
+    "first_period": "2014-Q1",
+    "n_periods": 25
+   },
+   "cabi.time_env_p30": {
+    "component": "time_features",
+    "kind": "benign",
+    "tier": "T2b",
+    "note": "pandas 3 upgrade: duration from epoch nanoseconds via astype(int64) changes resolution",
+    "source": "pandas issue #65308",
+    "first_period": "2014-Q1",
+    "n_periods": 51
+   },
+   "cabi.adapter_env_p30": {
+    "component": "trip_adapter",
+    "kind": "benign",
+    "tier": "T2b",
+    "note": "pandas 3 upgrade of the adapter",
+    "source": "",
+    "first_period": "2014-Q1",
+    "n_periods": 51
+   },
+   "cabi.end_key_bug": {
+    "component": "station_join",
+    "kind": "defect",
+    "tier": "T3",
+    "note": "end coordinates looked up with the start station id (copy-paste key bug)",
+    "source": "",
+    "first_period": "2014-Q1",
+    "n_periods": 51
+   },
+   "cabi.clean_env_main": {
+    "component": "clean",
+    "kind": "benign",
+    "tier": "T2b",
+    "note": "pandas 2.2 upgrade of the cleaning step",
+    "source": "",
+    "first_period": "2014-Q1",
+    "n_periods": 51
+   },
+   "cabi.clean_env_p30": {
+    "component": "clean",
+    "kind": "defect",
+    "tier": "T2",
+    "note": "pandas 3 upgrade: chained assignment blanking round-trip distances becomes a no-op",
+    "source": "pandas 3.0 release notes (copy-on-write)",
+    "first_period": "2014-Q1",
+    "n_periods": 51
+   },
+   "cabi.clean_modernised": {
+    "component": "clean",
+    "kind": "benign",
+    "tier": "B",
+    "note": "chained assignment -> .loc",
+    "source": "",
+    "first_period": "2014-Q1",
+    "n_periods": 51
+   },
+   "cabi.encoder_refit": {
+    "component": "encode",
+    "kind": "defect",
+    "tier": "T3",
+    "note": "categorical codes re-fitted at serving time (training/serving skew)",
+    "source": "",
+    "first_period": "2014-Q1",
+    "n_periods": 51
+   },
+   "cabi.unknown_as_reference": {
+    "component": "encode",
+    "kind": "defect",
+    "tier": "T3r",
+    "note": "unseen categories encoded as the reference category",
+    "source": "scikit-learn issue #34549",
+    "first_period": "2014-Q1",
+    "n_periods": 51
+   },
+   "cabi.user_recode_stale": {
+    "component": "trip_adapter",
+    "kind": "defect",
+    "tier": "T1",
+    "note": "user type mapped with the Member/Casual rule: every lowercase member becomes casual",
+    "source": "",
+    "first_period": "2020-Q2",
+    "n_periods": 26
+   },
+   "cabi.coords_lookup_stale": {
+    "component": "station_join",
+    "kind": "defect",
+    "tier": "T1",
+    "note": "station coordinates still taken from the station table instead of the records",
+    "source": "",
+    "first_period": "2020-Q2",
+    "n_periods": 26
+   },
+   "cabi.fmt_stale": {
+    "component": "time_features",
+    "kind": "defect",
+    "tier": "T1",
+    "note": "timestamps parsed with the previous published format (fractional seconds unparsed)",
+    "source": "",
+    "first_period": "2020-Q2",
+    "n_periods": 11
+   },
+   "cabi.blank_ids_stale": {
+    "component": "station_join",
+    "kind": "defect",
+    "tier": "T1",
+    "note": "blank station ids of dockless trips compared as equal: counted as round trips",
+    "source": "",
+    "first_period": "2020-Q3",
+    "n_periods": 25
+   }
+  },
+  "fars": {
+   "fars.adapter_env_p30": {
+    "component": "crash_adapter",
+    "kind": "benign",
+    "tier": "T2b",
+    "note": "pandas 3 upgrade of the adapter",
+    "source": "",
+    "first_period": "2010",
+    "n_periods": 15
+   },
+   "fars.clean_env_main": {
+    "component": "clean",
+    "kind": "benign",
+    "tier": "T2b",
+    "note": "pandas 2.2 upgrade of the cleaning step",
+    "source": "",
+    "first_period": "2010",
+    "n_periods": 15
+   },
+   "fars.clean_env_p30": {
+    "component": "clean",
+    "kind": "defect",
+    "tier": "T2",
+    "note": "pandas 3 upgrade: chained-assignment unknown-code handling becomes a no-op",
+    "source": "pandas 3.0 release notes (copy-on-write)",
+    "first_period": "2010",
+    "n_periods": 15
+   },
+   "fars.clean_modernised": {
+    "component": "clean",
+    "kind": "benign",
+    "tier": "B",
+    "note": "chained assignment -> .loc",
+    "source": "",
+    "first_period": "2010",
+    "n_periods": 15
+   },
+   "fars.weekend_off_by_one": {
+    "component": "features",
+    "kind": "defect",
+    "tier": "T3",
+    "note": "weekend from a 0-based weekday convention (FARS uses 1 = Sunday)",
+    "source": "",
+    "first_period": "2010",
+    "n_periods": 15
+   },
+   "fars.features_env_p30": {
+    "component": "features",
+    "kind": "benign",
+    "tier": "T2b",
+    "note": "pandas 3 upgrade of the feature step",
+    "source": "",
+    "first_period": "2010",
+    "n_periods": 15
+   },
+   "fars.encoder_refit": {
+    "component": "encode",
+    "kind": "defect",
+    "tier": "T3",
+    "note": "categorical codes re-fitted at serving time (training/serving skew)",
+    "source": "",
+    "first_period": "2010",
+    "n_periods": 15
+   },
+   "fars.zero_pad_state": {
+    "component": "encode",
+    "kind": "defect",
+    "tier": "T3",
+    "note": "state key zero-padded while the encoder artifact holds unpadded codes",
+    "source": "",
+    "first_period": "2010",
+    "n_periods": 15
+   },
+   "fars.unknown_as_reference": {
+    "component": "encode",
+    "kind": "defect",
+    "tier": "T3r",
+    "note": "unseen categories encoded as the reference category",
+    "source": "scikit-learn issue #34549",
+    "first_period": "2010",
+    "n_periods": 15
+   },
+   "fars.func_layout_stale": {
+    "component": "crash_adapter",
+    "kind": "defect",
+    "tier": "T1",
+    "note": "rural/urban and road class still read from the removed ROAD_FNC field",
+    "source": "",
+    "first_period": "2015",
+    "n_periods": 10
+   },
+   "fars.func_alias": {
+    "component": "crash_adapter",
+    "kind": "defect",
+    "tier": "T1",
+    "note": "FUNC_SYS codes mapped with the old ROAD_FNC table (rename without recode)",
+    "source": "folktables issue #22 (rename without recode)",
+    "first_period": "2015",
+    "n_periods": 10
+   },
+   "fars.weather_stale": {
+    "component": "crash_adapter",
+    "kind": "defect",
+    "tier": "T1",
+    "note": "weather still read from the removed WEATHER1 field",
+    "source": "",
+    "first_period": "2020",
+    "n_periods": 5
+   },
+   "fars.bom_stale": {
+    "component": "crash_adapter",
+    "kind": "defect",
+    "tier": "T1",
+    "note": "state read from 'STATE' while the header carries a byte-order mark",
+    "source": "",
+    "first_period": "2021",
+    "n_periods": 2
+   },
+   "fars.route_codes_stale": {
+    "component": "crash_adapter",
+    "kind": "defect",
+    "tier": "T1",
+    "note": "route-signing codes read with the pre-2023 code list (no crosswalk)",
+    "source": "",
+    "first_period": "2023",
+    "n_periods": 2
+   }
+  },
+  "landreg": {
+   "landreg.adapter_env_p30": {
+    "component": "sale_adapter",
+    "kind": "benign",
+    "tier": "T2b",
+    "note": "pandas 3 upgrade of the adapter",
+    "source": "",
+    "first_period": "2008",
+    "n_periods": 18
+   },
+   "landreg.time_env_main": {
+    "component": "time_features",
+    "kind": "benign",
+    "tier": "T2b",
+    "note": "pandas 2.2 upgrade of the time step (string dates still parse to nanoseconds)",
+    "source": "",
+    "first_period": "2008",
+    "n_periods": 18
+   },
+   "landreg.time_env_p30": {
+    "component": "time_features",
+    "kind": "defect",
+    "tier": "T2",
+    "note": "pandas 3 upgrade: day of year via astype(int64) changes resolution",
+    "source": "pandas issue #65308",
+    "first_period": "2008",
+    "n_periods": 18
+   },
+   "landreg.dow_one_based": {
+    "component": "time_features",
+    "kind": "defect",
+    "tier": "T3",
+    "note": "day of week shifted to a 1-based convention",
+    "source": "",
+    "first_period": "2008",
+    "n_periods": 18
+   },
+   "landreg.clean_env_main": {
+    "component": "clean",
+    "kind": "benign",
+    "tier": "T2b",
+    "note": "pandas 2.2 upgrade of the cleaning step",
+    "source": "",
+    "first_period": "2008",
+    "n_periods": 18
+   },
+   "landreg.clean_env_p30": {
+    "component": "clean",
+    "kind": "defect",
+    "tier": "T2",
+    "note": "pandas 3 upgrade: chained-assignment log price becomes a no-op",
+    "source": "pandas 3.0 release notes (copy-on-write)",
+    "first_period": "2008",
+    "n_periods": 18
+   },
+   "landreg.clean_modernised": {
+    "component": "clean",
+    "kind": "benign",
+    "tier": "B",
+    "note": "chained assignment -> vectorised .where",
+    "source": "",
+    "first_period": "2008",
+    "n_periods": 18
+   },
+   "landreg.area_is_outward": {
+    "component": "geo",
+    "kind": "defect",
+    "tier": "T3",
+    "note": "postcode district used where the postcode area is expected",
+    "source": "",
+    "first_period": "2008",
+    "n_periods": 18
+   },
+   "landreg.geo_env_p30": {
+    "component": "geo",
+    "kind": "benign",
+    "tier": "T2b",
+    "note": "pandas 3 upgrade of the geo step",
+    "source": "",
+    "first_period": "2008",
+    "n_periods": 18
+   },
+   "landreg.encoder_refit": {
+    "component": "encode",
+    "kind": "defect",
+    "tier": "T3",
+    "note": "categorical codes re-fitted at serving time (training/serving skew)",
+    "source": "",
+    "first_period": "2008",
+    "n_periods": 18
+   },
+   "landreg.unknown_as_reference": {
+    "component": "encode",
+    "kind": "defect",
+    "tier": "T3r",
+    "note": "unseen categories encoded as the reference category",
+    "source": "scikit-learn issue #34549",
+    "first_period": "2008",
+    "n_periods": 18
+   },
+   "landreg.category_scope_stale": {
+    "component": "clean",
+    "kind": "defect",
+    "tier": "T1",
+    "note": "category B (non-standard) sales not excluded after the 2013 coverage change",
+    "source": "",
+    "first_period": "2013",
+    "n_periods": 13
+   }
+  },
+  "storm": {
+   "storm.adapter_env_p30": {
+    "component": "event_adapter",
+    "kind": "benign",
+    "tier": "T2b",
+    "note": "pandas 3 upgrade of the event adapter",
+    "source": "",
+    "first_period": "1996",
+    "n_periods": 30
+   },
+   "storm.times_env_main": {
+    "component": "times",
+    "kind": "benign",
+    "tier": "T2b",
+    "note": "pandas 2.2 upgrade of the time step (string dates still parse to nanoseconds)",
+    "source": "",
+    "first_period": "1996",
+    "n_periods": 30
+   },
+   "storm.times_env_p30": {
+    "component": "times",
+    "kind": "defect",
+    "tier": "T2",
+    "note": "pandas 3 upgrade: duration via astype(int64) changes resolution",
+    "source": "pandas issue #65308",
+    "first_period": "1996",
+    "n_periods": 30
+   },
+   "storm.clean_env_main": {
+    "component": "clean",
+    "kind": "benign",
+    "tier": "T2b",
+    "note": "pandas 2.2 upgrade of the cleaning step",
+    "source": "",
+    "first_period": "1996",
+    "n_periods": 30
+   },
+   "storm.clean_env_p30": {
+    "component": "clean",
+    "kind": "defect",
+    "tier": "T2",
+    "note": "pandas 3 upgrade: chained-assignment wind speed and hail size become no-ops",
+    "source": "pandas 3.0 release notes (copy-on-write)",
+    "first_period": "1996",
+    "n_periods": 30
+   },
+   "storm.clean_modernised": {
+    "component": "clean",
+    "kind": "benign",
+    "tier": "B",
+    "note": "chained assignment -> .where",
+    "source": "",
+    "first_period": "1996",
+    "n_periods": 30
+   },
+   "storm.fatal_env_p30": {
+    "component": "fatal_agg",
+    "kind": "benign",
+    "tier": "T2b",
+    "note": "pandas 3 upgrade of the fatality aggregation",
+    "source": "",
+    "first_period": "1996",
+    "n_periods": 30
+   },
+   "storm.loc_env_p30": {
+    "component": "loc_agg",
+    "kind": "benign",
+    "tier": "T2b",
+    "note": "pandas 3 upgrade of the location aggregation",
+    "source": "",
+    "first_period": "1996",
+    "n_periods": 30
+   },
+   "storm.geo_env_p30": {
+    "component": "geo",
+    "kind": "benign",
+    "tier": "T2b",
+    "note": "pandas 3 upgrade of the geo step",
+    "source": "",
+    "first_period": "1996",
+    "n_periods": 30
+   },
+   "storm.join_nodedupe": {
+    "component": "join",
+    "kind": "benign",
+    "tier": "B",
+    "note": "dedupe of the aggregate side removed (keys are unique)",
+    "source": "",
+    "first_period": "1996",
+    "n_periods": 30
+   },
+   "storm.sources_env_p30": {
+    "component": "sources",
+    "kind": "benign",
+    "tier": "T2b",
+    "note": "pandas 3 upgrade of the source step",
+    "source": "",
+    "first_period": "1996",
+    "n_periods": 30
+   },
+   "storm.duration_minutes": {
+    "component": "times",
+    "kind": "defect",
+    "tier": "T3",
+    "note": "event duration reported in minutes where hours are expected",
+    "source": "",
+    "first_period": "1996",
+    "n_periods": 30
+   },
+   "storm.loc_by_episode": {
+    "component": "loc_agg",
+    "kind": "defect",
+    "tier": "T3",
+    "note": "location points aggregated by episode instead of by event",
+    "source": "",
+    "first_period": "1996",
+    "n_periods": 30
+   },
+   "storm.swap_lat_lon": {
+    "component": "geo",
+    "kind": "defect",
+    "tier": "T3",
+    "note": "latitude and longitude swapped in the grid cell",
+    "source": "",
+    "first_period": "1996",
+    "n_periods": 30
+   },
+   "storm.wind_kt_as_mph": {
+    "component": "clean",
+    "kind": "defect",
+    "tier": "T3",
+    "note": "wind speed converted from knots to mph where knots are expected",
+    "source": "",
+    "first_period": "1996",
+    "n_periods": 30
+   },
+   "storm.encoder_refit": {
+    "component": "encode",
+    "kind": "defect",
+    "tier": "T3",
+    "note": "categorical codes re-fitted at serving time (training/serving skew)",
+    "source": "",
+    "first_period": "1996",
+    "n_periods": 30
+   },
+   "storm.unknown_as_reference": {
+    "component": "encode",
+    "kind": "defect",
+    "tier": "T3r",
+    "note": "unseen categories encoded as the reference category",
+    "source": "scikit-learn issue #34549",
+    "first_period": "1996",
+    "n_periods": 30
+   },
+   "storm.tz_table_stale": {
+    "component": "times",
+    "kind": "defect",
+    "tier": "T1",
+    "note": "time-zone table not refreshed for codes with the UTC offset appended",
+    "source": "",
+    "first_period": "2006",
+    "n_periods": 20
+   },
+   "storm.tz_prefix_only": {
+    "component": "times",
+    "kind": "defect",
+    "tier": "T1",
+    "note": "appended offset stripped and the old table used (Alaska and Guam codes lost)",
+    "source": "",
+    "first_period": "2006",
+    "n_periods": 20
+   },
+   "storm.source_xwalk_stale": {
+    "component": "sources",
+    "kind": "defect",
+    "tier": "T1",
+    "note": "source crosswalk not refreshed for the title-case code list",
+    "source": "",
+    "first_period": "2006",
+    "n_periods": 20
+   },
+   "storm.source_casefold": {
+    "component": "sources",
+    "kind": "defect",
+    "tier": "T1",
+    "note": "new source codes upper-cased and looked up in the old list (renamed codes lost)",
+    "source": "",
+    "first_period": "2006",
+    "n_periods": 20
+   },
+   "storm.fatal_type_unfiltered": {
+    "component": "fatal_agg",
+    "kind": "defect",
+    "tier": "T1",
+    "note": "indirect fatalities counted after they were added to the fatality file",
+    "source": "",
+    "first_period": "2006",
+    "n_periods": 20
+   },
+   "storm.tor_scale_stale": {
+    "component": "scale",
+    "kind": "defect",
+    "tier": "T1",
+    "note": "tornado ratings still read on the Fujita scale (EF ratings unmapped)",
+    "source": "",
+    "first_period": "2007",
+    "n_periods": 19
+   },
+   "storm.efu_as_zero": {
+    "component": "scale",
+    "kind": "defect",
+    "tier": "T1",
+    "note": "unrated tornadoes ('EFU') coded as the lowest rating",
+    "source": "",
+    "first_period": "2016",
+    "n_periods": 10
+   },
+   "storm.tz_daylight_stale": {
+    "component": "times",
+    "kind": "defect",
+    "tier": "T1",
+    "note": "time-zone table not refreshed for the daylight-time codes",
+    "source": "",
+    "first_period": "2021",
+    "n_periods": 5
+   }
+  },
+  "chicago": {
+   "chicago.adapter_env_p30": {
+    "component": "crash_adapter",
+    "kind": "benign",
+    "tier": "T2b",
+    "note": "pandas 3 upgrade of the crash adapter",
+    "source": "",
+    "first_period": "2016",
+    "n_periods": 10
+   },
+   "chicago.times_env_main": {
+    "component": "times",
+    "kind": "benign",
+    "tier": "T2b",
+    "note": "pandas 2.2 upgrade of the time step (string dates still parse to nanoseconds)",
+    "source": "",
+    "first_period": "2016",
+    "n_periods": 10
+   },
+   "chicago.times_env_p30": {
+    "component": "times",
+    "kind": "defect",
+    "tier": "T2",
+    "note": "pandas 3 upgrade: delay via astype(int64) changes resolution",
+    "source": "pandas issue #65308",
+    "first_period": "2016",
+    "n_periods": 10
+   },
+   "chicago.clean_env_main": {
+    "component": "clean",
+    "kind": "benign",
+    "tier": "T2b",
+    "note": "pandas 2.2 upgrade of the cleaning step",
+    "source": "",
+    "first_period": "2016",
+    "n_periods": 10
+   },
+   "chicago.clean_env_p30": {
+    "component": "clean",
+    "kind": "defect",
+    "tier": "T2",
+    "note": "pandas 3 upgrade: chained-assignment indicator flags become no-ops",
+    "source": "pandas 3.0 release notes (copy-on-write)",
+    "first_period": "2016",
+    "n_periods": 10
+   },
+   "chicago.clean_modernised": {
+    "component": "clean",
+    "kind": "benign",
+    "tier": "B",
+    "note": "chained assignment -> vectorised",
+    "source": "",
+    "first_period": "2016",
+    "n_periods": 10
+   },
+   "chicago.person_env_p30": {
+    "component": "person_agg",
+    "kind": "benign",
+    "tier": "T2b",
+    "note": "pandas 3 upgrade of the person aggregation",
+    "source": "",
+    "first_period": "2016",
+    "n_periods": 10
+   },
+   "chicago.vehicle_env_p30": {
+    "component": "vehicle_agg",
+    "kind": "benign",
+    "tier": "T2b",
+    "note": "pandas 3 upgrade of the vehicle aggregation",
+    "source": "",
+    "first_period": "2016",
+    "n_periods": 10
+   },
+   "chicago.road_env_p30": {
+    "component": "road",
+    "kind": "benign",
+    "tier": "T2b",
+    "note": "pandas 3 upgrade of the road step",
+    "source": "",
+    "first_period": "2016",
+    "n_periods": 10
+   },
+   "chicago.geo_env_p30": {
+    "component": "geo",
+    "kind": "benign",
+    "tier": "T2b",
+    "note": "pandas 3 upgrade of the geo step",
+    "source": "",
+    "first_period": "2016",
+    "n_periods": 10
+   },
+   "chicago.join_nodedupe": {
+    "component": "join",
+    "kind": "benign",
+    "tier": "B",
+    "note": "dedupe of the aggregate side removed (keys are unique)",
+    "source": "",
+    "first_period": "2016",
+    "n_periods": 10
+   },
+   "chicago.delay_minutes": {
+    "component": "times",
+    "kind": "defect",
+    "tier": "T3",
+    "note": "notification delay reported in minutes where hours are expected",
+    "source": "",
+    "first_period": "2016",
+    "n_periods": 10
+   },
+   "chicago.age_fill_zero": {
+    "component": "person_agg",
+    "kind": "defect",
+    "tier": "T3",
+    "note": "missing driver ages filled with 0 before averaging",
+    "source": "",
+    "first_period": "2016",
+    "n_periods": 10
+   },
+   "chicago.ped_includes_bike": {
+    "component": "person_agg",
+    "kind": "defect",
+    "tier": "T3",
+    "note": "cyclists counted as pedestrians",
+    "source": "",
+    "first_period": "2016",
+    "n_periods": 10
+   },
+   "chicago.swap_lat_lon": {
+    "component": "geo",
+    "kind": "defect",
+    "tier": "T3",
+    "note": "latitude and longitude swapped in the grid cell",
+    "source": "",
+    "first_period": "2016",
+    "n_periods": 10
+   },
+   "chicago.encoder_refit": {
+    "component": "encode",
+    "kind": "defect",
+    "tier": "T3",
+    "note": "categorical codes re-fitted at serving time (training/serving skew)",
+    "source": "",
+    "first_period": "2016",
+    "n_periods": 10
+   },
+   "chicago.unknown_as_reference": {
+    "component": "encode",
+    "kind": "defect",
+    "tier": "T3r",
+    "note": "unseen categories encoded as the reference category",
+    "source": "scikit-learn issue #34549",
+    "first_period": "2016",
+    "n_periods": 10
+   },
+   "chicago.trafficway_xwalk_stale": {
+    "component": "road",
+    "kind": "defect",
+    "tier": "T1",
+    "note": "trafficway crosswalk not refreshed for the intersection codes",
+    "source": "",
+    "first_period": "2019",
+    "n_periods": 7
+   },
+   "chicago.trafficway_unmapped_other": {
+    "component": "road",
+    "kind": "defect",
+    "tier": "T1",
+    "note": "new trafficway codes sent to the 'other' group instead of being mapped",
+    "source": "",
+    "first_period": "2019",
+    "n_periods": 7
+   },
+   "chicago.restraint_xwalk_stale": {
+    "component": "person_agg",
+    "kind": "defect",
+    "tier": "T1",
+    "note": "restraint crosswalk not refreshed for the detailed restraint codes",
+    "source": "",
+    "first_period": "2019",
+    "n_periods": 7
+   },
+   "chicago.impact_xwalk_stale": {
+    "component": "vehicle_agg",
+    "kind": "defect",
+    "tier": "T1",
+    "note": "contact-point crosswalk not refreshed for the corner and side codes",
+    "source": "",
+    "first_period": "2020",
+    "n_periods": 6
+   },
+   "chicago.impact_strip_corner": {
+    "component": "vehicle_agg",
+    "kind": "defect",
+    "tier": "T1",
+    "note": "'-CORNER' suffix stripped and the old crosswalk used (side-front/rear and top codes lost)",
+    "source": "",
+    "first_period": "2020",
+    "n_periods": 6
+   }
+  }
+ },
+ "cases": {
+  "acs": {
+   "dev|benign|none": 20,
+   "dev|clean|none": 20,
+   "dev|defect|T1": 94,
+   "dev|defect|T2": 20,
+   "dev|defect|T3": 80,
+   "dev|two|T1": 7,
+   "dev|two|T1+T2": 4,
+   "dev|two|T1+T3": 14,
+   "dev|two|T2+T3": 8,
+   "dev|two|T3": 7
+  },
+  "tlc": {
+   "dev|benign|none": 9,
+   "dev|clean|none": 9,
+   "dev|defect|T1": 22,
+   "dev|defect|T2": 26,
+   "dev|defect|T3": 26,
+   "dev|two|T1+T2": 13,
+   "dev|two|T1+T3": 9,
+   "test|benign|none": 17,
+   "test|clean|none": 17,
+   "test|defect|T1": 22,
+   "test|defect|T2": 52,
+   "test|defect|T3": 78,
+   "test|two|T1+T2": 5,
+   "test|two|T1+T3": 4,
+   "test|two|T2": 3,
+   "test|two|T2+T3": 8,
+   "test|two|T3": 6
+  },
+  "news": {
+   "dev|benign|none": 5,
+   "dev|clean|none": 5,
+   "dev|defect|T3": 26,
+   "test|benign|none": 8,
+   "test|clean|none": 8,
+   "test|defect|T1": 11,
+   "test|defect|T3": 26,
+   "test|two|T1+T3": 8,
+   "test|two|T3": 5
+  },
+  "divvy": {
+   "test|benign|none": 35,
+   "test|clean|none": 35,
+   "test|defect|T1": 125,
+   "test|defect|T2": 56,
+   "test|defect|T3": 70,
+   "test|defect|T3r": 40,
+   "test|two|T1": 4,
+   "test|two|T1+T2": 3,
+   "test|two|T1+T3": 7,
+   "test|two|T1+T3r": 7,
+   "test|two|T2": 1,
+   "test|two|T2+T3": 3,
+   "test|two|T2+T3r": 6,
+   "test|two|T3": 2,
+   "test|two|T3+T3r": 2
+  },
+  "hmda": {
+   "test|benign|none": 25,
+   "test|clean|none": 25,
+   "test|defect|T1": 80,
+   "test|defect|T2": 25,
+   "test|defect|T3": 50,
+   "test|defect|T3r": 50,
+   "test|two|T1+T3": 3,
+   "test|two|T1+T3r": 8,
+   "test|two|T2+T3": 3,
+   "test|two|T2+T3r": 2,
+   "test|two|T3+T3r": 9
+  },
+  "bts": {
+   "test|benign|none": 27,
+   "test|clean|none": 27,
+   "test|defect|T2": 54,
+   "test|defect|T3": 162,
+   "test|defect|T3r": 27,
+   "test|two|T2": 1,
+   "test|two|T2+T3": 6,
+   "test|two|T2+T3r": 2,
+   "test|two|T3": 12,
+   "test|two|T3+T3r": 6
+  },
+  "cabi": {
+   "test|benign|none": 28,
+   "test|clean|none": 28,
+   "test|defect|T1": 88,
+   "test|defect|T2": 48,
+   "test|defect|T3": 56,
+   "test|defect|T3r": 36,
+   "test|two|T1": 3,
+   "test|two|T1+T2": 8,
+   "test|two|T1+T3": 4,
+   "test|two|T2": 1,
+   "test|two|T2+T3": 5,
+   "test|two|T2+T3r": 2,
+   "test|two|T3": 1,
+   "test|two|T3+T3r": 3,
+   "test|two|T3r": 1
+  },
+  "fars": {
+   "test|benign|none": 23,
+   "test|clean|none": 23,
+   "test|defect|T1": 56,
+   "test|defect|T2": 23,
+   "test|defect|T3": 69,
+   "test|defect|T3r": 23,
+   "test|two|T1+T2": 3,
+   "test|two|T1+T3": 9,
+   "test|two|T1+T3r": 2,
+   "test|two|T2+T3": 6,
+   "test|two|T2+T3r": 1,
+   "test|two|T3": 1,
+   "test|two|T3+T3r": 1
+  },
+  "landreg": {
+   "test|benign|none": 26,
+   "test|clean|none": 26,
+   "test|defect|T1": 23,
+   "test|defect|T2": 52,
+   "test|defect|T3": 78,
+   "test|defect|T3r": 26,
+   "test|two|T1+T2": 1,
+   "test|two|T1+T3": 6,
+   "test|two|T1+T3r": 1,
+   "test|two|T2": 3,
+   "test|two|T2+T3": 8,
+   "test|two|T2+T3r": 2,
+   "test|two|T3": 3,
+   "test|two|T3+T3r": 2
+  },
+  "storm": {
+   "test|benign|none": 37,
+   "test|clean|none": 37,
+   "test|defect|T1": 233,
+   "test|defect|T2": 74,
+   "test|defect|T3": 185,
+   "test|defect|T3r": 37,
+   "test|two|T1": 3,
+   "test|two|T1+T2": 2,
+   "test|two|T1+T3": 9,
+   "test|two|T1+T3r": 8,
+   "test|two|T2+T3": 5,
+   "test|two|T2+T3r": 1,
+   "test|two|T3": 6,
+   "test|two|T3+T3r": 3
+  },
+  "chicago": {
+   "test|benign|none": 15,
+   "test|clean|none": 15,
+   "test|defect|T1": 66,
+   "test|defect|T2": 30,
+   "test|defect|T3": 75,
+   "test|defect|T3r": 15,
+   "test|two|T1": 2,
+   "test|two|T1+T2": 2,
+   "test|two|T1+T3": 5,
+   "test|two|T1+T3r": 1,
+   "test|two|T2+T3": 2,
+   "test|two|T3": 2,
+   "test|two|T3+T3r": 1
+  }
+ }
+}

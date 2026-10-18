@@ -1,0 +1,1 @@
+{"text": "{\"action\":\"effect\",\"components\":[\"times\",\"scale\",\"sources\",\"fatal_agg\",\"join\",\"encode\"]}", "usage": {"in": 3198, "out": 173, "cached_in": 0, "reasoning": 139}, "usd": 0.0008472, "wall_s": 4.2, "provider": "openai", "model": "gpt-5.6-luna"}

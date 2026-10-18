@@ -1,0 +1,617 @@
+{
+ "2014-Q1": {
+  "Member type": {
+   "Member": 88741,
+   "Casual": 11259
+  }
+ },
+ "2014-Q2": {
+  "Member type": {
+   "Member": 74669,
+   "Casual": 25331
+  }
+ },
+ "2014-Q3": {
+  "Member type": {
+   "Member": 73389,
+   "Casual": 26611
+  }
+ },
+ "2014-Q4": {
+  "Member type": {
+   "Member": 85351,
+   "Casual": 14649
+  }
+ },
+ "2015-Q1": {
+  "Member type": {
+   "Member": 88935,
+   "Casual": 11065
+  }
+ },
+ "2015-Q2": {
+  "Member type": {
+   "Member": 73822,
+   "Casual": 26178
+  }
+ },
+ "2015-Q3": {
+  "Member type": {
+   "Member": 75103,
+   "Casual": 24897
+  }
+ },
+ "2015-Q4": {
+  "Member type": {
+   "Member": 84612,
+   "Casual": 15388
+  }
+ },
+ "2016-Q1": {
+  "Member type": {
+   "Member": 84604,
+   "Casual": 15396
+  }
+ },
+ "2016-Q2": {
+  "Member type": {
+   "Member": 77867,
+   "Casual": 22133
+  }
+ },
+ "2016-Q3": {
+  "Member type": {
+   "Member": 73670,
+   "Casual": 26330
+  }
+ },
+ "2016-Q4": {
+  "Member type": {
+   "Member": 80054,
+   "Casual": 19946
+  }
+ },
+ "2017-Q1": {
+  "Member type": {
+   "Member": 81927,
+   "Casual": 18073
+  }
+ },
+ "2017-Q2": {
+  "Member type": {
+   "Member": 69301,
+   "Casual": 30699
+  }
+ },
+ "2017-Q3": {
+  "Member type": {
+   "Member": 69408,
+   "Casual": 30592
+  }
+ },
+ "2017-Q4": {
+  "Member type": {
+   "Member": 80789,
+   "Casual": 19211
+  }
+ },
+ "2018-Q1": {
+  "Member type": {
+   "Member": 84098,
+   "Casual": 15902
+  }
+ },
+ "2018-Q2": {
+  "Member type": {
+   "Member": 73129,
+   "Casual": 26871
+  }
+ },
+ "2018-Q3": {
+  "Member type": {
+   "Member": 76517,
+   "Casual": 23483
+  }
+ },
+ "2018-Q4": {
+  "Member type": {
+   "Member": 87074,
+   "Casual": 12926
+  }
+ },
+ "2019-Q1": {
+  "Member type": {
+   "Member": 89154,
+   "Casual": 10846
+  }
+ },
+ "2019-Q2": {
+  "Member type": {
+   "Member": 83791,
+   "Casual": 16209
+  }
+ },
+ "2019-Q3": {
+  "Member type": {
+   "Member": 86347,
+   "Casual": 13653
+  }
+ },
+ "2019-Q4": {
+  "Member type": {
+   "Member": 91413,
+   "Casual": 8587
+  }
+ },
+ "2020-Q1": {
+  "Member type": {
+   "Member": 92935,
+   "Casual": 7047,
+   "": 18
+  },
+  "ride_id": {
+   "": 99982,
+   "00522D413FF1CA57": 1,
+   "38FECA2858647DD2": 1,
+   "7A100CAA249521AA": 1,
+   "80DE11A0FA8B1D70": 1,
+   "DA14BC83FBB41F92": 1,
+   "A08BEF540330BD30": 1,
+   "F980E994F5D8EAE3": 1,
+   "98CB04FE8943EED1": 1,
+   "E0A4394E325535D8": 1,
+   "C69FC9EF87D9BB11": 1,
+   "E1A68E53E8FCB4AF": 1,
+   "7BC50E5F797B71EA": 1,
+   "F17EF612BE1C760B": 1,
+   "7C566FDF83AA63DF": 1,
+   "789AD4AD9816ED2A": 1,
+   "99A19C8C031030F2": 1,
+   "F43AAD223C972B0D": 1,
+   "BE272A61CF07BCC6": 1
+  },
+  "rideable_type": {
+   "": 99982,
+   "docked_bike": 18
+  },
+  "started_at": {
+   "": 99982,
+   "2020-03-30 17:52:44.903": 1,
+   "2020-03-26 12:56:40.785": 1,
+   "2020-03-19 16:21:08.862": 1,
+   "2020-03-30 15:20:41.189": 1,
+   "2020-03-31 06:46:01.072": 1,
+   "2020-02-17 14:10:21.684": 1,
+   "2020-03-21 17:48:36.842": 1,
+   "2020-03-18 18:30:11.149": 1,
+   "2020-03-20 12:06:07.076": 1,
+   "2020-03-30 18:25:57.165": 1,
+   "2020-03-01 14:34:30.928": 1,
+   "2020-03-08 14:59:25.328": 1,
+   "2020-03-21 16:44:46.179": 1,
+   "2020-03-04 15:35:27.591": 1,
+   "2020-03-29 11:02:08.147": 1,
+   "2020-03-19 18:52:41.298": 1,
+   "2020-03-12 07:54:26.504": 1,
+   "2020-03-31 17:31:34.484": 1
+  },
+  "ended_at": {
+   "": 99982,
+   "2020-04-01 11:00:40.372": 1,
+   "2020-04-09 16:39:30.969": 1,
+   "2020-04-05 14:59:10.646": 1,
+   "2020-04-01 11:26:49.550": 1,
+   "2020-04-01 10:26:01.879": 1,
+   "2020-04-02 12:38:35.428": 1,
+   "2020-04-04 13:31:52.075": 1,
+   "2020-04-02 12:33:37.994": 1,
+   "2020-04-13 17:53:55.639": 1,
+   "2020-04-03 23:30:58.466": 1,
+   "2020-04-07 18:34:45.069": 1,
+   "2020-04-05 18:33:41.925": 1,
+   "2020-04-08 08:21:24.414": 1,
+   "2020-04-02 10:00:28.893": 1,
+   "2020-04-01 19:02:42.037": 1,
+   "2020-04-14 18:45:11.733": 1,
+   "2020-04-06 18:42:55.438": 1,
+   "2020-04-01 17:13:27.408": 1
+  },
+  "start_station_name": {
+   "": 99982,
+   "Potomac Ave & Swann Ave": 1,
+   "Riggs Rd & East West Hwy": 1,
+   "20th & E St NW": 1,
+   "Mount Vernon Ave & Four Mile Run Park": 1,
+   "20th St & Florida Ave NW": 1,
+   "13th St & New York Ave NW": 1,
+   "25th St & Pennsylvania Ave NW": 1,
+   "Capitol Heights Metro": 1,
+   "Florida Ave & R St NW": 1,
+   "Columbia Rd & Belmont St NW": 1,
+   "18th & C St NW": 1,
+   "Anacostia Library": 1,
+   "North Capitol St & G Pl NE": 1,
+   "Smithsonian-National Mall / Jefferson Dr & 12th St SW": 1,
+   "Crystal Dr & 23rd St S": 1,
+   "14th St & New York Ave NW": 1,
+   "Fort Stanton Rec Center": 1,
+   "15th & W St NW": 1
+  },
+  "start_station_id": {
+   "": 99982,
+   "31916": 1,
+   "32414": 1,
+   "31204": 1,
+   "31909": 1,
+   "31110": 1,
+   "31227": 1,
+   "31237": 1,
+   "32419": 1,
+   "31503": 1,
+   "31113": 1,
+   "31284": 1,
+   "31804": 1,
+   "31637": 1,
+   "31248": 1,
+   "31011": 1,
+   "31216": 1,
+   "31825": 1,
+   "31125": 1
+  },
+  "end_station_name": {
+   "": 99988,
+   "6035 Warehouse": 7,
+   "19th & E Street NW": 1,
+   "Mount Vernon Ave & Four Mile Run Park": 1,
+   "22nd & I St NW / Foggy Bottom": 1,
+   "Adams Mill & Columbia Rd NW": 1,
+   "15th & W St NW": 1
+  },
+  "end_station_id": {
+   "": 99988,
+   "32901": 7,
+   "31206": 1,
+   "31909": 1,
+   "31257": 1,
+   "31104": 1,
+   "31125": 1
+  },
+  "start_lat": {
+   "": 99982,
+   "38.829545": 1,
+   "38.9725": 1,
+   "38.8963": 1,
+   "38.843422": 1,
+   "38.9154": 1,
+   "38.900283": 1,
+   "38.903827": 1,
+   "38.888524": 1,
+   "38.9126": 1,
+   "38.920669": 1,
+   "38.893511": 1,
+   "38.865784": 1,
+   "38.899703": 1,
+   "38.888767": 1,
+   "38.8533": 1,
+   "38.899632": 1,
+   "38.85736903758752": 1,
+   "38.919019": 1
+  },
+  "start_lng": {
+   "": 99982,
+   "-77.047844": 1,
+   "-76.9807": 1,
+   "-77.045": 1,
+   "-77.064016": 1,
+   "-77.0446": 1,
+   "-77.029822": 1,
+   "-77.053485": 1,
+   "-76.913188": 1,
+   "-77.0135": 1,
+   "-77.04368": 1,
+   "-77.041544": 1,
+   "-76.9784": 1,
+   "-77.008911": 1,
+   "-77.02858": 1,
+   "-77.0498": 1,
+   "-77.031686": 1,
+   "-76.97768801437633": 1,
+   "-77.034449": 1
+  },
+  "end_lat": {
+   "": 99988,
+   "38.96381": 7,
+   "38.8952": 1,
+   "38.843422": 1,
+   "38.90088": 1,
+   "38.922925": 1,
+   "38.919019": 1
+  },
+  "end_lng": {
+   "": 99988,
+   "-77.010266": 7,
+   "-77.0436": 1,
+   "-77.064016": 1,
+   "-77.048911": 1,
+   "-77.042581": 1,
+   "-77.034449": 1
+  },
+  "member_casual": {
+   "": 99982,
+   "casual": 15,
+   "member": 3
+  }
+ },
+ "2020-Q2": {
+  "rideable_type": {
+   "docked_bike": 99986,
+   "electric_bike": 14
+  },
+  "member_casual": {
+   "casual": 50005,
+   "member": 49995
+  }
+ },
+ "2020-Q3": {
+  "rideable_type": {
+   "docked_bike": 83526,
+   "electric_bike": 16474
+  },
+  "member_casual": {
+   "member": 50565,
+   "casual": 49435
+  }
+ },
+ "2020-Q4": {
+  "rideable_type": {
+   "docked_bike": 67567,
+   "electric_bike": 22968,
+   "classic_bike": 9465
+  },
+  "member_casual": {
+   "member": 58986,
+   "casual": 41014
+  }
+ },
+ "2021-Q1": {
+  "rideable_type": {
+   "classic_bike": 68310,
+   "electric_bike": 25524,
+   "docked_bike": 6166
+  },
+  "member_casual": {
+   "member": 62437,
+   "casual": 37563
+  }
+ },
+ "2021-Q2": {
+  "rideable_type": {
+   "classic_bike": 68786,
+   "electric_bike": 22655,
+   "docked_bike": 8559
+  },
+  "member_casual": {
+   "member": 54793,
+   "casual": 45207
+  }
+ },
+ "2021-Q3": {
+  "rideable_type": {
+   "classic_bike": 76676,
+   "electric_bike": 15340,
+   "docked_bike": 7984
+  },
+  "member_casual": {
+   "member": 56599,
+   "casual": 43401
+  }
+ },
+ "2021-Q4": {
+  "rideable_type": {
+   "classic_bike": 77197,
+   "electric_bike": 17003,
+   "docked_bike": 5800
+  },
+  "member_casual": {
+   "member": 65514,
+   "casual": 34486
+  }
+ },
+ "2022-Q1": {
+  "rideable_type": {
+   "classic_bike": 75187,
+   "electric_bike": 19321,
+   "docked_bike": 5492
+  },
+  "member_casual": {
+   "member": 64851,
+   "casual": 35149
+  }
+ },
+ "2022-Q2": {
+  "rideable_type": {
+   "classic_bike": 75505,
+   "electric_bike": 16423,
+   "docked_bike": 8072
+  },
+  "member_casual": {
+   "member": 54655,
+   "casual": 45345
+  }
+ },
+ "2022-Q3": {
+  "rideable_type": {
+   "classic_bike": 80419,
+   "electric_bike": 12405,
+   "docked_bike": 7176
+  },
+  "member_casual": {
+   "member": 55775,
+   "casual": 44225
+  }
+ },
+ "2022-Q4": {
+  "rideable_type": {
+   "classic_bike": 81843,
+   "electric_bike": 13744,
+   "docked_bike": 4413
+  },
+  "member_casual": {
+   "member": 64314,
+   "casual": 35686
+  }
+ },
+ "2023-Q1": {
+  "rideable_type": {
+   "classic_bike": 80522,
+   "electric_bike": 15801,
+   "docked_bike": 3677
+  },
+  "member_casual": {
+   "member": 67153,
+   "casual": 32847
+  }
+ },
+ "2023-Q2": {
+  "rideable_type": {
+   "classic_bike": 66857,
+   "electric_bike": 29217,
+   "docked_bike": 3926
+  },
+  "member_casual": {
+   "member": 59238,
+   "casual": 40762
+  }
+ },
+ "2023-Q3": {
+  "rideable_type": {
+   "classic_bike": 66738,
+   "electric_bike": 30495,
+   "docked_bike": 2767
+  },
+  "member_casual": {
+   "member": 61174,
+   "casual": 38826
+  }
+ },
+ "2023-Q4": {
+  "rideable_type": {
+   "classic_bike": 55986,
+   "electric_bike": 44014
+  },
+  "member_casual": {
+   "member": 66477,
+   "casual": 33523
+  }
+ },
+ "2024-Q1": {
+  "rideable_type": {
+   "electric_bike": 50531,
+   "classic_bike": 49469
+  },
+  "member_casual": {
+   "member": 68769,
+   "casual": 31231
+  }
+ },
+ "2024-Q2": {
+  "rideable_type": {
+   "classic_bike": 52294,
+   "electric_bike": 47706
+  },
+  "member_casual": {
+   "member": 64209,
+   "casual": 35791
+  }
+ },
+ "2024-Q3": {
+  "rideable_type": {
+   "electric_bike": 57135,
+   "classic_bike": 42865
+  },
+  "member_casual": {
+   "member": 64011,
+   "casual": 35989
+  }
+ },
+ "2024-Q4": {
+  "rideable_type": {
+   "electric_bike": 64998,
+   "classic_bike": 35002
+  },
+  "member_casual": {
+   "member": 70156,
+   "casual": 29844
+  }
+ },
+ "2025-Q1": {
+  "rideable_type": {
+   "electric_bike": 66634,
+   "classic_bike": 33366
+  },
+  "member_casual": {
+   "member": 74248,
+   "casual": 25752
+  }
+ },
+ "2025-Q2": {
+  "rideable_type": {
+   "electric_bike": 60586,
+   "classic_bike": 39414
+  },
+  "member_casual": {
+   "member": 69538,
+   "casual": 30462
+  }
+ },
+ "2025-Q3": {
+  "rideable_type": {
+   "electric_bike": 62536,
+   "classic_bike": 37464
+  },
+  "member_casual": {
+   "member": 68488,
+   "casual": 31512
+  }
+ },
+ "2025-Q4": {
+  "rideable_type": {
+   "electric_bike": 67917,
+   "classic_bike": 32083
+  },
+  "member_casual": {
+   "member": 73754,
+   "casual": 26246
+  }
+ },
+ "2026-Q1": {
+  "rideable_type": {
+   "electric_bike": 72020,
+   "classic_bike": 27980
+  },
+  "member_casual": {
+   "member": 76684,
+   "casual": 23316
+  }
+ },
+ "2026-Q2": {
+  "rideable_type": {
+   "electric_bike": 67495,
+   "classic_bike": 32505
+  },
+  "member_casual": {
+   "member": 69666,
+   "casual": 30334
+  }
+ },
+ "2026-Q3": {
+  "rideable_type": {
+   "electric_bike": 70639,
+   "classic_bike": 29361
+  },
+  "member_casual": {
+   "member": 70138,
+   "casual": 29862
+  }
+ }
+}

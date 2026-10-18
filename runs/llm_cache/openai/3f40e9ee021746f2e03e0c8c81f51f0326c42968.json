@@ -1,0 +1,1 @@
+{"text": "{\"action\":\"effect\",\"components\":[\"person_clean\",\"join_household\",\"occ_group\",\"encode\"]}", "usage": {"in": 42, "out": 255, "cached_in": 3176, "reasoning": 223}, "usd": 0.00037792, "wall_s": 3.68, "provider": "openai", "model": "gpt-5.6-luna"}

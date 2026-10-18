@@ -1,0 +1,1 @@
+{"text": "{\"action\":\"effect\",\"components\":[\"lar_adapter\"]}", "usage": {"in": 2209, "out": 86, "cached_in": 0, "reasoning": 63}, "usd": 0.000545, "wall_s": 2.73, "provider": "openai", "model": "gpt-5.6-luna"}

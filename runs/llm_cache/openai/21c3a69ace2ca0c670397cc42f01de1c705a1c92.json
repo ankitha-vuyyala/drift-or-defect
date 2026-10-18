@@ -1,0 +1,1 @@
+{"text": "{\"action\":\"effect\",\"components\":[\"times\",\"scale\",\"sources\",\"fatal_agg\",\"geo\",\"clean\"]}", "usage": {"in": 585, "out": 228, "cached_in": 3345, "reasoning": 194}, "usd": 0.0004575, "wall_s": 4.79, "provider": "openai", "model": "gpt-5.6-luna"}

@@ -1,0 +1,1 @@
+{"text": "{\"action\":\"effect\",\"components\":[\"crash_adapter\",\"encode\"]}", "usage": {"in": 100, "out": 87, "cached_in": 2129, "reasoning": 61}, "usd": 0.00016697999999999998, "wall_s": 2.01, "provider": "openai", "model": "gpt-5.6-luna"}

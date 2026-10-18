@@ -1,0 +1,1 @@
+{"text": "{\"action\":\"rollback\",\"component\":\"geo\"}", "usage": {"in": 1490, "out": 87, "cached_in": 0, "reasoning": 66}, "usd": 0.00040239999999999997, "wall_s": 2.66, "provider": "openai", "model": "gpt-5.6-luna"}

@@ -1,0 +1,1 @@
+{"text": "{\"action\":\"replay\",\"component\":\"clean\"}", "usage": {"in": 101, "out": 86, "cached_in": 2626, "reasoning": 64}, "usd": 0.00017592, "wall_s": 1.8, "provider": "openai", "model": "gpt-5.6-luna"}

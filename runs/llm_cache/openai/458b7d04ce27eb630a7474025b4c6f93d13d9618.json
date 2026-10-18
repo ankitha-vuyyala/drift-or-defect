@@ -1,0 +1,1 @@
+{"text": "{\"action\":\"boundary\",\"component\":\"lar_adapter\",\"period\":2018}", "usage": {"in": 55, "out": 87, "cached_in": 2266, "reasoning": 60}, "usd": 0.00016072, "wall_s": 2.55, "provider": "openai", "model": "gpt-5.6-luna"}

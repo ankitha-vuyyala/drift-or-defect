@@ -1,0 +1,1 @@
+{"text": "{\"action\":\"rollback\",\"component\":\"time_features\"}", "usage": {"in": 100, "out": 78, "cached_in": 3045, "reasoning": 56}, "usd": 0.0001745, "wall_s": 2.04, "provider": "openai", "model": "gpt-5.6-luna"}
