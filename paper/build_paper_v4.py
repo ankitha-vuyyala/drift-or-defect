@@ -113,6 +113,7 @@ class Ctx:
 def main(labels: dict | None = None) -> dict:
     P = Paper()
     if labels:
+        P.refs_all = labels.pop("__refs__", [])
         P.labels.update(labels)
     P.load_refs(ROOT / "paper" / "references.json")
     C = Ctx(P)
@@ -150,7 +151,7 @@ def main(labels: dict | None = None) -> dict:
     md += [f"| {i + 1} | {e['value']} | {e['what']} | {e['source']} |" for i, e in enumerate(P.evidence)]
     (ROOT / "paper" / "evidence_index.md").write_text("\n".join(md) + "\n", encoding="utf-8")
     print("written", out, len(P.evidence), "evidence entries")
-    return dict(P.labels)
+    return {**P.labels, "__refs__": list(P.refs)}
 
 
 if __name__ == "__main__":

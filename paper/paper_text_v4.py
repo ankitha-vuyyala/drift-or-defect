@@ -2,6 +2,8 @@
 comes from the context object C (saved records) through C.E / P.ev, which records it in the evidence index."""
 from __future__ import annotations
 
+import re
+
 import numpy as np
 
 CONS = "Cases with a consequential defect (primary endpoint)"
@@ -853,6 +855,8 @@ def front(P, C):
            if "r4_fb" in K else "")
         + ". What remains open is not detection but certifying source-forced adaptations, which needs evidence "
         "from the data provider rather than from the pipeline.")
+    P.para("**Keywords:** machine learning in production; data pipelines; distribution shift; root-cause "
+           "diagnosis; identifiability; interventional debugging; selective prediction; benchmark")
 
 
 def introduction(P, C):
@@ -945,6 +949,7 @@ def round3(P, C, NAMES):
              "bugdoc_shortcut", "llm_report@luna", "llm_tools@luna", "llm_report@terra", "llm_tools@terra",
              "dod_no_boundary", "dod", "dod2", "dod3_no_latest", "dod3_no_inv", "dod3"]
     order = [m for m in order if T(CONS, m)[1]]
+    C.r3_order = order
     rows, bold = [], set()
     for i, m in enumerate(order):
         vals = [T(CONS, m)[0]] + [T(f"Domain {d}, consequential defect", m)[0] for d in doms]
@@ -1077,9 +1082,11 @@ def TXT_R3_EXTRA(P, C, NAMES, E, T):
         f"and all {ev(site('landreg', 'clean @ 2013 : lost records'), 'landreg clean 2013 lost records')} of "
         "DoD-3's false blames of the cleaning step came from one flag: at the 2013 coverage change, the correct "
         "pipeline *intends* to drop the newly published non-standard sales, and the lost records look like a "
-        "defect. On Washington bike share no method run on all cases exceeded "
-        f"{E(max(T('Domain cabi, consequential defect', m)[0] for m in C.r3['tables'][CONS] if T('Domain cabi, consequential defect', m)[1] == T('Domain cabi, consequential defect', 'dod3')[1]), 'cabi best full method')} "
-        "(the terra agents reached higher values on the 15 early cases they were run on). "
+        "defect. On Washington bike share no method in {tab:r3} that was run on all cases exceeded "
+        f"{E(max(T('Domain cabi, consequential defect', m)[0] for m in C.r3_order if T('Domain cabi, consequential defect', m)[1] == T('Domain cabi, consequential defect', 'dod3')[1]), 'cabi best full method')} "
+        "(the terra agents reached higher values on the "
+        f"{E(T('Domain cabi, consequential defect', 'llm_tools@terra')[1], 'cabi terra n', 'd')} early cases they were "
+        "run on). "
         f"{ev(site('cabi', 'trip_adapter @ 2020-Q2 : duration'), 'cabi trip_adapter duration flags')} false blames "
         "came from trip durations jumping at the 2020-Q2 layout change — early in the pandemic, when "
         "trips became longer and casual riders' share of trips rose sharply — and "
@@ -1327,7 +1334,7 @@ def appx_catalog(P, C, NAMES):
             chs = list(dict.fromkeys(chs))
             chs = [c for c in chs if not any(c != o and c in o for o in chs)]     # person/housing duplicates
             for ch in chs:
-                ev_rows.append([C.SHORT[d], key, ch if len(ch) < 120 else ch[:117] + "…"])
+                ev_rows.append([C.SHORT[d], key, ch])
     P.table(["Domain", "Period", "Published change"], ev_rows, "Dated changes of the published files, found by "
             "profiling the raw files of every period (from each domain's first reference period on).", "events",
             col_widths_cm=[1.8, 1.6, 13.3], font_pt=7.0)
@@ -1335,12 +1342,15 @@ def appx_catalog(P, C, NAMES):
     for d in B["domains"]:
         for k, v in B["catalog"][d].items():
             if v["kind"] == "defect":
-                note = v["note"] + (f" ({v['source']})" if v.get("source") else "")
-                cat_rows.append([C.SHORT[d], v["tier"], v["component"], note])
-    P.table(["Domain", "Tier", "Component", "Defect"], cat_rows, "Defect types (benign decoys omitted). T1: tied to "
-            "a published change; T2: real library-upgrade behaviour; T3: documented incident class; T3r: replay of "
-            "a public incident. Parentheses name the documented behaviour or incident each defect replays or is "
-            "modelled on.", "catalog", col_widths_cm=[1.8, 1.0, 2.9, 11.0], font_pt=6.8)
+                src = v.get("source") or ""
+                m_ = re.match(r"^(.*?)\s*\(([^()]*)\)$", src)
+                if m_ and m_.group(2) in v["note"]:          # parenthetical already stated in the note
+                    src = m_.group(1)
+                cat_rows.append([C.SHORT[d], v["tier"], v["component"], v["note"], src or "–"])
+    P.table(["Domain", "Tier", "Component", "Defect", "Documented source"], cat_rows, "Defect types (benign decoys "
+            "omitted). T1: tied to a published change; T2: real library-upgrade behaviour; T3: documented incident "
+            "class; T3r: replay of a public incident. The last column names the documented behaviour or incident a "
+            "defect replays or is modelled on.", "catalog", col_widths_cm=[1.6, 0.9, 2.4, 7.4, 4.4], font_pt=6.8)
 
 
 
@@ -1440,8 +1450,13 @@ def r123(P, C, NAMES):
     P.table(["Round", "Test domains", "Method", "Cons. cases", "Correct", "Best baseline", "Paired difference "
              "[95% CI], Holm p", "Verdict"], rows,
             "Pre-registered primary comparisons of rounds 1–3: correct diagnosis on cases with a consequential "
-            "defect for the round's DoD version and for the best baseline (round 1: test split). The paired "
-            "difference is over the cases both were run on.", "r123",
+            "defect for the round's DoD version and for the best baseline (round 1: test split). Each rate is over "
+            "the cases the method was run on; the paired difference is over the cases both were run on (for the "
+            "sampled terra agents in rounds 2 and 3, the n given), so it need not equal the difference of the two "
+            "rates. The verdicts apply the pre-registered criteria (Appendix F): in rounds 1 and 2 a difference of at "
+            "least 0.15 with the 95% interval excluding 0 — round 1's "
+            f"{E(t1['diff'], 'r1 diff (caption)', s1, '+.2f')} is significant but below that minimum — and in round 3 "
+            "a Holm-adjusted p < 0.05 (minimum effect of interest 0.10).", "r123",
             col_widths_cm=[1.3, 3.3, 1.3, 1.3, 1.3, 3.3, 3.5, 1.6], font_pt=7.0)
     t3 = C.r3["hypotheses"]["tests"]
     h12, h13 = t3["H12 primary: dod3 - dod"], t3["H13 false blame (cases spanning a source change): dod3 - dod"]

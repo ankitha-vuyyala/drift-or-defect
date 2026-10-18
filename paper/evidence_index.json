@@ -1020,6 +1020,11 @@
   "what": "R1-3 summary: r3 p"
  },
  {
+  "value": "+0.14",
+  "source": "runs/final (test split)",
+  "what": "R1-3 summary: r1 diff (caption)"
+ },
+ {
   "value": "-0.05",
   "source": "runs/v3main/summary_v3.json",
   "what": "R1-3 summary: H13 diff"
@@ -3680,9 +3685,14 @@
   "what": "R3 posthoc landreg clean 2013 lost records"
  },
  {
-  "value": "0.31",
+  "value": "0.30",
   "source": "runs/v3main/summary_v3.json",
   "what": "R3 cabi best full method"
+ },
+ {
+  "value": "15",
+  "source": "runs/v3main/summary_v3.json",
+  "what": "R3 cabi terra n"
  },
  {
   "value": "198",

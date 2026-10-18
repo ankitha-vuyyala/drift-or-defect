@@ -195,8 +195,11 @@ class Paper:
         self.ref_db = json.loads(path.read_text(encoding="utf-8"))
 
     def references(self):
+        """Reference list. Citations that appear after the list (appendices) are known from the first build pass
+        (refs_all); their numbers continue the order of first citation."""
         self.heading("References", 1, numbered=False)
-        for i, k in enumerate(self.refs, 1):
+        keys = list(self.refs) + [k for k in getattr(self, "refs_all", []) if k not in self.refs]
+        for i, k in enumerate(keys, 1):
             p = self.doc.add_paragraph()
             p.paragraph_format.left_indent = Cm(0.7)
             p.paragraph_format.first_line_indent = Cm(-0.7)

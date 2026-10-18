@@ -8,7 +8,7 @@
  "chen2026": "H. Chen, A. Phani, and S. Schelter, \"PrismaDV: Automated task-aware data unit test generation,\" arXiv:2604.21765, 2026.",
  "zhang2023": "H. Zhang, H. Singh, M. Ghassemi, and S. Joshi, \"'Why did the model fail?': Attributing model performance changes to distribution shifts,\" in Proc. Int. Conf. Machine Learning (ICML), PMLR vol. 202, 2023, pp. 41550–41578.",
  "budhathoki2021": "K. Budhathoki, D. Janzing, P. Blöbaum, and H. Ng, \"Why did the distribution change?,\" in Proc. Int. Conf. Artificial Intelligence and Statistics (AISTATS), PMLR vol. 130, 2021, pp. 1666–1674.",
- "cai2023": "T. T. Cai, H. Namkoong, and S. Yadlowsky, \"Diagnosing model performance under distribution shift,\" Operations Research, 2025, doi: 10.1287/opre.2023.0217.",
+ "cai2023": "T. T. Cai, H. Namkoong, and S. Yadlowsky, \"Diagnosing model performance under distribution shift,\" Operations Research, vol. 74, no. 2, pp. 898–916, 2026, doi: 10.1287/opre.2023.0217.",
  "liu2023": "J. Liu, T. Wang, P. Cui, and H. Namkoong, \"On the need for a language describing distribution shifts: Illustrations on tabular datasets,\" in Advances in Neural Information Processing Systems (NeurIPS), Datasets and Benchmarks Track, 2023.",
  "singh2024": "H. Singh, F. Xia, A. Subbaswamy, A. Gossmann, and J. Feng, \"A hierarchical decomposition for explaining ML performance discrepancies,\" in Advances in Neural Information Processing Systems (NeurIPS), 2024.",
  "lourenco2020": "R. Lourenço, J. Freire, and D. Shasha, \"BugDoc: Algorithms to debug computational processes,\" in Proc. ACM SIGMOD Int. Conf. Management of Data, 2020.",
@@ -18,9 +18,9 @@
  "grafberger2023": "S. Grafberger, S. Guha, P. Groth, and S. Schelter, \"mlwhatif: What if you could stop re-implementing your machine learning pipeline analyses over and over?,\" Proc. VLDB Endow., vol. 16, no. 12, pp. 4002–4005, 2023.",
  "zhu2025": "J. Zhu, G. Xu, F. Lorenzi, B. Glavic, and B. Salimi, \"Stress-testing ML pipelines with adversarial data corruption,\" Proc. VLDB Endow., vol. 18, no. 11, pp. 4668–4681, 2025.",
  "paleyes2023": "A. Paleyes and N. D. Lawrence, \"Causal fault localisation in dataflow systems,\" in Proc. 3rd Workshop on Machine Learning and Systems (EuroMLSys), 2023.",
- "leest2025": "J. Leest, I. Gerostathopoulos, C. Raibulet, and P. Lago, \"Tracing distribution shifts with causal system maps,\" arXiv:2510.23528, 2025.",
+ "leest2025": "J. Leest, I. Gerostathopoulos, P. Lago, and C. Raibulet, \"Tracing distribution shifts with causal system maps,\" arXiv:2510.23528, 2025.",
  "ikram2022": "A. Ikram, S. Chakraborty, S. Mitra, S. Saini, S. Bagchi, and M. Kocaoglu, \"Root cause analysis of failures in microservices through causal discovery,\" in Advances in Neural Information Processing Systems (NeurIPS), 2022.",
- "jha2024": "S. Jha, J. Rios, F. Bagehorn, L. Shwartz, and N. Abe, \"Fault localization using interventional causal learning for cloud-native applications,\" in Proc. IEEE/IFIP Int. Conf. Dependable Systems and Networks (DSN), 2024.",
+ "jha2024": "S. Jha, J. Rios, F. Bagehorn, L. Shwartz, and N. Abe, \"Fault localization using interventional causal learning for cloud-native applications,\" in Proc. 54th Annu. IEEE/IFIP Int. Conf. Dependable Systems and Networks – Supplemental Volume (DSN-S), 2024, pp. 141–147.",
  "li2025": "J. Li, B. B. Chu, I. F. Scheller, J. Gagneur, and M. H. Maathuis, \"Root cause discovery via permutations and Cholesky decomposition,\" J. Royal Statistical Society Series B: Statistical Methodology, vol. 88, no. 3, pp. 779–798, 2026, doi: 10.1093/jrsssb/qkaf066.",
  "orchard2025": "W. R. Orchard, N. Okati, S. H. Garrido Mejia, P. Blöbaum, and D. Janzing, \"Root cause analysis of outliers with missing structural knowledge,\" in Advances in Neural Information Processing Systems (NeurIPS), 2025.",
  "gluss1959": "B. Gluss, \"An optimum policy for detecting a fault in a complex system,\" Operations Research, vol. 7, no. 4, pp. 468–477, 1959.",
@@ -47,5 +47,9 @@
  "folktables39": "cruyffturn, \"Postprocessing step np.nan_to_num,\" socialfoundations/folktables issue #39, GitHub, Jan. 2024. [Online]. Available: https://github.com/socialfoundations/folktables/issues/39",
  "nyctaxi3": "marklit, \"Date/time value is out of range in the Uber 2014 data,\" toddwschneider/nyc-taxi-data issue #3, GitHub, Feb. 2016. [Online]. Available: https://github.com/toddwschneider/nyc-taxi-data/issues/3",
  "sklearn34549": "HoneyTyagii, \"OneHotEncoder: inverse_transform decodes unknown categories as the dropped category (not None) when drop + handle_unknown='ignore',\" scikit-learn/scikit-learn issue #34549, GitHub, Jul. 2026. [Online]. Available: https://github.com/scikit-learn/scikit-learn/issues/34549",
- "pandascow": "The pandas development team, \"Copy-on-Write (CoW),\" pandas user guide. [Online]. Available: https://pandas.pydata.org/docs/user_guide/copy_on_write.html"
+ "pandascow": "The pandas development team, \"Copy-on-Write (CoW),\" pandas user guide. [Online]. Available: https://pandas.pydata.org/docs/user_guide/copy_on_write.html",
+ "stormevents": "NOAA National Centers for Environmental Information, \"Storm Events Database,\" bulk CSV files of event details, fatalities and locations. [Online]. Available: https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/",
+ "chicagocrashes": "City of Chicago, \"Traffic Crashes - Crashes,\" \"Traffic Crashes - People\" and \"Traffic Crashes - Vehicles,\" Chicago Data Portal. [Online]. Available: https://data.cityofchicago.org/Transportation/Traffic-Crashes-Crashes/85ca-t3if",
+ "chow1970": "C. K. Chow, \"On optimum recognition error and reject tradeoff,\" IEEE Transactions on Information Theory, vol. 16, no. 1, pp. 41-46, 1970.",
+ "elyaniv2010": "R. El-Yaniv and Y. Wiener, \"On the foundations of noise-free selective classification,\" Journal of Machine Learning Research, vol. 11, pp. 1605-1641, 2010."
 }
